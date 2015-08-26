@@ -2,7 +2,8 @@ title: nginx运行PHP页面报502错误
 date: 2015-07-30 09:48:32
 tags: ["Nginx", "PHP"]
 ---
-在ubuntu上搭建lnmp环境的时候，运行php页面，代码如下  
+在ubuntu上搭建lnmp环境的时候，运行php页面，代码如下
+
 ``` php
 <?php
 phpinfo();

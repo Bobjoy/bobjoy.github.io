@@ -2,18 +2,20 @@ title: 编译iOS项目报错-architecture
 date: 2015-07-16 09:33:57
 tags: ["iOS", "Objective C"]
 ---
-###1.错误代码：missing required architecture x86_64 in file
+### 1.错误代码：missing required architecture x86_64 in file
 
-####解决方法：  
+#### 解决方法：
+
 ```
 targets ->build setting 下的
 architectures 设置为 standard architetures(armv7,armv7s)
 vaild architectures 设置为armv7,armv7s
 ```
 
-###2.错误代码：No architectures to compile for (ONLY_ACTIVE_ARCH=YES, active arch=x86_64, VALID_ARCHS=armv7 armv7s)
+### 2.错误代码：No architectures to compile for (ONLY_ACTIVE_ARCH=YES, active arch=x86_64, VALID_ARCHS=armv7 armv7s)
 
-####解决方法：  
+#### 解决方法：
+
 ```
 In Build Settings are:
 Architectures: Starndard (armv7, armv7s)

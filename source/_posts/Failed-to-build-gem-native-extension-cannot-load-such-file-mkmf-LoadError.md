@@ -2,8 +2,8 @@ title: Failed to build gem native extension - cannot load such file -- mkmf(Load
 date: 2015-07-23 19:22:39
 tags: ["Nodejs", "Ruby", "Rails"]
 ---
-	在Ubuntu Server上利用Gitlab搭建git服务器的时候，执行`sudo bundle install --deployment --without development test postgres aws`报一下错误
-	
+在Ubuntu Server上利用Gitlab搭建git服务器的时候，执行`sudo bundle install --deployment --without development test postgres aws`报一下错误
+
 ```
 Don't run Bundler as root. Bundler can ask for sudo if it is needed, and installing your bundle as root will break
 this application for all non-root users on this machine.

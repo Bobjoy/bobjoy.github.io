@@ -6,7 +6,8 @@ tags: ["Nginx"]
 源码编译安装nginx报错：  
 ![](http://7xkexv.dl1.z0.glb.clouddn.com/15-7-28/87178380.jpg)
 
-解决办法：  
+解决办法：
+
 ```
 rm /usr/bin/pod2man
 ```

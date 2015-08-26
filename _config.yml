@@ -67,7 +67,7 @@ plugins:
 - hexo-generator-sitemap
 
 ## Themes: http://hexo.io/themes/
-theme: landscape-plus
+theme: yilia
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

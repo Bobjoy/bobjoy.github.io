@@ -4,16 +4,16 @@ tags: ["Database","MySQL"]
 ---
     本文以windows为例为大家详细介绍下MySQL修改root密码的4种方法，大家可以可以根据的自己的情况自由选择，希望对大家有所帮助
 
-####方法1： 用SET PASSWORD命令 
+#### 方法1： 用SET PASSWORD命令 
 首先登录MySQL。  
 格式：``mysql> set password for 用户名@localhost = password('新密码');``  
 例子：``mysql> set password for root@localhost = password('123');``
 
-####方法2：用mysqladmin
+#### 方法2：用mysqladmin
 格式：``mysqladmin -u用户名 -p旧密码 password 新密码``  
 例子：``mysqladmin -uroot -p123456 password 123``
 
-####方法3：用UPDATE直接编辑user表
+#### 方法3：用UPDATE直接编辑user表
 首先登录MySQL。  
 ```
 mysql> use mysql;
@@ -21,7 +21,7 @@ mysql> update user set password=password('123') where user='root' and   host='lo
 mysql> flush privileges;
 ```
 
-####方法4：在忘记root密码的时候，可以这样
+#### 方法4：在忘记root密码的时候，可以这样
 以windows为例：  
 1. 关闭正在运行的MySQL服务;  
 2. 打开DOS窗口，转到mysql\bin目录;  

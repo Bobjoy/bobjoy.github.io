@@ -5,7 +5,7 @@ tags: ["Javascript"]
 from:https://github.com/diafygi/webrtc-ips
 
 Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP，不同于XMLHttpRequest请求，STUN请求开发者工具当中看不到网络请求的。
-    
+
 ``` javascript
 //get the IP addresses associated with an account
 function getIPs(callback){

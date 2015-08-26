@@ -3,6 +3,7 @@ date: 2015-07-28 09:39:44
 tags: ["vagrant", "Ruby"]
 ---
 修改了Vagrantfile文件后，运行`vagrant reload`命令，控制台直接报错了，错误如下
+
 ```
 /opt/vagrant/embedded/gems/gems/vagrant-1.7.2/lib/vagrant/util/subprocess.rb:28:in `encode': "\xE4" from ASCII-8BIT to UTF-8 (Encoding::UndefinedConversionError)
 	from /opt/vagrant/embedded/gems/gems/vagrant-1.7.2/lib/vagrant/util/subprocess.rb:28:in `block in initialize'
