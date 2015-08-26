@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Bobjoy's Blog
+title: 鲍方亮的博客
 subtitle: 倚楼看风雨，淡看风云路
 description:
-author: Bobjoy
+author: 鲍方亮
 language: zh-CN
 timezone:
+favicon: /favicon.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -67,6 +68,7 @@ plugins:
 - hexo-generator-sitemap
 
 ## Themes: http://hexo.io/themes/
+# https://github.com/litten/hexo-theme-yilia.git
 theme: yilia
 
 # Deployment
