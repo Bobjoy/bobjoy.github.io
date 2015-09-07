@@ -17,7 +17,11 @@ SSLError: The read operation timed out
 ```
 这个主要是墙的问题，但是又无法代理又无法翻~~一墙，被逼着想到了使用镜像的方法了，一些公共的网站在国内总有一些镜像，使用这些镜像地址来安装就可以了
 
-有了目的性搜索很快就搜索到了一个有效的镜像：http://pypi.v2ex.com/simple
+有了目的性搜索很快就搜索到了两个有效的镜像：
+```
+https://pypi.tuna.tsinghua.edu.cn/simple/
+http://pypi.v2ex.com/simple/
+```
 
 使用镜像的方法可以在每次执行pip的时候加上参数`-i http://pypi.v2ex.com/simple`即可，或者也可以在本地配置，这样就不用每次都加上参数了：
 
