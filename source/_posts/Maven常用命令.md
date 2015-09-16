@@ -10,9 +10,10 @@ Maven依赖查询：http://mvnrepository.com/
 **Maven常用命令：**
 
 1. 创建Maven的普通java项目： 
-   mvn archetype:create 
-   -DgroupId=packageName 
-   -DartifactId=projectName  
+   
+   ```
+   mvn archetype:create -DgroupId=packageName -DartifactId=projectName
+   ```
 2. 创建Maven的Web项目：
 
     ```   
