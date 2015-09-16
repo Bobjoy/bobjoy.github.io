@@ -3,9 +3,6 @@ date: 2015-09-16 16:57:35
 categories:
 tags: ["Java", "Maven"]
 ---
-> 
-本文来自CSDN博客，转载请标明出处：http://blog.csdn.net/lifxue/archive/2009/10/14/4662902.aspx 
-
 Maven库：http://repo2.maven.org/maven2/
 
 Maven依赖查询：http://mvnrepository.com/
@@ -24,6 +21,7 @@ Maven依赖查询：http://mvnrepository.com/
     -DartifactId=webappName
     -DarchetypeArtifactId=maven-archetype-webapp
     ```
+<!--more-->
 3. 编译源代码：`mvn compile`
 4. 编译测试代码：`mvn test-compile`  
 5. 运行测试：`mvn test`
