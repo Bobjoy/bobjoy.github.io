@@ -27,14 +27,12 @@ CRLF（Carriage-Return Line-Feed）回车换行就是回车(CR, ASCII 13, \r) �
 删除刚刚生成的.git文件
 
 ```
-$ rm -rf .git  // 可省略
 $ git config --gobal core.autocrlf false  
 ```
  
 这样系统就不会去进行换行符的转换了,最后重新执行
  
-```
-$ git init  
+``` 
 $ git add .  
 ```
  
