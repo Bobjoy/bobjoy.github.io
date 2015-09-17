@@ -23,8 +23,6 @@ CRLF（Carriage-Return Line-Feed）回车换行就是回车(CR, ASCII 13, \r) �
 使用git提交更改时，文件中的换行符为LF， 当执行`git add .`时，系统提示：LF 将被转换成 CRLF
  
 **解决方法：**
- 
-删除刚刚生成的.git文件
 
 ```
 $ git config --gobal core.autocrlf false  
