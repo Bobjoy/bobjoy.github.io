@@ -25,7 +25,7 @@ CRLF（Carriage-Return Line-Feed）回车换行就是回车(CR, ASCII 13, \r) �
 **解决方法：**
 
 ```
-$ git config --gobal core.autocrlf false  
+$ git config --global core.autocrlf false  
 ```
  
 这样系统就不会去进行换行符的转换了,最后重新执行
