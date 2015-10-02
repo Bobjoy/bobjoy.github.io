@@ -15,7 +15,7 @@ default: Warning: Authentication failure. Retrying...
 最终找到解决办法，很简单，删除虚拟机的私有密钥即可，命令如下：
 
 ```
-rm .vagrant/machines/core-01/virtualbox/private_key
+rm .vagrant/machines/ubuntu-study/virtualbox/private_key
 ```
 
 > 参考地址：http://dockone.io/article/339
