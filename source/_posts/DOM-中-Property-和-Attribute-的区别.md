@@ -3,8 +3,6 @@ date: 2015-10-05 12:04:16
 categories:
 tags:
 ---
-> 原文地址：http://www.cnblogs.com/elcarim5efil/p/4698980.html
-
 property 和 attribute非常容易混淆，两个单词的中文翻译也都非常相近（property：属性，attribute：特性），但实际上，二者是不同的东西，属于不同的范畴。
 
 * property是DOM中的属性，是JavaScript里的对象；
@@ -36,7 +34,7 @@ attributes: NamedNodeMap
 value: "1"
 id: "in_1"
 ```
-
+<!--more-->
 有些console可能不会打印in1上的属性，那么可以执行以下命令打印要观察的属性：
 
 ```javascript
@@ -586,3 +584,5 @@ To be fair though, in Computer Science these two words, at least for the most pa
 
 * [What is the difference between attribute and property?](http://stackoverflow.com/questions/258469/what-is-the-difference-between-attribute-and-property)
 * [javascript中attribute和property的区别详解](http://www.jb51.net/article/50686.htm)
+
+> 原文地址：http://www.cnblogs.com/elcarim5efil/p/4698980.html
