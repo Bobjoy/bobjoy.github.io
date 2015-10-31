@@ -10,7 +10,7 @@ Q: Mac 启动 Android Studio 时，无法启动，错误如下：
 
 A: 将 `$JAVA_HOME/lib/tools` 拷贝到 `ANDROID_STUDIO_ROOT/lib/` 下, 可执行如下命令
 
-`
-sudo cp $JAVA_HOME/lib/tools.jar /Applications/Android\ Studio.app/Contents/lib
-`
+```
+sudo cp $JAVA_HOME/lib/tools.jar /Applications/Android\ Studio.app/Contents/lib/
+```
 
