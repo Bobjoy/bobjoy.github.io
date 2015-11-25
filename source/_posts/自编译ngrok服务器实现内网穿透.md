@@ -24,9 +24,9 @@ tags: ["Ngrok", "Linux"]
     echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc 
     source $HOME/.bashrc 
     ```
-<!--more-->
-    - 安装go get工具：
 
+    - 安装go get工具：
+<!--more-->
     ```
     yum install mercurial git bzr subversion
     ```
