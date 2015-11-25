@@ -24,12 +24,12 @@ tags: ["Ngrok", "Linux"]
     echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc 
     source $HOME/.bashrc 
     ```
+<!--more-->
     - 安装go get工具：
 
     ```
     yum install mercurial git bzr subversion
     ```
-<!--more-->
 2. Windows 下安装：
     - 下载https://storage.googleapis.com/golang/go1.4.1.windows-386.zip
     - 设置环境变量：
@@ -53,6 +53,7 @@ tags: ["Ngrok", "Linux"]
     export NGROK_DOMAIN="haiyun.me"
     ```
 2. 生成自签名SSL证书，ngrok为ssl加密连接：
+    - 生成证书并编译
 
 	```
 	cd ngrok
@@ -69,13 +70,12 @@ tags: ["Ngrok", "Linux"]
 	make release-server release-client
 	```
 
-	如果在安装yaml的时候不能下载，无反应：
+	- 如果在安装yaml的时候不能下载，无反应：
 	
 	```
 	go get gopkg.in/yaml.v1
 	```
-	
-	原因git版本太低，需>= 1.7.9.5，通过RPMForge源安装最新版本git解决：
+	- 原因git版本太低，需>= 1.7.9.5，通过RPMForge源安装最新版本git解决：
 	
 	```
 	yum --enablerepo=rpmforge-extras install git
@@ -104,16 +104,15 @@ tags: ["Ngrok", "Linux"]
 	server_addr: "haiyun.me:4443"
 	trust_host_root_certs: false
 	tunnels:
-  		http:
-    		subdomain: "example"
-    		auth: "user:12345"
-    		proto:
-      			http: "80"
- 
-  		ssh:
-    		remote_port: 2222
-    		proto:
-      			tcp: "22"
+        http:
+            subdomain: "example"
+            auth: "user:12345"
+            proto:
+                http: "80"
+        ssh:
+            remote_port: 2222
+            proto:
+                tcp: "22"
 	```
 
 4. 启动客户端：
@@ -128,4 +127,4 @@ tags: ["Ngrok", "Linux"]
 Failed to read message: remote error: bad certificate
 ```
 
-原文地址：http://www.haiyun.me/archives/1012.html
+> 原文地址：http://www.haiyun.me/archives/1012.html
