@@ -7,7 +7,7 @@ title: 鲍方亮的博客
 subtitle: 倚楼看风雨，淡看风云路
 description:
 author: 鲍方亮
-language: zh-CN
+language: zh-Hans
 timezone:
 favicon: /favicon.jpg
 
@@ -69,7 +69,7 @@ plugins:
 
 ## Themes: http://hexo.io/themes/
 # https://github.com/litten/hexo-theme-yilia.git
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
