@@ -1,6 +1,6 @@
 title: "ERROR:  Could not find a valid gem 'sass'"
 date: 2016-03-01 11:20:30
-categories:
+categories: ["编程开发"]
 tags: ["Ruby"]
 ---
 使用gem安装sass时出错，提示找不到该sass，如下

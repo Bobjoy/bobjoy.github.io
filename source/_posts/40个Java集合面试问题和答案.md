@@ -1,6 +1,6 @@
 title: 40个Java集合面试问题和答案
 date: 2015-09-16 13:24:52
-categories:
+categories: ["编程开发"]
 tags: ["Java"]
 ---
 > 
