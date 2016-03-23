@@ -1,5 +1,6 @@
 title: MySQL——修改root密码的4种方法
 date: 2015-07-16 15:37:53
+categories: ["编程开发"]
 tags: ["Database","MySQL"]
 ---
     本文以windows为例为大家详细介绍下MySQL修改root密码的4种方法，大家可以可以根据的自己的情况自由选择，希望对大家有所帮助

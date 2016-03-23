@@ -1,6 +1,6 @@
 title: Android Studio配置Respository更新Android SDK
 date: 2015-10-31 15:53:36
-categories:
+categories: ["移动开发"]
 tags: ["Android"]
 ---
 

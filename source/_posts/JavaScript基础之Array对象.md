@@ -1,6 +1,6 @@
 title: JavaScript基础之Array对象
 date: 2015-09-18 14:33:26
-categories: ["翻译"]
+categories: ["翻译", "Web开发"]
 tags: ["Array", "JavaScript"]
 ---
 > 

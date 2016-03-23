@@ -1,6 +1,6 @@
 title: pip配置国内镜像
 date: 2015-09-07 14:19:40
-categories:
+categories: ["编程开发"]
 tags: ["Python"]
 ---
 在安装python包的过程中，经常会出现如下错误：

@@ -1,6 +1,6 @@
 title: 'Updating Maven Project, Unsupported IClasspathEntry kind=4'
 date: 2015-09-16 17:52:23
-categories:
+categories: ["编程开发"]
 tags: ["Maven"]
 ---
 1. Eclipse项目上鼠标右键，选择Maven，禁用'Maven Nature'

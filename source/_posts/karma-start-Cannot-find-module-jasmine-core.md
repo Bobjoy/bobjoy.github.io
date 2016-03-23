@@ -1,6 +1,6 @@
 title: "karma start Cannot find module 'jasmine-core'"
 date: 2016-02-03 11:11:25
-categories:
+categories: ["编程开发"]
 tags: ["Karma", "Nodejs", "测试"]
 ---
 执行 `karma start my.conf.js` 时出现错误，如下：

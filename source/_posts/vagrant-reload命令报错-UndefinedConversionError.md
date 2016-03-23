@@ -1,5 +1,6 @@
 title: 'vagrant reload命令报错:UndefinedConversionError'
 date: 2015-07-28 09:39:44
+categories: ["Linux学习"]
 tags: ["vagrant", "Ruby"]
 ---
 修改了Vagrantfile文件后，运行`vagrant reload`命令，控制台直接报错了，错误如下

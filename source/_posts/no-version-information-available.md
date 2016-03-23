@@ -1,6 +1,7 @@
 title: no version information available
 date: 2015-07-27 14:55:20
-tags: ["Nodejs","nvm"]
+categories: ["编程开发"]
+tags: ["Nodejs"]
 ---
 
 使用nvm安装nodejs的时候报错了，错误信息如下：

@@ -1,6 +1,6 @@
 title: 'SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed'
 date: 2016-03-23 12:51:12
-categories:
+categories: ["编程开发"]
 tags: ["Ruby"]
 ---
 执行`gem install`命令时，报错如下：

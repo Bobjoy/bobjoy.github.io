@@ -1,6 +1,6 @@
 title: 'IE9中Script438: 对象不支持“createContextualFragment”属性或方法'
 date: 2016-01-19 18:07:25
-categories:
+categories: ["Web开发"]
 tags: ["ExtJS"]
 ---
 

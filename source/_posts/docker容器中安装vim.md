@@ -1,5 +1,6 @@
 title: docker容器中安装vim
 date: 2015-08-06 13:19:49
+categories: ["Linux学习"]
 tags: ["Docker", "Linux"]
 ---
 在使用docker容器时，有时候里边没有安装vim，敲vim命令时提示说：`vim: command not found`，这个时候就需要安装vim，可是当你敲`apt-get install vim`命令时，提示：

@@ -1,6 +1,6 @@
 title: win8中让cmd.exe始终以管理员身份运行
 date: 2015-09-17 08:57:43
-categories:
+categories: ["随笔"]
 tags: ["随笔"]
 ---
 

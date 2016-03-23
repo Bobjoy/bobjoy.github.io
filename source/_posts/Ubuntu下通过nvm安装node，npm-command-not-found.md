@@ -1,7 +1,7 @@
 title: Ubuntu下通过nvm安装node，npm command not found
 date: 2015-11-05 10:01:56
-categories:
-tags:
+categories: ["编程开发"]
+tags: ["Npm", "Nodejs"]
 ---
 在 Ubuntu 下使用 NVM 管理 node 版本，执行 npm 命令的时候，提示找不到命令，但是通过 where 查找 npm 命令的时候，是可以找到的，同时提示`npm：aliased to sudo npm`，如下图：
 

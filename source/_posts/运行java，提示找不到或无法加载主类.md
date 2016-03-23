@@ -1,5 +1,6 @@
 title: 运行java，提示找不到或无法加载主类
 date: 2015-08-10 11:45:32
+categories: ["编程开发"]
 tags: ["Java"]
 toc: false
 ---

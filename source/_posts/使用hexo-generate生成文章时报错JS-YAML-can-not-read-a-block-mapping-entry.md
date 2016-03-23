@@ -1,6 +1,6 @@
 title: '使用hexo generate生成文章时报错JS-YAML: can not read a block mapping entry'
 date: 2015-07-28 09:42:13
-tags: ["hexo", "yaml"]
+tags: ["Hexo"]
 ---
 
 在使用`hexo generate`生成静态文章时报错了，错误内容如下

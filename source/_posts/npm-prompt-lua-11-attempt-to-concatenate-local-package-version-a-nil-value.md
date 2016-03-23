@@ -1,6 +1,6 @@
 title: "npm_prompt.lua:11: attempt to concatenate local 'package_version' (a nil value)"
 date: 2016-02-04 09:31:06
-categories:
+categories: ["编程开发"]
 tags: ["Nodejs"]
 ---
 问题：

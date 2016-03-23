@@ -1,5 +1,6 @@
 title: C语言基础
 date: 2015-07-24 14:31:20
+categories: ["编程开发"]
 tags: ["C"]
 toc: true
 ---

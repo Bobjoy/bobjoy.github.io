@@ -1,5 +1,6 @@
 title: Unbalanced calls to begin/end appearance transitions
 date: 2015-07-15 09:40:45
+categories: ["移动开发"]
 tags: ["iOS","Swift"]
 toc: false
 ---

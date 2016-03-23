@@ -1,5 +1,6 @@
 title: ruby安装时错误-mysql2
 date: 2015-08-03 12:45:34
+categories: ["编程开发"]
 tags: ["Ruby"]
 ---
 执行`bundle install`时，控制台报错：  

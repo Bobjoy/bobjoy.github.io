@@ -1,5 +1,6 @@
 title: iOS开发技巧
 date: 2015-08-10 09:00:46
+categories: ["移动开发"]
 tags: ["iOS", "Xcode"]
 toc: false
 ---

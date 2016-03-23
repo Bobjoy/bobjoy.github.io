@@ -1,7 +1,7 @@
 title: 'Eclipse中启动tomcat报错java.lang.OutOfMemoryError: PermGen space的解决方法'
 date: 2016-01-20 14:33:49
-categories:
-tags:
+categories: ["编程开发"]
+tags: ["Java", "Eclipse"]
 ---
 >
 原文地址：http://outofmemory.cn/java/OutOfMemoryError/outofmemoryerror-permgen-space-in-tomcat-with-eclipse

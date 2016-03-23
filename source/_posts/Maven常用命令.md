@@ -1,6 +1,6 @@
 title: Maven常用命令
 date: 2015-09-16 16:57:35
-categories:
+categories: ["编程开发"]
 tags: ["Java", "Maven"]
 ---
 Maven库：http://repo2.maven.org/maven2/

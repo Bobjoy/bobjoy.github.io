@@ -1,5 +1,6 @@
 title: Failed to build gem native extension - cannot load such file -- mkmf(LoadError)
 date: 2015-07-23 19:22:39
+categories: ["编程开发"]
 tags: ["Nodejs", "Ruby", "Rails"]
 ---
 在Ubuntu Server上利用Gitlab搭建git服务器的时候，执行`sudo bundle install --deployment --without development test postgres aws`报一下错误

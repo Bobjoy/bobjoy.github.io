@@ -1,5 +1,6 @@
 title: 深度解析Objective-C笔试题
 date: 2015-08-05 10:09:14
+categories: ["编程开发"]
 tags: ["Objective-C"]
 toc: false
 ---

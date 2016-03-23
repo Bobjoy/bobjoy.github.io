@@ -1,5 +1,6 @@
 title: 解决npm 的 shasum check failed for错误
 date: 2015-07-16 16:39:09
+categories: ["编程开发"]
 tags: ["Nodejs"]
 ---
 使用npm安装一些包失败了的看过来（npm国内镜像介绍）  

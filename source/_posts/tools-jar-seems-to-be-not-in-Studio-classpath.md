@@ -1,6 +1,6 @@
 title: "'tools.jar' seems to be not in Studio classpath"
 date: 2015-10-31 14:44:06
-categories:
+categories: ["移动开发"]
 tags: ["Android"]
 ---
 

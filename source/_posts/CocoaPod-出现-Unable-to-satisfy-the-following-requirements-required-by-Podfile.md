@@ -1,7 +1,7 @@
 title: "CocoaPod 出现 Unable to satisfy the following requirements:required by 'Podfile'"
 date: 2015-10-22 13:16:05
-categories:
-tags:
+categories: ["移动开发"]
+tags: ["iOS"]
 ---
 Q：通过 pod 更新iOS 第三方库时报错，错误如下：
 

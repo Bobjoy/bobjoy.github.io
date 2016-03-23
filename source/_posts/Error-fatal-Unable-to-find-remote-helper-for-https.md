@@ -1,7 +1,7 @@
 title: "Error: fatal: Unable to find remote helper for 'https'"
 date: 2015-09-17 09:21:04
-categories:
-tags: ["git", "hexo"]
+categories: ["博客"]
+tags: ["Git", "Hexo"]
 ---
 
 执行命令`hexo d -g`发布文章时，报错：

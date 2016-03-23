@@ -1,7 +1,7 @@
 title: DOM 中 Property 和 Attribute 的区别
 date: 2015-10-05 12:04:16
-categories:
-tags:
+categories: ["Web开发"]
+tags: ["JavaScript"]
 ---
 property 和 attribute非常容易混淆，两个单词的中文翻译也都非常相近（property：属性，attribute：特性），但实际上，二者是不同的东西，属于不同的范畴。
 

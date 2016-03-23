@@ -1,7 +1,7 @@
 title: 'git提示warning: LF will be replaced by CRLF'
 date: 2015-09-17 16:48:50
 categories:
-tags: ["git"]
+tags: ["Git"]
 ---
 
 **问题描述：**

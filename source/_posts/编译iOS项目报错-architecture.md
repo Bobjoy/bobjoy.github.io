@@ -1,5 +1,6 @@
 title: 编译iOS项目报错-architecture
 date: 2015-07-16 09:33:57
+categories: ["移动开发"]
 tags: ["iOS", "Objective C"]
 ---
 ### 1.错误代码：missing required architecture x86_64 in file

@@ -1,6 +1,6 @@
 title: Android单元测试Invalid layout of java.lang.String at value
 date: 2015-12-07 13:59:11
-categories:
+categories: ["移动开发"]
 tags: ["Android"]
 ---
 ## 遇到：Invalid layout of java.lang.String at value 这样的问题

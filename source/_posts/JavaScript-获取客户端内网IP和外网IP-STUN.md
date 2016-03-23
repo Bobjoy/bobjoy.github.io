@@ -1,5 +1,6 @@
 title: JavaScript 获取客户端内网IP和外网IP(STUN)
 date: 2015-08-04 13:08:46
+categories: ["Web开发"]
 tags: ["Javascript"]
 ---
 from:https://github.com/diafygi/webrtc-ips
