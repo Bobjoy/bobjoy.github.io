@@ -23,7 +23,7 @@ MutationObserver(
 
 **callback**
 * 该回调函数会在指定的DOM节点(目标节点)发生变化时被调用.在调用时,观察者对象会传给该函数两个参数,第一个参数是个包含了若干个[MutationRecord](https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver#MutationRecord)对象的数组,第二个参数则是这个观察者对象本身.
-
+<!--more-->
 ## 实例方法
 
 * `void observe( Node target, optional MutationObserverInit options );`

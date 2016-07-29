@@ -5,32 +5,30 @@ tags: ["Git"]
 ---
 登陆到远程linux服务器上，使用git, clone的时候报“fatal: Unable to find remote helper for 'https'”错，没管，绕过，使用git clone git://....协议download下来项目。
 
-
 但是到提交完要push回服务器的时候，必须得用https，搜了一下问题，是系统中没有curl，都是要装curl的，比如：
 
 ```
-$ yum install curl-devel
+$ yum install curl-devel  #Ubuntu使用apt-get
 ```
 
-或者apt-get等
+如果有如下提示：
 
- 
+```
+E: Unable to locate package curl-devel
+```
 
-但是问题来了，远程服务器上没有sudo到root的权限怎么办？
 
-得自己安装curl，从http://curl.haxx.se/download.html下载到最新的curl包：
+则需自己安装curl，从http://curl.haxx.se/download.html下载到最新的curl包：
 
 ```
 curl-7.41.0.tar.gz
 ```
-
+<!--more-->
 解压，然后make并安装：
 
 ```
-$ ./configure --prefix=/home/{username}/curl/
-
+$ ./configure --prefix=/usr/local/curl/
 $ make
-
 $ make install
 ```
 
@@ -39,7 +37,7 @@ $ make install
 想到应该需要重新编译并安装git，执行：
 
 ```
-./configure --prefix=/usr/local/git/ --with-curl=/usr/local/curl/
+$ ./configure --prefix=/usr/local/git/ --with-curl=/usr/local/curl/
 ```
 
 注意这里一定要使用`--with-curl`参数，指定到上面安装的curl目录，git只有与curl库做link之后，才能使用https功能。

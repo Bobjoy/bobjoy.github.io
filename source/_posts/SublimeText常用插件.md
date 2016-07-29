@@ -27,7 +27,7 @@ Emmet把片段这个概念提高到了一个新的层次：你可以设置CSS形
 
 ![](http://7xkexv.dl1.z0.glb.clouddn.com/tools/st_seti_ui.png)
 
-
+<!--more-->
 #### 4. [All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete)
 
 Sublime Text 默认的 Autocomplete 功能只考虑当前的文件，而 AllAutocomplete 插件会搜索所有打开的文件来寻找匹配的提示词。
