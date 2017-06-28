@@ -63,9 +63,10 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
-plugins:
-- hexo-generator-feed
-- hexo-generator-sitemap
+# Server not work
+#plugins:
+#- hexo-generator-feed
+#- hexo-generator-sitemap
 
 ## Themes: http://hexo.io/themes/
 # https://github.com/litten/hexo-theme-yilia.git
@@ -77,3 +78,11 @@ deploy:
   type: git
   repo: https://github.com/Bobjoy/bobjoy.github.io.git
   branch: master
+
+# Hexo Server
+server:
+  port: 4000
+  log: false
+  ip: 0.0.0.0
+  compress: false
+  header: true
