@@ -1,6 +1,8 @@
 [submodule "themes/next"]
 	path = themes/next
 	url = https://github.com/Bobjoy/hexo-theme-next.git
+  branch = master
 [submodule "public/demos"]
 	path = public/demos
 	url = https://git.oschina.net/bfl/blog-demos.git
+  branch = master
