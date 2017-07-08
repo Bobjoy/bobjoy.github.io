@@ -13,3 +13,28 @@ tags: ['Hexo']
 ```
 
 再这运行，O啦
+
+> 2017-07-08 18:15 更新
+
+如果出现如下错误
+
+```shell
+...
+TypeError: Cannot set property 'lastIndex' of undefined
+    at highlight (/home/rapiz/Blog/node_modules/highlight.js/lib/highlight.js:514:35)
+... 
+```
+
+则需要将 `_config.yml` 中的以下配置
+
+```yml
+highlight:
+  auto_detect: true
+```
+
+修改为
+
+```yml
+highlight:
+  auto_detect: false
+```
