@@ -2,6 +2,7 @@
 	path = themes/next
 	url = https://github.com/iissnan/hexo-theme-next.git
   branch = master
+  ignore = dirty
 [submodule "public/demos"]
 	path = public/demos
 	url = https://git.oschina.net/bfl/blog-demos.git
