@@ -311,7 +311,7 @@ baidu_analytics: e582d6cf8ef4d5f1c611e598ad7823de
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: bobjoy
   count: true
 
@@ -326,11 +326,11 @@ changyan:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-youyan_uid: 2138435
+#youyan_uid: 2138435
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8yOTQ1NC82MDIy
 
 # Baidu Share
 # Available value:
