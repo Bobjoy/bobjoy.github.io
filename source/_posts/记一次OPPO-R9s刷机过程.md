@@ -88,3 +88,10 @@ tags: ['随笔','刷机','OPPO R9s']
 ![](http://7xkexv.dl1.z0.glb.clouddn.com/20170723/oppo_r9s_刷机4.png)
 
 5. 手机重启后，会进入ColorOS升级界面，等待升级完成后进入系统就大功告成了。
+
+## 参考
+
+* [安卓刷机网](http://www.anzhuorom.com/jiaocheng/6049.html)
+* [古连网](http://www.gooln.com/)
+* [IT之家](https://www.ithome.com/html/win10/196402.htm)
+* [手机中国论坛](http://bbs.cnmo.com/thread-15769764-1-1.html)
