@@ -1,7 +1,7 @@
 title: MySQL使用问题记录(持续更新)
 date: 2017-07-28 16:01:09
-categories:
-tags:
+categories: ['MySQl']
+tags: ['MySQl']
 ---
 ## SQL语句中delete语句中别名引发的问题
 
