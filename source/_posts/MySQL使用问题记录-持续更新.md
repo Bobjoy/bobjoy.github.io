@@ -36,3 +36,35 @@ tags: ['MySQl']
   > [MySQL5.6参考手册](https://dev.mysql.com/doc/refman/5.6/en/delete.html)
   >
   > ![](http://7xkexv.dl1.z0.glb.clouddn.com/20170728/mysql_delete_alias.png)
+
+
+## Sonar报错问题处理
+
+
+* 错误描述
+
+  ```
+  ERROR: Error during SonarQube Scanner execution
+  
+  ERROR: Failed to upload report - 500: An error has occurred. Please contact your administrator
+  ```
+
+* 问题原因：mysql参数设置问题
+
+  - 检查mysql参数：
+  ```shell
+  mysql> SHOW VARIABLES LIKE 'max_allowed_packet';
+  ```
+
+  - 修改/etc/my.cnf文件：
+  ```ini
+  max_allowed_packet = 50M
+  ```
+
+## 无法删除数据库 ERROR 1010 (HY000)
+
+在做数据库删除时出现这种提示，其原因是在database下面含有自己放进去的文件，譬如*.txt文件或*.sql文件等，只要进去把这个文件删了在执行
+
+```
+drop database database_name;
+```
