@@ -68,3 +68,14 @@ tags: ['MySQl']
 ```
 drop database database_name;
 ```
+
+
+## MySQL 命令行创建数据库
+
+```sql
+CREATE DATABASE dbname CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE USER 'dbuser' IDENTIFIED BY 'dbpwd';
+GRANT ALL ON dbname.* TO 'dbuser'@'%' IDENTIFIED BY 'dbpwd';
+GRANT ALL ON dbname.* TO 'dbuser'@'localhost' IDENTIFIED BY 'dbpwd';
+FLUSH PRIVILEGES;
+```
