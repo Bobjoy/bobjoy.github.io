@@ -1,0 +1,1415 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Java," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="在这篇“Java 8新特性教程”系列文章中，我们会深入解释，并通过代码来展示，如何通过流来遍历集合，如何从集合和数组来创建流，以及怎么聚合流的值。 在之前的文章“遍历、过滤、处理集合及使用Lambda表达式增强方法”中，我已经深入解释并演示了通过lambda表达式和方法引用来遍历集合，使用predicate接口来过滤集合，实现接口的默认方法，最后还演示了接口静态方法的实现。 源代码都在我的Gith">
+<meta name="keywords" content="Java">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java 8新特性之旅：使用Stream API处理集合">
+<meta property="og:url" content="http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/index.html">
+<meta property="og:site_name" content="IT飞鱼">
+<meta property="og:description" content="在这篇“Java 8新特性教程”系列文章中，我们会深入解释，并通过代码来展示，如何通过流来遍历集合，如何从集合和数组来创建流，以及怎么聚合流的值。 在之前的文章“遍历、过滤、处理集合及使用Lambda表达式增强方法”中，我已经深入解释并演示了通过lambda表达式和方法引用来遍历集合，使用predicate接口来过滤集合，实现接口的默认方法，最后还演示了接口静态方法的实现。 源代码都在我的Gith">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-12-20T09:26:53.687Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java 8新特性之旅：使用Stream API处理集合">
+<meta name="twitter:description" content="在这篇“Java 8新特性教程”系列文章中，我们会深入解释，并通过代码来展示，如何通过流来遍历集合，如何从集合和数组来创建流，以及怎么聚合流的值。 在之前的文章“遍历、过滤、处理集合及使用Lambda表达式增强方法”中，我已经深入解释并演示了通过lambda表达式和方法引用来遍历集合，使用predicate接口来过滤集合，实现接口的默认方法，最后还演示了接口静态方法的实现。 源代码都在我的Gith">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/"/>
+
+
+
+
+
+  <title>Java 8新特性之旅：使用Stream API处理集合 | IT飞鱼</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e582d6cf8ef4d5f1c611e598ad7823de";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">IT飞鱼</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="鲍方亮">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="IT飞鱼">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Java 8新特性之旅：使用Stream API处理集合</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-09-16T08:40:58+08:00">
+                2015-09-16
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
+                2017-12-20
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/编程开发/" itemprop="url" rel="index">
+                    <span itemprop="name">编程开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/" class="leancloud_visitors" data-flag-title="Java 8新特性之旅：使用Stream API处理集合">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>在这篇“Java 8新特性教程”系列文章中，我们会深入解释，并通过代码来展示，如何通过流来遍历集合，如何从集合和数组来创建流，以及怎么聚合流的值。</p>
+<p>在之前的文章“遍历、过滤、处理集合及使用Lambda表达式增强方法”中，我已经深入解释并演示了通过lambda表达式和方法引用来遍历集合，使用predicate接口来过滤集合，实现接口的默认方法，最后还演示了接口静态方法的实现。</p>
+<p>源代码都在我的Github上：可以从<a href="https://github.com/mohamed-taman/JavaSE8-Features" target="_blank" rel="external">这里</a>克隆。</p>
+<p>内容列表</p>
+<ul>
+<li>使用流来遍历集合。</li>
+<li>从集合或数组创建流。</li>
+<li>聚合流中的值。<a id="more"></a>
+<h4 id="1-使用流来遍历集合"><a href="#1-使用流来遍历集合" class="headerlink" title="1. 使用流来遍历集合"></a>1. 使用流来遍历集合</h4></li>
+</ul>
+<p><strong>简介：</strong></p>
+<p>Java的集合框架，如<code>List</code>和<code>Map</code>接口及<code>Arraylist</code>和<code>HashMap</code>类，让我们很容易地管理有序和无序集合。集合框架自引入的第一天起就在 持续的改进。在Java SE 8中，我们可以通过流的API来管理、遍历和聚合集合。一个基于流的集合与输入输出流是不同的。</p>
+<p><strong>如何工作？</strong></p>
+<p>它采用一种全新的方式，将数据作为一个整体，而不是单独的个体来处理。当你使用流时，你不需要关心循环或遍历的细节。你可以直接从一个集合创建一个流。然 后你就能用这个流来许多事件了，如遍历、过滤及聚和。我将从项目 Java8Features 的 <code>com.tm.java8.features.stream.traversing</code>包下的例子开始。代码在一个<code>SequentialStream</code>类中，Java SE 8 中有两种集合流，即串行流和并行流。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">List&lt;person&gt; people = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line"> </div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>));</div><div class="line"> </div><div class="line">Predicate&lt;person&gt; pred = (p) -&gt; p.getAge() &gt; <span class="number">65</span>;</div><div class="line"> </div><div class="line">displayPeople(people, pred);</div><div class="line"> </div><div class="line">...........</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">displayPeople</span><span class="params">(List&lt;person&gt; people, Predicate&lt;person&gt; pred)</span> </span>&#123;</div><div class="line"> </div><div class="line">     System.out.println(<span class="string">"Selected:"</span>);</div><div class="line">     people.forEach(p -&gt; &#123;</div><div class="line">         <span class="keyword">if</span> (pred.test(p)) &#123;</div><div class="line">             System.out.println(p.getName());</div><div class="line">         &#125;</div><div class="line">     &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>在这两种流中，串行流相对比较简单，它类似一个迭代器，每次处理集合中的一个元素。但是语法与以前不同。在这段代码中，我创建了 pepole 的数组列表，向上转型为List。它包含三个 Person 类的实例。然后我们使用 Predicate 声明一个条件，只有满足这个条件的 people 才会显示。在 displayPeople() 方法的48到52行循环遍历该集合，挨个测试其中的每一项。运行这段代码，你将获得如下的结果：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Selected:</div><div class="line">Mohamed</div></pre></td></tr></table></figure>
+<p>我将会展示如何使用流来<a href="http://www.amazon.cn/gp/product/B003BY6PLK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;tag=importnew-23&amp;linkCode=as2&amp;camp=536&amp;creative=3200&amp;creativeASIN=B003BY6PLK" target="_blank" rel="external">重构</a>这段代码。首先，我注释了这段代码。然后，在这段注释的代码下，我开始使用集合对象 people。然后我调用一个 stream() 方法。一个stream对象，类似集合，也要声明泛型。如果你从一个集合获取流，则该流中每一项的类型与集合本身是一致的。我的集合是 Person 类的实例，所以流中也使用同样的泛型类型。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">System.out.println(<span class="string">"Selected:"</span>);</div><div class="line"> <span class="comment">//people.forEach(p -&gt; &#123;</span></div><div class="line"> <span class="comment">// if (pred.test(p)) &#123;</span></div><div class="line"> <span class="comment">//     System.out.println(p.getName());</span></div><div class="line"> <span class="comment">// &#125;</span></div><div class="line"> <span class="comment">//&#125;);</span></div><div class="line"> </div><div class="line">  people.stream().forEach(p -&gt; System.out.println(p.getName()));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>你可以调用一个<code>stream()</code>方法来获得了一个流对象，然后可以在该对象上进行一些操作。我简单地调用了<code>forEach</code>方法，该方法需要一个Lamda表达式。我在参数中传递了一个Lamda表达式。列表中的每一项就是通过迭代器处理的每一项。处理过程是通过Lambda 操作符和方法实现来完成的。我简单使用system output来输出每个人的名称。保存并运行这段代码，输出结果如下。因为没有过滤，所以输出了列表中所有元素。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Selected:</div><div class="line">Mohamed</div><div class="line">Doaa</div><div class="line">Malik</div></pre></td></tr></table></figure>
+<p>现在，一旦有了一个流对象，就可以很容易使用<code>predicate</code>对象了。当使用<code>for each</code>方法处理每一项时，我不得不显示调用<code>predicate</code>的<code>test</code>方法，但是使用流时，你可以调用一个名为<code>filter</code>的方法。该方法接收一个<code>predicate</code>对象，所有的<code>predicate</code>对象都有一个<code>test</code>方法，所以它已经知道怎样去调用该方法。所以，我对该代码做一点改动。我将<code>.forEach()</code>方法下移了两行，然后在中间的空白行，我调用了<code>filter</code>方法。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">people.stream()</div><div class="line">      .filter(pred)</div><div class="line">      .forEach(p -&gt; System.out.println(p.getName()));</div></pre></td></tr></table></figure>
+<p><code>filter</code>方法接收一个<code>predicate</code>接口的实例对象。我将<code>predicate</code>对象传进去。<code>filtr</code>方法返回一个过滤后的流对象，在这个对象上我就可以去调用<code>forEach()</code>方法了。我运行这段代码，这次我只显示集合中满足预定义条件的项了。你可以在 流对象上做更多的事情。去看看 Java SE 8 API 中流的doc文档吧。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Selected:</div><div class="line">Mohamed</div></pre></td></tr></table></figure>
+<p>你将会看到除了过滤，你还可以做聚合、排序等其他的事情。在我总结这段演示之前，我想向你们展示一下串行流和并行流之前的重要区别。Java SE 8 的一个重要目标就是改善多 CPU 系统的处理能力。Java 可在运行期自动协调多个 CPU 的运行。你需要做的所有事情仅仅是将串行流转换为并行流。</p>
+<p>从语法上讲，有两种方法来实现流的转换。我复制一份串行流类。在包视图窗口，我复制并粘贴该类，然后对它重命名，ParallelStream，打开这个 新的类。在这个版本中，删除了注释的代码。我不再需要这些注释了。现在就可以通过两种方式创建并行流。第一种方式是调用集合中的 parallelStream()方法。现在我就拥有一个可以自动分配处理器的流了。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">displayPeople</span><span class="params">(List&lt;person&gt; people, Predicate&lt;person&gt; pred)</span> </span>&#123;</div><div class="line">     System.out.println(<span class="string">"Selected:"</span>);</div><div class="line">     people.parallelStream()</div><div class="line">           .filter(pred)</div><div class="line">           .forEach(p -&gt; System.out.println(p.getName()));</div><div class="line"> &#125;</div></pre></td></tr></table></figure>
+<p>运行这段代码，就可以看到完全一致的结果，过滤然后返回数据。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Selected:</div><div class="line">Mohamed</div></pre></td></tr></table></figure>
+<p>第二种创建并行流的方式。再次调用 stream() 方法，然后在 stream 方法的基础上调用 parallel() 方法，其本质上做的事情是一样的。开始是一个串行的流，然后再将其转换为并行流。但是它仍然是一个流。可以过滤，可以用之前的一样方式去处理。只是现在的 流可以分解到多个处理起来处理。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">people.stream()</div><div class="line">      .parallel()</div><div class="line">      .filter(pred)</div><div class="line">      .forEach(p -&gt; System.out.println(p.getName()));</div></pre></td></tr></table></figure>
+<p><strong>总结</strong></p>
+<p>现在还没有一个明确的规定来说明在什么情况下并行流优于串行流。这个依赖于数据的大小和复杂性以及硬件的处理能力。还有你运行的多 CPU 系统。我可以给你的唯一建议是测试你的应用和数据。建立一个基准的、计时的操作。然后分别使用串行流和并行流，看哪一个更适合于你。</p>
+<h4 id="2-从集合或数组创建流"><a href="#2-从集合或数组创建流" class="headerlink" title="2. 从集合或数组创建流"></a>2. 从集合或数组创建流</h4><p><strong>简介</strong></p>
+<p>Java SE 8’s stream API 是为了帮助管理数据集合而设计的，这些对象是指集合框架中的对象，例如数组列表或哈希表。但是，你也可以直接从数组创建流。</p>
+<p><strong>如何工作？</strong></p>
+<p>在 Java8Features 项目中的<code>eg.com.tm.java8.features.stream.creating</code>包下，我创建了一个名为<code>ArrayToStream</code>的类。在这个类的<code>main</code>方法中，我创建了一个包含三个元素的数组。每个元素都是Person类的一个实例对象。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"> </div><div class="line">    Person[] people = &#123;</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>),</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>),</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>)</div><div class="line">    &#125;;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; people.length; i++) &#123;</div><div class="line">        System.out.println(people[i].getInfo());</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>该类中为私有成员创建了<code>setters</code>和<code>getters</code>方法，以及<code>getInfo()</code>方法，该方法返回一个拼接的字符串。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> String <span class="title">getInfo</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> name + <span class="string">" ("</span> + age + <span class="string">")"</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>现在，如果想使用流来处理这个数组，你可能认为需要先将数组转为数组列表，然后从这个列表创建流。但是，实际上你可以有两种方式直接从数组创建流。第一方式，我不需要处理数据的那三行代码，所以先注释掉。然后，在这个下面，我声明一个流类型的对象。</p>
+<p>Stream 是<code>java.util.stream</code>下的一个接口。当我按下<em>Ctrl+Space</em>并选取它的时候，会提示元素的泛型，这就是流管理的类型。在这里，元素的类型即为<code>Person</code>，与数组元素本身的类型是一致的。我将我新的流对象命名为 <code>stream</code>，所有的字母都是小写的。这就是第一种创建流的方法，使用流的接口，调用<code>of()</code>方法。注意，该方法存在两个不同版本。</p>
+<p>第一个是需要单个对象，第二个是需要多个对象。我使用一个参数的方法，所以传递一个名为<code>people</code>的数组，这就是我需要做的所有事情。<code>Stream.of()</code>意思就是传入一个数组，然后将该数组包装在流中。现在，我就可以使用<code>lambda</code>表达式、过滤、方法引用等流对象的方法。我将调用流的<code>for each</code>方法，并传入一个<code>lambda</code>表达式，将当前的<code>person</code>对象和<code>lambda</code>操作符后传入后，就能获取到<code>person</code>对象的信息。该信息是通过对象的<code>getInfo()</code>方法获取到的。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">Person[] people = &#123;</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>),</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>),</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>)</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="comment">//for (int i = 0; i &lt; people.length; i++) &#123;</span></div><div class="line"><span class="comment">//  System.out.println(people[i].getInfo());</span></div><div class="line"><span class="comment">//&#125;</span></div><div class="line">Stream&lt;Person&gt; stream = Stream.of(people);</div><div class="line">stream.forEach(p -&gt; System.out.println(p.getInfo()));</div><div class="line">``` </div><div class="line">保存并运行这段代码，就可获取到结果。输出的元素的顺序与我放入的顺序是一致的。这就是第一种方式：使用`Stream.of()`方法。</div></pre></td></tr></table></figure>
+<p>Mohamed (69)<br>Doaa (25)<br>Malik (6)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">另一种方式与上面的方式实际上是相同的。复制上面的代码，并注释掉第一种方式。这次不使用`Stream.of()`方法，我们使用名为`Arrays`的类，该类位于`java.util`包下。在这个类上，可以调用名为`stream`的方法。注意，`stream`方法可以包装各种类型的数组，包括基本类型和复合类型。</div><div class="line"></div><div class="line">```java</div><div class="line">//Stream&lt;person&gt; stream = Stream.of(people);</div><div class="line">Stream&lt;person&gt; stream = Arrays.stream(people);</div><div class="line">stream.forEach(p -&gt; System.out.println(p.getInfo()));</div></pre></td></tr></table></figure></p>
+<p>保存并运行上面的代码，流完成的事情与之前实质上是一致的。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Mohamed (69)</div><div class="line">Doaa (25)</div><div class="line">Malik (6)</div></pre></td></tr></table></figure>
+<p><strong>结论</strong></p>
+<p>所以，无论是<code>Stream.of()</code>还是<code>Arrays.stream()</code>，所做的事情实质上是一样的。都是从一个基本类型或者复合对象类型的数组转换为流对象，然后就可以使用 lambda 表达式、过滤、方法引用等功能了。</p>
+<h4 id="3-聚合流的值"><a href="#3-聚合流的值" class="headerlink" title="3. 聚合流的值"></a>3. 聚合流的值</h4><p><strong>简介</strong></p>
+<p>之前，我已经描述过怎么使用一个流来迭代一个集合。你也可以使用流来聚合集合中的每一项。如计算总和、平均值、总数等等。当你做这些操作的时候，弄明白并行流特性就非常重要。</p>
+<p><strong>如何工作？</strong></p>
+<p>我会在 Java8Features 项目的<code>eg.com.tm.java8.features.stream.aggregating</code>包下进行演示。首先我们使用<code>ParallelStreams</code>类。在这个类的<code>main</code>方法中，我创建了一个包含字符串元素的数组列表。我简单地使用循环在列表中添加了10000个元素。然后在35和36行，我创建了一个流对象，并通过<code>for each</code>方法挨个输出流中每一项。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"> </div><div class="line">    System.out.println(<span class="string">"Creating list"</span>);</div><div class="line">    List&lt;string&gt; strings = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++) &#123;</div><div class="line">        strings.add(<span class="string">"Item "</span> + i);</div><div class="line">    &#125;</div><div class="line">    strings.stream()</div><div class="line">           .forEach(str -&gt; System.out.println(str));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>运行这段代码后，就获得了一个我所预期的结果。在屏幕上输出的顺序与添加到列表中的顺序是一致的。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">.........</div><div class="line">Item 9982</div><div class="line">Item 9983</div><div class="line">Item 9984</div><div class="line">Item 9985</div><div class="line">Item 9986</div><div class="line">Item 9987</div><div class="line">Item 9988</div><div class="line">Item 9989</div><div class="line">Item 9990</div><div class="line">Item 9991</div><div class="line">Item 9992</div><div class="line">Item 9993</div><div class="line">Item 9994</div><div class="line">Item 9995</div><div class="line">Item 9996</div><div class="line">Item 9997</div><div class="line">Item 9998</div><div class="line">Item 9999</div></pre></td></tr></table></figure>
+<p>现在，让我们看一下当转换成并行流后会发生什么。正如我之前所描述的，我即可以调用<code>parallelStream</code>方法，也可以在流上调用<code>parallel</code>方法。</p>
+<p>我将采用第二种方法。现在，我就可以使用并行流了，该流可以根据负载分配到多个处理器来处理。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">strings.stream()</div><div class="line">       .parallel()</div><div class="line">       .forEach(str -&gt; System.out.println(str));</div></pre></td></tr></table></figure>
+<p>再次运行该段代码，然后观察会发生什么。注意，现在最后打印的元素不是列表中最后一个元素，最后一个元素应该是9999。如果我滚动输出结果，就能发现处理过程以某种方式在循环跳动。这是因为在运行时将数据划分成了多个块。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">.........</div><div class="line">Item 5292</div><div class="line">Item 5293</div><div class="line">Item 5294</div><div class="line">Item 5295</div><div class="line">Item 5296</div><div class="line">Item 5297</div><div class="line">Item 5298</div><div class="line">Item 5299</div><div class="line">Item 5300</div><div class="line">Item 5301</div><div class="line">Item 5302</div><div class="line">Item 5303</div><div class="line">Item 5304</div><div class="line">Item 5305</div><div class="line">Item 5306</div><div class="line">Item 5307</div><div class="line">Item 5308</div><div class="line">Item 5309</div><div class="line">Item 5310</div><div class="line">Item 5311</div></pre></td></tr></table></figure>
+<p>然后，将数据块分配给合适的处理器去处理。只有当所有块都处理完成了，才会执行之后的代码。本质上讲，这是在调用<code>forEach()</code>方法时，将整个过程是根据需要来进行划分了。现在，这么做可能会提高性能，也可能不会。这依赖于数据集的大小以及你硬件的性能。通过这个例子，也可以看 出，如果需要按照添加的顺序挨个处理每一项，那么并行流可能就不合适了。</p>
+<p>串行流能保证每次运行的顺序是一致的。但并行流，从定义上讲，是一种更有效率的方式。所以并行流在聚合操作的时候非常有效。很适合将集合作为一个整体考虑，然后在该集合上进行一些聚合操作的情况。我将会通过一个例子来演示集合元素的计数、求平均值及求和操作。</p>
+<p>我们在这个类的<code>main</code>方法中来计数，开始还是用相同的基础代码。创建10,000个字符串的列表。然后通过一个<code>for each</code>方法循环处理每一项。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"> </div><div class="line">    System.out.println(<span class="string">"Creating list"</span>);</div><div class="line">    List&lt;string&gt; strings = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++) &#123;</div><div class="line">        strings.add(<span class="string">"Item "</span> + i);</div><div class="line">    &#125;</div><div class="line">    strings.stream()</div><div class="line">           .forEach(str -&gt; System.out.println(str));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>在这个例子中，我想直接对集合元素进行计数，而不是挨个来处理。所以，我注释掉原来的代码，使用下面的代码。因为不能准确的知道该集合到底有多少个元素。所以我使用长整型变量来存储结果。</p>
+<p>我将这个变量命名为<code>count</code>，通过调用集合<code>strings</code>的<code>.stream()</code>,<code>.count()</code>方法，返回一个长整型的值。然后将这个值与“count:”拼接起来，再通过system的output来打印。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//strings.stream()</span></div><div class="line"><span class="comment">//       .forEach(str -&gt; System.out.println(str));</span></div><div class="line"><span class="keyword">long</span> count = strings.stream().count();</div><div class="line">System.out.println(<span class="string">"Count: "</span> + count);</div></pre></td></tr></table></figure>
+<p>保存并运行该段代码，下面是输出结果。集合中元素数量的统计几乎是瞬间完成。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Creating list</div><div class="line">Count: 10000</div></pre></td></tr></table></figure>
+<p>现在对上面的代码做一点小小的改动，增加两个0。现在，开始处理1000,000个字符串。我再次运行这段代码，也很快就返回结果了。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Creating list</div><div class="line">Count: 1000000</div></pre></td></tr></table></figure>
+<p>现在，我使用并行流来处理，看会发生什么。我在下面增加 parallel 方法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//strings.stream()</span></div><div class="line"><span class="comment">//       .forEach(str -&gt; System.out.println(str));</span></div><div class="line"><span class="keyword">long</span> count = strings.stream().parallel().count();</div><div class="line">System.out.println(<span class="string">"Count: "</span> + count);</div></pre></td></tr></table></figure>
+<p>然后我运行这段代码，发现花费的时间更长一点了。现在，我做一个基准测试，通过抓取操作前后的时间戳来观察发生了什么。然后做一点数学的事情。不同的系统 上，得到的结果可能不同。但是根据我的经验来说，这种包含简单类型的简单集合，使用并行流并没有太多的优势。不过，我还是鼓励你去自己做基准测试，虽然有 点麻烦。 不过这也要你是如何去做的。</p>
+<p>再让我们看一下求和及求均值。我将使用<code>SumAndAverage</code>类。这次，我有一个包含三个<code>person</code>对象的列表，每个<code>person</code>对象的有不同的年龄值。我的目的是求三个年龄的和及年龄的平均值。我在所有的<code>person</code>对象都加入到列表之后加入了一行新的代码。然后，我创建了一个名为<code>sum</code>的整型变量。</p>
+<p>首先，我通过<code>pepole.stream()</code>方法获取一个流。在这个流基础上，我可以调用<code>mapToInt()</code>方法。注意，还有两个类似的<code>Map Method：mapToDouble()</code>和<code>mapToLong()</code>。这些方法的目的就是，从复合类型中获取简单的基本类型数据，创建流对象。你可以用 lambda 表达式来完成这项工作。所以，我选择<code>mapToInt()</code>方法，因为每个人的年龄都是整数。</p>
+<p>关于 Lambda 表达式，开始是一个代表当前<code>person</code>的变量。然后，通过 Lambda 操作符和 Lambda 表达式（<code>p.getAge()</code>）返回一个整数。这种返回值，我们有时也叫做<code>int</code>字符串。也可以返回<code>double</code>字符串或其它类型。现在，由于已经知道它 是一个数字类型的值，所以我可以调用<code>sum()</code>方法。现在，我就已经将所有集合中<code>person</code>对象的年龄值全部加起来了。通过一条语句，我就可以用<code>System Output</code>来输出结果了。我将求和的结果与“Total of ages”连接在一起输出。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">List&lt;person&gt; people = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>));</div><div class="line"> </div><div class="line"><span class="keyword">int</span> sum = people.stream()</div><div class="line">                .mapToInt(p -&gt; p.getAge())</div><div class="line">                .sum();</div><div class="line">System.out.println(<span class="string">"Total of ages "</span> + sum);</div></pre></td></tr></table></figure>
+<p>保存并运行上面的代码。三个年龄的总和是100。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Total of ages 100</div></pre></td></tr></table></figure>
+<p>求这些值的平均值非常类似。但是，求平均值需要做除法操作，所以需要考虑除数为0的问题，因此，当你求平均值的时候，可以返回一个<code>Optional</code>的变量。</p>
+<p>你可以使用多种数据类型。在计算平均值的时候，我想获得一个<code>double</code>类型的值。所以，我创建了一个<code>OptionalDouble</code>类型的变量。注意，还存在<code>Optional Int</code>和<code>Optional Long</code>。我将平均值命名为<code>avg</code>，使用的代码与求和的代码也是一致的，开始用<code>people.stream()</code>。在这个基础上，再次使用<code>mapToInt()</code>。并且传递了相同的 lambda 表达式，最后，调用<code>average</code>方法。</p>
+<p>现在，获得了一个<code>OptionalDouble</code>类型的变量。在处理这个变量前，你可以通过<code>isPresent()</code>来确保它确实是一个<code>double</code>值。所以，我使用了一段 if/else 的模板代码来处理。判定的条件是<code>avg.isPresent()</code>。如果条件为真，就使用<code>System Output</code>输出“Average”标签和平均值。在<code>else</code>子句中，我简单地打印“average wasn’t calculated”。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">OptionalDouble avg = people.stream()</div><div class="line">                           .mapToInt(p -&gt; p.getAge())</div><div class="line">                           .average();</div><div class="line"><span class="keyword">if</span> (avg.isPresent()) &#123;</div><div class="line">    System.out.println(<span class="string">"Average: "</span> + avg);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">    System.out.println(<span class="string">"average wasn't calculated"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>现在，在这个例子中，我知道能成功，因为我给三个人的年龄都赋值了。但是，情况不总是这样的。正如我前面说的，存在除0的情况，这时你就不能获取到一个<code>double</code>类型返回值。我保存并运行这段代码，请注意<code>optional double</code>类，它是一个复合对象。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Total of ages 100</div><div class="line">Average: OptionalDouble[33.333333333333336]</div></pre></td></tr></table></figure>
+<p>所以，真实的值被包含在该类型中，回到这段代码，直接引用该对象，并调用<code>getAsDouble()</code>方法。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> (avg.isPresent()) &#123;</div><div class="line">    System.out.println(<span class="string">"Average: "</span> + avg.getAsDouble());</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">    System.out.println(<span class="string">"average wasn't calculated"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>现在，我就可以获得<code>double</code>类型的值。我再次运行这段代码，输出结果如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Total of ages 100</div><div class="line">Average: 33.333333333333336</div></pre></td></tr></table></figure>
+<p><strong>结论</strong></p>
+<p>通过流和 lambda 表达式，你可以用非常非常少的代码就可以完成集合的聚合计算。</p>
+<p>原文链接： <a href="http://www.javacodegeeks.com/2015/07/java-se-8-new-features-tour-processing-collections-with-streams-api.html" target="_blank" rel="external">javacodegeeks</a> 翻译： <a href="http://www.importnew.com/" target="_blank" rel="external">ImportNew.com</a> - <a href="http://www.importnew.com/author/paddx" target="_blank" rel="external">paddx</a><br>译文链接： <a href="http://www.importnew.com/16545.html" target="_blank" rel="external">http://www.importnew.com/16545.html</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      鲍方亮
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/" title="Java 8新特性之旅：使用Stream API处理集合">http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Java/" rel="tag"># Java</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/09/15/UnicodeEncodeError-ascii-codec-can-t-encode-character-的解决方法/" rel="next" title="UnicodeEncodeError: 'ascii' codec can't encode character...的解决方法">
+                <i class="fa fa-chevron-left"></i> UnicodeEncodeError: 'ascii' codec can't encode character...的解决方法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/09/16/40个Java集合面试问题和答案/" rel="prev" title="40个Java集合面试问题和答案">
+                40个Java集合面试问题和答案 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="uyan_frame"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div id="sidebar-dimmer"></div>
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="鲍方亮" />
+          <p class="site-author-name" itemprop="name">鲍方亮</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">95</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">50</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-使用流来遍历集合"><span class="nav-number">1.</span> <span class="nav-text">1. 使用流来遍历集合</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-从集合或数组创建流"><span class="nav-number">2.</span> <span class="nav-text">2. 从集合或数组创建流</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-聚合流的值"><span class="nav-number">3.</span> <span class="nav-text">3. 聚合流的值</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i> 访问人数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i> 总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
+      <!-- UY END -->
+    
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

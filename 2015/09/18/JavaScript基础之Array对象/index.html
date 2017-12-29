@@ -1,0 +1,1608 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="JavaScript,Array," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="原文链接：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array  Summary The JavaScript Array object is a global object that is used in the construction of arrays; which a">
+<meta name="keywords" content="JavaScript,Array">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript基础之Array对象">
+<meta property="og:url" content="http://bobjoy.github.io/2015/09/18/JavaScript基础之Array对象/index.html">
+<meta property="og:site_name" content="IT飞鱼">
+<meta property="og:description" content="原文链接：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array  Summary The JavaScript Array object is a global object that is used in the construction of arrays; which a">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-12-20T09:26:53.692Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JavaScript基础之Array对象">
+<meta name="twitter:description" content="原文链接：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array  Summary The JavaScript Array object is a global object that is used in the construction of arrays; which a">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://bobjoy.github.io/2015/09/18/JavaScript基础之Array对象/"/>
+
+
+
+
+
+  <title>JavaScript基础之Array对象 | IT飞鱼</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e582d6cf8ef4d5f1c611e598ad7823de";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">IT飞鱼</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/09/18/JavaScript基础之Array对象/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="鲍方亮">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="IT飞鱼">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">JavaScript基础之Array对象</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-09-18T14:33:26+08:00">
+                2015-09-18
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
+                2017-12-20
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/翻译/" itemprop="url" rel="index">
+                    <span itemprop="name">翻译</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/翻译/Web开发/" itemprop="url" rel="index">
+                    <span itemprop="name">Web开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2015/09/18/JavaScript基础之Array对象/" class="leancloud_visitors" data-flag-title="JavaScript基础之Array对象">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>原文链接：<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank" rel="external">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array</a></p>
+</blockquote>
+<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><blockquote>
+<p>The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects.</p>
+</blockquote>
+<p><strong>Create an Array</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> fruits = [<span class="string">"Apple"</span>, <span class="string">"Banana"</span>];</div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(fruits.length);</div><div class="line"><span class="comment">// 2</span></div></pre></td></tr></table></figure>
+<p><strong>Access (index into) an Array item</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> first = fruits[<span class="number">0</span>];</div><div class="line"><span class="comment">// Apple</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> last = fruits[fruits.length - <span class="number">1</span>];</div><div class="line"><span class="comment">// Banana</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><strong>Loop over an Array</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">fruits.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">item, index, array</span>) </span>&#123;</div><div class="line">  <span class="built_in">console</span>.log(item, index);</div><div class="line">&#125;);</div><div class="line"><span class="comment">// Apple 0</span></div><div class="line"><span class="comment">// Banana 1</span></div></pre></td></tr></table></figure>
+<p><strong>Add to the end of an Array</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> newLength = fruits.push(<span class="string">"Orange"</span>);</div><div class="line"><span class="comment">// ["Apple", "Banana", "Orange"]</span></div></pre></td></tr></table></figure>
+<p><strong>Remove from the end of an Array</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> last = fruits.pop(); <span class="comment">// remove Orange (from the end)</span></div><div class="line"><span class="comment">// ["Apple", "Banana"];</span></div></pre></td></tr></table></figure>
+<p><strong>Remove from the front of an Array</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> first = fruits.shift(); <span class="comment">// remove Apple from the front</span></div><div class="line"><span class="comment">// ["Banana"];</span></div></pre></td></tr></table></figure>
+<p><strong>Add to the front of an Array</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> newLength = fruits.unshift(<span class="string">"Strawberry"</span>) <span class="comment">// add to the front</span></div><div class="line"><span class="comment">// ["Strawberry", "Banana"];</span></div></pre></td></tr></table></figure>
+<p><strong>Find the index of an item in the Array</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">fruits.push(<span class="string">"Mango"</span>);</div><div class="line"><span class="comment">// ["Strawberry", "Banana", "Mango"]</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> pos = fruits.indexOf(<span class="string">"Banana"</span>);</div><div class="line"><span class="comment">// 1</span></div></pre></td></tr></table></figure>
+<p><strong>Remove an item by Index Position</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> removedItem = fruits.splice(pos, <span class="number">1</span>); <span class="comment">// this is how to remove an item</span></div><div class="line"><span class="comment">// ["Strawberry", "Mango"]</span></div></pre></td></tr></table></figure>
+<p><strong>Copy an Array</strong></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> shallowCopy = fruits.slice(); <span class="comment">// this is how to make a copy</span></div><div class="line"><span class="comment">// ["Strawberry", "Mango"]</span></div></pre></td></tr></table></figure>
+<h2 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h2><blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[element0, element1, ..., elementN]</div><div class="line"><span class="keyword">new</span> <span class="built_in">Array</span>(element0, element1[, ...[, elementN]])</div><div class="line"><span class="keyword">new</span> <span class="built_in">Array</span>(arrayLength)</div></pre></td></tr></table></figure>
+</blockquote>
+<p><strong>elementN</strong></p>
+<p>&emsp;&emsp;A JavaScript array is initialized with the given elements, except in the case where a single argument is passed to the Array constructor and that argument is a number. (See below.) Note that this special case only applies to JavaScript arrays created with the Array constructor, not array literals created with the bracket syntax.</p>
+<p><strong>arrayLength</strong></p>
+<p>&emsp;&emsp;If the only argument passed to the Array constructor is an integer between 0 and 232-1 (inclusive), this returns a new JavaScript array with length set to that number. If the argument is any other number, a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError" target="_blank" rel="external">RangeError</a> exception is thrown.</p>
+<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations. Neither the length of a JavaScript array nor the types of its elements are fixed. Since an array’s size length grow or shrink at any time, JavaScript arrays are not guaranteed to be dense. In general, these are convenient characteristics; but if these features are not desirable for your particular use, you might consider using typed arrays.</p>
+<p>Some people think that <a href="http://www.andrewdupont.net/2006/05/18/javascript-associative-arrays-considered-harmful/" target="_blank" rel="external">you shouldn’t use an array as an associative array</a>. In any case, you can use plain <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object" target="_blank" rel="external">objects</a> instead, although doing so comes with its own caveats. See the post <a href="http://www.less-broken.com/blog/2010/12/lightweight-javascript-dictionaries.html" target="_blank" rel="external">Lightweight JavaScript dictionaries with arbitrary keys</a> as an example.</p>
+<p><strong>Accessing array elements</strong></p>
+<p>JavaScript arrays are zero-indexed: the first element of an array is at index 0, and the last element is at the index equal to the value of the array’s length property minus 1.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'this is the first element'</span>, <span class="string">'this is the second element'</span>];</div><div class="line"><span class="built_in">console</span>.log(arr[<span class="number">0</span>]);              <span class="comment">// logs 'this is the first element'</span></div><div class="line"><span class="built_in">console</span>.log(arr[<span class="number">1</span>]);              <span class="comment">// logs 'this is the second element'</span></div><div class="line"><span class="built_in">console</span>.log(arr[arr.length - <span class="number">1</span>]); <span class="comment">// logs 'this is the second element'</span></div></pre></td></tr></table></figure>
+<p>Array elements are object properties in the same way that toString is a property, but trying to access an element of an array as follows throws a syntax error, because the property name is not valid:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(arr<span class="number">.0</span>); <span class="comment">// a syntax error</span></div></pre></td></tr></table></figure>
+<p>There is nothing special about JavaScript arrays and the properties that cause this. JavaScript properties that begin with a digit cannot be referenced with dot notation; and must be accessed using bracket notation. For example, if you had an object with a property named ‘3d’, it can only be referenced using bracket notation. E.g.:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> years = [<span class="number">1950</span>, <span class="number">1960</span>, <span class="number">1970</span>, <span class="number">1980</span>, <span class="number">1990</span>, <span class="number">2000</span>, <span class="number">2010</span>];</div><div class="line"><span class="built_in">console</span>.log(years<span class="number">.0</span>);   <span class="comment">// a syntax error</span></div><div class="line"><span class="built_in">console</span>.log(years[<span class="number">0</span>]);  <span class="comment">// works properly</span></div><div class="line">renderer<span class="number">.3</span>d.setTexture(model, <span class="string">'character.png'</span>);     <span class="comment">// a syntax error</span></div><div class="line">renderer[<span class="string">'3d'</span>].setTexture(model, <span class="string">'character.png'</span>);  <span class="comment">// works properly</span></div></pre></td></tr></table></figure>
+<p>Note that in the 3d example, ‘3d’ had to be quoted. It’s possible to quote the JavaScript array indexes as well (e.g., years[‘2’] instead of years<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Predefined_Core_Objects#Array_Object" target="_blank" rel="external">2</a>), although it’s not necessary. The 2 in years<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Predefined_Core_Objects#Array_Object" target="_blank" rel="external">2</a> is coerced into a string by the JavaScript engine through an implicit toString conversion. It is for this reason that ‘2’ and ‘02’ would refer to two different slots on the years object and the following example could be true:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(years[<span class="string">'2'</span>] != years[<span class="string">'02'</span>]);</div></pre></td></tr></table></figure>
+<p>Similarly, object properties which happen to be reserved words(!) can only be accessed as string literals in bracket notation(but it can be accessed by dot notation in firefox 40.0a2 at least):</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> promise = &#123;</div><div class="line">  <span class="string">'var'</span>  : <span class="string">'text'</span>,</div><div class="line">  <span class="string">'array'</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</div><div class="line">&#125;;</div><div class="line"><span class="built_in">console</span>.log(promise[<span class="string">'array'</span>]);</div></pre></td></tr></table></figure>
+<p><strong>Relationship between length and numerical properties</strong></p>
+<p>A JavaScript array’s <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length" target="_blank" rel="external">length</a> property and numerical properties are connected. Several of the built-in array methods (e.g., <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join" target="_blank" rel="external">join</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice" target="_blank" rel="external">slice</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf" target="_blank" rel="external">indexOf</a>, etc.) take into account the value of an array’s <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length" target="_blank" rel="external">length</a> property when they’re called. Other methods (e.g., <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push" target="_blank" rel="external">push</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice" target="_blank" rel="external">splice</a>, etc.) also result in updates to an array’s length property.  </p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> fruits = [];</div><div class="line">fruits.push(<span class="string">'banana'</span>, <span class="string">'apple'</span>, <span class="string">'peach'</span>);</div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(fruits.length); <span class="comment">// 3</span></div></pre></td></tr></table></figure>
+<p>When setting a property on a JavaScript array when the property is a valid array index and that index is outside the current bounds of the array, the engine will update the array’s <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length" target="_blank" rel="external">length</a> property accordingly:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">fruits[<span class="number">5</span>] = <span class="string">'mango'</span>;</div><div class="line"><span class="built_in">console</span>.log(fruits[<span class="number">5</span>]); <span class="comment">// 'mango'</span></div><div class="line"><span class="built_in">console</span>.log(<span class="built_in">Object</span>.keys(fruits));  <span class="comment">// ['0', '1', '2', '5']</span></div><div class="line"><span class="built_in">console</span>.log(fruits.length); <span class="comment">// 6</span></div></pre></td></tr></table></figure>
+<p>Increasing the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length" target="_blank" rel="external">length</a>.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">fruits.length = <span class="number">10</span>;</div><div class="line"><span class="built_in">console</span>.log(<span class="built_in">Object</span>.keys(fruits)); <span class="comment">// ['0', '1', '2', '5']</span></div><div class="line"><span class="built_in">console</span>.log(fruits.length); <span class="comment">// 10</span></div></pre></td></tr></table></figure>
+<p>Decreasing the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length" target="_blank" rel="external">length</a> property does, however, delete elements.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">fruits.length = <span class="number">2</span>;</div><div class="line"><span class="built_in">console</span>.log(<span class="built_in">Object</span>.keys(fruits)); <span class="comment">// ['0', '1']</span></div><div class="line"><span class="built_in">console</span>.log(fruits.length); <span class="comment">// 2</span></div></pre></td></tr></table></figure>
+<p>This is explained further on the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length" target="_blank" rel="external">Array.length</a> page.</p>
+<p><strong>Creating an array using the result of a match</strong></p>
+<p>The result of a match between a regular expression and a string can create a JavaScript array. This array has properties and elements which provide information about the match. Such an array is returned by <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec" target="_blank" rel="external">RegExp.exec</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match" target="_blank" rel="external">String.match</a>, and String.replace. To help explain these properties and elements, look at the following example and then refer to the table below:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Match one d followed by one or more b's followed by one d</span></div><div class="line"><span class="comment">// Remember matched b's and the following d</span></div><div class="line"><span class="comment">// Ignore case</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> myRe = <span class="regexp">/d(b+)(d)/i</span>;</div><div class="line"><span class="keyword">var</span> myArray = myRe.exec(<span class="string">'cdbBdbsbz'</span>);</div></pre></td></tr></table></figure>
+<p>The properties and elements returned from this match are as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Property/Element</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>input</td>
+<td>A read-only property that reflects the original string against which the <br>regular expression was matched.</td>
+<td>cdbBdbsbz</td>
+</tr>
+<tr>
+<td>index</td>
+<td>A read-only property that is the zero-based index of the match in the string.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>[0]</td>
+<td>A read-only element that specifies the last matched characters.</td>
+<td>dbBd</td>
+</tr>
+<tr>
+<td>[1], …[n]</td>
+<td>Read-only elements that specify the parenthesized substring matches, <br>if included in the regular expression. The number of possible parenthesized substrings is unlimited.</td>
+<td>[1]: bB<br>[2]: d</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Properties"><a href="#Properties" class="headerlink" title="Properties"></a>Properties</h2><p><em>For properties available on Array instances, see</em> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Properties" target="_blank" rel="external">Properties of Array instances</a>.</p>
+<p><strong>Array.length</strong></p>
+<p>&emsp;&emsp;The Array constructor’s length property whose value is 1.</p>
+<p><strong>Array.prototype</strong></p>
+<p>&emsp;&emsp;Allows the addition of properties to all array objects.</p>
+<h2 id="Methods"><a href="#Methods" class="headerlink" title="Methods"></a>Methods</h2><p><em>For methods available on Array instances, see</em> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods" target="_blank" rel="external">Methods of Array instances</a>.</p>
+<p><strong>Array.from()</strong></p>
+<p>&emsp;&emsp;Creates a new Array instance from an array-like or iterable object.</p>
+<p><strong>Array.isArray()</strong></p>
+<p>&emsp;&emsp;Returns true if a variable is an array, if not false.</p>
+<p><strong>Array.observe()</strong></p>
+<p>&emsp;&emsp;Asynchronously observes changes to Arrays, similar to Object.observe() for objects. It provides a stream of changes in order of occurrence.</p>
+<p><strong>Array.of()</strong></p>
+<p>&emsp;&emsp;Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.</p>
+<h2 id="Array-instances"><a href="#Array-instances" class="headerlink" title="Array instances"></a>Array instances</h2><p>All Array instances inherit from Array.prototype. The prototype object of the Array constructor can be modified to affect all Array instances.</p>
+<h3 id="Properties-1"><a href="#Properties-1" class="headerlink" title="Properties"></a>Properties</h3><p><strong>Array.prototype.constructor</strong></p>
+<p>&emsp;&emsp;Specifies the function that creates an object’s prototype.</p>
+<p><strong>Array.prototype.length</strong></p>
+<p>&emsp;&emsp;Reflects the number of elements in an array.</p>
+<h3 id="Methods-1"><a href="#Methods-1" class="headerlink" title="Methods"></a>Methods</h3><h4 id="Mutator-methods"><a href="#Mutator-methods" class="headerlink" title="Mutator methods"></a>Mutator methods</h4><p>These methods modify the array:</p>
+<p><strong>Array.prototype.copyWithin()</strong></p>
+<p>&emsp;&emsp;Copies a sequence of array elements within the array.</p>
+<p><strong>Array.prototype.fill()</strong></p>
+<p>&emsp;&emsp;Fills all the elements of an array from a start index to an end index with a static value.</p>
+<p><strong>Array.prototype.pop()</strong></p>
+<p>&emsp;&emsp;Removes the last element from an array and returns that element.</p>
+<p><strong>Array.prototype.push()</strong></p>
+<p>&emsp;&emsp;Adds one or more elements to the end of an array and returns the new length of the array.</p>
+<p><strong>Array.prototype.reverse()</strong></p>
+<p>&emsp;&emsp;Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.</p>
+<p><strong>Array.prototype.shift()</strong></p>
+<p>&emsp;&emsp;Removes the first element from an array and returns that element.</p>
+<p><strong>Array.prototype.sort()</strong></p>
+<p>&emsp;&emsp;Sorts the elements of an array in place and returns the array.</p>
+<p><strong>Array.prototype.splice()</strong></p>
+<p>&emsp;&emsp;Adds and/or removes elements from an array.</p>
+<p><strong>Array.prototype.unshift()</strong></p>
+<p>&emsp;&emsp;Adds one or more elements to the front of an array and returns the new length of the array.</p>
+<h4 id="Accessor-methods"><a href="#Accessor-methods" class="headerlink" title="Accessor methods"></a>Accessor methods</h4><p>These methods do not modify the array and return some representation of the array.</p>
+<p><strong>Array.prototype.concat()</strong></p>
+<p>&emsp;&emsp;Returns a new array comprised of this array joined with other array(s) and/or value(s).</p>
+<p><strong>Array.prototype.includes()</strong></p>
+<p>&emsp;&emsp;Determines whether an array contains a certain element, returning true or false as appropriate.</p>
+<p><strong>Array.prototype.join()</strong></p>
+<p>&emsp;&emsp;Joins all elements of an array into a string.</p>
+<p><strong>Array.prototype.slice()</strong></p>
+<p>&emsp;&emsp;Extracts a section of an array and returns a new array.</p>
+<p><strong>Array.prototype.toSource()</strong></p>
+<p>&emsp;&emsp;Returns an array literal representing the specified array; you can use this value to create a new array. Overrides the Object.prototype.toSource() method.</p>
+<p><strong>Array.prototype.toString()</strong></p>
+<p>&emsp;&emsp;Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method.</p>
+<p><strong>Array.prototype.toLocaleString()</strong></p>
+<p>&emsp;&emsp;Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method.</p>
+<p><strong>Array.prototype.indexOf()</strong></p>
+<p>&emsp;&emsp;Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.</p>
+<p><strong>Array.prototype.lastIndexOf()</strong></p>
+<p>&emsp;&emsp;Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.</p>
+<h4 id="Iteration-methods"><a href="#Iteration-methods" class="headerlink" title="Iteration methods"></a>Iteration methods</h4><p>Several methods take as arguments functions to be called back while processing the array. When these methods are called, the length of the array is sampled, and any element added beyond this length from within the callback is not visited. Other changes to the array (setting the value of or deleting an element) may affect the results of the operation if the method visits the changed element afterwards. While the specific behavior of these methods in such cases is well-defined, you should not rely upon it so as not to confuse others who might read your code. If you must mutate the array, copy into a new array instead.</p>
+<p><strong>Array.prototype.forEach()</strong></p>
+<p>&emsp;&emsp;Calls a function for each element in the array.</p>
+<p><strong>Array.prototype.entries()</strong></p>
+<p>&emsp;&emsp;Returns a new Array Iterator object that contains the key/value pairs for each index in the array.</p>
+<p><strong>Array.prototype.every()</strong></p>
+<p>&emsp;&emsp;Returns true if every element in this array satisfies the provided testing function.</p>
+<p><strong>Array.prototype.some()</strong></p>
+<p>&emsp;&emsp;Returns true if at least one element in this array satisfies the provided testing function.</p>
+<p><strong>Array.prototype.filter()</strong></p>
+<p>&emsp;&emsp;Creates a new array with all of the elements of this array for which the provided filtering function returns true.</p>
+<p><strong>Array.prototype.find()</strong></p>
+<p>&emsp;&emsp;Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found.</p>
+<p><strong>Array.prototype.findIndex()</strong></p>
+<p>&emsp;&emsp;Returns the found index in the array, if an element in the array satisfies the provided testing function or -1 if not found.</p>
+<p><strong>Array.prototype.keys()</strong></p>
+<p>&emsp;&emsp;Returns a new Array Iterator that contains the keys for each index in the array.</p>
+<p><strong>Array.prototype.map()</strong></p>
+<p>&emsp;&emsp;Creates a new array with the results of calling a provided function on every element in this array.</p>
+<p><strong>Array.prototype.reduce()</strong></p>
+<p>&emsp;&emsp;Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.</p>
+<p><strong>Array.prototype.reduceRight()</strong></p>
+<p>&emsp;&emsp;Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.</p>
+<p><strong>Array.prototype.values()</strong></p>
+<p>&emsp;&emsp;Returns a new Array Iterator object that contains the values for each index in the array.</p>
+<p><strong>Array.prototype[@@iterator]()</strong></p>
+<p>&emsp;&emsp;Returns a new Array Iterator object that contains the values for each index in the array.</p>
+<h3 id="Array-generic-methods"><a href="#Array-generic-methods" class="headerlink" title="Array generic methods"></a>Array generic methods</h3><blockquote>
+<p>Array generics are non-standard, deprecated and might get removed in the future. Note that you can not rely on them cross-browser. However, there is a <a href="https://github.com/plusdude/array-generics" target="_blank" rel="external">shim available on GitHub</a>.</p>
+</blockquote>
+<p>Sometimes you would like to apply array methods to strings or other array-like objects (such as function <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments" target="_blank" rel="external">arguments</a>). By doing this, you treat a string as an array of characters (or otherwise treat a non-array as an array). For example, in order to check that every character in the variable str is a letter, you would write:<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">isLetter</span>(<span class="params">character</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> character &gt;= <span class="string">'a'</span> &amp;&amp; character &lt;= <span class="string">'z'</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">if</span> (<span class="built_in">Array</span>.prototype.every.call(str, isLetter)) &#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">"The string '"</span> + str + <span class="string">"' contains only letters!"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>This notation is rather wasteful and JavaScript 1.6 introduced a generic shorthand:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> (<span class="built_in">Array</span>.every(str, isLetter)) &#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">"The string '"</span> + str + <span class="string">"' contains only letters!"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Generics are also available on String.</p>
+<p>These are currently not part of ECMAScript standards (though the ES6 Array.from() can be used to achieve this). The following is a shim to allow its use in all browsers:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Assumes Array extras already present (one may use polyfills for these as well)</span></div><div class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line"><span class="meta">  'use strict'</span>;</div><div class="line"></div><div class="line">  <span class="keyword">var</span> i,</div><div class="line">    <span class="comment">// We could also build the array of methods with the following, but the</span></div><div class="line">    <span class="comment">//   getOwnPropertyNames() method is non-shimable:</span></div><div class="line">    <span class="comment">// Object.getOwnPropertyNames(Array).filter(function(methodName) &#123;</span></div><div class="line">    <span class="comment">//   return typeof Array[methodName] === 'function'</span></div><div class="line">    <span class="comment">// &#125;);</span></div><div class="line">    methods = [</div><div class="line">      <span class="string">'join'</span>, <span class="string">'reverse'</span>, <span class="string">'sort'</span>, <span class="string">'push'</span>, <span class="string">'pop'</span>, <span class="string">'shift'</span>, <span class="string">'unshift'</span>,</div><div class="line">      <span class="string">'splice'</span>, <span class="string">'concat'</span>, <span class="string">'slice'</span>, <span class="string">'indexOf'</span>, <span class="string">'lastIndexOf'</span>,</div><div class="line">      <span class="string">'forEach'</span>, <span class="string">'map'</span>, <span class="string">'reduce'</span>, <span class="string">'reduceRight'</span>, <span class="string">'filter'</span>,</div><div class="line">      <span class="string">'some'</span>, <span class="string">'every'</span>, <span class="string">'find'</span>, <span class="string">'findIndex'</span>, <span class="string">'entries'</span>, <span class="string">'keys'</span>,</div><div class="line">      <span class="string">'values'</span>, <span class="string">'copyWithin'</span>, <span class="string">'includes'</span></div><div class="line">    ],</div><div class="line">    methodCount = methods.length,</div><div class="line">    assignArrayGeneric = <span class="function"><span class="keyword">function</span>(<span class="params">methodName</span>) </span>&#123;</div><div class="line">      <span class="keyword">if</span> (!<span class="built_in">Array</span>[methodName]) &#123;</div><div class="line">        <span class="keyword">var</span> method = <span class="built_in">Array</span>.prototype[methodName];</div><div class="line">        <span class="keyword">if</span> (<span class="keyword">typeof</span> method === <span class="string">'function'</span>) &#123;</div><div class="line">          <span class="built_in">Array</span>[methodName] = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">            <span class="keyword">return</span> method.call.apply(method, <span class="built_in">arguments</span>);</div><div class="line">          &#125;;</div><div class="line">        &#125;</div><div class="line">      &#125;</div><div class="line">    &#125;;</div><div class="line"></div><div class="line">  <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; methodCount; i++) &#123;</div><div class="line">    assignArrayGeneric(methods[i]);</div><div class="line">  &#125;</div><div class="line">&#125;());</div></pre></td></tr></table></figure>
+<h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><h4 id="Creating-an-array"><a href="#Creating-an-array" class="headerlink" title="Creating an array"></a>Creating an array</h4><p>The following example creates an array, msgArray, with a length of 0, then assigns values to msgArray[0] and msgArray[99], changing the length of the array to 100.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> msgArray = [];</div><div class="line">msgArray[<span class="number">0</span>] = <span class="string">'Hello'</span>;</div><div class="line">msgArray[<span class="number">99</span>] = <span class="string">'world'</span>;</div><div class="line"></div><div class="line"><span class="keyword">if</span> (msgArray.length === <span class="number">100</span>) &#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'The length is 100.'</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="Creating-a-two-dimensional-array"><a href="#Creating-a-two-dimensional-array" class="headerlink" title="Creating a two-dimensional array"></a>Creating a two-dimensional array</h4><p>The following creates a chess board as a two dimensional array of strings. The first move is made by copying the ‘p’ in (6,4) to (4,4). The old position (6,4) is made blank.<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> board = [ </div><div class="line">  [<span class="string">'R'</span>,<span class="string">'N'</span>,<span class="string">'B'</span>,<span class="string">'Q'</span>,<span class="string">'K'</span>,<span class="string">'B'</span>,<span class="string">'N'</span>,<span class="string">'R'</span>],</div><div class="line">  [<span class="string">'P'</span>,<span class="string">'P'</span>,<span class="string">'P'</span>,<span class="string">'P'</span>,<span class="string">'P'</span>,<span class="string">'P'</span>,<span class="string">'P'</span>,<span class="string">'P'</span>],</div><div class="line">  [<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>],</div><div class="line">  [<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>],</div><div class="line">  [<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>],</div><div class="line">  [<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>,<span class="string">' '</span>],</div><div class="line">  [<span class="string">'p'</span>,<span class="string">'p'</span>,<span class="string">'p'</span>,<span class="string">'p'</span>,<span class="string">'p'</span>,<span class="string">'p'</span>,<span class="string">'p'</span>,<span class="string">'p'</span>],</div><div class="line">  [<span class="string">'r'</span>,<span class="string">'n'</span>,<span class="string">'b'</span>,<span class="string">'q'</span>,<span class="string">'k'</span>,<span class="string">'b'</span>,<span class="string">'n'</span>,<span class="string">'r'</span>] ];</div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(board.join(<span class="string">'\n'</span>) + <span class="string">'\n\n'</span>);</div><div class="line"></div><div class="line"><span class="comment">// Move King's Pawn forward 2</span></div><div class="line">board[<span class="number">4</span>][<span class="number">4</span>] = board[<span class="number">6</span>][<span class="number">4</span>];</div><div class="line">board[<span class="number">6</span>][<span class="number">4</span>] = <span class="string">' '</span>;</div><div class="line"><span class="built_in">console</span>.log(board.join(<span class="string">'\n'</span>));</div></pre></td></tr></table></figure></p>
+<p>Here is the output:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">R,N,B,Q,K,B,N,R</div><div class="line">P,P,P,P,P,P,P,P</div><div class="line"> , , , , , , , </div><div class="line"> , , , , , , , </div><div class="line"> , , , , , , , </div><div class="line"> , , , , , , , </div><div class="line">p,p,p,p,p,p,p,p</div><div class="line">r,n,b,q,k,b,n,r</div><div class="line"></div><div class="line">R,N,B,Q,K,B,N,R</div><div class="line">P,P,P,P,P,P,P,P</div><div class="line"> , , , , , , , </div><div class="line"> , , , , , , , </div><div class="line"> , , , ,p, , , </div><div class="line"> , , , , , , , </div><div class="line">p,p,p,p, ,p,p,p</div><div class="line">r,n,b,q,k,b,n,r</div></pre></td></tr></table></figure>
+<h3 id="Specifications"><a href="#Specifications" class="headerlink" title="Specifications"></a>Specifications</h3><table>
+<thead>
+<tr>
+<th>Specification</th>
+<th>Status</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ECMAScript 1st Edition (ECMA-262)</td>
+<td>Standard</td>
+<td>Initial definition.</td>
+</tr>
+<tr>
+<td>ECMAScript 5.1 (ECMA-262) The definition of ‘Array’ in that specification.</td>
+<td>Standard</td>
+<td>New methods added: Array.isArray, indexOf, lastIndexOf, every, some, forEach, map, filter, reduce, reduceRight</td>
+</tr>
+<tr>
+<td>ECMAScript 2015 (6th Edition, ECMA-262) The definition of ‘Array’ in that specification.</td>
+<td>Standard</td>
+<td>New methods added: Array.from, Array.of, find, findIndex, fill, copyWithin</td>
+</tr>
+</tbody>
+</table>
+<h3 id="Browser-compatibility"><a href="#Browser-compatibility" class="headerlink" title="Browser compatibility"></a>Browser compatibility</h3><p><strong>Desktop</strong></p>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Feature</th>
+<th style="text-align:center">Chrome</th>
+<th style="text-align:center">Firefox (Gecko)</th>
+<th style="text-align:center">Internet Explorer</th>
+<th style="text-align:center">Opera</th>
+<th style="text-align:center">Safari</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Basic support</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<p><strong>Mobile</strong></p>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Feature</th>
+<th style="text-align:center">Android</th>
+<th style="text-align:center">Chrome for Android</th>
+<th style="text-align:center">Firefox Mobile (Gecko)</th>
+<th style="text-align:center">IE Mobile</th>
+<th style="text-align:center">Opera Mobile</th>
+<th style="text-align:center">Safari Mobile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Basic support</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+<td style="text-align:center">(Yes)</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<h3 id="See-also"><a href="#See-also" class="headerlink" title="See also"></a>See also</h3><ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Indexing_object_properties" target="_blank" rel="external">JavaScript Guide: “Indexing object properties</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Predefined_Core_Objects#Array_Object" target="_blank" rel="external">JavaScript Guide: “Predefined Core Objects: Array Object”</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Array_comprehensions" target="_blank" rel="external">Array comprehensions</a></li>
+<li><a href="https://github.com/plusdude/array-generics" target="_blank" rel="external">Polyfill for JavaScript 1.8.5 Array Generics and ECMAScript 5 Array Extras</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/JavaScript_typed_arrays" target="_blank" rel="external">Typed Arrays</a></li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      鲍方亮
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://bobjoy.github.io/2015/09/18/JavaScript基础之Array对象/" title="JavaScript基础之Array对象">http://bobjoy.github.io/2015/09/18/JavaScript基础之Array对象/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/JavaScript/" rel="tag"># JavaScript</a>
+          
+            <a href="/tags/Array/" rel="tag"># Array</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/09/17/git提示warning-LF-will-be-replaced-by-CRLF/" rel="next" title="git提示warning: LF will be replaced by CRLF">
+                <i class="fa fa-chevron-left"></i> git提示warning: LF will be replaced by CRLF
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/09/26/如何下载各版本Chrome的离线安装包/" rel="prev" title="如何下载各版本Chrome的离线安装包">
+                如何下载各版本Chrome的离线安装包 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="uyan_frame"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div id="sidebar-dimmer"></div>
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="鲍方亮" />
+          <p class="site-author-name" itemprop="name">鲍方亮</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">95</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">50</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Summary"><span class="nav-number">1.</span> <span class="nav-text">Summary</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Syntax"><span class="nav-number">2.</span> <span class="nav-text">Syntax</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Description"><span class="nav-number">3.</span> <span class="nav-text">Description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Properties"><span class="nav-number">4.</span> <span class="nav-text">Properties</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Methods"><span class="nav-number">5.</span> <span class="nav-text">Methods</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Array-instances"><span class="nav-number">6.</span> <span class="nav-text">Array instances</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Properties-1"><span class="nav-number">6.1.</span> <span class="nav-text">Properties</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Methods-1"><span class="nav-number">6.2.</span> <span class="nav-text">Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Mutator-methods"><span class="nav-number">6.2.1.</span> <span class="nav-text">Mutator methods</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Accessor-methods"><span class="nav-number">6.2.2.</span> <span class="nav-text">Accessor methods</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Iteration-methods"><span class="nav-number">6.2.3.</span> <span class="nav-text">Iteration methods</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Array-generic-methods"><span class="nav-number">6.3.</span> <span class="nav-text">Array generic methods</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Examples"><span class="nav-number">6.4.</span> <span class="nav-text">Examples</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Creating-an-array"><span class="nav-number">6.4.1.</span> <span class="nav-text">Creating an array</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Creating-a-two-dimensional-array"><span class="nav-number">6.4.2.</span> <span class="nav-text">Creating a two-dimensional array</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Specifications"><span class="nav-number">6.5.</span> <span class="nav-text">Specifications</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Browser-compatibility"><span class="nav-number">6.6.</span> <span class="nav-text">Browser compatibility</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#See-also"><span class="nav-number">6.7.</span> <span class="nav-text">See also</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i> 访问人数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i> 总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
+      <!-- UY END -->
+    
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
