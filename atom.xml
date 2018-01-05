@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bobjoy.github.io/"/>
-  <updated>2018-01-05T03:17:21.904Z</updated>
+  <updated>2018-01-05T04:23:02.509Z</updated>
   <id>http://bobjoy.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://bobjoy.github.io/2018/01/05/%E8%BD%AC-%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/"/>
     <id>http://bobjoy.github.io/2018/01/05/转-微信小程序之使用本地接口开发/</id>
     <published>2018-01-05T01:06:20.000Z</published>
-    <updated>2018-01-05T03:17:21.904Z</updated>
+    <updated>2018-01-05T04:23:02.509Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>原文地址：<a href="https://www.cnblogs.com/xcsn/p/7538371.html" target="_blank" rel="external">https://www.cnblogs.com/xcsn/p/7538371.html</a></p>
@@ -43,17 +43,17 @@
 </li>
 <li><p>映射https域名到本地访问地址</p>
 <p>打开 <code>Tools-&gt;Map Remote</code> 添加线上域名于本地（开发环境）服务的映射</p>
-<p><img src="https://images2017.cnblogs.com/blog/374636/201709/374636-20170917222522063-1356009748.png" alt="服务的映射"></p>
+<p><img src="http://images2017.cnblogs.com/blog/374636/201709/374636-20170917222522063-1356009748.png" alt=""></p>
 </li>
 <li><p>代理设置</p>
 <p>打开 <code>Proxy-&gt;Proxy Settings</code>，该端口号后面会用到</p>
-<p><img src="https://images2017.cnblogs.com/blog/374636/201709/374636-20170917222801094-1443588606.png" alt=""></p>
-<p><img src="https://images2017.cnblogs.com/blog/374636/201709/374636-20170917222813047-566650194.png" alt=""></p>
+<p><img src="http://images2017.cnblogs.com/blog/374636/201709/374636-20170917222801094-1443588606.png" alt=""></p>
+<p><img src="http://images2017.cnblogs.com/blog/374636/201709/374636-20170917222813047-566650194.png" alt=""></p>
 </li>
 <li><p>SSL代理设置（重要）</p>
 <p>打开 <code>Proxy-&gt;SSL Proxying Settings</code>, 没有设置此步骤，将会出现 <code>SSL Proxying not enabled for this host: enable in Proxy Settings, SSL locations</code> 的错误</p>
 <p>以下例子中 host 为*，即过滤所有https，实际操作时指定为您的https地址即可</p>
-<p><img src="https://images2017.cnblogs.com/blog/374636/201709/374636-20170917223348672-1389632.png" alt=""></p>
+<p><img src="http://images2017.cnblogs.com/blog/374636/201709/374636-20170917223348672-1389632.png" alt=""></p>
 </li>
 <li><p>打开 <code>Proxy-&gt;Windows Proxy</code> 启用本地的代理服务</p>
 </li>
@@ -61,7 +61,7 @@
 <h2 id="四、配置开发工具"><a href="#四、配置开发工具" class="headerlink" title="四、配置开发工具"></a>四、配置开发工具</h2><ol>
 <li><p>选择手动设置代理，然后填写本地的IP，以及前边在Charles中设置的代理端口号</p>
 <p>在开发工具的最左侧菜单的 设置 进入，如下设置</p>
-<p><img src="https://images2017.cnblogs.com/blog/374636/201709/374636-20170917224254750-999756734.png" alt=""></p>
+<p><img src="http://images2017.cnblogs.com/blog/374636/201709/374636-20170917224254750-999756734.png" alt=""></p>
 </li>
 </ol>
 <p><strong>以往的坑</strong></p>
