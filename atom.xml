@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bobjoy.github.io/"/>
-  <updated>2018-01-05T04:23:02.509Z</updated>
+  <updated>2018-01-30T07:50:52.166Z</updated>
   <id>http://bobjoy.github.io/</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java使用jsoup提取mht文件中图片</title>
+    <link href="http://bobjoy.github.io/2018/01/30/Java%E4%BD%BF%E7%94%A8jsoup%E6%8F%90%E5%8F%96mht%E6%96%87%E4%BB%B6%E4%B8%AD%E5%9B%BE%E7%89%87%E5%BC%82%E5%B8%B8/"/>
+    <id>http://bobjoy.github.io/2018/01/30/Java使用jsoup提取mht文件中图片异常/</id>
+    <published>2018-01-30T07:35:14.000Z</published>
+    <updated>2018-01-30T07:50:52.166Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="jsoup读取mht文件方法"><a href="#jsoup读取mht文件方法" class="headerlink" title="jsoup读取mht文件方法"></a>jsoup读取mht文件方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * 解析mht文件，包括提取图片</div><div class="line"> */</div><div class="line"><span class="meta">@SuppressWarnings</span>(<span class="string">"unchecked"</span>)</div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> String <span class="title">parseMhtToHtml</span><span class="params">(String fileName)</span> <span class="keyword">throws</span> Exception </span>&#123;</div><div class="line"></div><div class="line">    <span class="comment">// 读取文件内容</span></div><div class="line">    List&lt;String&gt; lines = FileUtils.readLines(<span class="keyword">new</span> File(fileName), <span class="string">"GBK"</span>);</div><div class="line"></div><div class="line">    Map&lt;String, Object&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</div><div class="line">    List&lt;Map&lt;String, Object&gt;&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">6</span>; i &lt; lines.size(); i++) &#123;</div><div class="line">        String line = lines.get(i).trim();</div><div class="line"></div><div class="line">        <span class="keyword">if</span> (line.startsWith(<span class="string">"----boundary"</span>)) &#123;</div><div class="line">            map = <span class="keyword">new</span> HashMap&lt;&gt;();</div><div class="line">            map.put(<span class="string">"headers"</span>, <span class="keyword">new</span> HashMap&lt;&gt;());</div><div class="line">            map.put(<span class="string">"content"</span>, <span class="keyword">new</span> ArrayList&lt;&gt;());</div><div class="line">            list.add(map);</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="keyword">if</span> (!line.startsWith(<span class="string">"----boundary"</span>) &amp;&amp; !<span class="string">""</span>.equals(line)) &#123;</div><div class="line">            <span class="keyword">if</span> (line.contains(<span class="string">":"</span>)) &#123;</div><div class="line">                String[] kv = line.split(<span class="string">":"</span>);</div><div class="line">                ((Map&lt;String, String&gt;) map.get(<span class="string">"headers"</span>)).put(kv[<span class="number">0</span>], kv[<span class="number">1</span>].trim());</div><div class="line">            &#125; <span class="keyword">else</span> &#123;</div><div class="line">                ((List&lt;String&gt;) map.get(<span class="string">"content"</span>)).add(line);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    Map&lt;String, String&gt; resultMap = <span class="keyword">new</span> HashMap&lt;&gt;();</div><div class="line"></div><div class="line">    list.forEach(m -&gt; &#123;</div><div class="line">        Map&lt;String, String&gt; headers = (Map&lt;String, String&gt;) m.get(<span class="string">"headers"</span>);</div><div class="line">        List&lt;String&gt; content = (List&lt;String&gt;) m.get(<span class="string">"content"</span>);</div><div class="line">        <span class="keyword">if</span> (!headers.isEmpty() &amp;&amp; !content.isEmpty()) &#123;</div><div class="line">            String cid = headers.get(<span class="string">"Content-ID"</span>);</div><div class="line">            String html = StringUtils.join(content, <span class="string">""</span>);</div><div class="line">            <span class="keyword">if</span> (cid != <span class="keyword">null</span>) &#123;</div><div class="line">                String prefix = <span class="string">"data:"</span>+headers.get(<span class="string">"Content-Type"</span>)+<span class="string">";"</span>+headers.get(<span class="string">"Content-Transfer-Encoding"</span>)+<span class="string">","</span>;</div><div class="line">                resultMap.put(cid.substring(<span class="number">1</span>, cid.length()-<span class="number">1</span>), prefix + html);</div><div class="line">            &#125; <span class="keyword">else</span> &#123;</div><div class="line">                resultMap.put(<span class="string">"html"</span>, html);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;);</div><div class="line"></div><div class="line">    String html = <span class="keyword">new</span> String(Base64.getDecoder().decode(resultMap.get(<span class="string">"html"</span>)), <span class="string">"GBK"</span>);</div><div class="line"></div><div class="line">    Pattern compile = Pattern.compile(<span class="string">"cid:(\\w&#123;8&#125;-\\w&#123;4&#125;-\\w&#123;4&#125;-\\w&#123;4&#125;-\\w&#123;12&#125;)"</span>);</div><div class="line">    Matcher matcher = compile.matcher(html);</div><div class="line">    <span class="keyword">while</span> (matcher.find()) &#123;</div><div class="line">        html = html.replaceAll(matcher.group(), resultMap.get(matcher.group(<span class="number">1</span>)));</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> html;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/**</span></div><div class="line"> * 解析html(doc转html)到map中</div><div class="line"> */</div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> Map&lt;String, Object&gt; <span class="title">parseMhtToMap</span><span class="params">()</span> </span>&#123;</div><div class="line"></div><div class="line">    String html = parseMhtToHtml(<span class="string">"/path/to/hmt/file"</span>);</div><div class="line"></div><div class="line">    Document doc = Jsoup.parse(html);</div><div class="line">    Element body = doc.body();</div><div class="line"></div><div class="line">    <span class="comment">// 基本信息 START</span></div><div class="line">    Map&lt;String, String&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</div><div class="line">    </div><div class="line">    <span class="comment">// 提取头像</span></div><div class="line">    String image = body.select(<span class="string">"img"</span>).attr(<span class="string">"src"</span>);</div><div class="line">    map.put(AVATAR, image);</div><div class="line"></div><div class="line">    <span class="keyword">return</span> map;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：在解析文件中，发现图片无法显示，最后分析原始html和经过jsoup解析的html（Jsoup.parse），发现BASE64图片图片长度不一致，导致无法再网页中显示，解决方法就是更新jsoup依赖版本，如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;dependency&gt;</div><div class="line">    &lt;groupId&gt;org.jsoup&lt;/groupId&gt;</div><div class="line">    &lt;artifactId&gt;jsoup&lt;/artifactId&gt;</div><div class="line">    &lt;version&gt;1.11.1&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;dependency&gt;</div><div class="line">    &lt;groupId&gt;org.jsoup&lt;/groupId&gt;</div><div class="line">    &lt;artifactId&gt;jsoup&lt;/artifactId&gt;</div><div class="line">    &lt;version&gt;1.11.2&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div></pre></td></tr></table></figure></blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;jsoup读取mht文件方法&quot;&gt;&lt;a href=&quot;#jsoup读取mht文件方法&quot; class=&quot;headerlink&quot; title=&quot;jsoup读取mht文件方法&quot;&gt;&lt;/a&gt;jsoup读取mht文件方法&lt;/h2&gt;&lt;figure class=&quot;highlight 
+    
+    </summary>
+    
+      <category term="编程开发" scheme="http://bobjoy.github.io/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Java" scheme="http://bobjoy.github.io/tags/Java/"/>
+    
+      <category term="Jsoup" scheme="http://bobjoy.github.io/tags/Jsoup/"/>
+    
+      <category term="mht" scheme="http://bobjoy.github.io/tags/mht/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java开发问题集锦</title>
+    <link href="http://bobjoy.github.io/2018/01/09/Java%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E9%9B%86%E9%94%A6/"/>
+    <id>http://bobjoy.github.io/2018/01/09/Java开发问题集锦/</id>
+    <published>2018-01-09T01:33:41.000Z</published>
+    <updated>2018-01-09T01:36:08.988Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Failed-to-load-class-“org-slf4j-impl-StaticLoggerBinder”"><a href="#Failed-to-load-class-“org-slf4j-impl-StaticLoggerBinder”" class="headerlink" title="Failed to load class “org.slf4j.impl.StaticLoggerBinder”"></a>Failed to load class “org.slf4j.impl.StaticLoggerBinder”</h2><h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.</div><div class="line">SLF4J: Defaulting to no-operation (NOP) logger implementation</div><div class="line">SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.</div></pre></td></tr></table></figure>
+<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;dependency&gt;</div><div class="line">   &lt;groupId&gt;org.slf4j&lt;/groupId&gt;</div><div class="line">   &lt;artifactId&gt;slf4j-api&lt;/artifactId&gt;</div><div class="line">   &lt;version&gt;1.7.5&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">   &lt;groupId&gt;org.slf4j&lt;/groupId&gt;</div><div class="line">   &lt;artifactId&gt;slf4j-simple&lt;/artifactId&gt;</div><div class="line">   &lt;version&gt;1.7.5&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Failed-to-load-class-“org-slf4j-impl-StaticLoggerBinder”&quot;&gt;&lt;a href=&quot;#Failed-to-load-class-“org-slf4j-impl-StaticLoggerBinder”&quot; class=
+    
+    </summary>
+    
+      <category term="编程开发" scheme="http://bobjoy.github.io/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Java" scheme="http://bobjoy.github.io/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>[转]微信小程序之使用本地接口开发</title>
@@ -257,7 +312,7 @@
     <link href="http://bobjoy.github.io/2017/12/15/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%90%9C%E8%97%8F/"/>
     <id>http://bobjoy.github.io/2017/12/15/好用的网盘搜索引擎搜藏/</id>
     <published>2017-12-15T01:15:22.000Z</published>
-    <updated>2018-01-05T09:19:54.239Z</updated>
+    <updated>2018-01-29T05:55:47.135Z</updated>
     
     <content type="html"><![CDATA[<h2 id="网盘搜索引擎"><a href="#网盘搜索引擎" class="headerlink" title="网盘搜索引擎"></a>网盘搜索引擎</h2><ul>
 <li><p>电驴 <a href="http://www.verycd.com" target="_blank" rel="external">http://www.verycd.com</a></p>
@@ -382,6 +437,10 @@
 </li>
 <li><p>SOS导航 <a href="http://lovedali.cn" target="_blank" rel="external">http://lovedali.cn</a></p>
 </li>
+<li><p>发烧屋影视网 <a href="http://www.hifiwu.com" target="_blank" rel="external">http://www.hifiwu.com</a></p>
+</li>
+<li><p>放肆够 <a href="http://vip.fansg.top/" target="_blank" rel="external">http://vip.fansg.top/</a></p>
+</li>
 </ul>
 <h2 id="追剧追番影视网站"><a href="#追剧追番影视网站" class="headerlink" title="追剧追番影视网站"></a>追剧追番影视网站</h2><ul>
 <li><p>五杀电影院 <a href="http://www.lol5s.com" target="_blank" rel="external">http://www.lol5s.com</a></p>
@@ -399,7 +458,8 @@
 <li><p>看看屋 <a href="http://www.kankanwu.com" target="_blank" rel="external">http://www.kankanwu.com</a></p>
 </li>
 </ul>
-<h2 id="视频解析网站"><a href="#视频解析网站" class="headerlink" title="视频解析网站"></a>视频解析网站</h2><ul>
+<h2 id="视频解析网站"><a href="#视频解析网站" class="headerlink" title="视频解析网站"></a>视频解析网站</h2><p><a href="http://bbs.chongbuluo.com/thread-3301-1-1.html" target="_blank" rel="external">http://bbs.chongbuluo.com/thread-3301-1-1.html</a></p>
+<ul>
 <li><p>会员影视中心 <a href="http://97ym.cn/vip" target="_blank" rel="external">http://97ym.cn/vip</a></p>
 </li>
 <li><p>闽视网-F站</p>
@@ -417,6 +477,22 @@
 <li><p>08影院 <a href="http://v.hzui.com" target="_blank" rel="external">http://v.hzui.com</a></p>
 </li>
 <li><p>旋风动漫 <a href="http://api.xfsub.com" target="_blank" rel="external">http://api.xfsub.com</a></p>
+</li>
+<li><p>FreeVideo搜索通用版 <a href="http://v.cnm.asia" target="_blank" rel="external">http://v.cnm.asia</a></p>
+</li>
+<li><p>够低调解析-vip视频在线解析 <a href="http://www.goudidiao.com/" target="_blank" rel="external">http://www.goudidiao.com/</a></p>
+</li>
+<li><p>超级看VIP视频 <a href="http://vip.deepba.com" target="_blank" rel="external">http://vip.deepba.com</a></p>
+</li>
+<li><p>九会员VIP视频解析站 <a href="http://yy.9vip.top/" target="_blank" rel="external">http://yy.9vip.top/</a></p>
+</li>
+<li><p>人人VIP视频网站解析 <a href="http://v.renrenfabu.com/" target="_blank" rel="external">http://v.renrenfabu.com/</a></p>
+</li>
+<li><p>会员影视中心 <a href="http://tejiamai.top/v/" target="_blank" rel="external">http://tejiamai.top/v/</a></p>
+</li>
+<li><p>爱6网 <a href="http://dy.a6vip.cn/" target="_blank" rel="external">http://dy.a6vip.cn/</a></p>
+</li>
+<li><p>福利吧 <a href="http://f.uliba.net/jiexi.php" target="_blank" rel="external">http://f.uliba.net/jiexi.php</a></p>
 </li>
 </ul>
 ]]></content>
@@ -1021,206 +1097,6 @@
     
     
       <category term="Git" scheme="http://bobjoy.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Web API接口之MutationObserver</title>
-    <link href="http://bobjoy.github.io/2016/07/18/Web-API%E6%8E%A5%E5%8F%A3%E4%B9%8BMutationObserver/"/>
-    <id>http://bobjoy.github.io/2016/07/18/Web-API接口之MutationObserver/</id>
-    <published>2016-07-18T02:34:07.000Z</published>
-    <updated>2017-12-20T09:26:53.720Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>原文地址：<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver" target="_blank" rel="external">https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver</a></p>
-</blockquote>
-<p>MutationObserver给开发者们提供了一种能在某个范围内的DOM树发生变化时作出适当反应的能力.该API设计用来替换掉在DOM3事件规范中引入的<a href="https://developer.mozilla.org/zh-CN/docs/DOM/Mutation_events" target="_blank" rel="external">Mutation事件</a>.</p>
-<h2 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h2><h3 id="MutationObserver"><a href="#MutationObserver" class="headerlink" title="MutationObserver()"></a>MutationObserver()</h3><p>该构造函数用来实例化一个新的Mutation观察者对象.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">MutationObserver(</div><div class="line">  <span class="function"><span class="keyword">function</span> <span class="title">callback</span></span></div><div class="line">);</div></pre></td></tr></table></figure>
-<h4 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h4><p><strong>callback</strong></p>
-<ul>
-<li><p>该回调函数会在指定的DOM节点(目标节点)发生变化时被调用.在调用时,观察者对象会传给该函数两个参数,第一个参数是个包含了若干个<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver#MutationRecord" target="_blank" rel="external">MutationRecord</a>对象的数组,第二个参数则是这个观察者对象本身.</p>
-<a id="more"></a>
-<h2 id="实例方法"><a href="#实例方法" class="headerlink" title="实例方法"></a>实例方法</h2></li>
-<li><p><code>void observe( Node target, optional MutationObserverInit options );</code></p>
-</li>
-<li><code>void disconnect();</code></li>
-<li><code>Array takeRecords();</code></li>
-</ul>
-<h3 id="observe"><a href="#observe" class="headerlink" title="observe()"></a>observe()</h3><p>给当前观察者对象注册需要观察的目标节点,在目标节点(还可以同时观察其后代节点)发生DOM变化时收到通知.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">void</span> observe(</div><div class="line">  Node target,</div><div class="line">  optional MutationObserverInit options</div><div class="line">);</div></pre></td></tr></table></figure>
-<h4 id="参数-1"><a href="#参数-1" class="headerlink" title="参数"></a>参数</h4><p><strong>target</strong></p>
-<ul>
-<li>观察该节点是否会发生DOM变化.</li>
-</ul>
-<p><strong>options</strong></p>
-<ul>
-<li>一个MutationObserverInit对象,指定要观察的DOM变化类型.</li>
-</ul>
-<blockquote>
-<p>注：向一个元素添加 observer 和 addEventListener 类似，注册多次不会有任何影响。即是说，如果你注册了两次，回掉函数不会被调用两次，你也不必执行两次 disconnect() 以停止观察。换句话说，一旦某个元素被注册观察后，使用相同的 observer 实例再次注册不会发生任何变化。当然，如果回调对象不同，那么他会向这个元素添加另一个观察者。</p>
-</blockquote>
-<h3 id="disconnect"><a href="#disconnect" class="headerlink" title="disconnect()"></a>disconnect()</h3><p>让该观察者对象停止观察指定目标的DOM变化.直到再次调用其observe()方法,该观察者对象包含的回调函数都不会再被调用.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">void</span> disconnect();</div></pre></td></tr></table></figure>
-<h3 id="takeRecords"><a href="#takeRecords" class="headerlink" title="takeRecords()"></a>takeRecords()</h3><p>清空观察者对象的记录队列,并返回里面的内容.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Array takeRecords();</div></pre></td></tr></table></figure>
-<h4 id="返回值"><a href="#返回值" class="headerlink" title="返回值"></a>返回值</h4><p>返回一个包含了<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver#MutationRecord" target="_blank" rel="external">MutationRecords</a>对象的数组.</p>
-<h2 id="MutationObserverInit"><a href="#MutationObserverInit" class="headerlink" title="MutationObserverInit"></a>MutationObserverInit</h2><p>MutationObserverInit是一个用来配置观察者对象行为的对象,该对象可以拥有下面这些属性:</p>
-<p>&gt;<br>注:  childList, attributes, 或者characterData三个属性中必须至少有一个为true.否则,会抛出异常”An invalid or illegal string was specified”.</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>childList</td>
-<td>如果需要观察目标节点的子节点(新增了某个子节点,或者移除了某个子节点),则设置为true.</td>
-</tr>
-<tr>
-<td>attributes</td>
-<td>如果需要观察目标节点的属性节点(新增或删除了某个属性,以及某个属性的属性值发生了变化),则设置为true.</td>
-</tr>
-<tr>
-<td>characterData</td>
-<td>如果目标节点为characterData节点(一种抽象接口,具体可以为文本节点,注释节点,以及处理指令节点)时,也要观察该节点的文本内容是否发生变化,则设置为true.</td>
-</tr>
-<tr>
-<td>subtree</td>
-<td>除了目标节点,如果还需要观察目标节点的所有后代节点(观察目标节点所包含的整棵DOM树上的上述三种节点变化),则设置为true.</td>
-</tr>
-<tr>
-<td>attributeOldValue</td>
-<td>在attributes属性已经设为true的前提下,如果需要将发生变化的属性节点之前的属性值记录下来(记录到下面MutationRecord对象的oldValue属性中),则设置为true.</td>
-</tr>
-<tr>
-<td>characterDataOldValue</td>
-<td>在characterData属性已经设为true的前提下,如果需要将发生变化的characterData节点之前的文本内容记录下来(记录到下面MutationRecord对象的oldValue属性中),则设置为true.</td>
-</tr>
-<tr>
-<td>attributeFilter</td>
-<td>一个属性名数组(不需要指定命名空间),只有该数组中包含的属性名发生变化时才会被观察到,其他名称的属性发生变化后会被忽略.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="MutationRecord"><a href="#MutationRecord" class="headerlink" title="MutationRecord"></a>MutationRecord</h2><p>MutationRecord对象会作为第一个参数传递给观察者对象包含的回调函数,该对象有下面这些属性:</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>类型</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>type</td>
-<td>String</td>
-<td>如果是属性发生变化,则返回attributes.如果是一个CharacterData节点发生变化,则返回characterData,如果是目标节点的某个子节点发生了变化,则返回childList.</td>
-</tr>
-<tr>
-<td>target</td>
-<td>Node</td>
-<td>返回此次变化影响到的节点,具体返回那种节点类型是根据type值的不同而不同的. 如果type为attributes,则返回发生变化的属性节点所在的元素节点,如果type值为characterData,则返回发生变化的这个characterData节点.如果type为childList,则返回发生变化的子节点的父节点.</td>
-</tr>
-<tr>
-<td>addedNodes</td>
-<td>NodeList</td>
-<td>返回被添加的节点,或者为null.</td>
-</tr>
-<tr>
-<td>removedNodes</td>
-<td>NodeList</td>
-<td>返回被删除的节点,或者为null.</td>
-</tr>
-<tr>
-<td>previousSibling</td>
-<td>Node</td>
-<td>返回被添加或被删除的节点的前一个兄弟节点,或者为null.</td>
-</tr>
-<tr>
-<td>nextSibling</td>
-<td>Node</td>
-<td>返回被添加或被删除的节点的后一个兄弟节点,或者为null.</td>
-</tr>
-<tr>
-<td>attributeName</td>
-<td>String</td>
-<td>返回变更属性的本地名称,或者为null.</td>
-</tr>
-<tr>
-<td>attributeNamespace</td>
-<td>String</td>
-<td>返回变更属性的命名空间,或者为null.</td>
-</tr>
-<tr>
-<td>oldValue</td>
-<td>String</td>
-<td>根据type值的不同,返回的值也会不同.如果type为 attributes,则返回该属性变化之前的属性值.如果type为characterData,则返回该节点变化之前的文本数据.如果type为childList,则返回null.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>下面的例子来自<a href="http://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/" target="_blank" rel="external">这篇博文</a>.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">// Firefox和Chrome早期版本中带有前缀</div><div class="line">var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver</div><div class="line"></div><div class="line">// 选择目标节点</div><div class="line">var target = document.querySelector(&apos;#some-id&apos;);</div><div class="line"> </div><div class="line">// 创建观察者对象</div><div class="line">var observer = new MutationObserver(function(mutations) &#123;</div><div class="line">  mutations.forEach(function(mutation) &#123;</div><div class="line">    console.log(mutation.type);</div><div class="line">  &#125;);    </div><div class="line">&#125;);</div><div class="line"> </div><div class="line">// 配置观察选项:</div><div class="line">var config = &#123; attributes: true, childList: true, characterData: true &#125;</div><div class="line"> </div><div class="line">// 传入目标节点和观察选项</div><div class="line">observer.observe(target, config);</div><div class="line"> </div><div class="line">// 随后,你还可以停止观察</div><div class="line">observer.disconnect();</div></pre></td></tr></table></figure>
-<p>假设target为当前文档中某个已知的节点,observer为某个已经实例化的MutationObserver观察者对象,则:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line">observer.observe(target, &#123;childList:true&#125;)                              //childList属性只观察子节点的新建与删除,子节点本身的任何变化都不会去理会  </div><div class="line">target.appendChild(document.createElement(&quot;div&quot;))                       //添加了一个元素子节点,触发回调函数.</div><div class="line">target.appendChild(document.createTextNode(&quot;foo&quot;))                      //添加了一个文本子节点,触发回调函数.</div><div class="line">target.removeChild(target.childNodes[0])                                //移除第一个子节点,触发回调函数.</div><div class="line">target.childNodes[0].appendChild(document.createElement(&quot;div&quot;))         //为第一个子节点添加一个子节点,不会触发回调函数,如果需要触发,则需要设置subtree属性为true.</div><div class="line"></div><div class="line"></div><div class="line">observer.observe(target, &#123;childList:true,subtree:true&#125;)                 //subtree属性让观察行为进行&quot;递归&quot;,这时,以target节点为根节点的整棵DOM树发生的变化都可能会被观察到 </div><div class="line">observer.observe(document, &#123;childList:true,subtree:true&#125;)               //如果target为document或者document.documentElement,则当前文档中所有的节点添加与删除操作都会被观察到</div><div class="line">observer.observe(document, &#123;childList:true,attributes:true,characterData:true,subtree:true&#125;)   //当前文档中几乎所有类型的节点变化都会被观察到(包括属性节点的变化和文本节点的变化等)</div><div class="line"></div><div class="line"></div><div class="line">observer.observe(target, &#123;childList:true&#125;)                              //假设此时target的outHTML内容为&lt;div&gt;foo&lt;div&gt;,则: </div><div class="line">target.childNodes[0].data = &quot;bar&quot;                                       //不会触发回调函数,因为childList只观察节点的新建与删除,而这里target节点的子节点仍然只有一个,没有多,没有少</div><div class="line">observer.observe(target, &#123;childList:true,characterData:true&#125;)           //加上characterData属性,允许观察文本节点的变化,行不行? </div><div class="line">target.childNodes[0].data = &quot;bar&quot;                                       //还是不会触发回调函数,因为发生变化的是target节点的子节点,我们目前的目标节点只有一个,就是target.</div><div class="line">observer.observe(target, &#123;childList:true,characterData:true,subtree:true&#125;)  //加上subtree属性,观察所有后代节点 </div><div class="line">target.childNodes[0].data = &quot;bar&quot;                                       //触发了回调函数,发生变化的是target节点的文本子节点(必须同时有characterData和subtree属性,才能观察到一个元素目标节点里的文本内容的变化)</div><div class="line"></div><div class="line"></div><div class="line">observer.observe(target, &#123;attributes:true&#125;)                             //只观察目标节点的属性节点</div><div class="line">target.setAttribute(&quot;foo&quot;,&quot;bar&quot;)                                        //不管foo属性存在不存在,都会触发回调函数</div><div class="line">target.setAttribute(&quot;foo&quot;,&quot;bar&quot;)                                        //即使前后两次的属性值一样,还是会触发回调函数</div><div class="line">target.removeAttribute(&quot;foo&quot;)                                           //移除foo属性节点,触发回调函数</div><div class="line">target.removeAttribute(&quot;foo&quot;)                                           //不会触发回调函数,因为已经没有属性节点可移除了</div><div class="line">observer.observe(target, &#123;attributes:true,attributeFilter:[&quot;bar&quot;]&#125;)     //指定要观察的属性名</div><div class="line">target.setAttribute(&quot;foo&quot;,&quot;bar&quot;)                                        //不会触发回调函数,因为attributeFilter数组不包含&quot;foo&quot;</div><div class="line">target.setAttribute(&quot;bar&quot;,&quot;foo&quot;)                                        //触发了回调函数,因为attributeFilter数组包含了&quot;bar&quot;</div></pre></td></tr></table></figure>
-<h2 id="外部链接"><a href="#外部链接" class="headerlink" title="外部链接"></a>外部链接</h2><ul>
-<li><a href="http://updates.html5rocks.com/2012/02/Detect-DOM-changes-with-Mutation-Observers" target="_blank" rel="external">A brief overview</a></li>
-<li><a href="http://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/" target="_blank" rel="external">A more in-depth discussion</a></li>
-<li><a href="http://www.youtube.com/watch?v=eRZ4pO0gVWw" target="_blank" rel="external">A screencast by Chromium developer Rafael Weinstein</a></li>
-<li><a href="http://code.google.com/p/mutation-summary/" target="_blank" rel="external">The mutation summary library</a></li>
-<li><a href="http://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#mutation-observers" target="_blank" rel="external">The DOM4 specification</a> which defines the MutationObserver interface</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;原文地址：&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;MutationObserver给开发者们提供了一种能在某个范围内的DOM树发生变化时作出适当反应的能力.该API设计用来替换掉在DOM3事件规范中引入的&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/DOM/Mutation_events&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mutation事件&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;构造函数&quot;&gt;&lt;a href=&quot;#构造函数&quot; class=&quot;headerlink&quot; title=&quot;构造函数&quot;&gt;&lt;/a&gt;构造函数&lt;/h2&gt;&lt;h3 id=&quot;MutationObserver&quot;&gt;&lt;a href=&quot;#MutationObserver&quot; class=&quot;headerlink&quot; title=&quot;MutationObserver()&quot;&gt;&lt;/a&gt;MutationObserver()&lt;/h3&gt;&lt;p&gt;该构造函数用来实例化一个新的Mutation观察者对象.&lt;/p&gt;
-&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;MutationObserver(&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;callback&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;);&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h4 id=&quot;参数&quot;&gt;&lt;a href=&quot;#参数&quot; class=&quot;headerlink&quot; title=&quot;参数&quot;&gt;&lt;/a&gt;参数&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;callback&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;该回调函数会在指定的DOM节点(目标节点)发生变化时被调用.在调用时,观察者对象会传给该函数两个参数,第一个参数是个包含了若干个&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver#MutationRecord&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MutationRecord&lt;/a&gt;对象的数组,第二个参数则是这个观察者对象本身.&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>[转]基于视窗单位的排版</title>
-    <link href="http://bobjoy.github.io/2016/07/14/%E8%BD%AC-%E5%9F%BA%E4%BA%8E%E8%A7%86%E7%AA%97%E5%8D%95%E4%BD%8D%E7%9A%84%E6%8E%92%E7%89%88/"/>
-    <id>http://bobjoy.github.io/2016/07/14/转-基于视窗单位的排版/</id>
-    <published>2016-07-14T00:31:37.000Z</published>
-    <updated>2017-12-20T09:26:53.776Z</updated>
-    
-    <content type="html"><![CDATA[<p>我之前有写过基于<a href="http://www.w3cplus.com/css/rem-vs-em.html" target="_blank" rel="external">rem和em</a>的[响应式排版]，并且也有写过两篇有关模块化组件的博客。在这些文章中，有关视窗单位的评论不可避免的形成了一个话题。</p>
-<p>曾经一段时间我十分抵制使用视窗单位，因为其中的计算实在让人感到十分痛苦。</p>
-<p>上周，我终于克服了这个困难，决定探索一下视窗单位以及如何在响应式排版中使用它们。</p>
-<p>在我们开始探索视窗单位以及如何运用它们之前，让我们先了解一下什么是视窗单位。</p>
-<h3 id="什么是视窗单位"><a href="#什么是视窗单位" class="headerlink" title="什么是视窗单位?"></a>什么是视窗单位?</h3><hr>
-<p>现在CSS中有关于视窗单位的可用种类主要有四种，他们是:</p>
-<ul>
-<li>vw:视窗宽度的百分比</li>
-<li>vh:视窗高度的百分比</li>
-<li>vmin:当前较小的vw和vh</li>
-<li>vmax:当前较大的vw和vh</li>
-</ul>
-<p>在这种情况下，视窗，指的是浏览器屏幕。1vw就意味着1%的浏览器的宽度。100vw将意味着整个浏览器宽度。</p>
-<p><img src="http://cdn.w3cplus.com/cdn/farfuture/xVCg6Vvwie8E41Dw5xpqQmUd3k83I0u4MSDvO3qA4MA/mtime:1459255814/sites/default/files/blogs/2016/1603/viewport-units.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我之前有写过基于&lt;a href=&quot;http://www.w3cplus.com/css/rem-vs-em.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;rem和em&lt;/a&gt;的[响应式排版]，并且也有写过两篇有关模块化组件的博客。在这些文章中，有
-    
-    </summary>
-    
     
   </entry>
   
