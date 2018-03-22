@@ -82,7 +82,7 @@ theme: next
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Bobjoy/bobjoy.github.io.git
+  repo: git@github.com:Bobjoy/bobjoy.github.io.git
   branch: master
 
 # Hexo Server
