@@ -84,7 +84,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Java,JSON," />
 
 
 
@@ -102,13 +102,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="IT飞鱼">
-<meta property="og:url" content="http://bobjoy.github.io/archives/page/4/index.html">
+<meta name="description" content="问题描述手头上有一个项目，使用的是 jsp 写的，数据都是使用 jsp 标签来处理的，现在想使用 ajax 请求。有一个页面用到了zTree，数据是用 c:forEach 标签封装的，如下： 12345var zNodes =[    &amp;lt;c:forEach items=&amp;quot;$&amp;#123;trees&amp;#125;&amp;quot; var=&amp;quot;m&amp;quot;&amp;gt;    &amp;#123;">
+<meta name="keywords" content="Java,JSON">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java中Bean属性的getter方法定义导致json数据缺失">
+<meta property="og:url" content="http://bobjoy.github.io/2018/03/22/Java中Bean属性的getter方法定义导致json数据缺失/index.html">
 <meta property="og:site_name" content="IT飞鱼">
+<meta property="og:description" content="问题描述手头上有一个项目，使用的是 jsp 写的，数据都是使用 jsp 标签来处理的，现在想使用 ajax 请求。有一个页面用到了zTree，数据是用 c:forEach 标签封装的，如下： 12345var zNodes =[    &amp;lt;c:forEach items=&amp;quot;$&amp;#123;trees&amp;#125;&amp;quot; var=&amp;quot;m&amp;quot;&amp;gt;    &amp;#123;">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-03-22T10:13:29.984Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="IT飞鱼">
+<meta name="twitter:title" content="Java中Bean属性的getter方法定义导致json数据缺失">
+<meta name="twitter:description" content="问题描述手头上有一个项目，使用的是 jsp 写的，数据都是使用 jsp 标签来处理的，现在想使用 ajax 请求。有一个页面用到了zTree，数据是用 c:forEach 标签封装的，如下： 12345var zNodes =[    &amp;lt;c:forEach items=&amp;quot;$&amp;#123;trees&amp;#125;&amp;quot; var=&amp;quot;m&amp;quot;&amp;gt;    &amp;#123;">
 
 
 
@@ -136,13 +141,13 @@
 
 
 
-  <link rel="canonical" href="http://bobjoy.github.io/archives/page/4/"/>
+  <link rel="canonical" href="http://bobjoy.github.io/2018/03/22/Java中Bean属性的getter方法定义导致json数据缺失/"/>
 
 
 
 
 
-  <title>归档 | IT飞鱼</title>
+  <title>Java中Bean属性的getter方法定义导致json数据缺失 | IT飞鱼</title>
   
 
 
@@ -186,7 +191,7 @@
     
   
 
-  <div class="container sidebar-position-left  page-archive  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -314,402 +319,264 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-    <span class="archive-page-counter">
-      
-      
-       
-        
-      很好! 目前共计 102 篇日志。 继续努力。
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2018/03/22/Java中Bean属性的getter方法定义导致json数据缺失/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="鲍方亮">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="IT飞鱼">
     </span>
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Java中Bean属性的getter方法定义导致json数据缺失</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-22T17:53:03+08:00">
+                2018-03-22
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-22T18:13:29+08:00">
+                2018-03-22
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/编程开发/" itemprop="url" rel="index">
+                    <span itemprop="name">编程开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/03/22/Java中Bean属性的getter方法定义导致json数据缺失/" class="leancloud_visitors" data-flag-title="Java中Bean属性的getter方法定义导致json数据缺失">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
 
       
       
-      
 
+      
+        <h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>手头上有一个项目，使用的是 <code>jsp</code> 写的，数据都是使用 <code>jsp</code> 标签来处理的，现在想使用 <code>ajax</code> 请求。有一个页面用到了zTree，数据是用 <code>c:forEach</code> 标签封装的，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">var zNodes =[</div><div class="line">    &lt;c:forEach items=&quot;$&#123;trees&#125;&quot; var=&quot;m&quot;&gt;</div><div class="line">    &#123; id:$&#123;m.id&#125;, pId:$&#123;m.pId&#125;, name:&quot;$&#123;m.name&#125;&quot;, iconSkin:&quot;$&#123;m.iconSkin&#125;&quot;, open: true, root : $&#123;m.root&#125;,isParent:$&#123;m.isParent&#125;&#125;,</div><div class="line">    &lt;/c:forEach&gt;</div><div class="line">];</div></pre></td></tr></table></figure>
+<p>javaBean如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div></pre></td><td class="code"><pre><div class="line">public class ZTree&lt;ID extends Serializable&gt; implements Serializable &#123;</div><div class="line">    private ID id;</div><div class="line">    private ID pId;</div><div class="line">    private String name;</div><div class="line">    private String iconSkin;</div><div class="line">    private boolean open;</div><div class="line">    private boolean root;</div><div class="line">    private boolean isParent;</div><div class="line">    private boolean nocheck = false;</div><div class="line"></div><div class="line">    public ID getId() &#123;</div><div class="line">        return id;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setId(ID id) &#123;</div><div class="line">        this.id = id;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public ID getpId() &#123;</div><div class="line">        return pId;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setpId(ID pId) &#123;</div><div class="line">        this.pId = pId;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public String getName() &#123;</div><div class="line">        return name;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setName(String name) &#123;</div><div class="line">        this.name = name;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public String getIconSkin() &#123;</div><div class="line">        return iconSkin;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setIconSkin(String iconSkin) &#123;</div><div class="line">        this.iconSkin = iconSkin;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public boolean isOpen() &#123;</div><div class="line">        return open;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setOpen(boolean open) &#123;</div><div class="line">        this.open = open;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public boolean isRoot() &#123;</div><div class="line">        return root;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setRoot(boolean root) &#123;</div><div class="line">        this.root = root;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public boolean isIsParent() &#123;</div><div class="line">        return isParent;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setIsParent(boolean isParent) &#123;</div><div class="line">        this.isParent = isParent;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public boolean isNocheck() &#123;</div><div class="line">        return nocheck;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setNocheck(boolean nocheck) &#123;</div><div class="line">        this.nocheck = nocheck;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>后台使用 <code>ajax</code> 异步请求该 <code>javaBean</code> 列表，发现 <code>json</code> 有一个属性 <code>pId</code> 始终没有返回，，在返回对象前都有数据，但是到了页面就没有了。</p>
+<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>检查了配置文件，调试了半天，只能从源头查找问题，看到bean，看到 <code>pId</code>，突然想起来getter、setter方法大小写的问题，试着将getter、setter方法修改如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">public ID getPId() &#123;</div><div class="line">    return pId;</div><div class="line">&#125;</div><div class="line"></div><div class="line">public void setPId(ID pId) &#123;</div><div class="line">    this.pId = pId;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>再ajax请求，数据原样返回来了。</p>
+<h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><h3 id="javaBean规范"><a href="#javaBean规范" class="headerlink" title="javaBean规范"></a>javaBean规范</h3><p>javabean规范文档：<a href="http://download.oracle.com/otndocs/jcp/7224-javabeans-1.01-fr-spec-oth-JSpec/，里面的有以下两个章节降到了具体的命名规则：" target="_blank" rel="external">http://download.oracle.com/otndocs/jcp/7224-javabeans-1.01-fr-spec-oth-JSpec/，里面的有以下两个章节降到了具体的命名规则：</a></p>
+<blockquote>
+<ul>
+<li>8.3.1 Simple properties</li>
+<li>8.3.2 Boolean properties</li>
+<li>8.8 Capitalization of inferred names.</li>
+</ul>
+</blockquote>
+<p>这个文档里面说明了，从getter和setter方法名如何推倒出propertyName：</p>
+<pre><code>一般情况，把除去get或者is（如果是boolean类型）后的部分首字母转成小写即可，比如：getFoo –&gt; foo
+如果除去get和is后端的部分，首字母和第二个字母都是大写，不作转换即可，比如：getXPath –&gt; XPath
+</code></pre><p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">private String getepath    --&gt;    getGetepath()</div><div class="line">private String getEpath    --&gt;    getGetEpath()</div><div class="line">private String epath       --&gt;    getEpath()     </div><div class="line">private String ePath       --&gt;    getePath()    // 首字母不用大写</div><div class="line">private String Epath       --&gt;    getEpath()    // 和epath的getter方法是一样的</div><div class="line">private String EPath       --&gt;    getEPath()</div><div class="line">private boolean isenable   --&gt;    isIsenable()</div><div class="line">private boolean isEnable   --&gt;    isEnable()    // 不是把首字母大写并在前面加is，其结果和enable的getter方法相同</div><div class="line">private boolean enable     --&gt;    isEnable()</div><div class="line">private boolean eNable     --&gt;    iseNable()    // 首字母不用大写</div><div class="line">private boolean Enable     --&gt;    isEnable()    // 和enable的getter方法相同</div><div class="line">private boolean ENable     --&gt;    isENable()    //</div></pre></td></tr></table></figure>
+<h3 id="什么时候你需要关注getter和setter方法的生成规则？"><a href="#什么时候你需要关注getter和setter方法的生成规则？" class="headerlink" title="什么时候你需要关注getter和setter方法的生成规则？"></a>什么时候你需要关注getter和setter方法的生成规则？</h3><ul>
+<li>想要序列化为json对象时，如果你使用gson的话，基本没啥问题，但要是你使用了低版本的fastjson，那么可能会中枪了</li>
+<li>要自己写代码拼装出getter和setter方法名，以此来通过反射查找Method时</li>
+</ul>
+<h3 id="编码规范"><a href="#编码规范" class="headerlink" title="编码规范"></a>编码规范</h3><ul>
+<li>属性的前两个都以小写开头</li>
+<li>boolean类型不要用is开头</li>
+</ul>
+<blockquote>
+<p>参考文章：<a href="http://rongmayisheng.com/post/java%E4%B8%AD%E5%9D%91%E7%88%B9%E7%9A%84getter%E3%80%81setter%E6%96%B9%E6%B3%95%E7%9A%84%E6%BD%9C%E8%A7%84%E5%88%99" target="_blank" rel="external">http://rongmayisheng.com/post/java%E4%B8%AD%E5%9D%91%E7%88%B9%E7%9A%84getter%E3%80%81setter%E6%96%B9%E6%B3%95%E7%9A%84%E6%BD%9C%E8%A7%84%E5%88%99</a></p>
+</blockquote>
+
+      
+    </div>
+
+    <div>
       
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      鲍方亮
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://bobjoy.github.io/2018/03/22/Java中Bean属性的getter方法定义导致json数据缺失/" title="Java中Bean属性的getter方法定义导致json数据缺失">http://bobjoy.github.io/2018/03/22/Java中Bean属性的getter方法定义导致json数据缺失/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Java/" rel="tag"># Java</a>
+          
+            <a href="/tags/JSON/" rel="tag"># JSON</a>
+          
         </div>
       
+
+      
+      
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/03/22/MySQL-筛选出每个人的时间最新的一条记录/" rel="next" title="MySQL-筛选出每个人的时间最新的一条记录">
+                <i class="fa fa-chevron-left"></i> MySQL-筛选出每个人的时间最新的一条记录
+              </a>
+            
+          </div>
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          <span class="post-nav-divider"></span>
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/06/20/Linux命令之lsof/" itemprop="url">
-              
-                <span itemprop="name">Linux命令之lsof</span>
-              
-            </a>
-        
-      </h2>
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-06-20T19:58:09+08:00"
-              content="2016-06-20" >
-          06-20
-        </time>
-      </div>
-
-    </header>
+      
+      
+    </footer>
   </article>
 
 
 
-    
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
 
       
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/06/20/开放API接口验证/" itemprop="url">
-              
-                <span itemprop="name">开放API接口验证</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-06-20T16:16:31+08:00"
-              content="2016-06-20" >
-          06-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/06/14/Context-namespace-element-annotation-config-are-only-available-on-JDK-1-5-and-higher/" itemprop="url">
-              
-                <span itemprop="name">Context namespace element 'annotation-config' ... are only available on JDK 1.5 and higher</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-06-14T17:10:51+08:00"
-              content="2016-06-14" >
-          06-14
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/06/13/Ubuntu上vim配置YoucompleteMe时-install-sh-clang-completer出现错误/" itemprop="url">
-              
-                <span itemprop="name">Ubuntu上vim配置YoucompleteMe时./install.sh --clang-completer出现错误</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-06-13T12:57:16+08:00"
-              content="2016-06-13" >
-          06-13
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/05/08/node-sass模块安装失败/" itemprop="url">
-              
-                <span itemprop="name">node-sass模块安装失败</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-05-08T09:46:30+08:00"
-              content="2016-05-08" >
-          05-08
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/05/05/Eclipse远程调试Tomcat配置/" itemprop="url">
-              
-                <span itemprop="name">Eclipse远程调试Tomcat配置</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-05-05T12:25:17+08:00"
-              content="2016-05-05" >
-          05-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/05/01/人为什么会拖延/" itemprop="url">
-              
-                <span itemprop="name">人为什么会拖延</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-05-01T21:55:11+08:00"
-              content="2016-05-01" >
-          05-01
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/04/30/据说如果你各种会聊天，能比别人少奋斗10年/" itemprop="url">
-              
-                <span itemprop="name">据说如果你各种会聊天，能比别人少奋斗10年</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-04-30T13:17:09+08:00"
-              content="2016-04-30" >
-          04-30
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/03/27/Fix-Cannot-Add-PPA-Error-In-Ubuntu-14-04-Linux-Mint-17/" itemprop="url">
-              
-                <span itemprop="name">解决在Ubuntu14.04中 'Cannot Add PPA' 的错误</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-03-27T17:50:37+08:00"
-              content="2016-03-27" >
-          03-27
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/03/26/解决virtualbox复制ubuntu后改变mac地址不能识别网卡问题/" itemprop="url">
-              
-                <span itemprop="name">解决virtualbox复制ubuntu后改变mac地址不能识别网卡问题</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-03-26T16:15:50+08:00"
-              content="2016-03-26" >
-          03-26
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/archives/page/3/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/archives/">1</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/archives/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/11/">11</a><a class="extend next" rel="next" href="/archives/page/5/"><i class="fa fa-angle-right"></i></a>
-  </nav>
-
-
+    </div>
+  </div>
 
 
           </div>
@@ -717,6 +584,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="uyan_frame"></div>
+    
+  </div>
+
 
         </div>
         
@@ -737,8 +610,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -807,6 +689,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#问题描述"><span class="nav-number">1.</span> <span class="nav-text">问题描述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解决办法"><span class="nav-number">2.</span> <span class="nav-text">解决办法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#问题原因"><span class="nav-number">3.</span> <span class="nav-text">问题原因</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#javaBean规范"><span class="nav-number">3.1.</span> <span class="nav-text">javaBean规范</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#什么时候你需要关注getter和setter方法的生成规则？"><span class="nav-number">3.2.</span> <span class="nav-text">什么时候你需要关注getter和setter方法的生成规则？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#编码规范"><span class="nav-number">3.3.</span> <span class="nav-text">编码规范</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -944,11 +842,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
 
 
   
@@ -975,6 +871,10 @@
   
     
 
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
+      <!-- UY END -->
     
   
 

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bobjoy.github.io/"/>
-  <updated>2018-03-22T03:50:52.703Z</updated>
+  <updated>2018-03-22T10:13:29.984Z</updated>
   <id>http://bobjoy.github.io/</id>
   
   <author>
@@ -14,6 +14,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java中Bean属性的getter方法定义导致json数据缺失</title>
+    <link href="http://bobjoy.github.io/2018/03/22/Java%E4%B8%ADBean%E5%B1%9E%E6%80%A7%E7%9A%84getter%E6%96%B9%E6%B3%95%E5%AE%9A%E4%B9%89%E5%AF%BC%E8%87%B4json%E6%95%B0%E6%8D%AE%E7%BC%BA%E5%A4%B1/"/>
+    <id>http://bobjoy.github.io/2018/03/22/Java中Bean属性的getter方法定义导致json数据缺失/</id>
+    <published>2018-03-22T09:53:03.000Z</published>
+    <updated>2018-03-22T10:13:29.984Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>手头上有一个项目，使用的是 <code>jsp</code> 写的，数据都是使用 <code>jsp</code> 标签来处理的，现在想使用 <code>ajax</code> 请求。有一个页面用到了zTree，数据是用 <code>c:forEach</code> 标签封装的，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">var zNodes =[</div><div class="line">    &lt;c:forEach items=&quot;$&#123;trees&#125;&quot; var=&quot;m&quot;&gt;</div><div class="line">    &#123; id:$&#123;m.id&#125;, pId:$&#123;m.pId&#125;, name:&quot;$&#123;m.name&#125;&quot;, iconSkin:&quot;$&#123;m.iconSkin&#125;&quot;, open: true, root : $&#123;m.root&#125;,isParent:$&#123;m.isParent&#125;&#125;,</div><div class="line">    &lt;/c:forEach&gt;</div><div class="line">];</div></pre></td></tr></table></figure>
+<p>javaBean如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div></pre></td><td class="code"><pre><div class="line">public class ZTree&lt;ID extends Serializable&gt; implements Serializable &#123;</div><div class="line">    private ID id;</div><div class="line">    private ID pId;</div><div class="line">    private String name;</div><div class="line">    private String iconSkin;</div><div class="line">    private boolean open;</div><div class="line">    private boolean root;</div><div class="line">    private boolean isParent;</div><div class="line">    private boolean nocheck = false;</div><div class="line"></div><div class="line">    public ID getId() &#123;</div><div class="line">        return id;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setId(ID id) &#123;</div><div class="line">        this.id = id;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public ID getpId() &#123;</div><div class="line">        return pId;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setpId(ID pId) &#123;</div><div class="line">        this.pId = pId;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public String getName() &#123;</div><div class="line">        return name;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setName(String name) &#123;</div><div class="line">        this.name = name;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public String getIconSkin() &#123;</div><div class="line">        return iconSkin;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setIconSkin(String iconSkin) &#123;</div><div class="line">        this.iconSkin = iconSkin;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public boolean isOpen() &#123;</div><div class="line">        return open;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setOpen(boolean open) &#123;</div><div class="line">        this.open = open;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public boolean isRoot() &#123;</div><div class="line">        return root;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setRoot(boolean root) &#123;</div><div class="line">        this.root = root;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public boolean isIsParent() &#123;</div><div class="line">        return isParent;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setIsParent(boolean isParent) &#123;</div><div class="line">        this.isParent = isParent;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public boolean isNocheck() &#123;</div><div class="line">        return nocheck;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public void setNocheck(boolean nocheck) &#123;</div><div class="line">        this.nocheck = nocheck;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>后台使用 <code>ajax</code> 异步请求该 <code>javaBean</code> 列表，发现 <code>json</code> 有一个属性 <code>pId</code> 始终没有返回，，在返回对象前都有数据，但是到了页面就没有了。</p>
+<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>检查了配置文件，调试了半天，只能从源头查找问题，看到bean，看到 <code>pId</code>，突然想起来getter、setter方法大小写的问题，试着将getter、setter方法修改如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">public ID getPId() &#123;</div><div class="line">    return pId;</div><div class="line">&#125;</div><div class="line"></div><div class="line">public void setPId(ID pId) &#123;</div><div class="line">    this.pId = pId;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>再ajax请求，数据原样返回来了。</p>
+<h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><h3 id="javaBean规范"><a href="#javaBean规范" class="headerlink" title="javaBean规范"></a>javaBean规范</h3><p>javabean规范文档：<a href="http://download.oracle.com/otndocs/jcp/7224-javabeans-1.01-fr-spec-oth-JSpec/，里面的有以下两个章节降到了具体的命名规则：" target="_blank" rel="external">http://download.oracle.com/otndocs/jcp/7224-javabeans-1.01-fr-spec-oth-JSpec/，里面的有以下两个章节降到了具体的命名规则：</a></p>
+<blockquote>
+<ul>
+<li>8.3.1 Simple properties</li>
+<li>8.3.2 Boolean properties</li>
+<li>8.8 Capitalization of inferred names.</li>
+</ul>
+</blockquote>
+<p>这个文档里面说明了，从getter和setter方法名如何推倒出propertyName：</p>
+<pre><code>一般情况，把除去get或者is（如果是boolean类型）后的部分首字母转成小写即可，比如：getFoo –&gt; foo
+如果除去get和is后端的部分，首字母和第二个字母都是大写，不作转换即可，比如：getXPath –&gt; XPath
+</code></pre><p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">private String getepath    --&gt;    getGetepath()</div><div class="line">private String getEpath    --&gt;    getGetEpath()</div><div class="line">private String epath       --&gt;    getEpath()     </div><div class="line">private String ePath       --&gt;    getePath()    // 首字母不用大写</div><div class="line">private String Epath       --&gt;    getEpath()    // 和epath的getter方法是一样的</div><div class="line">private String EPath       --&gt;    getEPath()</div><div class="line">private boolean isenable   --&gt;    isIsenable()</div><div class="line">private boolean isEnable   --&gt;    isEnable()    // 不是把首字母大写并在前面加is，其结果和enable的getter方法相同</div><div class="line">private boolean enable     --&gt;    isEnable()</div><div class="line">private boolean eNable     --&gt;    iseNable()    // 首字母不用大写</div><div class="line">private boolean Enable     --&gt;    isEnable()    // 和enable的getter方法相同</div><div class="line">private boolean ENable     --&gt;    isENable()    //</div></pre></td></tr></table></figure>
+<h3 id="什么时候你需要关注getter和setter方法的生成规则？"><a href="#什么时候你需要关注getter和setter方法的生成规则？" class="headerlink" title="什么时候你需要关注getter和setter方法的生成规则？"></a>什么时候你需要关注getter和setter方法的生成规则？</h3><ul>
+<li>想要序列化为json对象时，如果你使用gson的话，基本没啥问题，但要是你使用了低版本的fastjson，那么可能会中枪了</li>
+<li>要自己写代码拼装出getter和setter方法名，以此来通过反射查找Method时</li>
+</ul>
+<h3 id="编码规范"><a href="#编码规范" class="headerlink" title="编码规范"></a>编码规范</h3><ul>
+<li>属性的前两个都以小写开头</li>
+<li>boolean类型不要用is开头</li>
+</ul>
+<blockquote>
+<p>参考文章：<a href="http://rongmayisheng.com/post/java%E4%B8%AD%E5%9D%91%E7%88%B9%E7%9A%84getter%E3%80%81setter%E6%96%B9%E6%B3%95%E7%9A%84%E6%BD%9C%E8%A7%84%E5%88%99" target="_blank" rel="external">http://rongmayisheng.com/post/java%E4%B8%AD%E5%9D%91%E7%88%B9%E7%9A%84getter%E3%80%81setter%E6%96%B9%E6%B3%95%E7%9A%84%E6%BD%9C%E8%A7%84%E5%88%99</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;手头上有一个项目，使用的是 &lt;code&gt;jsp&lt;/code&gt; 写的，数据都是使用 &lt;code&gt;jsp&lt;/code&gt; 标签来处
+    
+    </summary>
+    
+      <category term="编程开发" scheme="http://bobjoy.github.io/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Java" scheme="http://bobjoy.github.io/tags/Java/"/>
+    
+      <category term="JSON" scheme="http://bobjoy.github.io/tags/JSON/"/>
+    
+  </entry>
   
   <entry>
     <title>MySQL-筛选出每个人的时间最新的一条记录</title>
@@ -1055,39 +1111,6 @@
     
     
       <category term="随笔" scheme="http://bobjoy.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo命令server无效</title>
-    <link href="http://bobjoy.github.io/2017/06/28/Hexo%E5%91%BD%E4%BB%A4server%E6%97%A0%E6%95%88/"/>
-    <id>http://bobjoy.github.io/2017/06/28/Hexo命令server无效/</id>
-    <published>2017-06-28T08:37:35.000Z</published>
-    <updated>2017-12-20T09:26:53.682Z</updated>
-    
-    <content type="html"><![CDATA[<p>按照好 <code>hexo-cli</code> 后， <code>hexo new</code> 创建一篇文章，然后 <code>hexo server</code> 本地运行调试，但是试了好几次都没反应，控制台直接打印帮助文档，然后命令帮助中也没有发现 <code>server</code> 命令，然后各种google，发现hexo3中 server 模块已经独立出来需要单独安装。 <code>npm install hexo-server</code> 安装后再运行 <code>hexo server</code> ，然鹅并没有什么卵用，继续google，发现一些hexo问题中提到plugins的配置，于是抱着试一试的态度将 <code>_config.yml</code> 中的plugins配置注释掉</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#plugins:</span></div><div class="line"><span class="comment">#- hexo-generator-feed</span></div><div class="line"><span class="comment">#- hexo-generator-sitemap</span></div></pre></td></tr></table></figure>
-<p>再这运行，O啦</p>
-<blockquote>
-<p>2017-07-08 18:15 更新</p>
-</blockquote>
-<p>如果出现如下错误</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">TypeError: Cannot set property 'lastIndex' of undefined</div><div class="line">    at highlight (/home/rapiz/Blog/node_modules/highlight.js/lib/highlight.js:514:35)</div><div class="line">...</div></pre></td></tr></table></figure>
-<p>则需要将 <code>_config.yml</code> 中的以下配置</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">highlight:</span></div><div class="line"><span class="attr">  auto_detect:</span> <span class="literal">true</span></div></pre></td></tr></table></figure>
-<p>修改为</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">highlight:</span></div><div class="line"><span class="attr">  auto_detect:</span> <span class="literal">false</span></div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;按照好 &lt;code&gt;hexo-cli&lt;/code&gt; 后， &lt;code&gt;hexo new&lt;/code&gt; 创建一篇文章，然后 &lt;code&gt;hexo server&lt;/code&gt; 本地运行调试，但是试了好几次都没反应，控制台直接打印帮助文档，然后命令帮助中也没有发现 &lt;code&gt;s
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://bobjoy.github.io/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://bobjoy.github.io/tags/Hexo/"/>
     
   </entry>
   
