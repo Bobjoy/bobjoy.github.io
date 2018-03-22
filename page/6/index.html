@@ -326,6 +326,341 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/01/11/JavaScript-事件——“事件流和事件处理程序”/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="鲍方亮">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="IT飞鱼">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/01/11/JavaScript-事件——“事件流和事件处理程序”/" itemprop="url"> JavaScript 事件——“事件流和事件处理程序”</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-01-11T13:52:46+08:00">
+                2016-01-11
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
+                2017-12-20
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web开发/" itemprop="url" rel="index">
+                    <span itemprop="name">Web开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2016/01/11/JavaScript-事件——“事件流和事件处理程序”/" class="leancloud_visitors" data-flag-title=" JavaScript 事件——“事件流和事件处理程序”">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="事件流"><a href="#事件流" class="headerlink" title="事件流"></a>事件流</h2><p>事件流描述的是从页面中接收事件的顺序。IE的事件流是事件冒泡流，而Netscape Communicator的事件流是事件捕获流。</p>
+<h3 id="事件冒泡"><a href="#事件冒泡" class="headerlink" title="事件冒泡"></a>事件冒泡</h3><p>即事件开始时由最具体的元素接收，然后逐级向上传播到较为不具体的节点。如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">div</span>&gt;</span>Click<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>当点击了页面中的div元素，那么这个click事件会按照如下顺序传播：</p>
+<ul>
+<li>div元素</li>
+<li>body元素</li>
+<li>html元素</li>
+<li>document对象</li>
+</ul>
+<h3 id="事件捕获"><a href="#事件捕获" class="headerlink" title="事件捕获"></a>事件捕获</h3><p>事件捕获的思想是最具体的节点应该最后接收到事件。事件捕获的用意在于事件到达目标之前捕获它。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/01/11/JavaScript-事件——“事件流和事件处理程序”/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/12/07/Android单元测试Invalid-layout-of-java-lang-String-at-value/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="鲍方亮">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="IT飞鱼">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2015/12/07/Android单元测试Invalid-layout-of-java-lang-String-at-value/" itemprop="url">Android单元测试Invalid layout of java.lang.String at value</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-12-07T13:59:11+08:00">
+                2015-12-07
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
+                2017-12-20
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/移动开发/" itemprop="url" rel="index">
+                    <span itemprop="name">移动开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2015/12/07/Android单元测试Invalid-layout-of-java-lang-String-at-value/" class="leancloud_visitors" data-flag-title="Android单元测试Invalid layout of java.lang.String at value">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          遇到：Invalid layout of java.lang.String at value 这样的问题&gt;原文地址： http://www.cnblogs.com/wangmars/p/3255044.html
+1234567891011121314151617Invalid layout o
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2015/12/07/Android单元测试Invalid-layout-of-java-lang-String-at-value/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/11/25/自编译ngrok服务器实现内网穿透/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -428,7 +763,7 @@
 <li><p>安装go get工具：</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/11/25/自编译ngrok服务器实现内网穿透/#далее" rel="contents">
+            <a class="btn" href="/2015/11/25/自编译ngrok服务器实现内网穿透/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -569,7 +904,7 @@
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/11/19/gradle工程提示Unable-to-start-the-daemon-process/#далее" rel="contents">
+            <a class="btn" href="/2015/11/19/gradle工程提示Unable-to-start-the-daemon-process/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -734,7 +1069,7 @@
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/11/05/Ubuntu下通过nvm安装node，npm-command-not-found/#далее" rel="contents">
+            <a class="btn" href="/2015/11/05/Ubuntu下通过nvm安装node，npm-command-not-found/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -897,7 +1232,7 @@
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/10/31/Android-Studio配置Respository更新Android-SDK/#далее" rel="contents">
+            <a class="btn" href="/2015/10/31/Android-Studio配置Respository更新Android-SDK/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1063,7 +1398,7 @@ A: 将 $JAVA_HOME/lib/tools 拷贝到 ANDROID_STUDIO_ROOT/lib/ 下, 可执行如
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/10/31/tools-jar-seems-to-be-not-in-Studio-classpath/#далее" rel="contents">
+            <a class="btn" href="/2015/10/31/tools-jar-seems-to-be-not-in-Studio-classpath/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1227,7 +1562,7 @@ A: 将 $JAVA_HOME/lib/tools 拷贝到 ANDROID_STUDIO_ROOT/lib/ 下, 可执行如
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/10/22/CocoaPod-出现-Unable-to-satisfy-the-following-requirements-required-by-Podfile/#далее" rel="contents">
+            <a class="btn" href="/2015/10/22/CocoaPod-出现-Unable-to-satisfy-the-following-requirements-required-by-Podfile/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1400,7 +1735,7 @@ A: 将 $JAVA_HOME/lib/tools 拷贝到 ANDROID_STUDIO_ROOT/lib/ 下, 可执行如
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">attributes: NamedNodeMap</div><div class="line">value: &quot;1&quot;</div><div class="line">id: &quot;in_1&quot;</div></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/10/05/DOM-中-Property-和-Attribute-的区别/#далее" rel="contents">
+            <a class="btn" href="/2015/10/05/DOM-中-Property-和-Attribute-的区别/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1564,334 +1899,7 @@ A: 将 $JAVA_HOME/lib/tools 拷贝到 ANDROID_STUDIO_ROOT/lib/ 下, 可执行如
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/10/01/Vagrant-up-with-warning-of-Authentication-failure/#далее" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/09/26/如何下载各版本Chrome的离线安装包/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="鲍方亮">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="IT飞鱼">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2015/09/26/如何下载各版本Chrome的离线安装包/" itemprop="url">如何下载各版本Chrome的离线安装包</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-09-26T12:19:44+08:00">
-                2015-09-26
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
-              </time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2015/09/26/如何下载各版本Chrome的离线安装包/" class="leancloud_visitors" data-flag-title="如何下载各版本Chrome的离线安装包">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-打开Chrome官网（自行搜索），我们就会看到如下图的下载按钮，然而点击下载后，下载的却是联网安装包，这对部分上网不方便的用户造成了一定的麻烦。 
-
-在官网首页，我们可以找到该网页的链接，如下图所示： 
-
-我们在该网页链接的后面加上?standalone=1就可以下载到离线安装包，这是最新稳定版的
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/09/26/如何下载各版本Chrome的离线安装包/#далее" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/09/18/JavaScript基础之Array对象/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="鲍方亮">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="IT飞鱼">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2015/09/18/JavaScript基础之Array对象/" itemprop="url">JavaScript基础之Array对象</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-09-18T14:33:26+08:00">
-                2015-09-18
-              </time>
-            
-
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
-              </time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/翻译/" itemprop="url" rel="index">
-                    <span itemprop="name">翻译</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/翻译/Web开发/" itemprop="url" rel="index">
-                    <span itemprop="name">Web开发</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2015/09/18/JavaScript基础之Array对象/" class="leancloud_visitors" data-flag-title="JavaScript基础之Array对象">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <blockquote>
-<p>原文链接：<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank" rel="external">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array</a></p>
-</blockquote>
-<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><blockquote>
-<p>The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects.</p>
-</blockquote>
-<p><strong>Create an Array</strong></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> fruits = [<span class="string">"Apple"</span>, <span class="string">"Banana"</span>];</div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(fruits.length);</div><div class="line"><span class="comment">// 2</span></div></pre></td></tr></table></figure>
-<p><strong>Access (index into) an Array item</strong></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> first = fruits[<span class="number">0</span>];</div><div class="line"><span class="comment">// Apple</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> last = fruits[fruits.length - <span class="number">1</span>];</div><div class="line"><span class="comment">// Banana</span></div></pre></td></tr></table></figure>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/09/18/JavaScript基础之Array对象/#далее" rel="contents">
+            <a class="btn" href="/2015/10/01/Vagrant-up-with-warning-of-Authentication-failure/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1932,7 +1940,7 @@ A: 将 $JAVA_HOME/lib/tools 拷贝到 ANDROID_STUDIO_ROOT/lib/ 下, 可执行如
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><a class="extend next" rel="next" href="/page/7/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/7/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1978,7 +1986,7 @@ A: 将 $JAVA_HOME/lib/tools 拷贝到 ANDROID_STUDIO_ROOT/lib/ 下, 可执行如
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">99</span>
+                <span class="site-state-item-count">101</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1989,7 +1997,7 @@ A: 将 $JAVA_HOME/lib/tools 拷贝到 ANDROID_STUDIO_ROOT/lib/ 下, 可执行如
             
             <div class="site-state-item site-state-categories">
               
-                <span class="site-state-item-count">23</span>
+                <span class="site-state-item-count">22</span>
                 <span class="site-state-item-name">分类</span>
               
             </div>
@@ -2000,7 +2008,7 @@ A: 将 $JAVA_HOME/lib/tools 拷贝到 ANDROID_STUDIO_ROOT/lib/ 下, 可执行如
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">55</span>
+                <span class="site-state-item-count">54</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
