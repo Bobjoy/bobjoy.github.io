@@ -115,6 +115,8 @@ public void setPId(ID pId) {
 
 再ajax请求，数据原样返回来了。
 
+> 2018-03-23 后来发现使用的 `fastjson` 的版本太低了，只需要更新 `fastjson` 的版本，无须修改bean，同样可以解决问题
+
 
 ## 问题原因
 
