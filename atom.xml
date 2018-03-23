@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bobjoy.github.io/"/>
-  <updated>2018-03-22T10:13:29.984Z</updated>
+  <updated>2018-03-23T01:34:03.140Z</updated>
   <id>http://bobjoy.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://bobjoy.github.io/2018/03/22/Java%E4%B8%ADBean%E5%B1%9E%E6%80%A7%E7%9A%84getter%E6%96%B9%E6%B3%95%E5%AE%9A%E4%B9%89%E5%AF%BC%E8%87%B4json%E6%95%B0%E6%8D%AE%E7%BC%BA%E5%A4%B1/"/>
     <id>http://bobjoy.github.io/2018/03/22/Java中Bean属性的getter方法定义导致json数据缺失/</id>
     <published>2018-03-22T09:53:03.000Z</published>
-    <updated>2018-03-22T10:13:29.984Z</updated>
+    <updated>2018-03-23T01:34:03.140Z</updated>
     
     <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>手头上有一个项目，使用的是 <code>jsp</code> 写的，数据都是使用 <code>jsp</code> 标签来处理的，现在想使用 <code>ajax</code> 请求。有一个页面用到了zTree，数据是用 <code>c:forEach</code> 标签封装的，如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">var zNodes =[</div><div class="line">    &lt;c:forEach items=&quot;$&#123;trees&#125;&quot; var=&quot;m&quot;&gt;</div><div class="line">    &#123; id:$&#123;m.id&#125;, pId:$&#123;m.pId&#125;, name:&quot;$&#123;m.name&#125;&quot;, iconSkin:&quot;$&#123;m.iconSkin&#125;&quot;, open: true, root : $&#123;m.root&#125;,isParent:$&#123;m.isParent&#125;&#125;,</div><div class="line">    &lt;/c:forEach&gt;</div><div class="line">];</div></pre></td></tr></table></figure>
@@ -30,6 +30,9 @@
 <h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>检查了配置文件，调试了半天，只能从源头查找问题，看到bean，看到 <code>pId</code>，突然想起来getter、setter方法大小写的问题，试着将getter、setter方法修改如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">public ID getPId() &#123;</div><div class="line">    return pId;</div><div class="line">&#125;</div><div class="line"></div><div class="line">public void setPId(ID pId) &#123;</div><div class="line">    this.pId = pId;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>再ajax请求，数据原样返回来了。</p>
+<blockquote>
+<p>2018-03-23 后来发现使用的 <code>fastjson</code> 的版本太低了，只需要更新 <code>fastjson</code> 的版本，无须修改bean，同样可以解决问题</p>
+</blockquote>
 <h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><h3 id="javaBean规范"><a href="#javaBean规范" class="headerlink" title="javaBean规范"></a>javaBean规范</h3><p>javabean规范文档：<a href="http://download.oracle.com/otndocs/jcp/7224-javabeans-1.01-fr-spec-oth-JSpec/，里面的有以下两个章节降到了具体的命名规则：" target="_blank" rel="external">http://download.oracle.com/otndocs/jcp/7224-javabeans-1.01-fr-spec-oth-JSpec/，里面的有以下两个章节降到了具体的命名规则：</a></p>
 <blockquote>
 <ul>
