@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bobjoy.github.io/"/>
-  <updated>2018-03-23T01:34:03.140Z</updated>
+  <updated>2018-03-28T06:36:45.839Z</updated>
   <id>http://bobjoy.github.io/</id>
   
   <author>
@@ -14,6 +14,75 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java-SpringMVC请求json，客户端显示406状态码</title>
+    <link href="http://bobjoy.github.io/2018/03/28/Java-SpringMVC%E8%AF%B7%E6%B1%82json%EF%BC%8C%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%98%BE%E7%A4%BA406%E7%8A%B6%E6%80%81%E7%A0%81/"/>
+    <id>http://bobjoy.github.io/2018/03/28/Java-SpringMVC请求json，客户端显示406状态码/</id>
+    <published>2018-03-28T05:39:31.000Z</published>
+    <updated>2018-03-28T06:36:45.839Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><ul>
+<li><p>主要配置：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">mvc:message-converters</span> <span class="attr">register-defaults</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- StringHttpMessageConverter编码为UTF-8，防止乱码 --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">class</span>=<span class="string">"org.springframework.http.converter.StringHttpMessageConverter"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">constructor-arg</span> <span class="attr">value</span>=<span class="string">"UTF-8"</span>/&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span> = <span class="string">"supportedMediaTypes"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">list</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">value</span>&gt;</span>text/plain;charset=UTF-8<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">value</span>&gt;</span>text/html;charset=UTF-8<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">list</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">property</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">bean</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 避免IE执行AJAX时,返回JSON出现下载文件 --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">"fastJsonHttpMessageConverter"</span> <span class="attr">class</span>=<span class="string">"com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">property</span> <span class="attr">name</span>=<span class="string">"supportedMediaTypes"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">list</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">value</span>&gt;</span>application/json;charset=UTF-8<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">list</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">property</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">bean</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">mvc:message-converters</span>&gt;</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>主要方法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * 新增</div><div class="line"> */</div><div class="line"><span class="meta">@RequestMapping</span>(value = <span class="string">"ajaxCreate"</span>, method = RequestMethod.POST)</div><div class="line"><span class="meta">@ResponseBody</span></div><div class="line"><span class="function"><span class="keyword">public</span> AjaxResponse <span class="title">ajaxCreate</span><span class="params">(@Valid @ModelAttribute(<span class="string">"m"</span>)</span> Sample m, BindingResult result) <span class="keyword">throws</span> AjaxException </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (permissionList != <span class="keyword">null</span>) &#123;</div><div class="line">        <span class="keyword">this</span>.permissionList.assertHasCreatePermission();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (hasError(m, result)) &#123;</div><div class="line">        <span class="keyword">return</span> AjaxResponse.fail(getErrors(result));</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    baseService.save(m);</div><div class="line">    <span class="keyword">return</span> AjaxResponse.ok(<span class="string">"新增成功"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>客户端请求：</p>
+<ul>
+<li>请求方法</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123;</div><div class="line">    <span class="attr">url</span>: <span class="string">'/showcase/sample/ajaxCreate'</span>,</div><div class="line">    <span class="attr">type</span>: <span class="string">'POST'</span>,</div><div class="line">    <span class="attr">date</span>: form,</div><div class="line">    <span class="attr">dateType</span>: <span class="string">'json'</span>,</div><div class="line">    <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params">ret</span>) </span>&#123;</div><div class="line">        <span class="comment">// ...</span></div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/82236650.jpg" alt=""></p>
+<p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/34804039.jpg" alt=""></p>
+</li>
+</ul>
+<h2 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h2><ol>
+<li><p>这个406错误码几乎没有碰到过，都不知道是什么意思，<a href="https://www.cnblogs.com/ylei11/p/6375862.html" target="_blank" rel="external">搜索</a>了解释：</p>
+<blockquote>
+<p>HTTP 错误 406<br>406 不可接受<br>根据此请求中所发送的“接受”标题，此请求所标识的资源只能生成内容特征为“不可接受”的响应实体。<br>如果问题依然存在，请与服务器的管理员联系。 </p>
+</blockquote>
+</li>
+<li><p>顿时懵逼了，不知如何下手，于是谷歌半天，查到如下解决方案</p>
+<ul>
+<li><del>由于使用的是fastjson，所以在官网<a href="https://github.com/alibaba/fastjson/issues/55" target="_blank" rel="external">github</a>上找到了相应的<a href="http://yingzhuo.iteye.com/blog/1602545" target="_blank" rel="external">办法</a></del></li>
+<li><del><a href="https://blog.csdn.net/woshiwanxin102213/article/details/37521303" target="_blank" rel="external">Spring4 MVC json问题(406 Not Acceptable)</a></del></li>
+<li>……</li>
+</ul>
+</li>
+<li><p>网络上查询到的解决方案大致都是一样的思路，然而在我的项目中并不起作用，折腾了一下午，解决思路都是围绕着后台，最好我尝试着重请求端去查找问题，于是我比对了以下正常请求与该请求，发现了一个不同：</p>
+<p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/81972710.jpg" alt=""></p>
+<p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/82236650.jpg" alt=""></p>
+<p>圈红框的地方就是不同之处，正常的请求头比异常的少了一块 <code>Accept: application/json, text/javascript, */*; q=0.01</code>，试着从此处入手，修改了ajax请求，添加了Accept头：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123;</div><div class="line">    <span class="attr">url</span>: <span class="string">'/showcase/sample/ajaxCreate'</span>,</div><div class="line">    <span class="attr">type</span>: <span class="string">'POST'</span>,</div><div class="line">    <span class="attr">date</span>: form,</div><div class="line">    <span class="attr">dateType</span>: <span class="string">'json'</span>,</div><div class="line">    <span class="attr">headers</span>: &#123;</div><div class="line">        <span class="attr">Accept</span>: <span class="string">'application/json; charset=utf-8'</span></div><div class="line">    &#125;,</div><div class="line">    <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params">ret</span>) </span>&#123;</div><div class="line">        <span class="comment">// ...</span></div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/15231607.jpg" alt=""></p>
+<p>问题解决了</p>
+</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>有时候解决问题不能太局限了，一开始是围绕着SpringMVC后台去查找问题，各种谷歌、StackOverflow的搜索，也尝试了找到的解决方案，由于每个人的场景肯不一样，所以找到的答案并不一定可以解决你的问题，所以这个时候就需要换个思路去想问题，既然406这个状态码是客户端请求错误，那么可以重客户端请求方面查找问题！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;主要配置：&lt;/p&gt;
+&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t
+    
+    </summary>
+    
+      <category term="编程开发" scheme="http://bobjoy.github.io/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Java" scheme="http://bobjoy.github.io/tags/Java/"/>
+    
+      <category term="SpringMVC" scheme="http://bobjoy.github.io/tags/SpringMVC/"/>
+    
+      <category term="Ajax" scheme="http://bobjoy.github.io/tags/Ajax/"/>
+    
+      <category term="406" scheme="http://bobjoy.github.io/tags/406/"/>
+    
+  </entry>
   
   <entry>
     <title>Java中Bean属性的getter方法定义导致json数据缺失</title>
@@ -1077,43 +1146,6 @@
     
     
       <category term="Java" scheme="http://bobjoy.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>百度网盘无法访问</title>
-    <link href="http://bobjoy.github.io/2017/07/08/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/"/>
-    <id>http://bobjoy.github.io/2017/07/08/百度网盘无法访问/</id>
-    <published>2017-07-08T07:41:10.000Z</published>
-    <updated>2017-07-23T07:34:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>访问百度网盘下载文件，网站内容如下</p>
-<p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/201707081544.png" alt="pan_baidu_com"></p>
-<a id="more"></a>
-<p>解决办法如下：</p>
-<ol>
-<li><p>将IP地址添加到hosts文件(C:\WINDOWS\system32\drivers\etc\hosts)中</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">119.75.220.50 pan.baidu.com</div></pre></td></tr></table></figure>
-</li>
-<li><p>刷新页面就可以正常访问了</p>
-</li>
-</ol>
-<blockquote>
-<p>后来发现，不仅网盘，贴吧也出现相同的情况，归根揭底是因为在网络连接中配置了，将其改为自动获取或者其他DNS服务器地址<br><img src="http://7xkexv.dl1.z0.glb.clouddn.com/20170723/windows_dns_config.png" alt=""></p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;访问百度网盘下载文件，网站内容如下&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xkexv.dl1.z0.glb.clouddn.com/201707081544.png&quot; alt=&quot;pan_baidu_com&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://bobjoy.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="随笔" scheme="http://bobjoy.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
