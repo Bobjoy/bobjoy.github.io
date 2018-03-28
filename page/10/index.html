@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -116,10 +102,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -161,21 +149,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -187,8 +160,7 @@
   
 
   <div class="container sidebar-position-left 
-   page-home 
- ">
+  page-home">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -204,7 +176,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -244,6 +216,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -254,12 +246,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -325,7 +337,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/28/vagrant-reload命令报错-UndefinedConversionError/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -343,9 +359,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/28/vagrant-reload命令报错-UndefinedConversionError/" itemprop="url">vagrant reload命令报错:UndefinedConversionError</a></h1>
+                <a class="post-title-link" href="/2015/07/28/vagrant-reload命令报错-UndefinedConversionError/" itemprop="url">vagrant reload命令报错:UndefinedConversionError</a></h2>
         
 
         <div class="post-meta">
@@ -371,10 +387,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:15:42+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -415,7 +431,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -431,16 +447,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/131699/pexels-photo-131699.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2v007gzsukool6rv3n"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/131699/pexels-photo-131699.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          修改了Vagrantfile文件后，运行vagrant reload命令，控制台直接报错了，错误如下
-12345678910111213/opt/vagrant/embedded/gems/gems/vagrant-1.7.2/lib/vagrant/util/subprocess.rb:28:in
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -452,18 +486,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -477,6 +508,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -489,7 +524,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/27/no-version-information-available/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -507,9 +546,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/27/no-version-information-available/" itemprop="url">no version information available</a></h1>
+                <a class="post-title-link" href="/2015/07/27/no-version-information-available/" itemprop="url">no version information available</a></h2>
         
 
         <div class="post-meta">
@@ -535,10 +574,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:10:27+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -579,7 +618,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -595,16 +634,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/379944/pexels-photo-379944.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2q0076zsukp9p037cz"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/379944/pexels-photo-379944.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          使用nvm安装nodejs的时候报错了，错误信息如下：
-12345678910111213vagrant@ubuntu-14:~$ nvm install 0.12.4curl: /home/vagrant/.linuxbrew/lib/libssl.so.1.0.0: no version inf
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -616,18 +673,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -641,6 +695,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -653,7 +711,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/24/C语言基础/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -671,9 +733,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/24/C语言基础/" itemprop="url">C语言基础</a></h1>
+                <a class="post-title-link" href="/2015/07/24/C语言基础/" itemprop="url">C语言基础</a></h2>
         
 
         <div class="post-meta">
@@ -699,10 +761,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:30:52+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -743,7 +805,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -759,16 +821,35 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/962326/pexels-photo-962326.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwhyy000bzsuk9bb9ouuh"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/962326/pexels-photo-962326.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           <h2 id="1-include"><a href="#1-include" class="headerlink" title="1.include"></a>1.include</h2><ul>
-<li>include“a.txt”:即a.txt中的内容加载到程序中。  </li>
-<li>include用法：如果导入的是系统自带的则用&lt;&gt;；  </li>
+<li>include“a.txt”:即a.txt中的内容加载到程序中。</li>
+<li>include用法：如果导入的是系统自带的则用&lt;&gt;；</li>
 <li>如果导入的是自己写的文件则用“”；</li>
 </ul>
 <h2 id="2-头文件"><a href="#2-头文件" class="headerlink" title="2.头文件"></a>2.头文件</h2><ul>
@@ -794,18 +875,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -819,6 +897,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -831,7 +913,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/23/Failed-to-build-gem-native-extension-cannot-load-such-file-mkmf-LoadError/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -849,9 +935,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/23/Failed-to-build-gem-native-extension-cannot-load-such-file-mkmf-LoadError/" itemprop="url">Failed to build gem native extension - cannot load such file -- mkmf(LoadError)</a></h1>
+                <a class="post-title-link" href="/2015/07/23/Failed-to-build-gem-native-extension-cannot-load-such-file-mkmf-LoadError/" itemprop="url">Failed to build gem native extension - cannot load such file -- mkmf(LoadError)</a></h2>
         
 
         <div class="post-meta">
@@ -877,10 +963,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:35:13+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -921,7 +1007,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -937,16 +1023,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/635609/pexels-photo-635609.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwhze000wzsukjiboeayo"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/635609/pexels-photo-635609.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          在Ubuntu Server上利用Gitlab搭建git服务器的时候，执行sudo bundle install --deployment --without development test postgres aws报一下错误
-1234567891011121314151617181920Don&
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -958,18 +1062,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -983,6 +1084,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -995,7 +1100,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/23/我的MacMini上安装的Apps/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1013,9 +1122,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/23/我的MacMini上安装的Apps/" itemprop="url">我的MacMini上安装的Apps</a></h1>
+                <a class="post-title-link" href="/2015/07/23/我的MacMini上安装的Apps/" itemprop="url">我的MacMini上安装的Apps</a></h2>
         
 
         <div class="post-meta">
@@ -1041,10 +1150,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:04:24+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1063,7 +1172,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1079,17 +1188,35 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/860379/pexels-photo-860379.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi350089zsuk20e1nks7"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/860379/pexels-photo-860379.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
           
-
-          
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/07/23/我的MacMini上安装的Apps/#more" rel="contents">
@@ -1100,18 +1227,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1125,6 +1249,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1137,7 +1265,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/21/iOS完整学习路线图/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1155,9 +1287,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/21/iOS完整学习路线图/" itemprop="url">iOS完整学习路线图</a></h1>
+                <a class="post-title-link" href="/2015/07/21/iOS完整学习路线图/" itemprop="url">iOS完整学习路线图</a></h2>
         
 
         <div class="post-meta">
@@ -1183,10 +1315,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:44:36+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1227,7 +1359,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1243,17 +1375,35 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/754444/pexels-photo-754444.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2e006ezsuk8ydw1mi7"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/754444/pexels-photo-754444.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
           
-
-          
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/07/21/iOS完整学习路线图/#more" rel="contents">
@@ -1264,18 +1414,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1289,6 +1436,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1301,7 +1452,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/20/全栈工程师技能树/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1319,9 +1474,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/20/全栈工程师技能树/" itemprop="url">全栈工程师技能树</a></h1>
+                <a class="post-title-link" href="/2015/07/20/全栈工程师技能树/" itemprop="url">全栈工程师技能树</a></h2>
         
 
         <div class="post-meta">
@@ -1347,10 +1502,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:05:52+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1369,7 +1524,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1385,17 +1540,35 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/745407/pexels-photo-745407.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi320081zsukfkyafyuq"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/745407/pexels-photo-745407.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
           
-
-          
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/07/20/全栈工程师技能树/#more" rel="contents">
@@ -1406,18 +1579,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1431,6 +1601,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1443,7 +1617,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/20/Xcode快捷键/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1461,9 +1639,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/20/Xcode快捷键/" itemprop="url">Xcode快捷键</a></h1>
+                <a class="post-title-link" href="/2015/07/20/Xcode快捷键/" itemprop="url">Xcode快捷键</a></h2>
         
 
         <div class="post-meta">
@@ -1489,10 +1667,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:59:19+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1511,7 +1689,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1527,17 +1705,35 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/891677/pexels-photo-891677.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi22005izsuk9o159q2n"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/891677/pexels-photo-891677.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          完整内容请查看PDF文档
-
           
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/07/20/Xcode快捷键/#more" rel="contents">
@@ -1548,18 +1744,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1573,6 +1766,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1585,7 +1782,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/16/解决npm-的-shasum-check-failed-for错误/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1603,9 +1804,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/16/解决npm-的-shasum-check-failed-for错误/" itemprop="url">解决npm 的 shasum check failed for错误</a></h1>
+                <a class="post-title-link" href="/2015/07/16/解决npm-的-shasum-check-failed-for错误/" itemprop="url">解决npm 的 shasum check failed for错误</a></h2>
         
 
         <div class="post-meta">
@@ -1631,10 +1832,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:01:05+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1675,7 +1876,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1691,17 +1892,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/732548/pexels-photo-732548.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3l009hzsukzpp0lmvw"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/732548/pexels-photo-732548.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          使用npm安装一些包失败了的看过来（npm国内镜像介绍）镜像使用方法（三种办法任意一种都能解决问题，建议使用第三种，将配置写死，下次用的时候配置还在）:  
-1.通过config命令
-npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1713,18 +1931,15 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1738,6 +1953,10 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1750,7 +1969,11 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/16/MySQL-修改root密码的4种方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1768,9 +1991,9 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/16/MySQL-修改root密码的4种方法/" itemprop="url">MySQL-修改root密码的4种方法</a></h1>
+                <a class="post-title-link" href="/2015/07/16/MySQL-修改root密码的4种方法/" itemprop="url">MySQL-修改root密码的4种方法</a></h2>
         
 
         <div class="post-meta">
@@ -1796,10 +2019,10 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-03-22T11:15:59+08:00">
-                2018-03-22
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:09:16+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1840,7 +2063,7 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1856,16 +2079,34 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/321441/pexels-photo-321441.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi1d0049zsuk47d1p2qy"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/321441/pexels-photo-321441.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          本文以windows为例为大家详细介绍下MySQL修改root密码的4种方法，大家可以可以根据的自己的情况自由选择，希望对大家有所帮助
-方法1： 用SET PASSWORD命令首先登录MySQL。格式：mysql&gt; set password for 用户名@localhost = passwo
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1877,18 +2118,15 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1902,6 +2140,10 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1934,80 +2176,78 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -2024,27 +2264,27 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -2069,6 +2309,21 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -2078,6 +2333,8 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -2112,50 +2369,58 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
   
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -2174,16 +2439,18 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
 
 
   
-    
-
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -2516,7 +2783,7 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -2623,6 +2890,8 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -2639,6 +2908,7 @@ npm config &lt;span class=&quot;hljs-keyword&quot;&gt;set&
 </script>
 
 
+  
   
 
   

@@ -2,93 +2,716 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://bobjoy.github.io/2018/03/28/Java-SpringMVC%E8%AF%B7%E6%B1%82json%EF%BC%8C%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%98%BE%E7%A4%BA406%E7%8A%B6%E6%80%81%E7%A0%81/</loc>
+    <loc>http://bobjoy.github.io/2015/09/17/win8%E4%B8%AD%E8%AE%A9cmd-exe%E5%A7%8B%E7%BB%88%E4%BB%A5%E7%AE%A1%E7%90%86%E5%91%98%E8%BA%AB%E4%BB%BD%E8%BF%90%E8%A1%8C/</loc>
     
-    <lastmod>2018-03-28T06:36:45.839Z</lastmod>
+    <lastmod>2018-03-28T08:16:55.177Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://bobjoy.github.io/2018/03/22/Java%E4%B8%ADBean%E5%B1%9E%E6%80%A7%E7%9A%84getter%E6%96%B9%E6%B3%95%E5%AE%9A%E4%B9%89%E5%AF%BC%E8%87%B4json%E6%95%B0%E6%8D%AE%E7%BC%BA%E5%A4%B1/</loc>
+    <loc>http://bobjoy.github.io/2016/07/18/Web-API%E6%8E%A5%E5%8F%A3%E4%B9%8BMutationObserver/</loc>
     
-    <lastmod>2018-03-23T01:34:03.140Z</lastmod>
+    <lastmod>2018-03-28T08:16:15.896Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/28/vagrant-reload%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99-UndefinedConversionError/</loc>
+    
+    <lastmod>2018-03-28T08:15:42.005Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/16/Updating-Maven-Project-Unsupported-IClasspathEntry-kind-4/</loc>
+    
+    <lastmod>2018-03-28T08:15:24.165Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/15/UnicodeEncodeError-ascii-codec-can-t-encode-character-%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2018-03-28T08:14:40.046Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/11/05/Ubuntu%E4%B8%8B%E9%80%9A%E8%BF%87nvm%E5%AE%89%E8%A3%85node%EF%BC%8Cnpm-command-not-found/</loc>
+    
+    <lastmod>2018-03-28T08:14:17.317Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/13/Ubuntu%E4%B8%8Avim%E9%85%8D%E7%BD%AEYoucompleteMe%E6%97%B6-install-sh-clang-completer%E5%87%BA%E7%8E%B0%E9%94%99%E8%AF%AF/</loc>
+    
+    <lastmod>2018-03-28T08:13:58.685Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/10/31/tools-jar-seems-to-be-not-in-Studio-classpath/</loc>
+    
+    <lastmod>2018-03-28T08:13:37.899Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/03/23/SSL-connect-returned-1-errno-0-state-SSLv3-read-server-certificate-B-certificate-verify-failed/</loc>
+    
+    <lastmod>2018-03-28T08:13:21.774Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/08/15/SSH%E5%85%AC%E9%92%A5%E4%B8%AD%E4%BF%9D%E5%AD%98%E5%A4%9A%E4%B8%AAgit%E8%B4%A6%E5%8F%B7/</loc>
+    
+    <lastmod>2018-03-28T08:13:01.742Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/02/19/SonarQube%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E5%90%8E%EF%BC%8C%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1/</loc>
+    
+    <lastmod>2018-03-28T08:12:23.620Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/01/29/shim%E5%92%8Cpolyfill%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/</loc>
+    
+    <lastmod>2018-03-28T08:12:04.102Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/07/pip%E9%85%8D%E7%BD%AE%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/</loc>
+    
+    <lastmod>2018-03-28T08:11:44.557Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/02/04/npm-prompt-lua-11-attempt-to-concatenate-local-package-version-a-nil-value/</loc>
+    
+    <lastmod>2018-03-28T08:11:19.120Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/05/08/node-sass%E6%A8%A1%E5%9D%97%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5/</loc>
+    
+    <lastmod>2018-03-28T08:11:00.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/27/no-version-information-available/</loc>
+    
+    <lastmod>2018-03-28T08:10:27.020Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://bobjoy.github.io/2018/03/22/MySQL-%E7%AD%9B%E9%80%89%E5%87%BA%E6%AF%8F%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%97%B6%E9%97%B4%E6%9C%80%E6%96%B0%E7%9A%84%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95/</loc>
     
-    <lastmod>2018-03-22T03:50:52.703Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/07/28/MySQL-%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</loc>
-    
-    <lastmod>2018-03-22T03:16:08.125Z</lastmod>
+    <lastmod>2018-03-28T08:10:07.381Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://bobjoy.github.io/2015/07/16/MySQL-%E4%BF%AE%E6%94%B9root%E5%AF%86%E7%A0%81%E7%9A%844%E7%A7%8D%E6%96%B9%E6%B3%95/</loc>
     
-    <lastmod>2018-03-22T03:15:59.996Z</lastmod>
+    <lastmod>2018-03-28T08:09:16.975Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://bobjoy.github.io/2018/02/27/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-4-%E5%AF%BC%E5%87%BA%E6%96%B0%E4%BF%AE%E6%94%B9%E7%9A%84%E6%96%87%E4%BB%B6/</loc>
+    <loc>http://bobjoy.github.io/2017/07/28/MySQL-%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</loc>
     
-    <lastmod>2018-02-27T02:03:07.924Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/12/15/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%90%9C%E8%97%8F/</loc>
-    
-    <lastmod>2018-01-31T09:25:45.343Z</lastmod>
+    <lastmod>2018-03-28T08:08:59.400Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://bobjoy.github.io/2018/01/30/Java%E4%BD%BF%E7%94%A8jsoup%E6%8F%90%E5%8F%96mht%E6%96%87%E4%BB%B6%E4%B8%AD%E5%9B%BE%E7%89%87%E5%BC%82%E5%B8%B8/</loc>
+    <loc>http://bobjoy.github.io/2015/09/16/Maven%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     
-    <lastmod>2018-01-30T07:50:52.166Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2018/01/09/Java%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E9%9B%86%E9%94%A6/</loc>
-    
-    <lastmod>2018-01-09T01:36:08.988Z</lastmod>
+    <lastmod>2018-03-28T08:08:33.826Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://bobjoy.github.io/2018/01/05/%E8%BD%AC-%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/</loc>
+    <loc>http://bobjoy.github.io/2015/07/29/Mac%E5%AE%89%E8%A3%85Android-SDK/</loc>
     
-    <lastmod>2018-01-05T04:23:02.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2018/01/04/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-3-%E5%B0%86%E9%A1%B9%E7%9B%AE%E6%8F%90%E4%BA%A4%E5%88%B0%E4%B8%A4%E4%B8%AAgit%E4%BB%93%E5%BA%93/</loc>
-    
-    <lastmod>2018-01-04T07:21:17.038Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/12/28/JavaWeb%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</loc>
-    
-    <lastmod>2017-12-28T04:36:47.904Z</lastmod>
+    <lastmod>2018-03-28T08:08:15.699Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://bobjoy.github.io/2017/12/27/Windows%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</loc>
     
-    <lastmod>2017-12-27T07:43:20.137Z</lastmod>
+    <lastmod>2018-03-28T08:07:54.528Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/01/25/z-index%E5%9C%A8IE%E4%B8%AD%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    
+    <lastmod>2018-03-28T08:07:30.172Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/05/01/%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%8B%96%E5%BB%B6/</loc>
+    
+    <lastmod>2018-03-28T08:06:58.311Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/30/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BD%BF%E7%94%A8-OS-X/</loc>
+    
+    <lastmod>2018-03-28T08:06:43.910Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/28/%E4%BD%BF%E7%94%A8hexo-generate%E7%94%9F%E6%88%90%E6%96%87%E7%AB%A0%E6%97%B6%E6%8A%A5%E9%94%99JS-YAML-can-not-read-a-block-mapping-entry/</loc>
+    
+    <lastmod>2018-03-28T08:06:15.036Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/20/%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E8%83%BD%E6%A0%91/</loc>
+    
+    <lastmod>2018-03-28T08:05:52.877Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/26/%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BD%E5%90%84%E7%89%88%E6%9C%ACChrome%E7%9A%84%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85/</loc>
+    
+    <lastmod>2018-03-28T08:05:32.864Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/29/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86%E4%B9%8BWindows/</loc>
+    
+    <lastmod>2018-03-28T08:05:10.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/20/%E5%BC%80%E6%94%BEAPI%E6%8E%A5%E5%8F%A3%E9%AA%8C%E8%AF%81/</loc>
+    
+    <lastmod>2018-03-28T08:04:51.847Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/23/%E6%88%91%E7%9A%84MacMini%E4%B8%8A%E5%AE%89%E8%A3%85%E7%9A%84Apps/</loc>
+    
+    <lastmod>2018-03-28T08:04:24.774Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2018-03-28T08:03:58.592Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/04/30/%E6%8D%AE%E8%AF%B4%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%90%84%E7%A7%8D%E4%BC%9A%E8%81%8A%E5%A4%A9%EF%BC%8C%E8%83%BD%E6%AF%94%E5%88%AB%E4%BA%BA%E5%B0%91%E5%A5%8B%E6%96%9710%E5%B9%B4/</loc>
+    
+    <lastmod>2018-03-28T08:03:40.260Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/08/05/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90Objective-C%E7%AC%94%E8%AF%95%E9%A2%98/</loc>
+    
+    <lastmod>2018-03-28T08:03:13.442Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/16/%E7%BC%96%E8%AF%91iOS%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99-architecture/</loc>
+    
+    <lastmod>2018-03-28T08:02:45.257Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/28/%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85nginx%E6%8A%A5%E9%94%99-install-docs-Error-255/</loc>
+    
+    <lastmod>2018-03-28T08:02:15.819Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/11/25/%E8%87%AA%E7%BC%96%E8%AF%91ngrok%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
+    
+    <lastmod>2018-03-28T08:01:51.545Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/07/29/%E8%A7%A3%E5%86%B3git-fatal-Unable-to-find-remote-helper-for-https-%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2018-03-28T08:01:26.979Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/16/%E8%A7%A3%E5%86%B3npm-%E7%9A%84-shasum-check-failed-for%E9%94%99%E8%AF%AF/</loc>
+    
+    <lastmod>2018-03-28T08:01:05.369Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/30/%E6%88%91%E7%9A%84%E5%85%A8%E6%A0%88%E4%B9%8B%E8%B7%AF/</loc>
+    
+    <lastmod>2018-03-28T08:00:08.883Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/12/15/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E7%9B%98%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%90%9C%E8%97%8F/</loc>
+    
+    <lastmod>2018-03-28T07:59:38.107Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/20/Xcode%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    
+    <lastmod>2018-03-28T07:59:19.936Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/10/01/Vagrant-up-with-warning-of-Authentication-failure/</loc>
+    
+    <lastmod>2018-03-28T07:59:01.399Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/11/23/Mybatis%E5%8D%95%E4%B8%AA%E5%8F%82%E6%95%B0%E7%9A%84if%E5%88%A4%E6%96%AD%EF%BC%88%E9%92%88%E5%AF%B9%E5%BC%82%E5%B8%B8%EF%BC%9AThere-is-no-getter-for-property-%EF%BC%89/</loc>
+    
+    <lastmod>2018-03-28T07:58:39.713Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/30/nginx%E8%BF%90%E8%A1%8CPHP%E9%A1%B5%E9%9D%A2%E6%8A%A5502%E9%94%99%E8%AF%AF/</loc>
+    
+    <lastmod>2018-03-28T07:58:10.203Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/30/SublimeText%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/</loc>
+    
+    <lastmod>2018-03-28T07:57:32.813Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/08/03/ruby%E5%AE%89%E8%A3%85%E6%97%B6%E9%94%99%E8%AF%AF-mysql2/</loc>
+    
+    <lastmod>2018-03-28T07:57:14.382Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/15/Unbalanced-calls-to-begin-end-appearance-transitions/</loc>
+    
+    <lastmod>2018-03-28T07:56:52.727Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/21/Linux%E5%91%BD%E4%BB%A4%E4%B9%8Btar/</loc>
+    
+    <lastmod>2018-03-28T07:56:24.824Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/20/Linux%E5%91%BD%E4%BB%A4%E4%B9%8Blsof/</loc>
+    
+    <lastmod>2018-03-28T07:56:03.774Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/21/Linux%E5%91%BD%E4%BB%A4%E4%B9%8Biptables/</loc>
+    
+    <lastmod>2018-03-28T07:55:42.197Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/02/03/karma-start-Cannot-find-module-jasmine-core/</loc>
+    
+    <lastmod>2018-03-28T07:55:21.577Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/29/JS%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
+    
+    <lastmod>2018-03-28T07:54:39.123Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/07/11/Java%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93-%E6%8F%90%E7%A4%BAEstablishing-SSL-connection-without%E8%AD%A6%E5%91%8A/</loc>
+    
+    <lastmod>2018-03-28T07:54:00.585Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/07/26/Java%E8%AF%BB%E5%8F%96INI%E6%96%87%E4%BB%B6%E6%97%B6%E8%BF%94%E5%9B%9E%E7%A9%BA/</loc>
+    
+    <lastmod>2018-03-28T07:53:09.677Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2018/01/09/Java%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E9%9B%86%E9%94%A6/</loc>
+    
+    <lastmod>2018-03-28T07:52:47.581Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2018/01/30/Java%E4%BD%BF%E7%94%A8jsoup%E6%8F%90%E5%8F%96mht%E6%96%87%E4%BB%B6%E4%B8%AD%E5%9B%BE%E7%89%87%E5%BC%82%E5%B8%B8/</loc>
+    
+    <lastmod>2018-03-28T07:52:23.378Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/12/28/JavaWeb%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</loc>
+    
+    <lastmod>2018-03-28T07:51:57.916Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/18/JavaScript%E5%9F%BA%E7%A1%80%E4%B9%8BArray%E5%AF%B9%E8%B1%A1/</loc>
+    
+    <lastmod>2018-03-28T07:51:42.160Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/08/04/JavaScript-%E8%8E%B7%E5%8F%96%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%86%85%E7%BD%91IP%E5%92%8C%E5%A4%96%E7%BD%91IP-STUN/</loc>
+    
+    <lastmod>2018-03-28T07:51:20.302Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/03/26/%E8%A7%A3%E5%86%B3virtualbox%E5%A4%8D%E5%88%B6ubuntu%E5%90%8E%E6%94%B9%E5%8F%98mac%E5%9C%B0%E5%9D%80%E4%B8%8D%E8%83%BD%E8%AF%86%E5%88%AB%E7%BD%91%E5%8D%A1%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2018-03-28T07:50:45.531Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/07/23/%E8%AE%B0%E4%B8%80%E6%AC%A1OPPO-R9s%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</loc>
+    
+    <lastmod>2018-03-28T07:50:21.777Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/08/03/%E8%AE%B0%E4%B8%80%E6%AC%A1Spring%E6%B3%A8%E5%85%A5Bean%E5%BC%82%E5%B8%B8/</loc>
+    
+    <lastmod>2018-03-28T07:50:05.728Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/03/24/%E8%BD%AC-Clickjacking%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</loc>
+    
+    <lastmod>2018-03-28T07:49:46.536Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/07/23/%E8%BD%AC-%E4%B8%80%E4%B8%AA%E5%91%BD%E4%BB%A4%E6%B0%B8%E4%B9%85%E7%A6%81%E7%94%A8Win10%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%BC%BA%E5%88%B6%E7%AD%BE%E5%90%8D/</loc>
+    
+    <lastmod>2018-03-28T07:49:23.975Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/07/14/%E8%BD%AC-%E5%9F%BA%E4%BA%8E%E8%A7%86%E7%AA%97%E5%8D%95%E4%BD%8D%E7%9A%84%E6%8E%92%E7%89%88/</loc>
+    
+    <lastmod>2018-03-28T07:49:06.179Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2018/01/05/%E8%BD%AC-%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/</loc>
+    
+    <lastmod>2018-03-28T07:48:50.070Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/08/10/%E8%BF%90%E8%A1%8Cjava%EF%BC%8C%E6%8F%90%E7%A4%BA%E6%89%BE%E4%B8%8D%E5%88%B0%E6%88%96%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E4%B8%BB%E7%B1%BB/</loc>
+    
+    <lastmod>2018-03-28T07:48:27.667Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/08/28/%E9%AD%85%E6%97%8F%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
+    
+    <lastmod>2018-03-28T07:46:42.881Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/01/11/JavaScript-%E4%BA%8B%E4%BB%B6%E2%80%94%E2%80%94%E2%80%9C%E4%BA%8B%E4%BB%B6%E6%B5%81%E5%92%8C%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86%E7%A8%8B%E5%BA%8F%E2%80%9D/</loc>
+    
+    <lastmod>2018-03-28T07:46:17.816Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/16/Java-8%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8B%E6%97%85%EF%BC%9A%E4%BD%BF%E7%94%A8Stream-API%E5%A4%84%E7%90%86%E9%9B%86%E5%90%88/</loc>
+    
+    <lastmod>2018-03-28T07:45:36.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/08/10/iOS%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/</loc>
+    
+    <lastmod>2018-03-28T07:44:55.687Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/21/iOS%E5%AE%8C%E6%95%B4%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/</loc>
+    
+    <lastmod>2018-03-28T07:44:36.701Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/01/19/IE9%E4%B8%ADScript438-%E5%AF%B9%E8%B1%A1%E4%B8%8D%E6%94%AF%E6%8C%81%E2%80%9CcreateContextualFragment%E2%80%9D%E5%B1%9E%E6%80%A7%E6%88%96%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2018-03-28T07:40:32.019Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/06/28/Hibernate%E6%9F%A5%E8%AF%A2MySQL%E6%8A%9B%E5%87%BAStringIndexOutOfBoundsException%E5%BC%82%E5%B8%B8/</loc>
+    
+    <lastmod>2018-03-28T07:40:09.787Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/06/28/Hexo%E5%91%BD%E4%BB%A4server%E6%97%A0%E6%95%88/</loc>
+    
+    <lastmod>2018-03-28T07:39:49.350Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/17/hexo%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E6%97%B6%E6%8F%90%E7%A4%BANo-such-deive-or-address%E9%94%99%E8%AF%AF/</loc>
+    
+    <lastmod>2018-03-28T07:39:15.958Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/11/19/gradle%E5%B7%A5%E7%A8%8B%E6%8F%90%E7%A4%BAUnable-to-start-the-daemon-process/</loc>
+    
+    <lastmod>2018-03-28T07:38:55.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/17/git%E6%8F%90%E7%A4%BAwarning-LF-will-be-replaced-by-CRLF/</loc>
+    
+    <lastmod>2018-03-28T07:38:20.612Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2018/02/27/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-4-%E5%AF%BC%E5%87%BA%E6%96%B0%E4%BF%AE%E6%94%B9%E7%9A%84%E6%96%87%E4%BB%B6/</loc>
+    
+    <lastmod>2018-03-28T07:37:46.727Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2018/01/04/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-3-%E5%B0%86%E9%A1%B9%E7%9B%AE%E6%8F%90%E4%BA%A4%E5%88%B0%E4%B8%A4%E4%B8%AAgit%E4%BB%93%E5%BA%93/</loc>
+    
+    <lastmod>2018-03-28T07:37:24.928Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/02/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-2-%E6%8B%89%E5%8F%96%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95/</loc>
+    
+    <lastmod>2018-03-28T07:36:49.971Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/08/26/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E6%B7%BB%E5%8A%A0%E5%88%A0%E9%99%A4%E5%88%86%E6%94%AF/</loc>
+    
+    <lastmod>2018-03-28T07:36:27.462Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2017/07/23/GIT%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</loc>
+    
+    <lastmod>2018-03-28T07:36:03.388Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/03/27/Fix-Cannot-Add-PPA-Error-In-Ubuntu-14-04-Linux-Mint-17/</loc>
+    
+    <lastmod>2018-03-28T07:35:36.620Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/23/Failed-to-build-gem-native-extension-cannot-load-such-file-mkmf-LoadError/</loc>
+    
+    <lastmod>2018-03-28T07:35:13.474Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/01/19/extjs%E8%8F%9C%E5%8D%95%E6%A0%91%E5%9C%A8IE9%E4%B8%8B%E4%B8%8D%E8%83%BD%E5%8A%A0%E8%BD%BD%EF%BC%8C%E6%8A%A5SCRIPT5007-%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E6%9C%AA%E5%AE%9A%E4%B9%89%E6%88%96-null-%E5%BC%95%E7%94%A8%E7%9A%84%E5%B1%9E%E6%80%A7%E2%80%9Cui%E2%80%9D/</loc>
+    
+    <lastmod>2018-03-28T07:34:22.330Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/17/Error-fatal-Unable-to-find-remote-helper-for-https/</loc>
+    
+    <lastmod>2018-03-28T07:34:01.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/03/01/ERROR-Could-not-find-a-valid-gem-sass/</loc>
+    
+    <lastmod>2018-03-28T07:33:37.588Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/05/05/Eclipse%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95Tomcat%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2018-03-28T07:33:15.127Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/01/20/Eclipse%E4%B8%AD%E5%90%AF%E5%8A%A8tomcat%E6%8A%A5%E9%94%99java-lang-OutOfMemoryError-PermGen-space%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2018-03-28T07:32:38.635Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/10/05/DOM-%E4%B8%AD-Property-%E5%92%8C-Attribute-%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    
+    <lastmod>2018-03-28T07:32:12.147Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/08/06/docker%E5%AE%B9%E5%99%A8%E4%B8%AD%E5%AE%89%E8%A3%85vim/</loc>
+    
+    <lastmod>2018-03-28T07:31:43.264Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2016/06/14/Context-namespace-element-annotation-config-are-only-available-on-JDK-1-5-and-higher/</loc>
+    
+    <lastmod>2018-03-28T07:31:06.562Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/24/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</loc>
+    
+    <lastmod>2018-03-28T07:30:52.549Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/10/22/CocoaPod-%E5%87%BA%E7%8E%B0-Unable-to-satisfy-the-following-requirements-required-by-Podfile/</loc>
+    
+    <lastmod>2018-03-28T07:29:45.616Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/07/31/brew%E5%AE%89%E8%A3%85appledoc%E6%97%B6%E6%8F%90%E7%A4%BANo-available-formula-for-appledoc/</loc>
+    
+    <lastmod>2018-03-28T07:29:08.484Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/12/07/Android%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95Invalid-layout-of-java-lang-String-at-value/</loc>
+    
+    <lastmod>2018-03-28T07:28:33.282Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/10/31/Android-Studio%E9%85%8D%E7%BD%AERespository%E6%9B%B4%E6%96%B0Android-SDK/</loc>
+    
+    <lastmod>2018-03-28T07:27:48.472Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2018/03/22/Java%E4%B8%ADBean%E5%B1%9E%E6%80%A7%E7%9A%84getter%E6%96%B9%E6%B3%95%E5%AE%9A%E4%B9%89%E5%AF%BC%E8%87%B4json%E6%95%B0%E6%8D%AE%E7%BC%BA%E5%A4%B1/</loc>
+    
+    <lastmod>2018-03-28T07:21:32.339Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2015/09/16/40%E4%B8%AAJava%E9%9B%86%E5%90%88%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E5%92%8C%E7%AD%94%E6%A1%88/</loc>
+    
+    <lastmod>2018-03-28T07:20:38.982Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bobjoy.github.io/2018/03/28/Java-SpringMVC%E8%AF%B7%E6%B1%82json%EF%BC%8C%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%98%BE%E7%A4%BA406%E7%8A%B6%E6%80%81%E7%A0%81/</loc>
+    
+    <lastmod>2018-03-28T07:16:02.150Z</lastmod>
     
   </url>
   
@@ -103,629 +726,6 @@
     <loc>http://bobjoy.github.io/about/index.html</loc>
     
     <lastmod>2017-12-20T09:26:53.779Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/08/28/%E9%AD%85%E6%97%8F%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.778Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/08/10/%E8%BF%90%E8%A1%8Cjava%EF%BC%8C%E6%8F%90%E7%A4%BA%E6%89%BE%E4%B8%8D%E5%88%B0%E6%88%96%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E4%B8%BB%E7%B1%BB/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.777Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/07/14/%E8%BD%AC-%E5%9F%BA%E4%BA%8E%E8%A7%86%E7%AA%97%E5%8D%95%E4%BD%8D%E7%9A%84%E6%8E%92%E7%89%88/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.776Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/07/23/%E8%BD%AC-%E4%B8%80%E4%B8%AA%E5%91%BD%E4%BB%A4%E6%B0%B8%E4%B9%85%E7%A6%81%E7%94%A8Win10%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%BC%BA%E5%88%B6%E7%AD%BE%E5%90%8D/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.774Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/03/24/%E8%BD%AC-Clickjacking%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.773Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/08/03/%E8%AE%B0%E4%B8%80%E6%AC%A1Spring%E6%B3%A8%E5%85%A5Bean%E5%BC%82%E5%B8%B8/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.772Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/07/23/%E8%AE%B0%E4%B8%80%E6%AC%A1OPPO-R9s%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.771Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/03/26/%E8%A7%A3%E5%86%B3virtualbox%E5%A4%8D%E5%88%B6ubuntu%E5%90%8E%E6%94%B9%E5%8F%98mac%E5%9C%B0%E5%9D%80%E4%B8%8D%E8%83%BD%E8%AF%86%E5%88%AB%E7%BD%91%E5%8D%A1%E9%97%AE%E9%A2%98/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.770Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/16/%E8%A7%A3%E5%86%B3npm-%E7%9A%84-shasum-check-failed-for%E9%94%99%E8%AF%AF/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.769Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/07/29/%E8%A7%A3%E5%86%B3git-fatal-Unable-to-find-remote-helper-for-https-%E9%97%AE%E9%A2%98/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.767Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/11/25/%E8%87%AA%E7%BC%96%E8%AF%91ngrok%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.766Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/28/%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85nginx%E6%8A%A5%E9%94%99-install-docs-Error-255/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.765Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/16/%E7%BC%96%E8%AF%91iOS%E9%A1%B9%E7%9B%AE%E6%8A%A5%E9%94%99-architecture/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.764Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/08/05/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90Objective-C%E7%AC%94%E8%AF%95%E9%A2%98/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.761Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/04/30/%E6%8D%AE%E8%AF%B4%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%90%84%E7%A7%8D%E4%BC%9A%E8%81%8A%E5%A4%A9%EF%BC%8C%E8%83%BD%E6%AF%94%E5%88%AB%E4%BA%BA%E5%B0%91%E5%A5%8B%E6%96%9710%E5%B9%B4/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.759Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.758Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/30/%E6%88%91%E7%9A%84%E5%85%A8%E6%A0%88%E4%B9%8B%E8%B7%AF/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.757Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/23/%E6%88%91%E7%9A%84MacMini%E4%B8%8A%E5%AE%89%E8%A3%85%E7%9A%84Apps/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.756Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/20/%E5%BC%80%E6%94%BEAPI%E6%8E%A5%E5%8F%A3%E9%AA%8C%E8%AF%81/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.755Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/29/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86%E4%B9%8BWindows/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.753Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/26/%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BD%E5%90%84%E7%89%88%E6%9C%ACChrome%E7%9A%84%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.752Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/20/%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E8%83%BD%E6%A0%91/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.750Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/28/%E4%BD%BF%E7%94%A8hexo-generate%E7%94%9F%E6%88%90%E6%96%87%E7%AB%A0%E6%97%B6%E6%8A%A5%E9%94%99JS-YAML-can-not-read-a-block-mapping-entry/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.749Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/30/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BD%BF%E7%94%A8-OS-X/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.747Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/05/01/%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%8B%96%E5%BB%B6/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.746Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/01/25/z-index%E5%9C%A8IE%E4%B8%AD%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.745Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/17/win8%E4%B8%AD%E8%AE%A9cmd-exe%E5%A7%8B%E7%BB%88%E4%BB%A5%E7%AE%A1%E7%90%86%E5%91%98%E8%BA%AB%E4%BB%BD%E8%BF%90%E8%A1%8C/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.744Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/28/vagrant-reload%E5%91%BD%E4%BB%A4%E6%8A%A5%E9%94%99-UndefinedConversionError/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.742Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/10/31/tools-jar-seems-to-be-not-in-Studio-classpath/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.741Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/01/29/shim%E5%92%8Cpolyfill%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.740Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/08/03/ruby%E5%AE%89%E8%A3%85%E6%97%B6%E9%94%99%E8%AF%AF-mysql2/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.739Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/07/pip%E9%85%8D%E7%BD%AE%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.738Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/02/04/npm-prompt-lua-11-attempt-to-concatenate-local-package-version-a-nil-value/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.736Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/05/08/node-sass%E6%A8%A1%E5%9D%97%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.735Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/27/no-version-information-available/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.734Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/30/nginx%E8%BF%90%E8%A1%8CPHP%E9%A1%B5%E9%9D%A2%E6%8A%A5502%E9%94%99%E8%AF%AF/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.732Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/02/03/karma-start-Cannot-find-module-jasmine-core/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.731Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/08/10/iOS%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.730Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/21/iOS%E5%AE%8C%E6%95%B4%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.729Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/17/hexo%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E6%97%B6%E6%8F%90%E7%A4%BANo-such-deive-or-address%E9%94%99%E8%AF%AF/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.728Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/11/19/gradle%E5%B7%A5%E7%A8%8B%E6%8F%90%E7%A4%BAUnable-to-start-the-daemon-process/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.727Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/17/git%E6%8F%90%E7%A4%BAwarning-LF-will-be-replaced-by-CRLF/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.726Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/01/19/extjs%E8%8F%9C%E5%8D%95%E6%A0%91%E5%9C%A8IE9%E4%B8%8B%E4%B8%8D%E8%83%BD%E5%8A%A0%E8%BD%BD%EF%BC%8C%E6%8A%A5SCRIPT5007-%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E6%9C%AA%E5%AE%9A%E4%B9%89%E6%88%96-null-%E5%BC%95%E7%94%A8%E7%9A%84%E5%B1%9E%E6%80%A7%E2%80%9Cui%E2%80%9D/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.724Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/08/06/docker%E5%AE%B9%E5%99%A8%E4%B8%AD%E5%AE%89%E8%A3%85vim/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.723Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/31/brew%E5%AE%89%E8%A3%85appledoc%E6%97%B6%E6%8F%90%E7%A4%BANo-available-formula-for-appledoc/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.722Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/20/Xcode%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.721Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/07/18/Web-API%E6%8E%A5%E5%8F%A3%E4%B9%8BMutationObserver/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.720Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/10/01/Vagrant-up-with-warning-of-Authentication-failure/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.718Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/16/Updating-Maven-Project-Unsupported-IClasspathEntry-kind-4/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.716Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/15/UnicodeEncodeError-ascii-codec-can-t-encode-character-%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.715Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/15/Unbalanced-calls-to-begin-end-appearance-transitions/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.714Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/11/05/Ubuntu%E4%B8%8B%E9%80%9A%E8%BF%87nvm%E5%AE%89%E8%A3%85node%EF%BC%8Cnpm-command-not-found/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.713Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/13/Ubuntu%E4%B8%8Avim%E9%85%8D%E7%BD%AEYoucompleteMe%E6%97%B6-install-sh-clang-completer%E5%87%BA%E7%8E%B0%E9%94%99%E8%AF%AF/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.711Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/30/SublimeText%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.710Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/02/19/SonarQube%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E5%90%8E%EF%BC%8C%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.708Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/03/23/SSL-connect-returned-1-errno-0-state-SSLv3-read-server-certificate-B-certificate-verify-failed/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.707Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/08/15/SSH%E5%85%AC%E9%92%A5%E4%B8%AD%E4%BF%9D%E5%AD%98%E5%A4%9A%E4%B8%AAgit%E8%B4%A6%E5%8F%B7/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.706Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/11/23/Mybatis%E5%8D%95%E4%B8%AA%E5%8F%82%E6%95%B0%E7%9A%84if%E5%88%A4%E6%96%AD%EF%BC%88%E9%92%88%E5%AF%B9%E5%BC%82%E5%B8%B8%EF%BC%9AThere-is-no-getter-for-property-%EF%BC%89/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.705Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/16/Maven%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.701Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/29/Mac%E5%AE%89%E8%A3%85Android-SDK/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.699Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/21/Linux%E5%91%BD%E4%BB%A4%E4%B9%8Btar/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.698Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/20/Linux%E5%91%BD%E4%BB%A4%E4%B9%8Blsof/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.697Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/21/Linux%E5%91%BD%E4%BB%A4%E4%B9%8Biptables/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.696Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/07/11/Java%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93-%E6%8F%90%E7%A4%BAEstablishing-SSL-connection-without%E8%AD%A6%E5%91%8A/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.694Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/07/26/Java%E8%AF%BB%E5%8F%96INI%E6%96%87%E4%BB%B6%E6%97%B6%E8%BF%94%E5%9B%9E%E7%A9%BA/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.693Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/18/JavaScript%E5%9F%BA%E7%A1%80%E4%B9%8BArray%E5%AF%B9%E8%B1%A1/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.692Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/08/04/JavaScript-%E8%8E%B7%E5%8F%96%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%86%85%E7%BD%91IP%E5%92%8C%E5%A4%96%E7%BD%91IP-STUN/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.690Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/01/11/JavaScript-%E4%BA%8B%E4%BB%B6%E2%80%94%E2%80%94%E2%80%9C%E4%BA%8B%E4%BB%B6%E6%B5%81%E5%92%8C%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86%E7%A8%8B%E5%BA%8F%E2%80%9D/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.689Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/16/Java-8%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8B%E6%97%85%EF%BC%9A%E4%BD%BF%E7%94%A8Stream-API%E5%A4%84%E7%90%86%E9%9B%86%E5%90%88/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.687Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/29/JS%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.686Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/01/19/IE9%E4%B8%ADScript438-%E5%AF%B9%E8%B1%A1%E4%B8%8D%E6%94%AF%E6%8C%81%E2%80%9CcreateContextualFragment%E2%80%9D%E5%B1%9E%E6%80%A7%E6%88%96%E6%96%B9%E6%B3%95/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.684Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/06/28/Hibernate%E6%9F%A5%E8%AF%A2MySQL%E6%8A%9B%E5%87%BAStringIndexOutOfBoundsException%E5%BC%82%E5%B8%B8/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.683Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/06/28/Hexo%E5%91%BD%E4%BB%A4server%E6%97%A0%E6%95%88/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.682Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/02/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-2-%E6%8B%89%E5%8F%96%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.681Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/08/26/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E6%B7%BB%E5%8A%A0%E5%88%A0%E9%99%A4%E5%88%86%E6%94%AF/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.679Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2017/07/23/GIT%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.678Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/03/27/Fix-Cannot-Add-PPA-Error-In-Ubuntu-14-04-Linux-Mint-17/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.677Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/23/Failed-to-build-gem-native-extension-cannot-load-such-file-mkmf-LoadError/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.676Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/17/Error-fatal-Unable-to-find-remote-helper-for-https/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.675Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/05/05/Eclipse%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95Tomcat%E9%85%8D%E7%BD%AE/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.673Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/01/20/Eclipse%E4%B8%AD%E5%90%AF%E5%8A%A8tomcat%E6%8A%A5%E9%94%99java-lang-OutOfMemoryError-PermGen-space%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.672Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/03/01/ERROR-Could-not-find-a-valid-gem-sass/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.671Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/10/05/DOM-%E4%B8%AD-Property-%E5%92%8C-Attribute-%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/07/24/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.668Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2016/06/14/Context-namespace-element-annotation-config-are-only-available-on-JDK-1-5-and-higher/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.664Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/10/22/CocoaPod-%E5%87%BA%E7%8E%B0-Unable-to-satisfy-the-following-requirements-required-by-Podfile/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.662Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/12/07/Android%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95Invalid-layout-of-java-lang-String-at-value/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.661Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/10/31/Android-Studio%E9%85%8D%E7%BD%AERespository%E6%9B%B4%E6%96%B0Android-SDK/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.660Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bobjoy.github.io/2015/09/16/40%E4%B8%AAJava%E9%9B%86%E5%90%88%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E5%92%8C%E7%AD%94%E6%A1%88/</loc>
-    
-    <lastmod>2017-12-20T09:26:53.658Z</lastmod>
     
   </url>
   

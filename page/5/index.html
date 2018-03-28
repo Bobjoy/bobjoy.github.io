@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -116,10 +102,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -161,21 +149,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -187,8 +160,7 @@
   
 
   <div class="container sidebar-position-left 
-   page-home 
- ">
+  page-home">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -204,7 +176,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -244,6 +216,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -254,12 +246,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -325,7 +337,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/03/26/解决virtualbox复制ubuntu后改变mac地址不能识别网卡问题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -343,9 +359,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/03/26/解决virtualbox复制ubuntu后改变mac地址不能识别网卡问题/" itemprop="url">解决virtualbox复制ubuntu后改变mac地址不能识别网卡问题</a></h1>
+                <a class="post-title-link" href="/2016/03/26/解决virtualbox复制ubuntu后改变mac地址不能识别网卡问题/" itemprop="url">解决virtualbox复制ubuntu后改变mac地址不能识别网卡问题</a></h2>
         
 
         <div class="post-meta">
@@ -371,10 +387,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:50:45+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -415,7 +431,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -431,16 +447,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/590701/pexels-photo-590701.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3k009dzsukcexkd3r1"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/590701/pexels-photo-590701.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          在vbox里面安装了一个ubuntu server 12.04，利用自带的复制功能，完成3台虚拟服务器的搭建。为了更好的模拟局域网环境，为了保证mac不一样，所以刷新mac地址，登陆时ifconfig发现eth0不翼而飞，自然也不能连通网络。
-最后发现是/etc/udev/rules.d/70-pe
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -452,18 +486,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -477,6 +508,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -489,7 +524,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/03/24/转-Clickjacking简单介绍/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -507,9 +546,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/03/24/转-Clickjacking简单介绍/" itemprop="url">[转]Clickjacking简单介绍</a></h1>
+                <a class="post-title-link" href="/2016/03/24/转-Clickjacking简单介绍/" itemprop="url">[转]Clickjacking简单介绍</a></h2>
         
 
         <div class="post-meta">
@@ -535,10 +574,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:49:46+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -579,7 +618,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -595,9 +634,28 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/705674/pexels-photo-705674.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3r009vzsuklxy1z569"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/705674/pexels-photo-705674.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
@@ -621,18 +679,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -646,6 +701,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -658,7 +717,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/03/23/SSL-connect-returned-1-errno-0-state-SSLv3-read-server-certificate-B-certificate-verify-failed/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -676,9 +739,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/03/23/SSL-connect-returned-1-errno-0-state-SSLv3-read-server-certificate-B-certificate-verify-failed/" itemprop="url">SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed</a></h1>
+                <a class="post-title-link" href="/2016/03/23/SSL-connect-returned-1-errno-0-state-SSLv3-read-server-certificate-B-certificate-verify-failed/" itemprop="url">SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed</a></h2>
         
 
         <div class="post-meta">
@@ -704,10 +767,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:13:21+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -748,7 +811,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -764,16 +827,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/403781/pexels-photo-403781.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi1m004rzsuk8eekgn2d"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/403781/pexels-photo-403781.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          执行gem install命令时，报错如下：
-12OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):  ap
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -785,18 +866,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -810,6 +888,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -822,7 +904,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/03/01/ERROR-Could-not-find-a-valid-gem-sass/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -840,9 +926,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/03/01/ERROR-Could-not-find-a-valid-gem-sass/" itemprop="url">ERROR:  Could not find a valid gem 'sass'</a></h1>
+                <a class="post-title-link" href="/2016/03/01/ERROR-Could-not-find-a-valid-gem-sass/" itemprop="url">ERROR:  Could not find a valid gem 'sass'</a></h2>
         
 
         <div class="post-meta">
@@ -868,10 +954,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:33:37+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -912,7 +998,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -928,16 +1014,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/712877/pexels-photo-712877.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwhz1000ezsukal0u58bz"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/712877/pexels-photo-712877.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          使用gem安装sass时出错，提示找不到该sass，如下
-123C:\&gt;gem install sassERROR:  Could not find a valid gem &apos;sass&apos; (&gt;= 0), here is why:          Unable to 
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -949,18 +1053,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -974,6 +1075,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -986,7 +1091,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/02/19/SonarQube安装Windows服务后，无法启动服务/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1004,9 +1113,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/02/19/SonarQube安装Windows服务后，无法启动服务/" itemprop="url">SonarQube安装Windows服务后，无法启动服务</a></h1>
+                <a class="post-title-link" href="/2016/02/19/SonarQube安装Windows服务后，无法启动服务/" itemprop="url">SonarQube安装Windows服务后，无法启动服务</a></h2>
         
 
         <div class="post-meta">
@@ -1032,10 +1141,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:12:23+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1076,7 +1185,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1092,17 +1201,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/956965/pexels-photo-956965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" rel="gallery_cjfapwi1k004nzsukm5il8qsc"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/956965/pexels-photo-956965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          手动安装SonarQube的windows服务后，启动报错，如下：
-1234--&gt; Wrapper Started as ServiceLaunching a JVM...Unable to execute Java command.  系统找不到指定的文件。 (0x2)...
-解决办法：修改
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1114,18 +1240,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1139,6 +1262,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1151,7 +1278,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/02/04/npm-prompt-lua-11-attempt-to-concatenate-local-package-version-a-nil-value/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1169,9 +1300,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/02/04/npm-prompt-lua-11-attempt-to-concatenate-local-package-version-a-nil-value/" itemprop="url">npm_prompt.lua:11: attempt to concatenate local 'package_version' (a nil value)</a></h1>
+                <a class="post-title-link" href="/2016/02/04/npm-prompt-lua-11-attempt-to-concatenate-local-package-version-a-nil-value/" itemprop="url">npm_prompt.lua:11: attempt to concatenate local 'package_version' (a nil value)</a></h2>
         
 
         <div class="post-meta">
@@ -1197,10 +1328,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:11:19+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1241,7 +1372,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1257,22 +1388,35 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/859933/pexels-photo-859933.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2h006pzsuk2em0kq2q"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/859933/pexels-photo-859933.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          问题：
-
-解决办法：
-方法一、 package.json中添加version属性
-方法二、修改CMDER_HOME\vendor\clink-completions\npm_prompt.lua文件
-
-
           
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2016/02/04/npm-prompt-lua-11-attempt-to-concatenate-local-package-version-a-nil-value/#more" rel="contents">
@@ -1283,18 +1427,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1308,6 +1449,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1320,7 +1465,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/02/03/karma-start-Cannot-find-module-jasmine-core/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1338,9 +1487,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/02/03/karma-start-Cannot-find-module-jasmine-core/" itemprop="url">karma start Cannot find module 'jasmine-core'</a></h1>
+                <a class="post-title-link" href="/2016/02/03/karma-start-Cannot-find-module-jasmine-core/" itemprop="url">karma start Cannot find module 'jasmine-core'</a></h2>
         
 
         <div class="post-meta">
@@ -1366,10 +1515,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:55:21+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1410,7 +1559,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1426,19 +1575,35 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/241558/pexels-photo-241558.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2b0066zsukwgsmwei5"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/241558/pexels-photo-241558.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          执行 karma start my.conf.js 时出现错误，如下：
-
-解决办法：全局安装 jasmine-core, 命令npm install -g jasmine-core
-
           
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2016/02/03/karma-start-Cannot-find-module-jasmine-core/#more" rel="contents">
@@ -1449,18 +1614,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1474,6 +1636,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1486,7 +1652,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/01/29/shim和polyfill有什么区别/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1504,9 +1674,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/01/29/shim和polyfill有什么区别/" itemprop="url">shim和polyfill有什么区别?</a></h1>
+                <a class="post-title-link" href="/2016/01/29/shim和polyfill有什么区别/" itemprop="url">shim和polyfill有什么区别?</a></h2>
         
 
         <div class="post-meta">
@@ -1532,10 +1702,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:12:04+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1576,7 +1746,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1592,17 +1762,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/840643/pexels-photo-840643.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2u007dzsuktza3s605"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/840643/pexels-photo-840643.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          在JavaScript的世界里,有两个词经常被提到,shim和polyfill.它们指的都是什么,又有什么区别?
-1.Shim&emsp;一个shim是一个库,它将一个新的API引入到一个旧的环境中,而且仅靠旧环境中已有的手段实现.
-&emsp;译者注:有时候也称为shiv,比如https://gi
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1614,18 +1801,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1639,6 +1823,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1651,7 +1839,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/01/25/z-index在IE中失效的解决办法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1669,9 +1861,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/01/25/z-index在IE中失效的解决办法/" itemprop="url">z-index在IE中失效的解决办法</a></h1>
+                <a class="post-title-link" href="/2016/01/25/z-index在IE中失效的解决办法/" itemprop="url">z-index在IE中失效的解决办法</a></h2>
         
 
         <div class="post-meta">
@@ -1697,10 +1889,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:07:30+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1741,7 +1933,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1757,16 +1949,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/425443/pexels-photo-425443.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2z007vzsuk93qmclsz"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/425443/pexels-photo-425443.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          IE6、7都存在着z-index失效的bug，万恶的IE，对于每一个美工来说，IE都不怎么招人待见。但是又无法不照顾到它，毕竟它还占有强大的市场份额。我们不能期望它做出什么改变，我们就要学会找到方法去迎合它。
-z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDEX的级别设置的
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1778,18 +1988,15 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1803,6 +2010,10 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1815,7 +2026,11 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/01/20/Eclipse中启动tomcat报错java-lang-OutOfMemoryError-PermGen-space的解决方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1833,9 +2048,9 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/01/20/Eclipse中启动tomcat报错java-lang-OutOfMemoryError-PermGen-space的解决方法/" itemprop="url">Eclipse中启动tomcat报错java.lang.OutOfMemoryError: PermGen space的解决方法</a></h1>
+                <a class="post-title-link" href="/2016/01/20/Eclipse中启动tomcat报错java-lang-OutOfMemoryError-PermGen-space的解决方法/" itemprop="url">Eclipse中启动tomcat报错java.lang.OutOfMemoryError: PermGen space的解决方法</a></h2>
         
 
         <div class="post-meta">
@@ -1861,10 +2076,10 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:32:38+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1905,7 +2120,7 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1921,16 +2136,34 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/547557/pexels-photo-547557.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwhz6000kzsukueo4fbc4"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/547557/pexels-photo-547557.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          &gt;原文地址：http://outofmemory.cn/java/OutOfMemoryError/outofmemoryerror-permgen-space-in-tomcat-with-eclipse
-有的项目引用了太多的jar包，或者反射生成了太多的类，异或有太多的常量池，就有可能会报
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1942,18 +2175,15 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1967,6 +2197,10 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1999,80 +2233,78 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -2089,27 +2321,27 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -2134,6 +2366,21 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -2143,6 +2390,8 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -2177,50 +2426,58 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
   
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -2239,16 +2496,18 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
 
 
   
-    
-
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -2581,7 +2840,7 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -2688,6 +2947,8 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -2704,6 +2965,7 @@ z-index是让元素漂浮起来的一个属性，在IE6、7中无论你把Z-INDE
 </script>
 
 
+  
   
 
   

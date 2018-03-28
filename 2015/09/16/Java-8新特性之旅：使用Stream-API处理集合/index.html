@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Java," />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -110,10 +96,12 @@
 <meta property="og:site_name" content="IT飞鱼">
 <meta property="og:description" content="在这篇“Java 8新特性教程”系列文章中，我们会深入解释，并通过代码来展示，如何通过流来遍历集合，如何从集合和数组来创建流，以及怎么聚合流的值。 在之前的文章“遍历、过滤、处理集合及使用Lambda表达式增强方法”中，我已经深入解释并演示了通过lambda表达式和方法引用来遍历集合，使用predicate接口来过滤集合，实现接口的默认方法，最后还演示了接口静态方法的实现。 源代码都在我的Gith">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-20T09:26:53.687Z">
+<meta property="og:image" content="https://images.pexels.com/photos/688017/pexels-photo-688017.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+<meta property="og:updated_time" content="2018-03-28T07:45:36.697Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java 8新特性之旅：使用Stream API处理集合">
 <meta name="twitter:description" content="在这篇“Java 8新特性教程”系列文章中，我们会深入解释，并通过代码来展示，如何通过流来遍历集合，如何从集合和数组来创建流，以及怎么聚合流的值。 在之前的文章“遍历、过滤、处理集合及使用Lambda表达式增强方法”中，我已经深入解释并演示了通过lambda表达式和方法引用来遍历集合，使用predicate接口来过滤集合，实现接口的默认方法，最后还演示了接口静态方法的实现。 源代码都在我的Gith">
+<meta name="twitter:image" content="https://images.pexels.com/photos/688017/pexels-photo-688017.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
 
 
 
@@ -121,10 +109,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -166,21 +156,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -191,7 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +182,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -247,6 +222,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -257,12 +252,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -328,7 +343,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -346,7 +365,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Java 8新特性之旅：使用Stream API处理集合</h1>
+          <h2 class="post-title" itemprop="name headline">Java 8新特性之旅：使用Stream API处理集合</h2>
         
 
         <div class="post-meta">
@@ -372,10 +391,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:45:36+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -416,7 +435,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -432,9 +451,28 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/688017/pexels-photo-688017.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwhzx001yzsuk4ogtlszh"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/688017/pexels-photo-688017.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
@@ -452,11 +490,11 @@
 <p>Java的集合框架，如<code>List</code>和<code>Map</code>接口及<code>Arraylist</code>和<code>HashMap</code>类，让我们很容易地管理有序和无序集合。集合框架自引入的第一天起就在 持续的改进。在Java SE 8中，我们可以通过流的API来管理、遍历和聚合集合。一个基于流的集合与输入输出流是不同的。</p>
 <p><strong>如何工作？</strong></p>
 <p>它采用一种全新的方式，将数据作为一个整体，而不是单独的个体来处理。当你使用流时，你不需要关心循环或遍历的细节。你可以直接从一个集合创建一个流。然 后你就能用这个流来许多事件了，如遍历、过滤及聚和。我将从项目 Java8Features 的 <code>com.tm.java8.features.stream.traversing</code>包下的例子开始。代码在一个<code>SequentialStream</code>类中，Java SE 8 中有两种集合流，即串行流和并行流。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">List&lt;person&gt; people = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line"> </div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>));</div><div class="line"> </div><div class="line">Predicate&lt;person&gt; pred = (p) -&gt; p.getAge() &gt; <span class="number">65</span>;</div><div class="line"> </div><div class="line">displayPeople(people, pred);</div><div class="line"> </div><div class="line">...........</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">displayPeople</span><span class="params">(List&lt;person&gt; people, Predicate&lt;person&gt; pred)</span> </span>&#123;</div><div class="line"> </div><div class="line">     System.out.println(<span class="string">"Selected:"</span>);</div><div class="line">     people.forEach(p -&gt; &#123;</div><div class="line">         <span class="keyword">if</span> (pred.test(p)) &#123;</div><div class="line">             System.out.println(p.getName());</div><div class="line">         &#125;</div><div class="line">     &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">List&lt;person&gt; people = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line"></div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>));</div><div class="line"></div><div class="line">Predicate&lt;person&gt; pred = (p) -&gt; p.getAge() &gt; <span class="number">65</span>;</div><div class="line"></div><div class="line">displayPeople(people, pred);</div><div class="line"></div><div class="line">...........</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">displayPeople</span><span class="params">(List&lt;person&gt; people, Predicate&lt;person&gt; pred)</span> </span>&#123;</div><div class="line"></div><div class="line">     System.out.println(<span class="string">"Selected:"</span>);</div><div class="line">     people.forEach(p -&gt; &#123;</div><div class="line">         <span class="keyword">if</span> (pred.test(p)) &#123;</div><div class="line">             System.out.println(p.getName());</div><div class="line">         &#125;</div><div class="line">     &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>在这两种流中，串行流相对比较简单，它类似一个迭代器，每次处理集合中的一个元素。但是语法与以前不同。在这段代码中，我创建了 pepole 的数组列表，向上转型为List。它包含三个 Person 类的实例。然后我们使用 Predicate 声明一个条件，只有满足这个条件的 people 才会显示。在 displayPeople() 方法的48到52行循环遍历该集合，挨个测试其中的每一项。运行这段代码，你将获得如下的结果：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Selected:</div><div class="line">Mohamed</div></pre></td></tr></table></figure>
 <p>我将会展示如何使用流来<a href="http://www.amazon.cn/gp/product/B003BY6PLK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;tag=importnew-23&amp;linkCode=as2&amp;camp=536&amp;creative=3200&amp;creativeASIN=B003BY6PLK" target="_blank" rel="external">重构</a>这段代码。首先，我注释了这段代码。然后，在这段注释的代码下，我开始使用集合对象 people。然后我调用一个 stream() 方法。一个stream对象，类似集合，也要声明泛型。如果你从一个集合获取流，则该流中每一项的类型与集合本身是一致的。我的集合是 Person 类的实例，所以流中也使用同样的泛型类型。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">System.out.println(<span class="string">"Selected:"</span>);</div><div class="line"> <span class="comment">//people.forEach(p -&gt; &#123;</span></div><div class="line"> <span class="comment">// if (pred.test(p)) &#123;</span></div><div class="line"> <span class="comment">//     System.out.println(p.getName());</span></div><div class="line"> <span class="comment">// &#125;</span></div><div class="line"> <span class="comment">//&#125;);</span></div><div class="line"> </div><div class="line">  people.stream().forEach(p -&gt; System.out.println(p.getName()));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">System.out.println(<span class="string">"Selected:"</span>);</div><div class="line"> <span class="comment">//people.forEach(p -&gt; &#123;</span></div><div class="line"> <span class="comment">// if (pred.test(p)) &#123;</span></div><div class="line"> <span class="comment">//     System.out.println(p.getName());</span></div><div class="line"> <span class="comment">// &#125;</span></div><div class="line"> <span class="comment">//&#125;);</span></div><div class="line"></div><div class="line">  people.stream().forEach(p -&gt; System.out.println(p.getName()));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>你可以调用一个<code>stream()</code>方法来获得了一个流对象，然后可以在该对象上进行一些操作。我简单地调用了<code>forEach</code>方法，该方法需要一个Lamda表达式。我在参数中传递了一个Lamda表达式。列表中的每一项就是通过迭代器处理的每一项。处理过程是通过Lambda 操作符和方法实现来完成的。我简单使用system output来输出每个人的名称。保存并运行这段代码，输出结果如下。因为没有过滤，所以输出了列表中所有元素。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Selected:</div><div class="line">Mohamed</div><div class="line">Doaa</div><div class="line">Malik</div></pre></td></tr></table></figure>
 <p>现在，一旦有了一个流对象，就可以很容易使用<code>predicate</code>对象了。当使用<code>for each</code>方法处理每一项时，我不得不显示调用<code>predicate</code>的<code>test</code>方法，但是使用流时，你可以调用一个名为<code>filter</code>的方法。该方法接收一个<code>predicate</code>对象，所有的<code>predicate</code>对象都有一个<code>test</code>方法，所以它已经知道怎样去调用该方法。所以，我对该代码做一点改动。我将<code>.forEach()</code>方法下移了两行，然后在中间的空白行，我调用了<code>filter</code>方法。</p>
@@ -476,14 +514,17 @@
 <p>Java SE 8’s stream API 是为了帮助管理数据集合而设计的，这些对象是指集合框架中的对象，例如数组列表或哈希表。但是，你也可以直接从数组创建流。</p>
 <p><strong>如何工作？</strong></p>
 <p>在 Java8Features 项目中的<code>eg.com.tm.java8.features.stream.creating</code>包下，我创建了一个名为<code>ArrayToStream</code>的类。在这个类的<code>main</code>方法中，我创建了一个包含三个元素的数组。每个元素都是Person类的一个实例对象。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"> </div><div class="line">    Person[] people = &#123;</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>),</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>),</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>)</div><div class="line">    &#125;;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; people.length; i++) &#123;</div><div class="line">        System.out.println(people[i].getInfo());</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"></div><div class="line">    Person[] people = &#123;</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>),</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>),</div><div class="line">        <span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>)</div><div class="line">    &#125;;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; people.length; i++) &#123;</div><div class="line">        System.out.println(people[i].getInfo());</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>该类中为私有成员创建了<code>setters</code>和<code>getters</code>方法，以及<code>getInfo()</code>方法，该方法返回一个拼接的字符串。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> String <span class="title">getInfo</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> name + <span class="string">" ("</span> + age + <span class="string">")"</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>现在，如果想使用流来处理这个数组，你可能认为需要先将数组转为数组列表，然后从这个列表创建流。但是，实际上你可以有两种方式直接从数组创建流。第一方式，我不需要处理数据的那三行代码，所以先注释掉。然后，在这个下面，我声明一个流类型的对象。</p>
 <p>Stream 是<code>java.util.stream</code>下的一个接口。当我按下<em>Ctrl+Space</em>并选取它的时候，会提示元素的泛型，这就是流管理的类型。在这里，元素的类型即为<code>Person</code>，与数组元素本身的类型是一致的。我将我新的流对象命名为 <code>stream</code>，所有的字母都是小写的。这就是第一种创建流的方法，使用流的接口，调用<code>of()</code>方法。注意，该方法存在两个不同版本。</p>
 <p>第一个是需要单个对象，第二个是需要多个对象。我使用一个参数的方法，所以传递一个名为<code>people</code>的数组，这就是我需要做的所有事情。<code>Stream.of()</code>意思就是传入一个数组，然后将该数组包装在流中。现在，我就可以使用<code>lambda</code>表达式、过滤、方法引用等流对象的方法。我将调用流的<code>for each</code>方法，并传入一个<code>lambda</code>表达式，将当前的<code>person</code>对象和<code>lambda</code>操作符后传入后，就能获取到<code>person</code>对象的信息。该信息是通过对象的<code>getInfo()</code>方法获取到的。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">Person[] people = &#123;</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>),</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>),</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>)</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="comment">//for (int i = 0; i &lt; people.length; i++) &#123;</span></div><div class="line"><span class="comment">//  System.out.println(people[i].getInfo());</span></div><div class="line"><span class="comment">//&#125;</span></div><div class="line">Stream&lt;Person&gt; stream = Stream.of(people);</div><div class="line">stream.forEach(p -&gt; System.out.println(p.getInfo()));</div><div class="line">``` </div><div class="line">保存并运行这段代码，就可获取到结果。输出的元素的顺序与我放入的顺序是一致的。这就是第一种方式：使用`Stream.of()`方法。</div></pre></td></tr></table></figure>
-<p>Mohamed (69)<br>Doaa (25)<br>Malik (6)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">另一种方式与上面的方式实际上是相同的。复制上面的代码，并注释掉第一种方式。这次不使用`Stream.of()`方法，我们使用名为`Arrays`的类，该类位于`java.util`包下。在这个类上，可以调用名为`stream`的方法。注意，`stream`方法可以包装各种类型的数组，包括基本类型和复合类型。</div><div class="line"></div><div class="line">```java</div><div class="line">//Stream&lt;person&gt; stream = Stream.of(people);</div><div class="line">Stream&lt;person&gt; stream = Arrays.stream(people);</div><div class="line">stream.forEach(p -&gt; System.out.println(p.getInfo()));</div></pre></td></tr></table></figure></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">Person[] people = &#123;</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>),</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>),</div><div class="line">    <span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>)</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="comment">//for (int i = 0; i &lt; people.length; i++) &#123;</span></div><div class="line"><span class="comment">//  System.out.println(people[i].getInfo());</span></div><div class="line"><span class="comment">//&#125;</span></div><div class="line">Stream&lt;Person&gt; stream = Stream.of(people);</div><div class="line">stream.forEach(p -&gt; System.out.println(p.getInfo()));</div></pre></td></tr></table></figure>
+<p>保存并运行这段代码，就可获取到结果。输出的元素的顺序与我放入的顺序是一致的。这就是第一种方式：使用<code>Stream.of()</code>方法。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Mohamed (69)</div><div class="line">Doaa (25)</div><div class="line">Malik (6)</div></pre></td></tr></table></figure>
+<p>另一种方式与上面的方式实际上是相同的。复制上面的代码，并注释掉第一种方式。这次不使用<code>Stream.of()</code>方法，我们使用名为<code>Arrays</code>的类，该类位于<code>java.util</code>包下。在这个类上，可以调用名为<code>stream</code>的方法。注意，<code>stream</code>方法可以包装各种类型的数组，包括基本类型和复合类型。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//Stream&lt;person&gt; stream = Stream.of(people);</span></div><div class="line">Stream&lt;person&gt; stream = Arrays.stream(people);</div><div class="line">stream.forEach(p -&gt; System.out.println(p.getInfo()));</div></pre></td></tr></table></figure>
 <p>保存并运行上面的代码，流完成的事情与之前实质上是一致的。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Mohamed (69)</div><div class="line">Doaa (25)</div><div class="line">Malik (6)</div></pre></td></tr></table></figure>
 <p><strong>结论</strong></p>
@@ -492,7 +533,7 @@
 <p>之前，我已经描述过怎么使用一个流来迭代一个集合。你也可以使用流来聚合集合中的每一项。如计算总和、平均值、总数等等。当你做这些操作的时候，弄明白并行流特性就非常重要。</p>
 <p><strong>如何工作？</strong></p>
 <p>我会在 Java8Features 项目的<code>eg.com.tm.java8.features.stream.aggregating</code>包下进行演示。首先我们使用<code>ParallelStreams</code>类。在这个类的<code>main</code>方法中，我创建了一个包含字符串元素的数组列表。我简单地使用循环在列表中添加了10000个元素。然后在35和36行，我创建了一个流对象，并通过<code>for each</code>方法挨个输出流中每一项。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"> </div><div class="line">    System.out.println(<span class="string">"Creating list"</span>);</div><div class="line">    List&lt;string&gt; strings = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++) &#123;</div><div class="line">        strings.add(<span class="string">"Item "</span> + i);</div><div class="line">    &#125;</div><div class="line">    strings.stream()</div><div class="line">           .forEach(str -&gt; System.out.println(str));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"></div><div class="line">    System.out.println(<span class="string">"Creating list"</span>);</div><div class="line">    List&lt;string&gt; strings = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++) &#123;</div><div class="line">        strings.add(<span class="string">"Item "</span> + i);</div><div class="line">    &#125;</div><div class="line">    strings.stream()</div><div class="line">           .forEach(str -&gt; System.out.println(str));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>运行这段代码后，就获得了一个我所预期的结果。在屏幕上输出的顺序与添加到列表中的顺序是一致的。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">.........</div><div class="line">Item 9982</div><div class="line">Item 9983</div><div class="line">Item 9984</div><div class="line">Item 9985</div><div class="line">Item 9986</div><div class="line">Item 9987</div><div class="line">Item 9988</div><div class="line">Item 9989</div><div class="line">Item 9990</div><div class="line">Item 9991</div><div class="line">Item 9992</div><div class="line">Item 9993</div><div class="line">Item 9994</div><div class="line">Item 9995</div><div class="line">Item 9996</div><div class="line">Item 9997</div><div class="line">Item 9998</div><div class="line">Item 9999</div></pre></td></tr></table></figure>
 <p>现在，让我们看一下当转换成并行流后会发生什么。正如我之前所描述的，我即可以调用<code>parallelStream</code>方法，也可以在流上调用<code>parallel</code>方法。</p>
@@ -503,7 +544,7 @@
 <p>然后，将数据块分配给合适的处理器去处理。只有当所有块都处理完成了，才会执行之后的代码。本质上讲，这是在调用<code>forEach()</code>方法时，将整个过程是根据需要来进行划分了。现在，这么做可能会提高性能，也可能不会。这依赖于数据集的大小以及你硬件的性能。通过这个例子，也可以看 出，如果需要按照添加的顺序挨个处理每一项，那么并行流可能就不合适了。</p>
 <p>串行流能保证每次运行的顺序是一致的。但并行流，从定义上讲，是一种更有效率的方式。所以并行流在聚合操作的时候非常有效。很适合将集合作为一个整体考虑，然后在该集合上进行一些聚合操作的情况。我将会通过一个例子来演示集合元素的计数、求平均值及求和操作。</p>
 <p>我们在这个类的<code>main</code>方法中来计数，开始还是用相同的基础代码。创建10,000个字符串的列表。然后通过一个<code>for each</code>方法循环处理每一项。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"> </div><div class="line">    System.out.println(<span class="string">"Creating list"</span>);</div><div class="line">    List&lt;string&gt; strings = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++) &#123;</div><div class="line">        strings.add(<span class="string">"Item "</span> + i);</div><div class="line">    &#125;</div><div class="line">    strings.stream()</div><div class="line">           .forEach(str -&gt; System.out.println(str));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</div><div class="line"></div><div class="line">    System.out.println(<span class="string">"Creating list"</span>);</div><div class="line">    List&lt;string&gt; strings = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10000</span>; i++) &#123;</div><div class="line">        strings.add(<span class="string">"Item "</span> + i);</div><div class="line">    &#125;</div><div class="line">    strings.stream()</div><div class="line">           .forEach(str -&gt; System.out.println(str));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>在这个例子中，我想直接对集合元素进行计数，而不是挨个来处理。所以，我注释掉原来的代码，使用下面的代码。因为不能准确的知道该集合到底有多少个元素。所以我使用长整型变量来存储结果。</p>
 <p>我将这个变量命名为<code>count</code>，通过调用集合<code>strings</code>的<code>.stream()</code>,<code>.count()</code>方法，返回一个长整型的值。然后将这个值与“count:”拼接起来，再通过system的output来打印。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//strings.stream()</span></div><div class="line"><span class="comment">//       .forEach(str -&gt; System.out.println(str));</span></div><div class="line"><span class="keyword">long</span> count = strings.stream().count();</div><div class="line">System.out.println(<span class="string">"Count: "</span> + count);</div></pre></td></tr></table></figure>
@@ -517,7 +558,7 @@
 <p>再让我们看一下求和及求均值。我将使用<code>SumAndAverage</code>类。这次，我有一个包含三个<code>person</code>对象的列表，每个<code>person</code>对象的有不同的年龄值。我的目的是求三个年龄的和及年龄的平均值。我在所有的<code>person</code>对象都加入到列表之后加入了一行新的代码。然后，我创建了一个名为<code>sum</code>的整型变量。</p>
 <p>首先，我通过<code>pepole.stream()</code>方法获取一个流。在这个流基础上，我可以调用<code>mapToInt()</code>方法。注意，还有两个类似的<code>Map Method：mapToDouble()</code>和<code>mapToLong()</code>。这些方法的目的就是，从复合类型中获取简单的基本类型数据，创建流对象。你可以用 lambda 表达式来完成这项工作。所以，我选择<code>mapToInt()</code>方法，因为每个人的年龄都是整数。</p>
 <p>关于 Lambda 表达式，开始是一个代表当前<code>person</code>的变量。然后，通过 Lambda 操作符和 Lambda 表达式（<code>p.getAge()</code>）返回一个整数。这种返回值，我们有时也叫做<code>int</code>字符串。也可以返回<code>double</code>字符串或其它类型。现在，由于已经知道它 是一个数字类型的值，所以我可以调用<code>sum()</code>方法。现在，我就已经将所有集合中<code>person</code>对象的年龄值全部加起来了。通过一条语句，我就可以用<code>System Output</code>来输出结果了。我将求和的结果与“Total of ages”连接在一起输出。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">List&lt;person&gt; people = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>));</div><div class="line"> </div><div class="line"><span class="keyword">int</span> sum = people.stream()</div><div class="line">                .mapToInt(p -&gt; p.getAge())</div><div class="line">                .sum();</div><div class="line">System.out.println(<span class="string">"Total of ages "</span> + sum);</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">List&lt;person&gt; people = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Mohamed"</span>, <span class="number">69</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Doaa"</span>, <span class="number">25</span>));</div><div class="line">people.add(<span class="keyword">new</span> Person(<span class="string">"Malik"</span>, <span class="number">6</span>));</div><div class="line"></div><div class="line"><span class="keyword">int</span> sum = people.stream()</div><div class="line">                .mapToInt(p -&gt; p.getAge())</div><div class="line">                .sum();</div><div class="line">System.out.println(<span class="string">"Total of ages "</span> + sum);</div></pre></td></tr></table></figure>
 <p>保存并运行上面的代码。三个年龄的总和是100。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Total of ages 100</div></pre></td></tr></table></figure>
 <p>求这些值的平均值非常类似。但是，求平均值需要做除法操作，所以需要考虑除数为0的问题，因此，当你求平均值的时候，可以返回一个<code>Optional</code>的变量。</p>
@@ -536,42 +577,33 @@
 
       
     </div>
+    
+    
+    
 
-    <div>
-      
-        
+    
 
-      
-    </div>
+    
 
-    <div>
-      
-        
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    鲍方亮
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/" title="Java 8新特性之旅：使用Stream API处理集合">http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 
-      
-    </div>
-
-    <div>
-      
-        
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      鲍方亮
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/" title="Java 8新特性之旅：使用Stream API处理集合">http://bobjoy.github.io/2015/09/16/Java-8新特性之旅：使用Stream-API处理集合/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-
-
-      
-    </div>
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -611,34 +643,15 @@
       
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
 
     <div class="post-spread">
-      
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
       
     </div>
   </div>
@@ -649,11 +662,9 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div id="uyan_frame"></div>
-    
-  </div>
+
+  
+
 
 
         </div>
@@ -669,89 +680,87 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
             站点概览
           </li>
         </ul>
       
 
-      <section class="site-overview sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -784,27 +793,27 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -829,6 +838,21 @@
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -838,6 +862,8 @@
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -872,50 +898,62 @@
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -934,20 +972,18 @@
 
 
   
-    
-
-    
-      <!-- UY BEGIN -->
-      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
-      <!-- UY END -->
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -1280,7 +1316,7 @@
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -1387,6 +1423,8 @@
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -1403,6 +1441,7 @@
 </script>
 
 
+  
   
 
   

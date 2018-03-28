@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Javascript," />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -110,10 +96,12 @@
 <meta property="og:site_name" content="IT飞鱼">
 <meta property="og:description" content="from:https://github.com/diafygi/webrtc-ips Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP，不同于XMLHttpRequest请求，STUN请求开发者工具当中看不到网络请求的。 123456789101112131415161718192021222324252627282930313233343536373839">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-20T09:26:53.690Z">
+<meta property="og:image" content="https://images.pexels.com/photos/713071/pexels-photo-713071.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+<meta property="og:updated_time" content="2018-03-28T07:51:20.302Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript 获取客户端内网IP和外网IP(STUN)">
 <meta name="twitter:description" content="from:https://github.com/diafygi/webrtc-ips Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP，不同于XMLHttpRequest请求，STUN请求开发者工具当中看不到网络请求的。 123456789101112131415161718192021222324252627282930313233343536373839">
+<meta name="twitter:image" content="https://images.pexels.com/photos/713071/pexels-photo-713071.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
 
 
 
@@ -121,10 +109,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -166,21 +156,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -191,7 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +182,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -247,6 +222,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -257,12 +252,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -328,7 +343,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/08/04/JavaScript-获取客户端内网IP和外网IP-STUN/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -346,7 +365,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">JavaScript 获取客户端内网IP和外网IP(STUN)</h1>
+          <h2 class="post-title" itemprop="name headline">JavaScript 获取客户端内网IP和外网IP(STUN)</h2>
         
 
         <div class="post-meta">
@@ -372,10 +391,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:51:20+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -416,7 +435,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -432,53 +451,64 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/713071/pexels-photo-713071.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi0y003czsuk7ssfpcag"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/713071/pexels-photo-713071.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         <p>from:<a href="https://github.com/diafygi/webrtc-ips" target="_blank" rel="external">https://github.com/diafygi/webrtc-ips</a></p>
 <p>Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP，不同于XMLHttpRequest请求，STUN请求开发者工具当中看不到网络请求的。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//get the IP addresses associated with an account</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">getIPs</span>(<span class="params">callback</span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> ip_dups = &#123;&#125;;</div><div class="line"></div><div class="line">    <span class="comment">//compatibility for firefox and chrome</span></div><div class="line">    <span class="keyword">var</span> RTCPeerConnection = <span class="built_in">window</span>.RTCPeerConnection</div><div class="line">        || <span class="built_in">window</span>.mozRTCPeerConnection</div><div class="line">        || <span class="built_in">window</span>.webkitRTCPeerConnection;</div><div class="line">    <span class="keyword">var</span> useWebKit = !!<span class="built_in">window</span>.webkitRTCPeerConnection;</div><div class="line"></div><div class="line">    <span class="comment">//bypass naive webrtc blocking using an iframe</span></div><div class="line">    <span class="keyword">if</span>(!RTCPeerConnection)&#123;</div><div class="line">        <span class="comment">//<span class="doctag">NOTE:</span> you need to have an iframe in the page right above the script tag</span></div><div class="line">        <span class="comment">//</span></div><div class="line">        <span class="comment">//&lt;iframe id="iframe" sandbox="allow-same-origin" style="display: none"&gt;&lt;/iframe&gt;</span></div><div class="line">        <span class="comment">//&lt;script&gt;...getIPs called in here...</span></div><div class="line">        <span class="comment">//</span></div><div class="line">        <span class="keyword">var</span> win = iframe.contentWindow;</div><div class="line">        RTCPeerConnection = win.RTCPeerConnection</div><div class="line">            || win.mozRTCPeerConnection</div><div class="line">            || win.webkitRTCPeerConnection;</div><div class="line">        useWebKit = !!win.webkitRTCPeerConnection;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">//minimal requirements for data connection</span></div><div class="line">    <span class="keyword">var</span> mediaConstraints = &#123;</div><div class="line">        <span class="attr">optional</span>: [&#123;<span class="attr">RtpDataChannels</span>: <span class="literal">true</span>&#125;]</div><div class="line">    &#125;;</div><div class="line"></div><div class="line">    <span class="keyword">var</span> servers = &#123;<span class="attr">iceServers</span>: [&#123;<span class="attr">urls</span>: <span class="string">"stun:stun.services.mozilla.com"</span>&#125;]&#125;;</div><div class="line"></div><div class="line">    <span class="comment">//construct a new RTCPeerConnection</span></div><div class="line">    <span class="keyword">var</span> pc = <span class="keyword">new</span> RTCPeerConnection(servers, mediaConstraints);</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">function</span> <span class="title">handleCandidate</span>(<span class="params">candidate</span>)</span>&#123;</div><div class="line">        <span class="comment">//match just the IP address</span></div><div class="line">        <span class="keyword">var</span> ip_regex = <span class="regexp">/([0-9]&#123;1,3&#125;(\.[0-9]&#123;1,3&#125;)&#123;3&#125;|[a-f0-9]&#123;1,4&#125;(:[a-f0-9]&#123;1,4&#125;)&#123;7&#125;)/</span></div><div class="line">        <span class="keyword">var</span> ip_addr = ip_regex.exec(candidate)[<span class="number">1</span>];</div><div class="line"></div><div class="line">        <span class="comment">//remove duplicates</span></div><div class="line">        <span class="keyword">if</span>(ip_dups[ip_addr] === <span class="literal">undefined</span>)</div><div class="line">            callback(ip_addr);</div><div class="line"></div><div class="line">        ip_dups[ip_addr] = <span class="literal">true</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">//listen for candidate events</span></div><div class="line">    pc.onicecandidate = <span class="function"><span class="keyword">function</span>(<span class="params">ice</span>)</span>&#123;</div><div class="line"></div><div class="line">        <span class="comment">//skip non-candidate events</span></div><div class="line">        <span class="keyword">if</span>(ice.candidate)</div><div class="line">            handleCandidate(ice.candidate.candidate);</div><div class="line">    &#125;;</div><div class="line"></div><div class="line">    <span class="comment">//create a bogus data channel</span></div><div class="line">    pc.createDataChannel(<span class="string">""</span>);</div><div class="line"></div><div class="line">    <span class="comment">//create an offer sdp</span></div><div class="line">    pc.createOffer(<span class="function"><span class="keyword">function</span>(<span class="params">result</span>)</span>&#123;</div><div class="line"></div><div class="line">        <span class="comment">//trigger the stun server request</span></div><div class="line">        pc.setLocalDescription(result, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;);</div><div class="line"></div><div class="line">    &#125;, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;);</div><div class="line"></div><div class="line">    <span class="comment">//wait for a while to let everything done</span></div><div class="line">    setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="comment">//read candidate info from local description</span></div><div class="line">        <span class="keyword">var</span> lines = pc.localDescription.sdp.split(<span class="string">'\n'</span>);</div><div class="line"></div><div class="line">        lines.forEach(<span class="function"><span class="keyword">function</span>(<span class="params">line</span>)</span>&#123;</div><div class="line">            <span class="keyword">if</span>(line.indexOf(<span class="string">'a=candidate:'</span>) === <span class="number">0</span>)</div><div class="line">                handleCandidate(line);</div><div class="line">        &#125;);</div><div class="line">    &#125;, <span class="number">1000</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">//Test: Print the IP addresses into the console</span></div><div class="line">getIPs(<span class="function"><span class="keyword">function</span>(<span class="params">ip</span>)</span>&#123;<span class="built_in">console</span>.log(ip);&#125;);</div></pre></td></tr></table></figure>
-      
-    </div>
-
-    <div>
-      
-        
 
       
     </div>
+    
+    
+    
 
-    <div>
-      
-        
+    
 
-      
-    </div>
+    
 
-    <div>
-      
-        
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      鲍方亮
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="http://bobjoy.github.io/2015/08/04/JavaScript-获取客户端内网IP和外网IP-STUN/" title="JavaScript 获取客户端内网IP和外网IP(STUN)">http://bobjoy.github.io/2015/08/04/JavaScript-获取客户端内网IP和外网IP-STUN/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    鲍方亮
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://bobjoy.github.io/2015/08/04/JavaScript-获取客户端内网IP和外网IP-STUN/" title="JavaScript 获取客户端内网IP和外网IP(STUN)">http://bobjoy.github.io/2015/08/04/JavaScript-获取客户端内网IP和外网IP-STUN/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 
-
-      
-    </div>
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -518,34 +548,15 @@
       
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
 
     <div class="post-spread">
-      
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
       
     </div>
   </div>
@@ -556,11 +567,9 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div id="uyan_frame"></div>
-    
-  </div>
+
+  
+
 
 
         </div>
@@ -576,80 +585,78 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -666,27 +673,27 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -711,6 +718,21 @@
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -720,6 +742,8 @@
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -754,50 +778,62 @@
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -816,20 +852,18 @@
 
 
   
-    
-
-    
-      <!-- UY BEGIN -->
-      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
-      <!-- UY END -->
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -1162,7 +1196,7 @@
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -1269,6 +1303,8 @@
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -1285,6 +1321,7 @@
 </script>
 
 
+  
   
 
   

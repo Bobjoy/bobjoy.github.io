@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -116,10 +102,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -161,21 +149,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -187,8 +160,7 @@
   
 
   <div class="container sidebar-position-left 
-   page-home 
- ">
+  page-home">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -204,7 +176,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -244,6 +216,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -254,12 +246,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -325,7 +337,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/12/15/好用的网盘搜索引擎搜藏/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -343,9 +359,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/12/15/好用的网盘搜索引擎搜藏/" itemprop="url">好用的网盘搜索引擎搜藏</a></h1>
+                <a class="post-title-link" href="/2017/12/15/好用的网盘搜索引擎搜藏/" itemprop="url">好用的网盘搜索引擎搜藏</a></h2>
         
 
         <div class="post-meta">
@@ -371,10 +387,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-01-31T17:25:45+08:00">
-                2018-01-31
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:59:38+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -415,7 +431,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -431,26 +447,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/681347/pexels-photo-681347.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3d008wzsukid2zrj4k"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/681347/pexels-photo-681347.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          网盘搜索引擎
-电驴 http://www.verycd.com
-
-城通网盘 https://www.ctfile.com
-
-盘多多 http://www.panduoduo.net
-
-西林街 http://www.xilinjie.com
-
-胖次网盘搜索引擎 http://www.panc.cc
-
-
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -462,18 +486,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -487,6 +508,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -499,7 +524,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/11/23/Mybatis单个参数的if判断（针对异常：There-is-no-getter-for-property-）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -517,9 +546,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/11/23/Mybatis单个参数的if判断（针对异常：There-is-no-getter-for-property-）/" itemprop="url">Mybatis单个参数的if判断（针对异常：There is no getter for property..）</a></h1>
+                <a class="post-title-link" href="/2017/11/23/Mybatis单个参数的if判断（针对异常：There-is-no-getter-for-property-）/" itemprop="url">Mybatis单个参数的if判断（针对异常：There is no getter for property..）</a></h2>
         
 
         <div class="post-meta">
@@ -545,10 +574,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:58:39+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -567,7 +596,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -583,18 +612,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/913179/pexels-photo-913179.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi1g004gzsuks6wnkx2i"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/913179/pexels-photo-913179.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          MyBatis在进行参数判断的时候，可以直接使用传入entity实体属性名或者map的键名，如下：
-
-常规代码
-123456789101112&lt;update id="update" parameterType="com.demo.entity.Test"&gt;  UPDATE t_test 
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -606,18 +651,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -631,6 +673,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -643,7 +689,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/08/15/SSH公钥中保存多个git账号/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -661,9 +711,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/15/SSH公钥中保存多个git账号/" itemprop="url">SSH公钥中保存多个git账号</a></h1>
+                <a class="post-title-link" href="/2017/08/15/SSH公钥中保存多个git账号/" itemprop="url">SSH公钥中保存多个git账号</a></h2>
         
 
         <div class="post-meta">
@@ -689,10 +739,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:13:01+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -733,7 +783,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -749,18 +799,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/370013/pexels-photo-370013.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi1i004kzsukp1hqxo2y"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/370013/pexels-photo-370013.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          问题描述之前生成了GitHub的ssh公钥，可以免登陆提交代码，后来在oschina上也需要生成ssh公钥，发现GitHub的公钥就无法使用了，需要重新生成，但是又会将oschina的公钥覆盖掉。
-解决办法
-创建不同的ssh公钥，修改默认文件路径
- 1234567891011121314151617
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -772,18 +838,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -797,6 +860,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -809,7 +876,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/08/03/记一次Spring注入Bean异常/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -827,9 +898,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/03/记一次Spring注入Bean异常/" itemprop="url">记一次Spring注入Bean异常</a></h1>
+                <a class="post-title-link" href="/2017/08/03/记一次Spring注入Bean异常/" itemprop="url">记一次Spring注入Bean异常</a></h2>
         
 
         <div class="post-meta">
@@ -855,10 +926,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:50:05+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -877,7 +948,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -893,15 +964,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/682004/pexels-photo-682004.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3o009ozsukva1af3fw"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/682004/pexels-photo-682004.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          问题描述12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -913,18 +1003,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -938,6 +1025,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -950,7 +1041,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/07/28/MySQL-使用问题记录-持续更新/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -968,9 +1063,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/28/MySQL-使用问题记录-持续更新/" itemprop="url">MySQL-使用问题记录-持续更新</a></h1>
+                <a class="post-title-link" href="/2017/07/28/MySQL-使用问题记录-持续更新/" itemprop="url">MySQL-使用问题记录-持续更新</a></h2>
         
 
         <div class="post-meta">
@@ -996,10 +1091,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-03-22T11:16:08+08:00">
-                2018-03-22
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:08:59+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1040,7 +1135,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1056,20 +1151,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/605496/pexels-photo-605496.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi1b0044zsukw8ub7dzr"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/605496/pexels-photo-605496.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          SQL语句中delete语句中别名引发的问题
-SQL语句
-1DELETE FROM sys_auth t WHERE t.id=1
-
-错误提示
-1[42000][1064] You have an error in your SQL syntax; check the manual that cor
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1081,18 +1190,15 @@ SQL语句
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1106,6 +1212,10 @@ SQL语句
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1118,7 +1228,11 @@ SQL语句
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/07/26/Java读取INI文件时返回空/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1136,9 +1250,9 @@ SQL语句
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/26/Java读取INI文件时返回空/" itemprop="url">Java读取INI文件时返回空</a></h1>
+                <a class="post-title-link" href="/2017/07/26/Java读取INI文件时返回空/" itemprop="url">Java读取INI文件时返回空</a></h2>
         
 
         <div class="post-meta">
@@ -1164,10 +1278,10 @@ SQL语句
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:53:09+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1208,7 +1322,7 @@ SQL语句
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1224,17 +1338,34 @@ SQL语句
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" rel="gallery_cjfapwi12003jzsuky5pi6ebl"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          问题描述Java 读取 INI配置 文件时，返回内容为空，也没有报错，配置内容如下
-12345[base_auth]/static/**  = anon/u/**       = anon/open/**    = anon/user/**    = kickout,simple,login
-解决方
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1246,18 +1377,15 @@ SQL语句
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1271,6 +1399,10 @@ SQL语句
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1283,7 +1415,11 @@ SQL语句
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/07/23/GIT使用问题记录-持续更新/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1301,9 +1437,9 @@ SQL语句
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/23/GIT使用问题记录-持续更新/" itemprop="url">GIT使用问题记录(持续更新)</a></h1>
+                <a class="post-title-link" href="/2017/07/23/GIT使用问题记录-持续更新/" itemprop="url">GIT使用问题记录(持续更新)</a></h2>
         
 
         <div class="post-meta">
@@ -1329,10 +1465,10 @@ SQL语句
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:36:03+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1373,7 +1509,7 @@ SQL语句
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1389,15 +1525,34 @@ SQL语句
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/600110/pexels-photo-600110.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwhzi0013zsukxmbks6pu"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/600110/pexels-photo-600110.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          Git submodule add: “a git directory is found locally” issue问题描述1234567git submodule add https://github.com/iissnan/hexo-theme-next.git themes/next --b
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1409,18 +1564,15 @@ SQL语句
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1434,6 +1586,10 @@ SQL语句
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1446,7 +1602,11 @@ SQL语句
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/07/23/转-一个命令永久禁用Win10驱动程序强制签名/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1464,9 +1624,9 @@ SQL语句
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/23/转-一个命令永久禁用Win10驱动程序强制签名/" itemprop="url">[转]一个命令永久禁用Win10驱动程序强制签名</a></h1>
+                <a class="post-title-link" href="/2017/07/23/转-一个命令永久禁用Win10驱动程序强制签名/" itemprop="url">[转]一个命令永久禁用Win10驱动程序强制签名</a></h2>
         
 
         <div class="post-meta">
@@ -1492,10 +1652,10 @@ SQL语句
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:49:23+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1514,7 +1674,7 @@ SQL语句
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1530,20 +1690,34 @@ SQL语句
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/229014/pexels-photo-229014.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3p009rzsukhadcal5f"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/229014/pexels-photo-229014.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
           
-原文地址：https://www.ithome.com/html/win10/196402.htm
-
-在Win10中，未经签名的驱动程序不能使用，这会导致部分硬件出现问题，此时就需要手动关闭Windows10的默认驱动验证。好在这个永久关闭验证的方法很简单，只需一个命令就可以搞定。
-
-▲要关闭强制
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1555,18 +1729,15 @@ SQL语句
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1580,6 +1751,10 @@ SQL语句
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1592,7 +1767,11 @@ SQL语句
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/07/23/记一次OPPO-R9s刷机过程/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1610,9 +1789,9 @@ SQL语句
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/23/记一次OPPO-R9s刷机过程/" itemprop="url">记一次OPPO R9s清除锁屏密码即刷机过程</a></h1>
+                <a class="post-title-link" href="/2017/07/23/记一次OPPO-R9s刷机过程/" itemprop="url">记一次OPPO R9s清除锁屏密码即刷机过程</a></h2>
         
 
         <div class="post-meta">
@@ -1638,10 +1817,10 @@ SQL语句
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:50:21+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1682,7 +1861,7 @@ SQL语句
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1698,9 +1877,28 @@ SQL语句
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/662337/pexels-photo-662337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3m009kzsukvsk9t9io"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/662337/pexels-photo-662337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
@@ -1717,18 +1915,15 @@ SQL语句
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1742,6 +1937,10 @@ SQL语句
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1754,7 +1953,11 @@ SQL语句
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2017/07/11/Java连接MySQL数据库-提示Establishing-SSL-connection-without警告/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1772,9 +1975,9 @@ SQL语句
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/11/Java连接MySQL数据库-提示Establishing-SSL-connection-without警告/" itemprop="url">Java连接MySQL数据库,提示Establishing SSL connection without警告</a></h1>
+                <a class="post-title-link" href="/2017/07/11/Java连接MySQL数据库-提示Establishing-SSL-connection-without警告/" itemprop="url">Java连接MySQL数据库,提示Establishing SSL connection without警告</a></h2>
         
 
         <div class="post-meta">
@@ -1800,10 +2003,10 @@ SQL语句
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:54:00+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1844,7 +2047,7 @@ SQL语句
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1860,16 +2063,34 @@ SQL语句
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/946351/pexels-photo-946351.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi10003fzsukeadr4ihk"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/946351/pexels-photo-946351.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          问题描述Java在连接MySQL数据库时，输出如下警告信息
-12345678910Tue Jul 11 18:04:07 CST 2017 WARN: Establishing SSL connection without server&apos;s identity verification is
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1881,18 +2102,15 @@ SQL语句
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1906,6 +2124,10 @@ SQL语句
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1938,80 +2160,78 @@ SQL语句
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -2028,27 +2248,27 @@ SQL语句
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -2073,6 +2293,21 @@ SQL语句
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -2082,6 +2317,8 @@ SQL语句
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -2116,50 +2353,58 @@ SQL语句
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
   
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -2178,16 +2423,18 @@ SQL语句
 
 
   
-    
-
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -2520,7 +2767,7 @@ SQL语句
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -2627,6 +2874,8 @@ SQL语句
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -2643,6 +2892,7 @@ SQL语句
 </script>
 
 
+  
   
 
   

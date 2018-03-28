@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Linux," />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -110,12 +96,12 @@
 <meta property="og:site_name" content="IT飞鱼">
 <meta property="og:description" content="一、iptable介绍Netfilter包含有三种表，三种表下共包含有五种链，链下面包含各种规则。即表包含若干链，链包含若干规则。 （一） 三种表为：filter、nat、mangle filter:处理与本机有关的数据包，是默认表，包含有三种链：input、output、forward；  nat表：与本机无关。主要处理源与目的地址IP和端口的转换。有三种链：prerouting、postrou">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://7xkexv.dl1.z0.glb.clouddn.com/2016062101/iptables.png">
-<meta property="og:updated_time" content="2017-12-20T09:26:53.696Z">
+<meta property="og:image" content="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+<meta property="og:updated_time" content="2018-03-28T07:55:42.197Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux命令之iptables">
 <meta name="twitter:description" content="一、iptable介绍Netfilter包含有三种表，三种表下共包含有五种链，链下面包含各种规则。即表包含若干链，链包含若干规则。 （一） 三种表为：filter、nat、mangle filter:处理与本机有关的数据包，是默认表，包含有三种链：input、output、forward；  nat表：与本机无关。主要处理源与目的地址IP和端口的转换。有三种链：prerouting、postrou">
-<meta name="twitter:image" content="http://7xkexv.dl1.z0.glb.clouddn.com/2016062101/iptables.png">
+<meta name="twitter:image" content="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
 
 
 
@@ -123,10 +109,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -168,21 +156,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -193,7 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -209,7 +182,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -249,6 +222,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -259,12 +252,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -330,7 +343,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/06/21/Linux命令之iptables/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -348,7 +365,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Linux命令之iptables</h1>
+          <h2 class="post-title" itemprop="name headline">Linux命令之iptables</h2>
         
 
         <div class="post-meta">
@@ -374,10 +391,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:55:42+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -418,7 +435,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -434,9 +451,28 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi17003wzsuk01kealq4"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
@@ -525,14 +561,12 @@
 <h4 id="三）-match-匹配"><a href="#三）-match-匹配" class="headerlink" title="(三） match 匹配"></a>(三） match 匹配</h4><p>分为四大类：通用匹配、隐含匹配、显示匹配、针对非正常包的匹配</p>
 <h5 id="1-通用匹配"><a href="#1-通用匹配" class="headerlink" title="1. 通用匹配"></a>1. 通用匹配</h5><p>无论我们使用何种协议，装入何种扩展，通用匹配都可以使用。不需要前提条件</p>
 <ul>
-<li><p>(1). -p(小写）或–protocol  </p>
+<li><p>(1). -p(小写）或–protocol</p>
 <ul>
 <li>用来检查某些特定协议。协议有TCP\UDP\ICMP三种。可用逗号分开这三种协议的任何组合。也可用“！”号进行取反，表示除该协议外的剩下的协议。也可用all表示全部协议。默认是all，但只代表tcp\udp\icmp三种协议。</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ iptables -A INPUT -p TCP,UDP</div><div class="line">$ iptables -A INPUT -p ! ICMP     //这两种表示的意思为一样的。</div></pre></td></tr></table></figure>
 </li>
-</ul>
-<ul>
 <li><p>(2). -s 或 –source</p>
 <ul>
 <li>以Ip源地址匹配包。根据源地址范围确定是否允许或拒绝数据包通过过滤器。可使用 “！”符号。    默认是匹配所有ip地址。</li>
@@ -552,11 +586,11 @@
 <li>放在某类接口后面，表示所有此类接口相匹配。如：    iptables  -A INPUT -i eth+   //表示匹配所有ethernet 接口。</li>
 </ul>
 </li>
-<li><p>(5). -o   </p>
+<li><p>(5). -o</p>
 <ul>
 <li>以数据包出本地所使用的网络接口来匹配包。与-i一样的使用方法。</li>
 <li>只能用OUTPUT \ FORWARD \POSTROUTING 三个链中。用在其他任何链中都会出错。</li>
-<li>可使用“+”  “！”两种符号。 </li>
+<li>可使用“+”  “！”两种符号。</li>
 </ul>
 </li>
 <li><p>(6). -f  (或  –fragment )</p>
@@ -569,25 +603,25 @@
 <p>分三种不同协议的隐含匹配:tcp、udp、icmp</p>
 <p>2.1 tcp match</p>
 <p>tcp match 只能隐含匹配TCP包或流的细节。但必须有  -p tcp 作为前提条件。</p>
-<p>（2.1.1） TCP –sport  </p>
+<p>（2.1.1） TCP –sport</p>
 <p>基于tcp包的源端口匹配包  ，不指定此项则表示所有端口。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">iptables -A INPUT -p  TCP  --sport   22:80    //TCP源端口号22到80之间的所有端口。</div><div class="line">iptables -A INPUT -p  TCP  --sport   22:      //TCP源端口号22到65535之间的所有端口。</div></pre></td></tr></table></figure>
-<p>（2.1.2） TCP –dport  </p>
+<p>（2.1.2） TCP –dport</p>
 <p>基于tcp包的目的端口来匹配包。   与–sport端口用法一样。</p>
-<p>（2.1.3） TCP –flags  </p>
-<p>匹配指定的TCP标记。 </p>
+<p>（2.1.3） TCP –flags</p>
+<p>匹配指定的TCP标记。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iptables  -p  TCP --tcp-flags  SYN,FIN,ACK   SYN</div></pre></td></tr></table></figure>
 <p>2.2   UDP match</p>
-<p>（2.1.1）  UDP –sport  </p>
+<p>（2.1.1）  UDP –sport</p>
 <p>基于UDP包的源端口匹配包  ，不指定此项则表示所有端口。</p>
-<p>（2.1.1）  UDP –dport  </p>
+<p>（2.1.1）  UDP –dport</p>
 <p>基于UDP包的目的端口匹配包  ，不指定此项则表示所有端口。</p>
-<p>2.3 icmp match  </p>
-<p>icmp –icmp-type   </p>
-<p>根据ICMP类型包匹配。类型 的指定可以使用十进制数或相关的名字，不同的类型，有不同的ICMP数值表示。也可以用“！”取反。  </p>
+<p>2.3 icmp match</p>
+<p>icmp –icmp-type</p>
+<p>根据ICMP类型包匹配。类型 的指定可以使用十进制数或相关的名字，不同的类型，有不同的ICMP数值表示。也可以用“！”取反。</p>
 <p>例: <code>iptables  -A INPUT  -p icmp-imcp-type 8</code></p>
-<h5 id="3、显示匹配"><a href="#3、显示匹配" class="headerlink" title="3、显示匹配"></a>3、显示匹配</h5><p>显示匹配必须用  -m装 载。 </p>
-<p>（1）limit match   </p>
+<h5 id="3、显示匹配"><a href="#3、显示匹配" class="headerlink" title="3、显示匹配"></a>3、显示匹配</h5><p>显示匹配必须用  -m装 载。</p>
+<p>（1）limit match</p>
 <p>必须用 -m limit 明确指出。  可以对指定的规则的匹配次数加以限制。即，当某条规则匹配到一定次数后，就不再匹配。也就是限制可匹配包的数量。这样可以防止DOS攻击。</p>
 <p>限制方法： 设定对某条规则 的匹配最大次数。设一个限定值 。 当到达限定值以后，就停止匹配。但有个规定，在超过限制次数后，仍会每隔一段时间再增加一次匹配次数。但增加的空闲匹配数最大数量不超过最大限制次数。</p>
 <p>–limit rate</p>
@@ -605,17 +639,17 @@
 <p>这个模块匹配一组源端口或目标端口,最多可以指定15个端口。只能和-p tcp 或者 -p udp 连着使用。</p>
 <p>多端口匹配扩展让我们能够在一条规则里指定不连续的多个端口。如果没有这个扩展，我们只能按端口来写规则了。这只是标准端口匹配的增强版。不能在一条规则里同时用标准端口匹配和多端口匹配。</p>
 <p>三个选项：–source-port、–destination-port、–port</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">iptables  -A INPUT  -p TCP   -m  multiport  --source-port 22,28,115       </div><div class="line">iptables  -A INPUT  -p TCP   -m  multiport  --destination-port 22,28,115 </div><div class="line">iptables  -A INPUT  -p TCP   -m  multiport  --port 22,28,115</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">iptables  -A INPUT  -p TCP   -m  multiport  --source-port 22,28,115</div><div class="line">iptables  -A INPUT  -p TCP   -m  multiport  --destination-port 22,28,115</div><div class="line">iptables  -A INPUT  -p TCP   -m  multiport  --port 22,28,115</div></pre></td></tr></table></figure>
 <p>（5） state match</p>
 <p>状态匹配扩展要有内核里的连接跟踪代码的协助。因为是从连接跟踪机制得到包的状态。这样不可以了解所处的状态。</p>
 <p>（6） tos match</p>
-<p>根据TOS字段匹配包，用来控制优先级。 </p>
+<p>根据TOS字段匹配包，用来控制优先级。</p>
 <p>（7） ttl match</p>
 <p>根据IP头里的TTL字段来匹配包。</p>
 <p>用来更改包的TTL，有些ISP根据TTL来判断是不是有多台机器共享连接上网。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">iptables -t mangle -A PREROUTING -i eth0 -j TTL --ttl-set 64</div><div class="line">iptables -t mangle -A PREROUTING -i eth0 -j TTL --ttl-dec 1</div><div class="line"># 离开防火墙的时候实际上TTL已经-2了，因为防火墙本身要-1一次。</div><div class="line">iptables -t mangle -A PREROUTING -i eth0 -j TTL --ttl-inc 1</div><div class="line"># 离开防火墙的时候不增不减，tracert就不好用了，呵呵。</div></pre></td></tr></table></figure>
 <p>（8） owner match</p>
-<p>基于包的生成者（即所有者或拥有者）的ID来匹配包。 </p>
+<p>基于包的生成者（即所有者或拥有者）的ID来匹配包。</p>
 <p>owner 可以是启动进程的用户的ID，或用户所在的级的ID或进程的ID，或会话的ID。此只能用在OUTPUT 中。</p>
 <p>此模块设为本地生成包匹配包创建者的不同特征。而且即使这样一些包（如ICMP ping应答）还可能没有所有者，因此永远不会匹配。</p>
 <p>–uid-owner userid</p>
@@ -626,9 +660,9 @@
 <p>  根据给出的会话组匹配该进程产生的包。</p>
 <h4 id="（四）-targets-jump"><a href="#（四）-targets-jump" class="headerlink" title="（四） targets/jump"></a>（四） targets/jump</h4><p>指由规则指定的操作，对与规则匹配的信息包执行什么动作。</p>
 <p>1、accept</p>
-<p>这个参数没有任何选项。指定 -j accept 即可。 </p>
+<p>这个参数没有任何选项。指定 -j accept 即可。</p>
 <p>一旦满足匹配不再去匹配表或链内定义的其他规则。但它还可能会匹配其他表和链内的规则。即在同一个表内匹配后就到上为止，不往下继续。</p>
-<p>2、drop </p>
+<p>2、drop</p>
 <p>-j drop   当信息包与规则完全匹配时，将丢弃该 包。不对它做处理。并且不向发送者返回任何信息。也不向路由器返回信息。</p>
 <p>3、reject</p>
 <p>与drop相同的工作方式，不同的是，丢弃包后，会发送错误信息给发送方。</p>
@@ -638,10 +672,10 @@
 <p>做目的网络地址转换的。就是重写目的的IP地址。</p>
 <p>如果一个包被匹配，那么和它属于同一个流的所有的包都会被自动转换。然后可以被路由到正确的主机和网络。</p>
 <p>也就是如同防火墙的外部地址映射。把外部地址映射到内部地址上。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">iptables -t nat   -A PREROUTING   -d 218.104.235.238 -p TCP  --dport 110,125    -j DNAT --to-destination  192.168.9.1 </div><div class="line">//把所有访问218.104.235.238地址  110.125端口的包全部转发到 192.168.9.1上。</div><div class="line">--to-destination   //目的地重写</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">iptables -t nat   -A PREROUTING   -d 218.104.235.238 -p TCP  --dport 110,125    -j DNAT --to-destination  192.168.9.1</div><div class="line">//把所有访问218.104.235.238地址  110.125端口的包全部转发到 192.168.9.1上。</div><div class="line">--to-destination   //目的地重写</div></pre></td></tr></table></figure>
 <p>5、SNAT</p>
 <p>用在nat 表的postrouting链表。这个和DNAT相反。是做源地址转换。就是重写源地址IP。 常用在内部网到外部网的转换。</p>
-<p>–to-source </p>
+<p>–to-source</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iptables -t nat POSTROUTING  -o eth0 -p tcp  -j SNAT --to-source 218.107.248.127  //从eth0接口往外发的数据包都把源地址重写为218.107.248.127</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">iptables -t nat -A PREROUTING -p tcp -d 15.45.23.67 --dport 80 -j DNAT --to-destination 192.168.1.9</div><div class="line"># 将所有的访问15.45.23.67:80端口的数据做DNAT发到192.168.1.9:80</div></pre></td></tr></table></figure>
 <p>如果和192.168.1.9在同一内网的机器要访问15.45.23.67，防火墙还需要做设置，改变源IP为防火墙内网IP 192.168.1.1。否则数据包直接发给内网机器，对方将丢弃。</p>
@@ -653,7 +687,7 @@
 <p>MASQUERADE的作用是，从服务器的网卡上，自动获取当前ip地址来做NAT</p>
 <p>如家里的ADSL上网，外网的IP地址不是固定的，你无法固定的设定NAT转换后的IP地址。这时就需要用masquerade来动态获取了。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iptables -t nat -A POSTROUTING  -s 192.168.1.0/24 -j masquerade      //即把192.168.1.0 这个网段的地址都重写为动态的外部IP地址。</div></pre></td></tr></table></figure>
-<p>7、REDIRECT </p>
+<p>7、REDIRECT</p>
 <p>只能在NAT表中的PREROUTING  OUTPUT 链中使用</p>
 <p>在防火墙所在的机子内部转发包或流到另一个端口。比如，我们可以把所有去往端口HTTP的包REDIRECT到HTTP proxy（例如squid），当然这都发生在我们自己的主机内部。</p>
 <p>–to-ports</p>
@@ -673,44 +707,36 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &quot;1&quot; &gt; /proc/sys/net/ipv4/ip_forward</div></pre></td></tr></table></figure>
 <p>如果使用PPP、DHCP等动态IP，需要打开：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &quot;1&quot; &gt; /proc/sys/net/ipv4/ip_dynaddr</div></pre></td></tr></table></figure>
-      
-    </div>
-
-    <div>
-      
-        
 
       
     </div>
+    
+    
+    
 
-    <div>
-      
-        
+    
 
-      
-    </div>
+    
 
-    <div>
-      
-        
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      鲍方亮
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="http://bobjoy.github.io/2016/06/21/Linux命令之iptables/" title="Linux命令之iptables">http://bobjoy.github.io/2016/06/21/Linux命令之iptables/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    鲍方亮
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://bobjoy.github.io/2016/06/21/Linux命令之iptables/" title="Linux命令之iptables">http://bobjoy.github.io/2016/06/21/Linux命令之iptables/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 
-
-      
-    </div>
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -750,34 +776,15 @@
       
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
 
     <div class="post-spread">
-      
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
       
     </div>
   </div>
@@ -788,11 +795,9 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div id="uyan_frame"></div>
-    
-  </div>
+
+  
+
 
 
         </div>
@@ -808,89 +813,87 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
             站点概览
           </li>
         </ul>
       
 
-      <section class="site-overview sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -923,27 +926,27 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -968,6 +971,21 @@
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -977,6 +995,8 @@
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -1011,50 +1031,62 @@
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -1073,20 +1105,18 @@
 
 
   
-    
-
-    
-      <!-- UY BEGIN -->
-      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
-      <!-- UY END -->
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -1419,7 +1449,7 @@
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -1526,6 +1556,8 @@
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -1542,6 +1574,7 @@
 </script>
 
 
+  
   
 
   

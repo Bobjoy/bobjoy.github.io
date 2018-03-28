@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -116,10 +102,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -161,21 +149,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -187,8 +160,7 @@
   
 
   <div class="container sidebar-position-left 
-   page-home 
- ">
+  page-home">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -204,7 +176,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -244,6 +216,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -254,12 +246,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -325,7 +337,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/08/05/深度解析Objective-C笔试题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -343,9 +359,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/08/05/深度解析Objective-C笔试题/" itemprop="url">深度解析Objective-C笔试题</a></h1>
+                <a class="post-title-link" href="/2015/08/05/深度解析Objective-C笔试题/" itemprop="url">深度解析Objective-C笔试题</a></h2>
         
 
         <div class="post-meta">
@@ -371,10 +387,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:03:13+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -415,7 +431,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -431,9 +447,28 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/888992/pexels-photo-888992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3c008uzsuk7w3rgvco"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/888992/pexels-photo-888992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
@@ -441,9 +476,9 @@
           <pre><code>本文介绍的是Objective-C笔试题，先来问一个，为什么很多内置类如UITableViewController的delegate属性都是assign而不是retain的？看本文详细详细解答内容。
 </code></pre><p>&emsp;&emsp;Objective-C笔试题是本文要介绍的内容，很详细的讲解写的答案。大约有18个Objective-C问题供你参考学习，不多说，我们一起来看详细解答！</p>
 <h2 id="1-Objective-C中，与alloc语义相反的方法是dealloc还是release？与retain语义相反的方法是dealloc还是release，为什么？需要与alloc配对使用的方法是dealloc还是release，为什么？"><a href="#1-Objective-C中，与alloc语义相反的方法是dealloc还是release？与retain语义相反的方法是dealloc还是release，为什么？需要与alloc配对使用的方法是dealloc还是release，为什么？" class="headerlink" title="1.Objective-C中，与alloc语义相反的方法是dealloc还是release？与retain语义相反的方法是dealloc还是release，为什么？需要与alloc配对使用的方法是dealloc还是release，为什么？"></a>1.Objective-C中，与<code>alloc</code>语义相反的方法是<code>dealloc</code>还是<code>release</code>？与<code>retain</code>语义相反的方法是<code>dealloc</code>还是<code>release</code>，为什么？需要与<code>alloc</code>配对使用的方法是<code>dealloc</code>还是<code>release</code>，为什么？</h2><p>答：<code>alloc</code>与<code>dealloc</code>语意相反，<code>alloc</code>是创建变量，<code>dealloc</code>是释放变量。 <code>retain</code>对应<code>release</code>,<code>retain</code>保留一个对象。调用之后，变量的计数加1。或许不是很明显，在这有例为证：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">— (void) setName : (NSString*) name &#123;   </div><div class="line">    [name retain];   </div><div class="line">    [myname release];   </div><div class="line">    myname = name;   </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">— (void) setName : (NSString*) name &#123;</div><div class="line">    [name retain];</div><div class="line">    [myname release];</div><div class="line">    myname = name;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>我们来解释一下：设想，用户在调用这个函数的时候，他注意了内存的管理，所以他小心的写了如下代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString * newname = [[NSString alloc] initWithString: @&quot;John&quot;];   </div><div class="line">[aClass setName: newname];   </div><div class="line">[newname release];</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString * newname = [[NSString alloc] initWithString: @&quot;John&quot;];</div><div class="line">[aClass setName: newname];</div><div class="line">[newname release];</div></pre></td></tr></table></figure>
 <p>我们来看一看<code>newname</code>的计数是怎么变化的。首先，它被<code>alloc，count = 1;</code>然后，在<code>setName</code>中，它被<code>retain， count = 2;</code>最后，用户自己释放<code>newname，count = 1</code>，<code>myname</code>指向了<code>newname</code>。这也解释了为什么需要调用<code>[myname release]</code>。我们需要在给<code>myname</code>赋新值的时候，释放掉以前老的变量。<code>retain</code>之后直接<code>dealloc</code>对象计数器没有释放。<code>alloc</code>需要与<code>release</code>配对使用，因为<code>alloc</code>这个函数调用之后，变量的计数加1。所以在调用<code>alloc</code>之后，一定要调用对应的<code>release</code>。另外，在<code>release</code>一个变量之后，他的值仍然有效，所以最好是后面紧接着再<code>var=nil</code>。<br>
           <!--noindex-->
           <div class="post-button text-center">
@@ -455,18 +490,15 @@
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -480,6 +512,10 @@
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -492,7 +528,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/08/04/JavaScript-获取客户端内网IP和外网IP-STUN/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -510,9 +550,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/08/04/JavaScript-获取客户端内网IP和外网IP-STUN/" itemprop="url">JavaScript 获取客户端内网IP和外网IP(STUN)</a></h1>
+                <a class="post-title-link" href="/2015/08/04/JavaScript-获取客户端内网IP和外网IP-STUN/" itemprop="url">JavaScript 获取客户端内网IP和外网IP(STUN)</a></h2>
         
 
         <div class="post-meta">
@@ -538,10 +578,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:51:20+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -582,7 +622,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -598,17 +638,34 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/713071/pexels-photo-713071.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi0y003czsuk7ssfpcag"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/713071/pexels-photo-713071.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          from:https://github.com/diafygi/webrtc-ips
-Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP，不同于XMLHttpRequest请求，STUN请求开发者工具当中看不到网络请求的。
-1234567891011121314
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -620,18 +677,15 @@ Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP�
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -645,6 +699,10 @@ Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP�
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -657,7 +715,11 @@ Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP�
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/08/03/ruby安装时错误-mysql2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -675,9 +737,9 @@ Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP�
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/08/03/ruby安装时错误-mysql2/" itemprop="url">ruby安装时错误-mysql2</a></h1>
+                <a class="post-title-link" href="/2015/08/03/ruby安装时错误-mysql2/" itemprop="url">ruby安装时错误-mysql2</a></h2>
         
 
         <div class="post-meta">
@@ -703,10 +765,10 @@ Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP�
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:57:14+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -747,7 +809,7 @@ Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP�
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -763,19 +825,35 @@ Firefox 跟 Chrome支持WebRTC可以向STUN服务器请求，返回内外网IP�
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/219014/pexels-photo-219014.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2m006vzsukw53y1i3y"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/219014/pexels-photo-219014.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          执行bundle install时，控制台报错：
-解决:sudo gem install mysql2 -v &#39;0.3.16&#39;，如果还不行，则
-sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
-
           
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/08/03/ruby安装时错误-mysql2/#more" rel="contents">
@@ -786,18 +864,15 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -811,6 +886,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -823,7 +902,11 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/31/brew安装appledoc时提示No-available-formula-for-appledoc/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -841,9 +924,9 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/31/brew安装appledoc时提示No-available-formula-for-appledoc/" itemprop="url">brew安装appledoc时提示No available formula for appledoc</a></h1>
+                <a class="post-title-link" href="/2015/07/31/brew安装appledoc时提示No-available-formula-for-appledoc/" itemprop="url">brew安装appledoc时提示No available formula for appledoc</a></h2>
         
 
         <div class="post-meta">
@@ -869,10 +952,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:29:08+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -913,7 +996,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -929,17 +1012,34 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/794567/pexels-photo-794567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" rel="gallery_cjfapwi24005ozsukw72luwr4"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/794567/pexels-photo-794567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          执行brew install appledoc 提示：  
-123Error: No available formula for appledocSearching formulae...Searching taps...
-执行brew tap homebrew/dupes再执行：brew inst
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -951,18 +1051,15 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -976,6 +1073,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -988,7 +1089,11 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/30/优雅地使用-OS-X/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1006,9 +1111,9 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/30/优雅地使用-OS-X/" itemprop="url">优雅地使用 OS X</a></h1>
+                <a class="post-title-link" href="/2015/07/30/优雅地使用-OS-X/" itemprop="url">优雅地使用 OS X</a></h2>
         
 
         <div class="post-meta">
@@ -1034,10 +1139,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:06:43+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1056,7 +1161,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1072,17 +1177,35 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/325272/pexels-photo-325272.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2x007ozsuknpn7r7cu"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/325272/pexels-photo-325272.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
           
-
-          
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/07/30/优雅地使用-OS-X/#more" rel="contents">
@@ -1093,18 +1216,15 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1118,6 +1238,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1130,7 +1254,11 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/30/我的全栈之路/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1148,9 +1276,9 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/30/我的全栈之路/" itemprop="url">我的全栈之路</a></h1>
+                <a class="post-title-link" href="/2015/07/30/我的全栈之路/" itemprop="url">我的全栈之路</a></h2>
         
 
         <div class="post-meta">
@@ -1176,10 +1304,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:00:08+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1198,7 +1326,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1214,17 +1342,35 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/849646/pexels-photo-849646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi36008bzsuk9xnybh86"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/849646/pexels-photo-849646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
           
-
-          
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/07/30/我的全栈之路/#more" rel="contents">
@@ -1235,18 +1381,15 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1260,6 +1403,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1272,7 +1419,11 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/30/nginx运行PHP页面报502错误/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1290,9 +1441,9 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/30/nginx运行PHP页面报502错误/" itemprop="url">nginx运行PHP页面报502错误</a></h1>
+                <a class="post-title-link" href="/2015/07/30/nginx运行PHP页面报502错误/" itemprop="url">nginx运行PHP页面报502错误</a></h2>
         
 
         <div class="post-meta">
@@ -1318,10 +1469,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:58:10+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1362,7 +1513,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1378,22 +1529,35 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/110321/pexels-photo-110321.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2d006bzsukwb1heo7g"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/110321/pexels-photo-110321.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          在ubuntu上搭建lnmp环境的时候，运行php页面，代码如下
-123&lt;?phpphpinfo();?&gt;
-浏览器打开http://localhost/info.php,结果502了
-解决办法：
-修改为：
-运行sudo service nginx reload就可以正常访问了
-
           
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/07/30/nginx运行PHP页面报502错误/#more" rel="contents">
@@ -1404,18 +1568,15 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1429,6 +1590,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1441,7 +1606,11 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/29/Mac安装Android-SDK/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1459,9 +1628,9 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/29/Mac安装Android-SDK/" itemprop="url">Mac安装Android SDK</a></h1>
+                <a class="post-title-link" href="/2015/07/29/Mac安装Android-SDK/" itemprop="url">Mac安装Android SDK</a></h2>
         
 
         <div class="post-meta">
@@ -1487,10 +1656,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:08:15+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1531,7 +1700,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1547,18 +1716,34 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/427650/pexels-photo-427650.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi18003zzsukm03swkb5"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/427650/pexels-photo-427650.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
           
-启动Android SDK Manager，打开主界面，在菜单栏，依次选择「Android SDK Manager」、「Preference…」，弹出『Android SDK Manager - Settings』窗口；
-
-在『Android SDK Manager - Settings』窗口中，
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1570,18 +1755,15 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1595,6 +1777,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1607,7 +1793,11 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/28/编译安装nginx报错-install-docs-Error-255/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1625,9 +1815,9 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/28/编译安装nginx报错-install-docs-Error-255/" itemprop="url">编译安装nginx报错[install_docs] Error 255</a></h1>
+                <a class="post-title-link" href="/2015/07/28/编译安装nginx报错-install-docs-Error-255/" itemprop="url">编译安装nginx报错[install_docs] Error 255</a></h2>
         
 
         <div class="post-meta">
@@ -1653,10 +1843,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:02:15+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1675,7 +1865,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1691,18 +1881,35 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/877702/pexels-photo-877702.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3b008pzsukcc0d6oy2"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/877702/pexels-photo-877702.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          源码编译安装nginx报错：
-解决办法：
-1rm /usr/bin/pod2man
           
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2015/07/28/编译安装nginx报错-install-docs-Error-255/#more" rel="contents">
@@ -1713,18 +1920,15 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1738,6 +1942,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1750,7 +1958,11 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/07/28/使用hexo-generate生成文章时报错JS-YAML-can-not-read-a-block-mapping-entry/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1768,9 +1980,9 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/07/28/使用hexo-generate生成文章时报错JS-YAML-can-not-read-a-block-mapping-entry/" itemprop="url">使用hexo generate生成文章时报错JS-YAML: can not read a block mapping entry</a></h1>
+                <a class="post-title-link" href="/2015/07/28/使用hexo-generate生成文章时报错JS-YAML-can-not-read-a-block-mapping-entry/" itemprop="url">使用hexo generate生成文章时报错JS-YAML: can not read a block mapping entry</a></h2>
         
 
         <div class="post-meta">
@@ -1796,10 +2008,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:06:15+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -1818,7 +2030,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -1834,16 +2046,34 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/891393/pexels-photo-891393.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi2y007rzsuktphfzkl0"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/891393/pexels-photo-891393.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         
           
-          在使用hexo generate生成静态文章时报错了，错误内容如下
-1234ERROR Process failed: _posts/vagrant-reload命令报错-UndefinedConversionError.mdJS-YAML: can not read a block mapping
+          
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1855,18 +2085,15 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         
       
     </div>
+    
+    
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
-    <div>
-      
-    </div>
+    
 
     <footer class="post-footer">
       
@@ -1880,6 +2107,10 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <div class="post-eof"></div>
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
@@ -1912,80 +2143,78 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -2002,27 +2231,27 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -2047,6 +2276,21 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -2056,6 +2300,8 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -2090,50 +2336,58 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
   
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -2152,16 +2406,18 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
 
   
-    
-
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -2494,7 +2750,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -2601,6 +2857,8 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -2617,6 +2875,7 @@ sudo apt-get install libmysqlclient-dev,安装后再运行上边的命令
 </script>
 
 
+  
   
 
   

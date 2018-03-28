@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Objective-C," />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -110,10 +96,12 @@
 <meta property="og:site_name" content="IT飞鱼">
 <meta property="og:description" content="本文介绍的是Objective-C笔试题，先来问一个，为什么很多内置类如UITableViewController的delegate属性都是assign而不是retain的？看本文详细详细解答内容。 &amp;emsp;&amp;emsp;Objective-C笔试题是本文要介绍的内容，很详细的讲解写的答案。大约有18个Objective-C问题供你参考学习，不多说，我们一起来看详细解答！ 1.Objective">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-20T09:26:53.761Z">
+<meta property="og:image" content="https://images.pexels.com/photos/888992/pexels-photo-888992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+<meta property="og:updated_time" content="2018-03-28T08:03:13.442Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="深度解析Objective-C笔试题">
 <meta name="twitter:description" content="本文介绍的是Objective-C笔试题，先来问一个，为什么很多内置类如UITableViewController的delegate属性都是assign而不是retain的？看本文详细详细解答内容。 &amp;emsp;&amp;emsp;Objective-C笔试题是本文要介绍的内容，很详细的讲解写的答案。大约有18个Objective-C问题供你参考学习，不多说，我们一起来看详细解答！ 1.Objective">
+<meta name="twitter:image" content="https://images.pexels.com/photos/888992/pexels-photo-888992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
 
 
 
@@ -121,10 +109,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -166,21 +156,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -191,7 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +182,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -247,6 +222,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -257,12 +252,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -328,7 +343,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/08/05/深度解析Objective-C笔试题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -346,7 +365,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">深度解析Objective-C笔试题</h1>
+          <h2 class="post-title" itemprop="name headline">深度解析Objective-C笔试题</h2>
         
 
         <div class="post-meta">
@@ -372,10 +391,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T16:03:13+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -416,7 +435,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -432,77 +451,87 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/888992/pexels-photo-888992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi3c008uzsuk7w3rgvco"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/888992/pexels-photo-888992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         <pre><code>本文介绍的是Objective-C笔试题，先来问一个，为什么很多内置类如UITableViewController的delegate属性都是assign而不是retain的？看本文详细详细解答内容。
 </code></pre><p>&emsp;&emsp;Objective-C笔试题是本文要介绍的内容，很详细的讲解写的答案。大约有18个Objective-C问题供你参考学习，不多说，我们一起来看详细解答！</p>
 <h2 id="1-Objective-C中，与alloc语义相反的方法是dealloc还是release？与retain语义相反的方法是dealloc还是release，为什么？需要与alloc配对使用的方法是dealloc还是release，为什么？"><a href="#1-Objective-C中，与alloc语义相反的方法是dealloc还是release？与retain语义相反的方法是dealloc还是release，为什么？需要与alloc配对使用的方法是dealloc还是release，为什么？" class="headerlink" title="1.Objective-C中，与alloc语义相反的方法是dealloc还是release？与retain语义相反的方法是dealloc还是release，为什么？需要与alloc配对使用的方法是dealloc还是release，为什么？"></a>1.Objective-C中，与<code>alloc</code>语义相反的方法是<code>dealloc</code>还是<code>release</code>？与<code>retain</code>语义相反的方法是<code>dealloc</code>还是<code>release</code>，为什么？需要与<code>alloc</code>配对使用的方法是<code>dealloc</code>还是<code>release</code>，为什么？</h2><p>答：<code>alloc</code>与<code>dealloc</code>语意相反，<code>alloc</code>是创建变量，<code>dealloc</code>是释放变量。 <code>retain</code>对应<code>release</code>,<code>retain</code>保留一个对象。调用之后，变量的计数加1。或许不是很明显，在这有例为证：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">— (void) setName : (NSString*) name &#123;   </div><div class="line">    [name retain];   </div><div class="line">    [myname release];   </div><div class="line">    myname = name;   </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">— (void) setName : (NSString*) name &#123;</div><div class="line">    [name retain];</div><div class="line">    [myname release];</div><div class="line">    myname = name;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>我们来解释一下：设想，用户在调用这个函数的时候，他注意了内存的管理，所以他小心的写了如下代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString * newname = [[NSString alloc] initWithString: @&quot;John&quot;];   </div><div class="line">[aClass setName: newname];   </div><div class="line">[newname release];</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString * newname = [[NSString alloc] initWithString: @&quot;John&quot;];</div><div class="line">[aClass setName: newname];</div><div class="line">[newname release];</div></pre></td></tr></table></figure>
 <p>我们来看一看<code>newname</code>的计数是怎么变化的。首先，它被<code>alloc，count = 1;</code>然后，在<code>setName</code>中，它被<code>retain， count = 2;</code>最后，用户自己释放<code>newname，count = 1</code>，<code>myname</code>指向了<code>newname</code>。这也解释了为什么需要调用<code>[myname release]</code>。我们需要在给<code>myname</code>赋新值的时候，释放掉以前老的变量。<code>retain</code>之后直接<code>dealloc</code>对象计数器没有释放。<code>alloc</code>需要与<code>release</code>配对使用，因为<code>alloc</code>这个函数调用之后，变量的计数加1。所以在调用<code>alloc</code>之后，一定要调用对应的<code>release</code>。另外，在<code>release</code>一个变量之后，他的值仍然有效，所以最好是后面紧接着再<code>var=nil</code>。<br><a id="more"></a></p>
-<h2 id="2-在一个对象的方法里面-self-name-“object”-和name-＝”object”有什么不同吗"><a href="#2-在一个对象的方法里面-self-name-“object”-和name-＝”object”有什么不同吗" class="headerlink" title="2.在一个对象的方法里面:self.name = “object”; 和name ＝”object”有什么不同吗?"></a>2.在一个对象的方法里面:<code>self.name = “object”;</code> 和<code>name ＝”object”</code>有什么不同吗?</h2><p>答：<code>self.name = &quot;object&quot;</code>会调用对象的<code>setName()</code>方法，<code>name = &quot;object&quot;</code>会直接把object赋值给当前对象的name属性。  </p>
-<h2 id="3-这段代码有什么问题吗"><a href="#3-这段代码有什么问题吗" class="headerlink" title="3.这段代码有什么问题吗:"></a>3.这段代码有什么问题吗:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">@implementation Person   </div><div class="line">— (void)setAge:(int)newAge &#123;   </div><div class="line">    self.age = newAge;   </div><div class="line">&#125;   </div><div class="line">@end</div></pre></td></tr></table></figure>
+<h2 id="2-在一个对象的方法里面-self-name-“object”-和name-＝”object”有什么不同吗"><a href="#2-在一个对象的方法里面-self-name-“object”-和name-＝”object”有什么不同吗" class="headerlink" title="2.在一个对象的方法里面:self.name = “object”; 和name ＝”object”有什么不同吗?"></a>2.在一个对象的方法里面:<code>self.name = “object”;</code> 和<code>name ＝”object”</code>有什么不同吗?</h2><p>答：<code>self.name = &quot;object&quot;</code>会调用对象的<code>setName()</code>方法，<code>name = &quot;object&quot;</code>会直接把object赋值给当前对象的name属性。</p>
+<h2 id="3-这段代码有什么问题吗"><a href="#3-这段代码有什么问题吗" class="headerlink" title="3.这段代码有什么问题吗:"></a>3.这段代码有什么问题吗:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">@implementation Person</div><div class="line">— (void)setAge:(int)newAge &#123;</div><div class="line">    self.age = newAge;</div><div class="line">&#125;</div><div class="line">@end</div></pre></td></tr></table></figure>
 <p>答：会进入死循环。</p>
 <h2 id="4-什么是retain-count"><a href="#4-什么是retain-count" class="headerlink" title="4.什么是retain count?"></a>4.什么是<code>retain count</code>?</h2><p>答：引用计数(ref count或者retain count)。对象的内部保存一个数字，表示被引用的次数。例如，某个对象被两个指针所指向（引用）那么它的retain count为2。需要销毁对 象的时候，不直接调用<code>dealloc</code>，而是调用<code>release</code>。<code>release</code>会 让retain count减1，只有retain count等于0，系统才会调用dealloc真正销毁这个对象。</p>
-<h2 id="5-以下每行代码执行后，person对象的retain-count分别是多少"><a href="#5-以下每行代码执行后，person对象的retain-count分别是多少" class="headerlink" title="5.以下每行代码执行后，person对象的retain count分别是多少"></a>5.以下每行代码执行后，person对象的retain count分别是多少</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Person *person = [[Person alloc] init]; //count 1   </div><div class="line">[person retain]; //count 2   </div><div class="line">[person release];//count 1   </div><div class="line">[person release];//retain count = 1;</div></pre></td></tr></table></figure>
+<h2 id="5-以下每行代码执行后，person对象的retain-count分别是多少"><a href="#5-以下每行代码执行后，person对象的retain-count分别是多少" class="headerlink" title="5.以下每行代码执行后，person对象的retain count分别是多少"></a>5.以下每行代码执行后，person对象的retain count分别是多少</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Person *person = [[Person alloc] init]; //count 1</div><div class="line">[person retain]; //count 2</div><div class="line">[person release];//count 1</div><div class="line">[person release];//retain count = 1;</div></pre></td></tr></table></figure>
 <h2 id="6-为什么很多内置类如UITableViewController的delegate属性都是assign而不是retain的？"><a href="#6-为什么很多内置类如UITableViewController的delegate属性都是assign而不是retain的？" class="headerlink" title="6.为什么很多内置类如UITableViewController的delegate属性都是assign而不是retain的？"></a>6.为什么很多内置类如<code>UITableViewController</code>的delegate属性都是assign而不是retain的？</h2><p>答：会引起循环引用。</p>
 <h2 id="7-定义属性时，什么情况使用copy，assign，和retain-。"><a href="#7-定义属性时，什么情况使用copy，assign，和retain-。" class="headerlink" title="7.定义属性时，什么情况使用copy，assign，和retain 。"></a>7.定义属性时，什么情况使用copy，assign，和retain 。</h2><p>答：assign用于简单数据类型，如NSInteger,double,bool,retain 和copy用户对象，copy用于当 a指向一个对象，b也想指向同样的对象的时候，如果用assign，a如果释放，再调用b会crash,如果用copy 的方式，a和b各自有自己的内存，就可以解决这个问题。retain 会使计数器加一，也可以解决assign的问题。另外：atomic和nonatomic用来决定编译器生成的getter和setter是否为原子操作。在多线程环境下，原子操作是必要的，否则有可能引起错误的结果。加了atomic，setter函数会变成下面这样：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">if (property != newValue) &#123;    </div><div class="line">     [property release];         </div><div class="line">     property = [newValue retain];    </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">if (property != newValue) &#123;</div><div class="line">     [property release];</div><div class="line">     property = [newValue retain];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="8-对象是在什么时候被release的？"><a href="#8-对象是在什么时候被release的？" class="headerlink" title="8.对象是在什么时候被release的？"></a>8.对象是在什么时候被release的？</h2><p>答：autorelease实际上只是把对release的调用延迟了，对于每一个Autorelease，系统只是把该Object放入了当前的Autorelease pool中，当该pool被释放时，该pool中的所有Object会被调用Release。对于每一个Runloop，系统会隐式创建一个Autorelease pool，这样所有的release pool会构成一个象CallStack一样的一个栈式结构，在每一个Runloop结束时，当前栈顶的Autorelease pool会被销毁，这样这个pool里的每个Object（就是autorelease的对象）会被release。那什么是一个Runloop呢？一个UI事件，Timer call， delegate call， 都会是一个新的Runloop。那什么是一个Runloop呢？一个UI事件，Timer call， delegate call，都会是一个新的Runloop。</p>
-<h2 id="9-这段代码有什么问题-如何修改"><a href="#9-这段代码有什么问题-如何修改" class="headerlink" title="9.这段代码有什么问题,如何修改"></a>9.这段代码有什么问题,如何修改</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for (int i = 0; i &lt; someLargeNumber; i++)   </div><div class="line">&#123;   </div><div class="line">    NSString *string = @”Abc”;   </div><div class="line">    string = [string lowercaseString];   </div><div class="line">    string = [string stringByAppendingString:@&quot;xyz&quot;];   </div><div class="line">    NSLog(@“%@”, string);   </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="9-这段代码有什么问题-如何修改"><a href="#9-这段代码有什么问题-如何修改" class="headerlink" title="9.这段代码有什么问题,如何修改"></a>9.这段代码有什么问题,如何修改</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for (int i = 0; i &lt; someLargeNumber; i++)</div><div class="line">&#123;</div><div class="line">    NSString *string = @”Abc”;</div><div class="line">    string = [string lowercaseString];</div><div class="line">    string = [string stringByAppendingString:@&quot;xyz&quot;];</div><div class="line">    NSLog(@“%@”, string);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>答：会内存泄露，修改如下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">for(int i = 0; i&lt;1000;i++)&#123;   </div><div class="line">    NSAutoreleasePool * pool1 = [[NSAutoreleasePool alloc] init];   </div><div class="line">    NSString *string = @&quot;Abc&quot;;   </div><div class="line">    string = [string lowercaseString];   </div><div class="line">    string = [string stringByAppendingString:@&quot;xyz&quot;];   </div><div class="line">    NSLog(@&quot;%@&quot;,string);   </div><div class="line">    [pool1 drain];   </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">for(int i = 0; i&lt;1000;i++)&#123;</div><div class="line">    NSAutoreleasePool * pool1 = [[NSAutoreleasePool alloc] init];</div><div class="line">    NSString *string = @&quot;Abc&quot;;</div><div class="line">    string = [string lowercaseString];</div><div class="line">    string = [string stringByAppendingString:@&quot;xyz&quot;];</div><div class="line">    NSLog(@&quot;%@&quot;,string);</div><div class="line">    [pool1 drain];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="10-autorelease和垃圾回收机制-gc-有什么关系？"><a href="#10-autorelease和垃圾回收机制-gc-有什么关系？" class="headerlink" title="10.autorelease和垃圾回收机制(gc)有什么关系？"></a>10.autorelease和垃圾回收机制(gc)有什么关系？</h2><p>答：完全不同的两种机制</p>
 <h2 id="11-iPhone-OS有没有垃圾回收（gc）？"><a href="#11-iPhone-OS有没有垃圾回收（gc）？" class="headerlink" title="11.iPhone OS有没有垃圾回收（gc）？"></a>11.iPhone OS有没有垃圾回收（gc）？</h2><p>答：早期没有，现在版本支持。</p>
 <h2 id="12-什么是Notification？"><a href="#12-什么是Notification？" class="headerlink" title="12.什么是Notification？"></a>12.什么是Notification？</h2><p>答：观察者模式，controller向defaultNotificationCenter添加自己的notification，其他类注册这个notification就可以收到通知，这些类可以在收到通知时做自己的操作（多观察者默认随机顺序发通知给观察者们，而且每个观察者都要等当前的某个观察者的操作做完才能轮到他来操作，可以用NotificationQueue的方式安排观察者的反应顺序，也可以在添加观察者中设定反映时间，取消观察需要在viewDidUnload 跟dealloc中都要注销）。</p>
 <h2 id="13-什么时候用delegate，什么时候用Notification？"><a href="#13-什么时候用delegate，什么时候用Notification？" class="headerlink" title="13.什么时候用delegate，什么时候用Notification？"></a>13.什么时候用delegate，什么时候用Notification？</h2><p>答：delegate针对one-to-one关系，并且reciever可以返回值给sender，notification 可以针对one-to-one/many/none,reciever无法返回值给sender.所以，delegate用于sender希望接受到reciever的某个功能反馈值，notification用于通知多个object某个事件。</p>
 <h2 id="14-什么是KVC和KVO？"><a href="#14-什么是KVC和KVO？" class="headerlink" title="14.什么是KVC和KVO？"></a>14.什么是KVC和KVO？</h2><p>答：KVC(Key-Value-Coding)内部的实现：一个对象在调用setValue的时候，（1）首先根据方法名找到运行方法的时候所需要的环境参数。（2）他会从自己isa指针结合环境参数，找到具体的方法实现的接口。（3）再直接查找得来的具体的方法实现。KVO（Key-Value-Observing）：当观察者为一个对象的属性进行了注册，被观察对象的isa指针被修改的时候，isa指针就会指向一个中间类，而不是真实的类。所以isa指针其实不需要指向实例对象真实的类。所以我们的程序最好不要依赖于isa指针。在调用类的方法的时候，最好要明确对象实例的类名。</p>
 <h2 id="15-ViewController-的-loadView-viewDidLoad-viewDidUnload-分别是在什么时候调用的？在自定义ViewController的时候这几个函数里面应该做什么工作？"><a href="#15-ViewController-的-loadView-viewDidLoad-viewDidUnload-分别是在什么时候调用的？在自定义ViewController的时候这几个函数里面应该做什么工作？" class="headerlink" title="15.ViewController 的 loadView, viewDidLoad, viewDidUnload 分别是在什么时候调用的？在自定义ViewController的时候这几个函数里面应该做什么工作？"></a>15.ViewController 的 loadView, viewDidLoad, viewDidUnload 分别是在什么时候调用的？在自定义ViewController的时候这几个函数里面应该做什么工作？</h2><p>答：viewDidLoad在view 从nib文件初始化时调用，loadView在controller的view为nil时调用。此方法在编程实现view时调用,view 控制器默认会注册memory warning notification,当view controller的任何view 没有用的时候，viewDidUnload会被调用，在这里实现将retain 的view release,如果是retain的IBOutlet view 属性则不要在这里release,IBOutlet会负责release 。</p>
-<h2 id="16-ViewController-的-didReceiveMemoryWarning-是在什么时候被调用的？默认的操作是什么"><a href="#16-ViewController-的-didReceiveMemoryWarning-是在什么时候被调用的？默认的操作是什么" class="headerlink" title="16.ViewController 的 didReceiveMemoryWarning 是在什么时候被调用的？默认的操作是什么?"></a>16.ViewController 的 didReceiveMemoryWarning 是在什么时候被调用的？默认的操作是什么?</h2><p>答：默认调用<code>[super didReceiveMemoryWarning]</code> </p>
+<h2 id="16-ViewController-的-didReceiveMemoryWarning-是在什么时候被调用的？默认的操作是什么"><a href="#16-ViewController-的-didReceiveMemoryWarning-是在什么时候被调用的？默认的操作是什么" class="headerlink" title="16.ViewController 的 didReceiveMemoryWarning 是在什么时候被调用的？默认的操作是什么?"></a>16.ViewController 的 didReceiveMemoryWarning 是在什么时候被调用的？默认的操作是什么?</h2><p>答：默认调用<code>[super didReceiveMemoryWarning]</code></p>
 
       
     </div>
+    
+    
+    
 
-    <div>
-      
-        
+    
 
-      
-    </div>
+    
 
-    <div>
-      
-        
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    鲍方亮
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://bobjoy.github.io/2015/08/05/深度解析Objective-C笔试题/" title="深度解析Objective-C笔试题">http://bobjoy.github.io/2015/08/05/深度解析Objective-C笔试题/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 
-      
-    </div>
-
-    <div>
-      
-        
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      鲍方亮
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="http://bobjoy.github.io/2015/08/05/深度解析Objective-C笔试题/" title="深度解析Objective-C笔试题">http://bobjoy.github.io/2015/08/05/深度解析Objective-C笔试题/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-
-
-      
-    </div>
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -542,34 +571,15 @@
       
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
 
     <div class="post-spread">
-      
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
       
     </div>
   </div>
@@ -580,11 +590,9 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div id="uyan_frame"></div>
-    
-  </div>
+
+  
+
 
 
         </div>
@@ -600,89 +608,87 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
             站点概览
           </li>
         </ul>
       
 
-      <section class="site-overview sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -715,27 +721,27 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -760,6 +766,21 @@
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -769,6 +790,8 @@
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -803,50 +826,62 @@
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -865,20 +900,18 @@
 
 
   
-    
-
-    
-      <!-- UY BEGIN -->
-      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
-      <!-- UY END -->
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -1211,7 +1244,7 @@
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -1318,6 +1351,8 @@
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -1334,6 +1369,7 @@
 </script>
 
 
+  
   
 
   

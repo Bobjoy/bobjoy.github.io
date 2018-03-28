@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="JavaScript," />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -110,10 +96,12 @@
 <meta property="og:site_name" content="IT飞鱼">
 <meta property="og:description" content="property 和 attribute非常容易混淆，两个单词的中文翻译也都非常相近（property：属性，attribute：特性），但实际上，二者是不同的东西，属于不同的范畴。  property是DOM中的属性，是JavaScript里的对象； attribute是HTML标签上的特性，它的值只能够是字符串；  基于JavaScript分析property 和 attributehtml中">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-20T09:26:53.669Z">
+<meta property="og:image" content="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+<meta property="og:updated_time" content="2018-03-28T07:32:12.147Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="DOM 中 Property 和 Attribute 的区别">
 <meta name="twitter:description" content="property 和 attribute非常容易混淆，两个单词的中文翻译也都非常相近（property：属性，attribute：特性），但实际上，二者是不同的东西，属于不同的范畴。  property是DOM中的属性，是JavaScript里的对象； attribute是HTML标签上的特性，它的值只能够是字符串；  基于JavaScript分析property 和 attributehtml中">
+<meta name="twitter:image" content="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
 
 
 
@@ -121,10 +109,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -166,21 +156,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -191,7 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +182,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -247,6 +222,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -257,12 +252,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -328,7 +343,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2015/10/05/DOM-中-Property-和-Attribute-的区别/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -346,7 +365,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">DOM 中 Property 和 Attribute 的区别</h1>
+          <h2 class="post-title" itemprop="name headline">DOM 中 Property 和 Attribute 的区别</h2>
         
 
         <div class="post-meta">
@@ -372,10 +391,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:32:12+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -416,7 +435,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -432,9 +451,28 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwhz5000hzsukpiqnmeai"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
@@ -518,13 +556,13 @@
 <p>调用语句：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">access( <span class="keyword">this</span>, jQuery.attr, name, value, <span class="built_in">arguments</span>.length &gt; <span class="number">1</span> )；</div></pre></td></tr></table></figure>
 <p>简化的access：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// elems 当前的jQuery对象,可能包含多个DOM对象</span></div><div class="line"><span class="comment">// fn jQuery.attr方法</span></div><div class="line"><span class="comment">// name 属性名</span></div><div class="line"><span class="comment">// value 属性的值</span></div><div class="line"><span class="comment">// chainable 如果value为空,则chainable为false,否则chainable为true</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> access = jQuery.access = <span class="function"><span class="keyword">function</span>(<span class="params"> elems, fn, key, value, chainable, emptyGet, raw </span>) </span>&#123;</div><div class="line"></div><div class="line">	<span class="keyword">var</span> i = <span class="number">0</span>,						<span class="comment">// 迭代计数</span></div><div class="line">		length = elems.length,		<span class="comment">// 属性数量</span></div><div class="line">		bulk = <span class="literal">false</span>；				<span class="comment">// key != null</span></div><div class="line"></div><div class="line">	<span class="keyword">if</span> ( value !== <span class="literal">undefined</span> ) &#123;	<span class="comment">// 如果value不为空,则为设置新值,否则返回该属性的值</span></div><div class="line">		chainable = <span class="literal">true</span>;</div><div class="line">		raw = <span class="literal">true</span>;				<span class="comment">// value不是function</span></div><div class="line"></div><div class="line">		<span class="keyword">if</span> ( fn ) &#123;	<span class="comment">// fn为jQuery.attr</span></div><div class="line">			<span class="keyword">for</span> ( ; i &lt; length; i++ ) &#123;</div><div class="line">				fn( elems[i], key, value);		<span class="comment">// jQuery.attr(elems, key, value);</span></div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	<span class="keyword">if</span>(chainable) &#123;			<span class="comment">// value不为空,表示是get</span></div><div class="line">		<span class="keyword">return</span> elems；		<span class="comment">// 返回元素实现链式调用</span></div><div class="line">	&#125; <span class="keyword">else</span> &#123;</div><div class="line">		<span class="keyword">if</span>(length) &#123;		<span class="comment">// 如果元素集合长度不为零，则返回第一个元素的属性值</span></div><div class="line">			<span class="keyword">return</span> fn(elems[<span class="number">0</span>], key); 	<span class="comment">// jQuery.attr(elems[0], key);</span></div><div class="line">		&#125; <span class="keyword">else</span> &#123;</div><div class="line">			<span class="keyword">return</span> emptyGet；		<span class="comment">// 返回一个默认值，在这里是undefined</span></div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// elems 当前的jQuery对象,可能包含多个DOM对象</span></div><div class="line"><span class="comment">// fn jQuery.attr方法</span></div><div class="line"><span class="comment">// name 属性名</span></div><div class="line"><span class="comment">// value 属性的值</span></div><div class="line"><span class="comment">// chainable 如果value为空,则chainable为false,否则chainable为true</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> access = jQuery.access = <span class="function"><span class="keyword">function</span>(<span class="params"> elems, fn, key, value, chainable, emptyGet, raw </span>) </span>&#123;</div><div class="line"></div><div class="line">	<span class="keyword">var</span> i = <span class="number">0</span>,						<span class="comment">// 迭代计数</span></div><div class="line">		length = elems.length,		<span class="comment">// 属性数量</span></div><div class="line">		bulk = <span class="literal">false</span>；				<span class="comment">// key != null</span></div><div class="line"></div><div class="line">	<span class="keyword">if</span> ( value !== <span class="literal">undefined</span> ) &#123;	<span class="comment">// 如果value不为空,则为设置新值,否则返回该属性的值</span></div><div class="line">		chainable = <span class="literal">true</span>;</div><div class="line">		raw = <span class="literal">true</span>;				<span class="comment">// value不是function</span></div><div class="line"></div><div class="line">		<span class="keyword">if</span> ( fn ) &#123;	<span class="comment">// fn为jQuery.attr</span></div><div class="line">			<span class="keyword">for</span> ( ; i &lt; length; i++ ) &#123;</div><div class="line">				fn( elems[i], key, value);		<span class="comment">// jQuery.attr(elems, key, value);</span></div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">if</span>(chainable) &#123;			<span class="comment">// value不为空,表示是get</span></div><div class="line">		<span class="keyword">return</span> elems；		<span class="comment">// 返回元素实现链式调用</span></div><div class="line">	&#125; <span class="keyword">else</span> &#123;</div><div class="line">		<span class="keyword">if</span>(length) &#123;		<span class="comment">// 如果元素集合长度不为零，则返回第一个元素的属性值</span></div><div class="line">			<span class="keyword">return</span> fn(elems[<span class="number">0</span>], key); 	<span class="comment">// jQuery.attr(elems[0], key);</span></div><div class="line">		&#125; <span class="keyword">else</span> &#123;</div><div class="line">			<span class="keyword">return</span> emptyGet；		<span class="comment">// 返回一个默认值，在这里是undefined</span></div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
 <p>通过简化代码，可以知道，access的作用就是遍历上一个$调用得到的元素集合，对其调用fn函数。在jQuery.attr和jQuery.prop里面，就是利用access来遍历元素集合并对其实现对attribute和property的控制。access的源码里面有多段条件转移代码，看起来眼花缭乱，其最终目的就是能够实现对元素集合的变量并完成不同的操作，复杂的代码让jQuery的接口变得更加简单，能极大提高代码重用性，意味着减少了代码量，提高代码的密度从而使JS文件大小得到减少。</p>
 <p>这些都是题外话了，现在回到$().attr和$().prop的实现。总的说,这两个原型方法都利用access对元素集进行变量，并对每个元素调用jQuery.prop和jQuery.attr方法。要注意，这里的jQuery.prop和jQuery.attr并不是原型链上的方法，而是jQuery这个对象本身的方法，它是使用jQuery.extend进行方法扩展的（jQuery.fn.prop和jQuery.fn.attr是使用jQuery.fn.extend进行方法扩展的）。</p>
 <p>下面看看这两个方法的源码。</p>
-<h4 id="jQury-attr"><a href="#jQury-attr" class="headerlink" title="jQury.attr"></a>jQury.attr</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div></pre></td><td class="code"><pre><div class="line">jQuery.extend(&#123;</div><div class="line">	<span class="attr">attr</span>: <span class="function"><span class="keyword">function</span>(<span class="params"> elem, name, value </span>) </span>&#123;</div><div class="line">		<span class="keyword">var</span> hooks, ret,</div><div class="line">			nType = elem.nodeType;	<span class="comment">// 获取Node类型</span></div><div class="line"></div><div class="line">		<span class="comment">// 如果 elem是空或者NodeType是以下类型</span></div><div class="line">		<span class="comment">// 		2: Attr, 属性, 子节点有Text, EntityReference</span></div><div class="line">		<span class="comment">// 		3: Text, 元素或属性中的文本内容</span></div><div class="line">		<span class="comment">// 		8: Comment, 注释</span></div><div class="line">		<span class="comment">// 不执行任何操作</span></div><div class="line">		<span class="keyword">if</span> ( !elem || nType === <span class="number">3</span> || nType === <span class="number">8</span> || nType === <span class="number">2</span> ) &#123;</div><div class="line">			<span class="keyword">return</span>;</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="comment">// 如果支持attitude方法, 则调用property方法</span></div><div class="line">		<span class="keyword">if</span> ( <span class="keyword">typeof</span> elem.getAttribute === strundefined ) &#123;</div><div class="line">			<span class="keyword">return</span> jQuery.prop( elem, name, value );</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="comment">// 如果elem的Node类型不是元素(1)</span></div><div class="line">		<span class="keyword">if</span> ( nType !== <span class="number">1</span> || !jQuery.isXMLDoc( elem ) ) &#123;</div><div class="line">			name = name.toLowerCase();</div><div class="line">			<span class="comment">// 针对浏览器的兼容性，获取钩子函数，处理一些特殊的元素</span></div><div class="line">			hooks = jQuery.attrHooks[ name ] ||</div><div class="line">				( jQuery.expr.match.bool.test( name ) ? boolHook : nodeHook );</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="keyword">if</span> ( value !== <span class="literal">undefined</span> ) &#123;		<span class="comment">// 如果value不为undefined，执行"SET"</span></div><div class="line"></div><div class="line">			<span class="keyword">if</span> ( value === <span class="literal">null</span> ) &#123;			<span class="comment">// 如果value为null，则移除attribute</span></div><div class="line">				jQuery.removeAttr( elem, name );	</div><div class="line"></div><div class="line">			&#125; <span class="keyword">else</span> <span class="keyword">if</span> ( hooks &amp;&amp; <span class="string">"set"</span> <span class="keyword">in</span> hooks &amp;&amp; (ret = hooks.set( elem, value, name )) !== <span class="literal">undefined</span> ) &#123;</div><div class="line">				<span class="keyword">return</span> ret;					<span class="comment">// 使用钩子函数</span></div><div class="line"></div><div class="line">			&#125; <span class="keyword">else</span> &#123;						<span class="comment">// 使用Dom的setAttribute方法</span></div><div class="line">				elem.setAttribute( name, value + <span class="string">""</span> );		<span class="comment">// 注意，要将value转换为string，因为所有attribute的值都是string</span></div><div class="line">				<span class="keyword">return</span> value;</div><div class="line">			&#125;</div><div class="line"></div><div class="line">		<span class="comment">// 如果value为undefined，就执行"GET"</span></div><div class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> ( hooks &amp;&amp; <span class="string">"get"</span> <span class="keyword">in</span> hooks &amp;&amp; (ret = hooks.get( elem, name )) !== <span class="literal">null</span> ) &#123;</div><div class="line">			<span class="keyword">return</span> ret;			<span class="comment">// 使用钩子函数</span></div><div class="line"></div><div class="line">		&#125; <span class="keyword">else</span> &#123;</div><div class="line">			ret = jQuery.find.attr( elem, name );	<span class="comment">// 实际上调用了Sizzle.attr，这个方法中针对兼容性问题作出处理来获取attribute的值</span></div><div class="line"></div><div class="line">			<span class="comment">// 返回获得的值</span></div><div class="line">			<span class="keyword">return</span> ret == <span class="literal">null</span> ?</div><div class="line">				<span class="literal">undefined</span> :</div><div class="line">				ret;</div><div class="line">		&#125;</div><div class="line">	&#125;,</div><div class="line"></div><div class="line">	...</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h4 id="jQury-attr"><a href="#jQury-attr" class="headerlink" title="jQury.attr"></a>jQury.attr</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div></pre></td><td class="code"><pre><div class="line">jQuery.extend(&#123;</div><div class="line">	<span class="attr">attr</span>: <span class="function"><span class="keyword">function</span>(<span class="params"> elem, name, value </span>) </span>&#123;</div><div class="line">		<span class="keyword">var</span> hooks, ret,</div><div class="line">			nType = elem.nodeType;	<span class="comment">// 获取Node类型</span></div><div class="line"></div><div class="line">		<span class="comment">// 如果 elem是空或者NodeType是以下类型</span></div><div class="line">		<span class="comment">// 		2: Attr, 属性, 子节点有Text, EntityReference</span></div><div class="line">		<span class="comment">// 		3: Text, 元素或属性中的文本内容</span></div><div class="line">		<span class="comment">// 		8: Comment, 注释</span></div><div class="line">		<span class="comment">// 不执行任何操作</span></div><div class="line">		<span class="keyword">if</span> ( !elem || nType === <span class="number">3</span> || nType === <span class="number">8</span> || nType === <span class="number">2</span> ) &#123;</div><div class="line">			<span class="keyword">return</span>;</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="comment">// 如果支持attitude方法, 则调用property方法</span></div><div class="line">		<span class="keyword">if</span> ( <span class="keyword">typeof</span> elem.getAttribute === strundefined ) &#123;</div><div class="line">			<span class="keyword">return</span> jQuery.prop( elem, name, value );</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="comment">// 如果elem的Node类型不是元素(1)</span></div><div class="line">		<span class="keyword">if</span> ( nType !== <span class="number">1</span> || !jQuery.isXMLDoc( elem ) ) &#123;</div><div class="line">			name = name.toLowerCase();</div><div class="line">			<span class="comment">// 针对浏览器的兼容性，获取钩子函数，处理一些特殊的元素</span></div><div class="line">			hooks = jQuery.attrHooks[ name ] ||</div><div class="line">				( jQuery.expr.match.bool.test( name ) ? boolHook : nodeHook );</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="keyword">if</span> ( value !== <span class="literal">undefined</span> ) &#123;		<span class="comment">// 如果value不为undefined，执行"SET"</span></div><div class="line"></div><div class="line">			<span class="keyword">if</span> ( value === <span class="literal">null</span> ) &#123;			<span class="comment">// 如果value为null，则移除attribute</span></div><div class="line">				jQuery.removeAttr( elem, name );</div><div class="line"></div><div class="line">			&#125; <span class="keyword">else</span> <span class="keyword">if</span> ( hooks &amp;&amp; <span class="string">"set"</span> <span class="keyword">in</span> hooks &amp;&amp; (ret = hooks.set( elem, value, name )) !== <span class="literal">undefined</span> ) &#123;</div><div class="line">				<span class="keyword">return</span> ret;					<span class="comment">// 使用钩子函数</span></div><div class="line"></div><div class="line">			&#125; <span class="keyword">else</span> &#123;						<span class="comment">// 使用Dom的setAttribute方法</span></div><div class="line">				elem.setAttribute( name, value + <span class="string">""</span> );		<span class="comment">// 注意，要将value转换为string，因为所有attribute的值都是string</span></div><div class="line">				<span class="keyword">return</span> value;</div><div class="line">			&#125;</div><div class="line"></div><div class="line">		<span class="comment">// 如果value为undefined，就执行"GET"</span></div><div class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> ( hooks &amp;&amp; <span class="string">"get"</span> <span class="keyword">in</span> hooks &amp;&amp; (ret = hooks.get( elem, name )) !== <span class="literal">null</span> ) &#123;</div><div class="line">			<span class="keyword">return</span> ret;			<span class="comment">// 使用钩子函数</span></div><div class="line"></div><div class="line">		&#125; <span class="keyword">else</span> &#123;</div><div class="line">			ret = jQuery.find.attr( elem, name );	<span class="comment">// 实际上调用了Sizzle.attr，这个方法中针对兼容性问题作出处理来获取attribute的值</span></div><div class="line"></div><div class="line">			<span class="comment">// 返回获得的值</span></div><div class="line">			<span class="keyword">return</span> ret == <span class="literal">null</span> ?</div><div class="line">				<span class="literal">undefined</span> :</div><div class="line">				ret;</div><div class="line">		&#125;</div><div class="line">	&#125;,</div><div class="line"></div><div class="line">	...</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 <p>从代码可以发现，jQuery.attr调用的是getAttribute和setAttribute方法。</p>
-<h4 id="jQeury-prop"><a href="#jQeury-prop" class="headerlink" title="jQeury.prop"></a>jQeury.prop</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">jQuery.extend(&#123;</div><div class="line"></div><div class="line">	...	</div><div class="line">	prop: <span class="function"><span class="keyword">function</span>(<span class="params"> elem, name, value </span>) </span>&#123;</div><div class="line">		<span class="keyword">var</span> ret, hooks, notxml,</div><div class="line">			nType = elem.nodeType;</div><div class="line"></div><div class="line">		<span class="comment">// 过滤注释、Attr、元素文本内容</span></div><div class="line">		<span class="keyword">if</span> ( !elem || nType === <span class="number">3</span> || nType === <span class="number">8</span> || nType === <span class="number">2</span> ) &#123;</div><div class="line">			<span class="keyword">return</span>;</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		notxml = nType !== <span class="number">1</span> || !jQuery.isXMLDoc( elem );</div><div class="line"></div><div class="line">		<span class="keyword">if</span> ( notxml ) &#123;		<span class="comment">// 如果不是元素</span></div><div class="line">			name = jQuery.propFix[ name ] || name;	<span class="comment">// 修正属性名</span></div><div class="line">			hooks = jQuery.propHooks[ name ];		<span class="comment">// 获取钩子函数</span></div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="keyword">if</span> ( value !== <span class="literal">undefined</span> ) &#123;		<span class="comment">// 执行"SET"</span></div><div class="line">			<span class="keyword">return</span> hooks &amp;&amp; <span class="string">"set"</span> <span class="keyword">in</span> hooks &amp;&amp; (ret = hooks.set( elem, value, name )) !== <span class="literal">undefined</span> ?</div><div class="line">				ret :						<span class="comment">// 调用钩子函数</span></div><div class="line">				( elem[ name ] = value );	<span class="comment">// 直接对elem[name]赋值</span></div><div class="line"></div><div class="line">		&#125; <span class="keyword">else</span> &#123;							<span class="comment">// 执行"GET"</span></div><div class="line">			<span class="keyword">return</span> hooks &amp;&amp; <span class="string">"get"</span> <span class="keyword">in</span> hooks &amp;&amp; (ret = hooks.get( elem, name )) !== <span class="literal">null</span> ?</div><div class="line">				ret :				<span class="comment">// 调用钩子函数</span></div><div class="line">				elem[ name ];		<span class="comment">// 直接返回elem[name]</span></div><div class="line">		&#125;</div><div class="line">	&#125;,</div><div class="line"></div><div class="line">	...</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h4 id="jQeury-prop"><a href="#jQeury-prop" class="headerlink" title="jQeury.prop"></a>jQeury.prop</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">jQuery.extend(&#123;</div><div class="line"></div><div class="line">	...</div><div class="line">	prop: <span class="function"><span class="keyword">function</span>(<span class="params"> elem, name, value </span>) </span>&#123;</div><div class="line">		<span class="keyword">var</span> ret, hooks, notxml,</div><div class="line">			nType = elem.nodeType;</div><div class="line"></div><div class="line">		<span class="comment">// 过滤注释、Attr、元素文本内容</span></div><div class="line">		<span class="keyword">if</span> ( !elem || nType === <span class="number">3</span> || nType === <span class="number">8</span> || nType === <span class="number">2</span> ) &#123;</div><div class="line">			<span class="keyword">return</span>;</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		notxml = nType !== <span class="number">1</span> || !jQuery.isXMLDoc( elem );</div><div class="line"></div><div class="line">		<span class="keyword">if</span> ( notxml ) &#123;		<span class="comment">// 如果不是元素</span></div><div class="line">			name = jQuery.propFix[ name ] || name;	<span class="comment">// 修正属性名</span></div><div class="line">			hooks = jQuery.propHooks[ name ];		<span class="comment">// 获取钩子函数</span></div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="keyword">if</span> ( value !== <span class="literal">undefined</span> ) &#123;		<span class="comment">// 执行"SET"</span></div><div class="line">			<span class="keyword">return</span> hooks &amp;&amp; <span class="string">"set"</span> <span class="keyword">in</span> hooks &amp;&amp; (ret = hooks.set( elem, value, name )) !== <span class="literal">undefined</span> ?</div><div class="line">				ret :						<span class="comment">// 调用钩子函数</span></div><div class="line">				( elem[ name ] = value );	<span class="comment">// 直接对elem[name]赋值</span></div><div class="line"></div><div class="line">		&#125; <span class="keyword">else</span> &#123;							<span class="comment">// 执行"GET"</span></div><div class="line">			<span class="keyword">return</span> hooks &amp;&amp; <span class="string">"get"</span> <span class="keyword">in</span> hooks &amp;&amp; (ret = hooks.get( elem, name )) !== <span class="literal">null</span> ?</div><div class="line">				ret :				<span class="comment">// 调用钩子函数</span></div><div class="line">				elem[ name ];		<span class="comment">// 直接返回elem[name]</span></div><div class="line">		&#125;</div><div class="line">	&#125;,</div><div class="line"></div><div class="line">	...</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 <p>jQuery.prop则是直接对DOM对象上的property进行操作。</p>
 <p>通过对比jQuery.prop和jQuery.attr可以发现，前者直接对DOM对象的property进行操作，而后者会调用setAttribute和getAttribute方法。setAttribute和getAttribute方法又是什么方法呢？有什么效果？</p>
 <h4 id="setAttribute和getAttribute"><a href="#setAttribute和getAttribute" class="headerlink" title="setAttribute和getAttribute"></a>setAttribute和getAttribute</h4><p>基于之前测试使用的输入框，执行如下代码：</p>
@@ -575,13 +613,8 @@
 <li>大多数情况（除非有浏览器兼容性问题），jQuery.attr是通过setAttribute实现，而jQuery.prop则会直接访问DOM对象的property；</li>
 </ul>
 <p>到这里为止，得出，property是DOM对象自身就拥有的属性，而attribute是我们通过设置HTML标签而给之赋予的特性，attribute和property的同名属性/特性之间会产生一些特殊的数据联系，而这些联系会针对不同的属性/特性有不同的区别。</p>
-<p>事实上，在这里，property和attribute之间的区别和联系难以用简单的技术特性来描述，我在StackFlow上找到如下的回答，或者会更加接近于真正的答案：</p>
-<blockquote>
-<p>These words existed way before Computer Science came around.</p>
-<p>Attribute is a quality or object that we attribute to someone or something. For example, the scepter is an attribute of power and statehood.</p>
-<p>Property is a quality that exists without any attribution. For example, clay has adhesive qualities; or, one of the properties of metals is electrical conductivity. Properties demonstrate themselves though physical phenomena without the need attribute them to someone or something. By the same token, saying that someone has masculine attributes is self-evident. In effect, you could say that a property is owned by someone or something.</p>
-<p>To be fair though, in Computer Science these two words, at least for the most part, can be used interchangeably - but then again programmers usually don’t hold degrees in English Literature and do not write or care much about grammar books :).</p>
-</blockquote>
+<p>事实上，在这里，property和attribute之间的区别和联系难以用简单的技术特性来描述，我在StackFlow上找到如下的回答，或者会更加接近于真正的答案：<br>&gt;<br>These words existed way before Computer Science came around.<br>&gt;<br>Attribute is a quality or object that we attribute to someone or something. For example, the scepter is an attribute of power and statehood.</p>
+<p>&gt;<br>Property is a quality that exists without any attribution. For example, clay has adhesive qualities; or, one of the properties of metals is electrical conductivity. Properties demonstrate themselves though physical phenomena without the need attribute them to someone or something. By the same token, saying that someone has masculine attributes is self-evident. In effect, you could say that a property is owned by someone or something.<br>&gt;<br>To be fair though, in Computer Science these two words, at least for the most part, can be used interchangeably - but then again programmers usually don’t hold degrees in English Literature and do not write or care much about grammar books :).</p>
 <p>最关键的两句话：</p>
 <ul>
 <li>attribute（特性），是我们赋予某个事物的特质或对象。</li>
@@ -597,42 +630,33 @@
 
       
     </div>
+    
+    
+    
 
-    <div>
-      
-        
+    
 
-      
-    </div>
+    
 
-    <div>
-      
-        
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    鲍方亮
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://bobjoy.github.io/2015/10/05/DOM-中-Property-和-Attribute-的区别/" title="DOM 中 Property 和 Attribute 的区别">http://bobjoy.github.io/2015/10/05/DOM-中-Property-和-Attribute-的区别/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 
-      
-    </div>
-
-    <div>
-      
-        
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      鲍方亮
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="http://bobjoy.github.io/2015/10/05/DOM-中-Property-和-Attribute-的区别/" title="DOM 中 Property 和 Attribute 的区别">http://bobjoy.github.io/2015/10/05/DOM-中-Property-和-Attribute-的区别/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-
-
-      
-    </div>
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -672,34 +696,15 @@
       
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
 
     <div class="post-spread">
-      
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
       
     </div>
   </div>
@@ -710,11 +715,9 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div id="uyan_frame"></div>
-    
-  </div>
+
+  
+
 
 
         </div>
@@ -730,89 +733,87 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
             站点概览
           </li>
         </ul>
       
 
-      <section class="site-overview sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -845,27 +846,27 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -890,6 +891,21 @@
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -899,6 +915,8 @@
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -933,50 +951,62 @@
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -995,20 +1025,18 @@
 
 
   
-    
-
-    
-      <!-- UY BEGIN -->
-      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
-      <!-- UY END -->
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -1341,7 +1369,7 @@
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -1448,6 +1476,8 @@
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -1464,6 +1494,7 @@
 </script>
 
 
+  
   
 
   

@@ -1,15 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 
 
 
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
@@ -43,36 +44,11 @@
 
 
 
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
@@ -81,7 +57,22 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
 
 
   <meta name="keywords" content="Linux," />
@@ -91,11 +82,6 @@
 
 
   <link rel="alternate" href="/atom.xml" title="IT飞鱼" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -110,10 +96,12 @@
 <meta property="og:site_name" content="IT飞鱼">
 <meta property="og:description" content="用途：&amp;gt;GNU `tar’ saves many files together into a single tape or disk archive, and can restore individual files from the archive. 语法：1tar [-cxtzjvfpPN] file[dir] .... 参数： -c ：建立一个压缩文件的参数指令(create 的意思)">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-20T09:26:53.698Z">
+<meta property="og:image" content="https://images.pexels.com/photos/712786/pexels-photo-712786.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+<meta property="og:updated_time" content="2018-03-28T07:56:24.824Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux命令之tar">
 <meta name="twitter:description" content="用途：&amp;gt;GNU `tar’ saves many files together into a single tape or disk archive, and can restore individual files from the archive. 语法：1tar [-cxtzjvfpPN] file[dir] .... 参数： -c ：建立一个压缩文件的参数指令(create 的意思)">
+<meta name="twitter:image" content="https://images.pexels.com/photos/712786/pexels-photo-712786.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
 
 
 
@@ -121,10 +109,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
-    motion: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -166,21 +156,6 @@
 
 
 
-  <script type="text/javascript">
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//tajs.qq.com/stats?sId=62985046";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
 
 </head>
 
@@ -191,7 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +182,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">天高任鸟飞，海阔凭鱼跃</p>
+        <h1 class="site-subtitle" itemprop="description">天高任鸟飞，海阔凭鱼跃</h1>
       
   </div>
 
@@ -247,6 +222,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -257,12 +252,32 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
             
-            标签
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -328,7 +343,11 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bobjoy.github.io/2016/06/21/Linux命令之tar/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -346,7 +365,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Linux命令之tar</h1>
+          <h2 class="post-title" itemprop="name headline">Linux命令之tar</h2>
         
 
         <div class="post-meta">
@@ -372,10 +391,10 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">更新于</span>
+                <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-20T17:26:53+08:00">
-                2017-12-20
+              <time title="更新于" itemprop="dateModified" datetime="2018-03-28T15:56:24+08:00">
+                2018-03-28
               </time>
             
           </span>
@@ -416,7 +435,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                
-                 <span class="post-meta-item-text">阅读次数 </span>
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
                
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -432,81 +451,91 @@
       </header>
     
 
+    
+    
+    
     <div class="post-body" itemprop="articleBody">
 
       
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="https://images.pexels.com/photos/712786/pexels-photo-712786.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" rel="gallery_cjfapwi16003uzsukz9t3rvmm"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="https://images.pexels.com/photos/712786/pexels-photo-712786.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
       
 
       
         <h3 id="用途："><a href="#用途：" class="headerlink" title="用途："></a>用途：</h3><p>&gt;<br>GNU `tar’ saves many files together into a single tape or disk archive, and can restore individual files from the archive.</p>
 <h3 id="语法："><a href="#语法：" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar [-cxtzjvfpPN] file[dir] ....</div></pre></td></tr></table></figure>
 <h3 id="参数："><a href="#参数：" class="headerlink" title="参数："></a>参数：</h3><ul>
-<li>-c ：建立一个压缩文件的参数指令(create 的意思)； </li>
-<li>-x ：解开一个压缩文件的参数指令！ </li>
+<li>-c ：建立一个压缩文件的参数指令(create 的意思)；</li>
+<li>-x ：解开一个压缩文件的参数指令！</li>
 <li>-t ：查看 tarfile 里面的文件！</li>
 </ul>
-<p>特别注意，在参数的下达中， c/x/t 仅能存在一个！不可同时存在！ 因为不可能同时压缩与解压缩。 </p>
+<p>特别注意，在参数的下达中， c/x/t 仅能存在一个！不可同时存在！ 因为不可能同时压缩与解压缩。</p>
 <ul>
-<li>-z ：是否同时具有 gzip 的属性？亦即是否需要用 gzip 压缩？ </li>
-<li>-j ：是否同时具有 bzip2 的属性？亦即是否需要用 bzip2 压缩？ </li>
-<li>-v ：压缩的过程中显示文件！这个常用，但不建议用在背景执行过程！ </li>
+<li>-z ：是否同时具有 gzip 的属性？亦即是否需要用 gzip 压缩？</li>
+<li>-j ：是否同时具有 bzip2 的属性？亦即是否需要用 bzip2 压缩？</li>
+<li>-v ：压缩的过程中显示文件！这个常用，但不建议用在背景执行过程！</li>
 <li>-f ：使用档名，请留意，在 f 之后要立即接档名喔！不要再加参数！</li>
 </ul>
 <p>例如使用 <code>tar -zcvfP tfile sfile</code> 就是错误的写法，要写成 <code>tar -zcvPf tfile sfile</code></p>
 <ul>
-<li>-p ：使用原文件的原来属性（属性不会依据使用者而变） </li>
-<li>-P ：可以使用绝对路径来压缩！ </li>
-<li>-N ：比后面接的日期(yyyy/mm/dd)还要新的才会被打包进新建的文件中！ </li>
+<li>-p ：使用原文件的原来属性（属性不会依据使用者而变）</li>
+<li>-P ：可以使用绝对路径来压缩！</li>
+<li>-N ：比后面接的日期(yyyy/mm/dd)还要新的才会被打包进新建的文件中！</li>
 <li>–exclude FILE：在压缩的过程中，不要将 FILE 打包！</li>
 </ul>
 <a id="more"></a>
-<h3 id="范例："><a href="#范例：" class="headerlink" title="范例："></a>范例：</h3><h4 id="1-范例一：将整个-etc-目录下的文件全部打包成为-tmp-etc-tar"><a href="#1-范例一：将整个-etc-目录下的文件全部打包成为-tmp-etc-tar" class="headerlink" title="1. 范例一：将整个 /etc 目录下的文件全部打包成为 /tmp/etc.tar"></a>1. 范例一：将整个 <code>/etc</code> 目录下的文件全部打包成为 <code>/tmp/etc.tar</code></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# tar -cvf /tmp/etc.tar /etc      　　　　&lt;==仅打包，不压缩！ </div><div class="line">[txw1958@redhat ~]# tar -zcvf /tmp/etc.tar.gz /etc  　　　　&lt;==打包后，以 gzip 压缩 </div><div class="line">[txw1958@redhat ~]# tar -jcvf /tmp/etc.tar.bz2 /etc　　　　 &lt;==打包后，以 bzip2 压缩 </div><div class="line"># 特别注意，在参数 f 之后的文件档名是自己取的，我们习惯上都用 .tar 来作为辨识。 </div><div class="line"># 如果加 z 参数，则以 .tar.gz 或 .tgz 来代表 gzip 压缩过的 tar file ～ </div><div class="line"># 如果加 j 参数，则以 .tar.bz2 来作为附档名啊～ </div><div class="line"># 上述指令在执行的时候，会显示一个警告讯息： </div><div class="line"># 『tar: Removing leading `/&quot; from member names』那是关於绝对路径的特殊设定。</div></pre></td></tr></table></figure>
-<h4 id="2-范例二：查阅上述-tmp-etc-tar-gz-文件内有哪些文件？"><a href="#2-范例二：查阅上述-tmp-etc-tar-gz-文件内有哪些文件？" class="headerlink" title="2. 范例二：查阅上述 /tmp/etc.tar.gz 文件内有哪些文件？"></a>2. 范例二：查阅上述 <code>/tmp/etc.tar.gz</code> 文件内有哪些文件？</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# tar -ztvf /tmp/etc.tar.gz </div><div class="line"># 由於我们使用 gzip 压缩，所以要查阅该 tar file 内的文件时， </div><div class="line"># 就得要加上 z 这个参数了！这很重要的！</div></pre></td></tr></table></figure>
-<h4 id="3-范例三：将-tmp-etc-tar-gz-文件解压缩在-usr-local-src-底下"><a href="#3-范例三：将-tmp-etc-tar-gz-文件解压缩在-usr-local-src-底下" class="headerlink" title="3. 范例三：将 /tmp/etc.tar.gz 文件解压缩在 /usr/local/src 底下"></a>3. 范例三：将 <code>/tmp/etc.tar.gz</code> 文件解压缩在 <code>/usr/local/src</code> 底下</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# cd /usr/local/src </div><div class="line">[txw1958@redhat src]# tar -zxvf /tmp/etc.tar.gz </div><div class="line"># 在预设的情况下，我们可以将压缩档在任何地方解开的！以这个范例来说， </div><div class="line"># 我先将工作目录变换到 /usr/local/src 底下，并且解开 /tmp/etc.tar.gz ， </div><div class="line"># 则解开的目录会在 /usr/local/src/etc 呢！另外，如果您进入 /usr/local/src/etc </div><div class="line"># 则会发现，该目录下的文件属性与 /etc/ 可能会有所不同喔！</div></pre></td></tr></table></figure>
-<h4 id="4-范例四：在-tmp-底下，我只想要将-tmp-etc-tar-gz-内的-etc-passwd-解开而已"><a href="#4-范例四：在-tmp-底下，我只想要将-tmp-etc-tar-gz-内的-etc-passwd-解开而已" class="headerlink" title="4. 范例四：在 /tmp 底下，我只想要将 /tmp/etc.tar.gz 内的 etc/passwd 解开而已"></a>4. 范例四：在 <code>/tmp</code> 底下，我只想要将 <code>/tmp/etc.tar.gz</code> 内的 <code>etc/passwd</code> 解开而已</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# cd /tmp </div><div class="line">[txw1958@redhat tmp]# tar -zxvf /tmp/etc.tar.gz etc/passwd </div><div class="line"># 我可以透过 tar -ztvf 来查阅 tarfile 内的文件名称，如果单只要一个文件， </div><div class="line"># 就可以透过这个方式来下达！注意到！ etc.tar.gz 内的根目录 / 是被拿掉了！</div></pre></td></tr></table></figure>
-<h4 id="5-范例五：将-etc-内的所有文件备份下来，并且保存其权限！"><a href="#5-范例五：将-etc-内的所有文件备份下来，并且保存其权限！" class="headerlink" title="5. 范例五：将 /etc/ 内的所有文件备份下来，并且保存其权限！"></a>5. 范例五：将 <code>/etc/</code> 内的所有文件备份下来，并且保存其权限！</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# tar -zxvpf /tmp/etc.tar.gz /etc </div><div class="line"># 这个 -p 的属性是很重要的，尤其是当您要保留原本文件的属性时！</div></pre></td></tr></table></figure>
+<h3 id="范例："><a href="#范例：" class="headerlink" title="范例："></a>范例：</h3><h4 id="1-范例一：将整个-etc-目录下的文件全部打包成为-tmp-etc-tar"><a href="#1-范例一：将整个-etc-目录下的文件全部打包成为-tmp-etc-tar" class="headerlink" title="1. 范例一：将整个 /etc 目录下的文件全部打包成为 /tmp/etc.tar"></a>1. 范例一：将整个 <code>/etc</code> 目录下的文件全部打包成为 <code>/tmp/etc.tar</code></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# tar -cvf /tmp/etc.tar /etc      　　　　&lt;==仅打包，不压缩！</div><div class="line">[txw1958@redhat ~]# tar -zcvf /tmp/etc.tar.gz /etc  　　　　&lt;==打包后，以 gzip 压缩</div><div class="line">[txw1958@redhat ~]# tar -jcvf /tmp/etc.tar.bz2 /etc　　　　 &lt;==打包后，以 bzip2 压缩</div><div class="line"># 特别注意，在参数 f 之后的文件档名是自己取的，我们习惯上都用 .tar 来作为辨识。</div><div class="line"># 如果加 z 参数，则以 .tar.gz 或 .tgz 来代表 gzip 压缩过的 tar file ～</div><div class="line"># 如果加 j 参数，则以 .tar.bz2 来作为附档名啊～</div><div class="line"># 上述指令在执行的时候，会显示一个警告讯息：</div><div class="line"># 『tar: Removing leading `/&quot; from member names』那是关於绝对路径的特殊设定。</div></pre></td></tr></table></figure>
+<h4 id="2-范例二：查阅上述-tmp-etc-tar-gz-文件内有哪些文件？"><a href="#2-范例二：查阅上述-tmp-etc-tar-gz-文件内有哪些文件？" class="headerlink" title="2. 范例二：查阅上述 /tmp/etc.tar.gz 文件内有哪些文件？"></a>2. 范例二：查阅上述 <code>/tmp/etc.tar.gz</code> 文件内有哪些文件？</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# tar -ztvf /tmp/etc.tar.gz</div><div class="line"># 由於我们使用 gzip 压缩，所以要查阅该 tar file 内的文件时，</div><div class="line"># 就得要加上 z 这个参数了！这很重要的！</div></pre></td></tr></table></figure>
+<h4 id="3-范例三：将-tmp-etc-tar-gz-文件解压缩在-usr-local-src-底下"><a href="#3-范例三：将-tmp-etc-tar-gz-文件解压缩在-usr-local-src-底下" class="headerlink" title="3. 范例三：将 /tmp/etc.tar.gz 文件解压缩在 /usr/local/src 底下"></a>3. 范例三：将 <code>/tmp/etc.tar.gz</code> 文件解压缩在 <code>/usr/local/src</code> 底下</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# cd /usr/local/src</div><div class="line">[txw1958@redhat src]# tar -zxvf /tmp/etc.tar.gz</div><div class="line"># 在预设的情况下，我们可以将压缩档在任何地方解开的！以这个范例来说，</div><div class="line"># 我先将工作目录变换到 /usr/local/src 底下，并且解开 /tmp/etc.tar.gz ，</div><div class="line"># 则解开的目录会在 /usr/local/src/etc 呢！另外，如果您进入 /usr/local/src/etc</div><div class="line"># 则会发现，该目录下的文件属性与 /etc/ 可能会有所不同喔！</div></pre></td></tr></table></figure>
+<h4 id="4-范例四：在-tmp-底下，我只想要将-tmp-etc-tar-gz-内的-etc-passwd-解开而已"><a href="#4-范例四：在-tmp-底下，我只想要将-tmp-etc-tar-gz-内的-etc-passwd-解开而已" class="headerlink" title="4. 范例四：在 /tmp 底下，我只想要将 /tmp/etc.tar.gz 内的 etc/passwd 解开而已"></a>4. 范例四：在 <code>/tmp</code> 底下，我只想要将 <code>/tmp/etc.tar.gz</code> 内的 <code>etc/passwd</code> 解开而已</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# cd /tmp</div><div class="line">[txw1958@redhat tmp]# tar -zxvf /tmp/etc.tar.gz etc/passwd</div><div class="line"># 我可以透过 tar -ztvf 来查阅 tarfile 内的文件名称，如果单只要一个文件，</div><div class="line"># 就可以透过这个方式来下达！注意到！ etc.tar.gz 内的根目录 / 是被拿掉了！</div></pre></td></tr></table></figure>
+<h4 id="5-范例五：将-etc-内的所有文件备份下来，并且保存其权限！"><a href="#5-范例五：将-etc-内的所有文件备份下来，并且保存其权限！" class="headerlink" title="5. 范例五：将 /etc/ 内的所有文件备份下来，并且保存其权限！"></a>5. 范例五：将 <code>/etc/</code> 内的所有文件备份下来，并且保存其权限！</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# tar -zxvpf /tmp/etc.tar.gz /etc</div><div class="line"># 这个 -p 的属性是很重要的，尤其是当您要保留原本文件的属性时！</div></pre></td></tr></table></figure>
 <h4 id="6-范例六：在-home-当中，比-2012-09-11-新的文件才备份"><a href="#6-范例六：在-home-当中，比-2012-09-11-新的文件才备份" class="headerlink" title="6. 范例六：在 /home 当中，比 2012/09/11 新的文件才备份"></a>6. 范例六：在 <code>/home</code> 当中，比 <code>2012/09/11</code> 新的文件才备份</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# tar -N &quot;2012/09/11&quot; -zcvf home.tar.gz /home</div></pre></td></tr></table></figure>
 <h4 id="7-范例七：我要备份-home-etc-，但不要-home-dmtsai"><a href="#7-范例七：我要备份-home-etc-，但不要-home-dmtsai" class="headerlink" title="7. 范例七：我要备份 /home, /etc ，但不要 /home/dmtsai"></a>7. 范例七：我要备份 <code>/home, /etc</code> ，但不要 <code>/home/dmtsai</code></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# tar --exclude /home/dmtsai -zcvf myfile.tar.gz /home/* /etc</div></pre></td></tr></table></figure>
-<h4 id="8-范例八：将-etc-打包后直接解开在-tmp-底下，而不产生文件！"><a href="#8-范例八：将-etc-打包后直接解开在-tmp-底下，而不产生文件！" class="headerlink" title="8. 范例八：将 /etc/ 打包后直接解开在 /tmp 底下，而不产生文件！"></a>8. 范例八：将 <code>/etc/</code> 打包后直接解开在 <code>/tmp</code> 底下，而不产生文件！</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# cd /tmp </div><div class="line">[txw1958@redhat tmp]# tar -cvf - /etc | tar -xvf - </div><div class="line"># 这个动作有点像是 cp -r /etc /tmp 啦～依旧是有其有用途的！ </div><div class="line"># 要注意的地方在於输出档变成 - 而输入档也变成 - ，又有一个 | 存在～ </div><div class="line"># 这分别代表 standard output, standard input 与管线命令啦！</div></pre></td></tr></table></figure>
+<h4 id="8-范例八：将-etc-打包后直接解开在-tmp-底下，而不产生文件！"><a href="#8-范例八：将-etc-打包后直接解开在-tmp-底下，而不产生文件！" class="headerlink" title="8. 范例八：将 /etc/ 打包后直接解开在 /tmp 底下，而不产生文件！"></a>8. 范例八：将 <code>/etc/</code> 打包后直接解开在 <code>/tmp</code> 底下，而不产生文件！</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[txw1958@redhat ~]# cd /tmp</div><div class="line">[txw1958@redhat tmp]# tar -cvf - /etc | tar -xvf -</div><div class="line"># 这个动作有点像是 cp -r /etc /tmp 啦～依旧是有其有用途的！</div><div class="line"># 要注意的地方在於输出档变成 - 而输入档也变成 - ，又有一个 | 存在～</div><div class="line"># 这分别代表 standard output, standard input 与管线命令啦！</div></pre></td></tr></table></figure>
 
       
     </div>
+    
+    
+    
 
-    <div>
-      
-        
+    
 
-      
-    </div>
+    
 
-    <div>
-      
-        
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    鲍方亮
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://bobjoy.github.io/2016/06/21/Linux命令之tar/" title="Linux命令之tar">http://bobjoy.github.io/2016/06/21/Linux命令之tar/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 
-      
-    </div>
-
-    <div>
-      
-        
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      鲍方亮
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="http://bobjoy.github.io/2016/06/21/Linux命令之tar/" title="Linux命令之tar">http://bobjoy.github.io/2016/06/21/Linux命令之tar/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-
-
-      
-    </div>
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -546,34 +575,15 @@
       
       
     </footer>
+  </div>
+  
+  
+  
   </article>
 
 
 
     <div class="post-spread">
-      
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
       
     </div>
   </div>
@@ -584,11 +594,9 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div id="uyan_frame"></div>
-    
-  </div>
+
+  
+
 
 
         </div>
@@ -604,89 +612,87 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
             站点概览
           </li>
         </ul>
       
 
-      <section class="site-overview sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="鲍方亮" />
-          <p class="site-author-name" itemprop="name">鲍方亮</p>
-           
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">鲍方亮</p>
               <p class="site-description motion-element" itemprop="description"></p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">103</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">22</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/index.html">
-                <span class="site-state-item-count">58</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
           </div>
-        
 
-        <div class="links-of-author motion-element">
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">103</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
         </div>
-
-        
-        
-
-        
-        
-
-        
-
-
       </section>
 
       
@@ -719,27 +725,27 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">鲍方亮</span>
+
+  
 </div>
 
 
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
 
 
         
@@ -764,6 +770,21 @@
 </div>
 
 
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=62985046";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
         
       </div>
     </footer>
@@ -773,6 +794,8 @@
         <i class="fa fa-arrow-up"></i>
         
       </div>
+    
+
     
 
   </div>
@@ -807,50 +830,62 @@
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/love.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/particle.js?v=5.1.1"></script>
-
-
-
-  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
 
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/love.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/particle.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -869,20 +904,18 @@
 
 
   
-    
-
-    
-      <!-- UY BEGIN -->
-      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138435"></script>
-      <!-- UY END -->
-    
-  
 
 
 
 
 
   
+
+
+
+
+
+
 
 
 
@@ -1215,7 +1248,7 @@
   
 
   
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script>AV.initialize("yFW4IK2HDAaSa7W4K4lGkpmq-gzGzoHsz", "rNJBSs1vjkLP0DCs0UJYlPSI");</script>
   <script>
     function showTime(Counter) {
@@ -1322,6 +1355,8 @@
 
 
   
+
+  
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -1338,6 +1373,7 @@
 </script>
 
 
+  
   
 
   
