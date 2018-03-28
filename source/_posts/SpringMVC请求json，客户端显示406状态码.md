@@ -1,4 +1,4 @@
-title: Java-SpringMVC请求json，客户端显示406状态码
+title: SpringMVC请求json，客户端显示406状态码
 date: 2018-03-28 13:39:31
 categories: ["编程开发"]
 tags: ["Java", "SpringMVC", "Ajax", "406"]
@@ -64,8 +64,8 @@ photos:
   $.ajax({
       url: '/showcase/sample/ajaxCreate',
       type: 'POST',
-      date: form,
-      dateType: 'json',
+      data: form,
+      dataType: 'json',
       success: function(ret) {
           // ...
       }
@@ -105,8 +105,8 @@ photos:
   $.ajax({
       url: '/showcase/sample/ajaxCreate',
       type: 'POST',
-      date: form,
-      dateType: 'json',
+      data: form,
+      dataType: 'json',
       headers: {
           Accept: 'application/json; charset=utf-8'
       },
