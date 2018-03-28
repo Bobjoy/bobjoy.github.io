@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bobjoy.github.io/"/>
-  <updated>2018-03-28T07:16:02.150Z</updated>
+  <updated>2018-03-28T08:37:49.349Z</updated>
   <id>http://bobjoy.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Java-SpringMVC请求json，客户端显示406状态码</title>
-    <link href="http://bobjoy.github.io/2018/03/28/Java-SpringMVC%E8%AF%B7%E6%B1%82json%EF%BC%8C%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%98%BE%E7%A4%BA406%E7%8A%B6%E6%80%81%E7%A0%81/"/>
-    <id>http://bobjoy.github.io/2018/03/28/Java-SpringMVC请求json，客户端显示406状态码/</id>
+    <title>SpringMVC请求json，客户端显示406状态码</title>
+    <link href="http://bobjoy.github.io/2018/03/28/SpringMVC%E8%AF%B7%E6%B1%82json%EF%BC%8C%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%98%BE%E7%A4%BA406%E7%8A%B6%E6%80%81%E7%A0%81/"/>
+    <id>http://bobjoy.github.io/2018/03/28/SpringMVC请求json，客户端显示406状态码/</id>
     <published>2018-03-28T05:39:31.000Z</published>
-    <updated>2018-03-28T07:16:02.150Z</updated>
+    <updated>2018-03-28T08:37:49.349Z</updated>
     
     <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><ul>
 <li><p>主要配置：</p>
@@ -33,7 +33,7 @@
 <ul>
 <li>请求方法</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123;</div><div class="line">    <span class="attr">url</span>: <span class="string">'/showcase/sample/ajaxCreate'</span>,</div><div class="line">    <span class="attr">type</span>: <span class="string">'POST'</span>,</div><div class="line">    <span class="attr">date</span>: form,</div><div class="line">    <span class="attr">dateType</span>: <span class="string">'json'</span>,</div><div class="line">    <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params">ret</span>) </span>&#123;</div><div class="line">        <span class="comment">// ...</span></div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123;</div><div class="line">    <span class="attr">url</span>: <span class="string">'/showcase/sample/ajaxCreate'</span>,</div><div class="line">    <span class="attr">type</span>: <span class="string">'POST'</span>,</div><div class="line">    <span class="attr">data</span>: form,</div><div class="line">    <span class="attr">dataType</span>: <span class="string">'json'</span>,</div><div class="line">    <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params">ret</span>) </span>&#123;</div><div class="line">        <span class="comment">// ...</span></div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
 <p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/82236650.jpg" alt=""></p>
 <p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/34804039.jpg" alt=""></p>
 </li>
@@ -55,7 +55,7 @@
 <p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/81972710.jpg" alt=""></p>
 <p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/82236650.jpg" alt=""></p>
 <p>圈红框的地方就是不同之处，正常的请求头比异常的少了一块 <code>Accept: application/json, text/javascript, */*; q=0.01</code>，试着从此处入手，修改了ajax请求，添加了Accept头：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123;</div><div class="line">    <span class="attr">url</span>: <span class="string">'/showcase/sample/ajaxCreate'</span>,</div><div class="line">    <span class="attr">type</span>: <span class="string">'POST'</span>,</div><div class="line">    <span class="attr">date</span>: form,</div><div class="line">    <span class="attr">dateType</span>: <span class="string">'json'</span>,</div><div class="line">    <span class="attr">headers</span>: &#123;</div><div class="line">        <span class="attr">Accept</span>: <span class="string">'application/json; charset=utf-8'</span></div><div class="line">    &#125;,</div><div class="line">    <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params">ret</span>) </span>&#123;</div><div class="line">        <span class="comment">// ...</span></div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123;</div><div class="line">    <span class="attr">url</span>: <span class="string">'/showcase/sample/ajaxCreate'</span>,</div><div class="line">    <span class="attr">type</span>: <span class="string">'POST'</span>,</div><div class="line">    <span class="attr">data</span>: form,</div><div class="line">    <span class="attr">dataType</span>: <span class="string">'json'</span>,</div><div class="line">    <span class="attr">headers</span>: &#123;</div><div class="line">        <span class="attr">Accept</span>: <span class="string">'application/json; charset=utf-8'</span></div><div class="line">    &#125;,</div><div class="line">    <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params">ret</span>) </span>&#123;</div><div class="line">        <span class="comment">// ...</span></div><div class="line">    &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
 <p><img src="http://7xkexv.dl1.z0.glb.clouddn.com/18-3-28/15231607.jpg" alt=""></p>
 <p>问题解决了</p>
 </li>
