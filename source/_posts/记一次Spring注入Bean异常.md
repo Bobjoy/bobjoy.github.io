@@ -2,6 +2,8 @@ title: 记一次Spring注入Bean异常
 date: 2017-08-03 12:36:38
 categories:
 tags:
+photos:
+	- "https://images.pexels.com/photos/682004/pexels-photo-682004.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ## 问题描述
 

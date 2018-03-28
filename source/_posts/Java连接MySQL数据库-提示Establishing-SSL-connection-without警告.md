@@ -2,6 +2,8 @@ title: 'Java连接MySQL数据库,提示Establishing SSL connection without警告
 date: 2017-07-11 18:16:14
 categories: ['Java']
 tags: ['Java']
+photos:
+  - "https://images.pexels.com/photos/946351/pexels-photo-946351.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 # 问题描述

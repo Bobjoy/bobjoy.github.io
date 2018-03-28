@@ -2,6 +2,8 @@ title: Mac安装Android SDK
 date: 2015-07-29 13:11:53
 categories: ["移动开发"]
 tags: ["Android"]
+photos:
+  - "https://images.pexels.com/photos/427650/pexels-photo-427650.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 1. 启动Android SDK Manager，打开主界面，在菜单栏，依次选择「Android SDK Manager」、「Preference...」，弹出『Android SDK Manager - Settings』窗口；
 ![](http://7xkexv.dl1.z0.glb.clouddn.com/15-7-29/75086391.jpg)

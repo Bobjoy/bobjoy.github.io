@@ -2,6 +2,8 @@ title: Linux命令之lsof
 date: 2016-06-20 19:58:09
 categories: ["Linux"]
 tags: ["Linux"]
+photos:
+  - "https://images.pexels.com/photos/196668/pexels-photo-196668.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 lsof, LiSt Opened Files, 列出打开的文件, 听起来很简单的样子. 但想*nix中很多其他工具一样, lsof把这件简单的事情做到了炉火纯青. 因为Unix认为”一切皆文件”, 那么”打开的文件”就不仅仅是传统意义上打开的文件了, 还可以是网络/Unix域套接字, 匿名/具名管道, 共享库文件, 目录文件, 设备文件等等. 很多场景下, 查看进程或系统打开的文件会给调试带来极大的帮助. 下面简单地介绍lsof常被使用的功能选项.
 

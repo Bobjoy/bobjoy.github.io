@@ -2,6 +2,8 @@ title: Java中Bean属性的getter方法定义导致json数据缺失
 date: 2018-03-22 17:53:03
 categories: ["编程开发"]
 tags: ["Java", "JSON"]
+photos:
+  - "https://images.pexels.com/photos/395132/pexels-photo-395132.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ## 问题描述

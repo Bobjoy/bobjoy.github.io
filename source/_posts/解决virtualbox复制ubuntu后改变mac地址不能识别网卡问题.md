@@ -2,6 +2,8 @@ title: 解决virtualbox复制ubuntu后改变mac地址不能识别网卡问题
 date: 2016-03-26 16:15:50
 categories: ["Linux学习"]
 tags: ["Linux"]
+photos:
+  - "https://images.pexels.com/photos/590701/pexels-photo-590701.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 在vbox里面安装了一个ubuntu server 12.04，利用自带的复制功能，完成
 3台虚拟服务器的搭建。为了更好的模拟局域网环境，为了保证mac不一样，

@@ -2,9 +2,11 @@ title: 解决npm 的 shasum check failed for错误
 date: 2015-07-16 16:39:09
 categories: ["编程开发"]
 tags: ["Nodejs"]
+photos:
+  - "https://images.pexels.com/photos/732548/pexels-photo-732548.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 使用npm安装一些包失败了的看过来（npm国内镜像介绍）
-镜像使用方法（三种办法任意一种都能解决问题，建议使用第三种，将配置写死，下次用的时候配置还在）:  
+镜像使用方法（三种办法任意一种都能解决问题，建议使用第三种，将配置写死，下次用的时候配置还在）:
 
 1.通过config命令
 

@@ -2,6 +2,8 @@ title: MySQL-筛选出每个人的时间最新的一条记录
 date: 2018-03-22 11:12:56
 categories: ["编程开发"]
 tags: ["Database","MySQL"]
+photos:
+  - "https://images.pexels.com/photos/850602/pexels-photo-850602.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 * 场景：
@@ -53,7 +55,7 @@ where not exists(
 -- 方法2
 select a.* from student a
 inner join (
-  select no,max(date) 'maxdate' from student 
+  select no,max(date) 'maxdate' from student
   group by no
 ) b on a.no=b.no and a.date=b.maxdate
 

@@ -2,6 +2,8 @@ title: "解决在Ubuntu14.04中 'Cannot Add PPA' 的错误"
 date: 2016-03-27 17:50:37
 categories: ["Linux学习"]
 tags: ["Linux"]
+photos:
+  - "https://images.pexels.com/photos/775998/pexels-photo-775998.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ![](http://itsfoss.com/wp-content/uploads/2014/05/PPA_Error_Ubuntu.jpeg)
 

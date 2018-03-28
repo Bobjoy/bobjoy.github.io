@@ -2,6 +2,8 @@ title: "'tools.jar' seems to be not in Studio classpath"
 date: 2015-10-31 14:44:06
 categories: ["移动开发"]
 tags: ["Android"]
+photos:
+  - "https://images.pexels.com/photos/21809/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 Q: Mac 启动 Android Studio 时，无法启动，错误如下：

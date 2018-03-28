@@ -2,6 +2,8 @@ title: Java 8新特性之旅：使用Stream API处理集合
 date: 2015-09-16 08:40:58
 categories: ["编程开发"]
 tags: ["Java"]
+photos:
+  - "https://images.pexels.com/photos/688017/pexels-photo-688017.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 在这篇“Java 8新特性教程”系列文章中，我们会深入解释，并通过代码来展示，如何通过流来遍历集合，如何从集合和数组来创建流，以及怎么聚合流的值。
 
@@ -27,19 +29,19 @@ Java的集合框架，如`List`和`Map`接口及`Arraylist`和`HashMap`类，让
 
 ```java
 List<person> people = new ArrayList<>();
- 
+
 people.add(new Person("Mohamed", 69));
 people.add(new Person("Doaa", 25));
 people.add(new Person("Malik", 6));
- 
+
 Predicate<person> pred = (p) -> p.getAge() > 65;
- 
+
 displayPeople(people, pred);
- 
+
 ...........
- 
+
 private static void displayPeople(List<person> people, Predicate<person> pred) {
- 
+
      System.out.println("Selected:");
      people.forEach(p -> {
          if (pred.test(p)) {
@@ -63,7 +65,7 @@ System.out.println("Selected:");
  //     System.out.println(p.getName());
  // }
  //});
- 
+
   people.stream().forEach(p -> System.out.println(p.getName()));
 }
 ```
@@ -131,7 +133,7 @@ Java SE 8’s stream API 是为了帮助管理数据集合而设计的，这些�
 
 ```java
 public static void main(String args[]) {
- 
+
     Person[] people = {
         new Person("Mohamed", 69),
         new Person("Doaa", 25),
@@ -167,7 +169,7 @@ Person[] people = {
 //}
 Stream<Person> stream = Stream.of(people);
 stream.forEach(p -> System.out.println(p.getInfo()));
-``` 
+```
 保存并运行这段代码，就可获取到结果。输出的元素的顺序与我放入的顺序是一致的。这就是第一种方式：使用`Stream.of()`方法。
 
 ```
@@ -206,7 +208,7 @@ Malik (6)
 
 ```java
 public static void main(String args[]) {
- 
+
     System.out.println("Creating list");
     List<string> strings = new ArrayList<>();
     for (int i = 0; i < 10000; i++) {
@@ -281,7 +283,7 @@ Item 5311
 
 ```java
 public static void main(String args[]) {
- 
+
     System.out.println("Creating list");
     List<string> strings = new ArrayList<>();
     for (int i = 0; i < 10000; i++) {
@@ -334,7 +336,7 @@ List<person> people = new ArrayList<>();
 people.add(new Person("Mohamed", 69));
 people.add(new Person("Doaa", 25));
 people.add(new Person("Malik", 6));
- 
+
 int sum = people.stream()
                 .mapToInt(p -> p.getAge())
                 .sum();
@@ -387,7 +389,7 @@ Average: 33.333333333333336
 
 通过流和 lambda 表达式，你可以用非常非常少的代码就可以完成集合的聚合计算。
 
-原文链接： [javacodegeeks][1] 翻译： [ImportNew.com][2] - [paddx][3]  
+原文链接： [javacodegeeks][1] 翻译： [ImportNew.com][2] - [paddx][3]
 译文链接： [http://www.importnew.com/16545.html][4]
 
 [1]:http://www.javacodegeeks.com/2015/07/java-se-8-new-features-tour-processing-collections-with-streams-api.html

@@ -2,6 +2,8 @@ title: 'SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: ce
 date: 2016-03-23 12:51:12
 categories: ["编程开发"]
 tags: ["Ruby"]
+photos:
+  - "https://images.pexels.com/photos/403781/pexels-photo-403781.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 执行`gem install`命令时，报错如下：
 

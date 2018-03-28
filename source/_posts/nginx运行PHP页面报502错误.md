@@ -2,6 +2,8 @@ title: nginx运行PHP页面报502错误
 date: 2015-07-30 09:48:32
 categories: ["Linux学习"]
 tags: ["Nginx", "PHP"]
+photos:
+  - "https://images.pexels.com/photos/110321/pexels-photo-110321.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 在ubuntu上搭建lnmp环境的时候，运行php页面，代码如下
 
@@ -11,7 +13,7 @@ phpinfo();
 ?>
 ```
 
-浏览器打开`http://localhost/info.php`,结果*502*了  
+浏览器打开`http://localhost/info.php`,结果*502*了
 ![](http://7xkexv.dl1.z0.glb.clouddn.com/15-7-30/72358685.jpg)
 
 解决办法：

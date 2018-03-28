@@ -2,6 +2,8 @@ title: Vagrant up with warning of Authentication failure
 date: 2015-10-01 21:49:15
 categories: ["Linux学习"]
 tags: ["Vagrant"]
+photos:
+  - "https://images.pexels.com/photos/297821/pexels-photo-297821.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 当`vagrant up`启动虚拟机的时候，到最后一直提示如下:
 

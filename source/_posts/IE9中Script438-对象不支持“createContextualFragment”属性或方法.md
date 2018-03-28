@@ -2,6 +2,8 @@ title: 'IE9中Script438: 对象不支持“createContextualFragment”属性或�
 date: 2016-01-19 18:07:25
 categories: ["Web开发"]
 tags: ["ExtJS"]
+photos:
+	- "https://images.pexels.com/photos/793166/pexels-photo-793166.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 这个问题在Extjs的官网有人讨论，详见 http://www.sencha.com/forum/showthread.php?125869-Menu-shadow-probolem-in-IE9&p=579336
@@ -13,7 +15,7 @@ if ((typeof Range !== "undefined") && !Range.prototype.createContextualFragment)
 {
 	Range.prototype.createContextualFragment = function(html)
 	{
-		var frag = document.createDocumentFragment(), 
+		var frag = document.createDocumentFragment(),
 		div = document.createElement("div");
 		frag.appendChild(div);
 		div.outerHTML = html;

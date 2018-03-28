@@ -2,6 +2,8 @@ title: Git学习笔记-3-将项目提交到两个git仓库
 date: 2018-01-04 15:06:50
 categories: ["编程开发"]
 tags: ["Git"]
+photos:
+  - "https://images.pexels.com/photos/408951/pexels-photo-408951.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ## 方案一: git remote add

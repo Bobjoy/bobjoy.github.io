@@ -2,6 +2,8 @@ title: gradle工程提示Unable to start the daemon process
 date: 2015-11-19 16:35:00
 categories:
 tags: ["Gradle"]
+photos:
+  - "https://images.pexels.com/photos/789343/pexels-photo-789343.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 Eclipse中使用Gradle 管理项目依赖时，提示错误，如下

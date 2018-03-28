@@ -2,6 +2,8 @@ title: ' JavaScript 事件——“事件流和事件处理程序”'
 date: 2016-01-11 13:52:46
 categories: ["Web开发"]
 tags: ["JavaScript"]
+photos:
+  - "https://images.pexels.com/photos/125532/pexels-photo-125532.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ## 事件流
 

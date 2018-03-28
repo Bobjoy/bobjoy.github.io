@@ -2,6 +2,8 @@ title: 记一次OPPO R9s清除锁屏密码即刷机过程
 date: 2017-07-23 16:10:06
 categories: ['随笔']
 tags: ['随笔','刷机','OPPO R9s']
+photos:
+  - "https://images.pexels.com/photos/662337/pexels-photo-662337.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ## 事情缘由
 

@@ -2,6 +2,8 @@ title: Java-SpringMVC请求json，客户端显示406状态码
 date: 2018-03-28 13:39:31
 categories: ["编程开发"]
 tags: ["Java", "SpringMVC", "Ajax", "406"]
+photos:
+  - "https://images.pexels.com/photos/412295/pexels-photo-412295.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ## 问题描述

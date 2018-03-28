@@ -2,6 +2,8 @@ title: Android单元测试Invalid layout of java.lang.String at value
 date: 2015-12-07 13:59:11
 categories: ["移动开发"]
 tags: ["Android"]
+photos:
+  - "https://images.pexels.com/photos/797643/pexels-photo-797643.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ## 遇到：Invalid layout of java.lang.String at value 这样的问题
 

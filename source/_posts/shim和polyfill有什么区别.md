@@ -2,6 +2,8 @@ title: shim和polyfill有什么区别?
 date: 2016-01-29 15:55:29
 categories: ["涨姿势"]
 tags: ["Shim", "Polyfill"]
+photos:
+  - "https://images.pexels.com/photos/840643/pexels-photo-840643.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 在JavaScript的世界里,有两个词经常被提到,shim和polyfill.它们指的都是什么,又有什么区别?
 

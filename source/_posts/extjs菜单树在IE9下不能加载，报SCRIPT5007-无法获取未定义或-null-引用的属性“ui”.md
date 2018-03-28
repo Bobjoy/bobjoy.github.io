@@ -2,13 +2,15 @@ title: 'extjs菜单树在IE9下不能加载，报SCRIPT5007: 无法获取未定�
 date: 2016-01-19 18:01:13
 categories: ["Web开发"]
 tags: ["ExtJS"]
+photos:
+  - "https://images.pexels.com/photos/135230/pexels-photo-135230.png?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
-extjs菜单树在IE10下不能加载，报SCRIPT5007: 无法获取未定义或 null 引用的属性“ui” 
+extjs菜单树在IE10下不能加载，报SCRIPT5007: 无法获取未定义或 null 引用的属性“ui”
 
 在ext-all.js下找这个getAttributeNS 方法，把判断ie的代码注释掉就好了;
 
 ```javascript
-getAttributeNS : (Ext.isIE 
+getAttributeNS : (Ext.isIE
     && !(/msie 9/.test(navigator.userAgent.toLowerCase()) && document.documentMode===9)
     && !(/msie 10/.test(navigator.userAgent.toLowerCase())&&document.documentMode===10))?
     function(ns, name){

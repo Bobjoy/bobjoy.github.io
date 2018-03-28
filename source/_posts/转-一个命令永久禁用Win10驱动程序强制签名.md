@@ -2,6 +2,8 @@ title: '[转]一个命令永久禁用Win10驱动程序强制签名'
 date: 2017-07-23 17:43:39
 categories:
 tags:
+photos:
+  - "https://images.pexels.com/photos/229014/pexels-photo-229014.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 > 原文地址：https://www.ithome.com/html/win10/196402.htm
 

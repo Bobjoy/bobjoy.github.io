@@ -2,6 +2,8 @@ title: node-sass模块安装失败
 date: 2016-05-08 09:46:30
 categories: ["Nodejs"]
 tags: ["Nodejs", "Sass"]
+photos:
+	- "https://images.pexels.com/photos/843266/pexels-photo-843266.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ### 一、下载对应平台二进制文件
 
@@ -31,7 +33,7 @@ node-sass 3.4.2 版本二进制文件下载地址：[https://github.com/sass/nod
 	环境变量SASS_BINARY_PATH, 值为文件路径， 如：`E:\Programs\nodejs\win32-x64-47_binding.node`
 
 * linux
-	
+
 	修改用户目录下的`.bashrc`文件，添加如下代码`SASS_BINARY_PATH=/path/to/win32-x64-47_binding.node`
 <!-- more -->
 

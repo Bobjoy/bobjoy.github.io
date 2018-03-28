@@ -2,6 +2,8 @@ title: Windows7升级git到2.5版本后，hexo无法发布文章
 date: 2015-09-17 09:40:39
 categories:
 tags: ["Git", "Hexo"]
+photos:
+  - "https://images.pexels.com/photos/584302/pexels-photo-584302.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 Windows7，系统升级git最新版后

@@ -2,6 +2,8 @@ title: SonarQube安装Windows服务后，无法启动服务
 date: 2016-02-19 14:22:56
 categories: ["持续集成"]
 tags: ["Sonar"]
+photos:
+	- "https://images.pexels.com/photos/956965/pexels-photo-956965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
 ---
 手动安装SonarQube的windows服务后，启动报错，如下：
 

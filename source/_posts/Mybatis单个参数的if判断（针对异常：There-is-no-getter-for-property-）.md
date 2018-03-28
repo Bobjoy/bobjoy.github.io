@@ -2,6 +2,8 @@ title: Mybatis单个参数的if判断（针对异常：There is no getter for pr
 date: 2017-11-23 10:12:42
 categories:
 tags:
+photos:
+  - "https://images.pexels.com/photos/913179/pexels-photo-913179.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 MyBatis在进行参数判断的时候，可以直接使用传入entity实体属性名或者map的键名，如下：
 

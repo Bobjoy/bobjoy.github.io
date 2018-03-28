@@ -2,6 +2,8 @@ title: Java使用jsoup提取mht文件中图片
 date: 2018-01-30 15:35:14
 categories: ["编程开发"]
 tags: ["Java", "Jsoup", "mht"]
+photos:
+  - "https://images.pexels.com/photos/681381/pexels-photo-681381.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ## jsoup读取mht文件方法
@@ -78,7 +80,7 @@ private static Map<String, Object> parseMhtToMap() {
 
     // 基本信息 START
     Map<String, String> map = new HashMap<>();
-    
+
     // 提取头像
     String image = body.select("img").attr("src");
     map.put(AVATAR, image);
@@ -91,7 +93,7 @@ private static Map<String, Object> parseMhtToMap() {
 
 > 注意：在解析文件中，发现图片无法显示，最后分析原始html和经过jsoup解析的html（Jsoup.parse），发现BASE64图片图片长度不一致，导致无法再网页中显示，解决方法就是更新jsoup依赖版本，如下
 
-> 
+>
 ```
 <dependency>
     <groupId>org.jsoup</groupId>
@@ -101,7 +103,7 @@ private static Map<String, Object> parseMhtToMap() {
 ```
 
 > 改为：
-> 
+>
 ```
 <dependency>
     <groupId>org.jsoup</groupId>

@@ -1,11 +1,13 @@
 title: Git学习笔记(1)-添加删除分支
 date: 2015-08-26 08:05:56
 tags: ["Git"]
+photos:
+  - "https://images.pexels.com/photos/42070/pexels-photo-42070.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
  使用git在本地创建/删除一个分支的过程
 
     ```
-    $ git init            				//初始化 
+    $ git init            				//初始化
     $ touch README
     $ git add README        			//更新README文件
     $ git commit -m 'first commit' 		//提交更新，并注释信息“first commit”

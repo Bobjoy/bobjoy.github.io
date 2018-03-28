@@ -2,6 +2,8 @@ title: Ubuntu上vim配置YoucompleteMe时./install.sh --clang-completer出现错
 date: 2016-06-13 12:57:16
 categories:
 tags:
+photos:
+  - "https://images.pexels.com/photos/401686/pexels-photo-401686.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ### 问题描述
@@ -34,7 +36,7 @@ Traceback (most recent call last):
     self.handle_command_exit_code(exit_code)
   File "/home/vagrant/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/sh/sh.py", line 516, in handle_command_exit_code
     raise exc(self.ran, self.process.stdout, self.process.stderr)
-sh.ErrorReturnCode_1: 
+sh.ErrorReturnCode_1:
 
   RAN: '/usr/bin/cmake -G Unix Makefiles -DUSE_CLANG_COMPLETER=ON /home/vagrant/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp'
 

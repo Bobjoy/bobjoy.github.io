@@ -2,6 +2,8 @@ title: 编译iOS项目报错-architecture
 date: 2015-07-16 09:33:57
 categories: ["移动开发"]
 tags: ["iOS", "Objective C"]
+photos:
+  - "https://images.pexels.com/photos/875514/pexels-photo-875514.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ### 1.错误代码：missing required architecture x86_64 in file
 
@@ -26,5 +28,5 @@ Valid Architectures: armv7 armv7s
 After I change Build Active Architecture Only = No, then the build was BUILD SUCCEEDED.
 ```
 
-如图：Build Active Architecture Only  
+如图：Build Active Architecture Only
 ![Build Active Architecture Only = No](http://7xkexv.dl1.z0.glb.clouddn.com/2015071602.png)

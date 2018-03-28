@@ -2,6 +2,8 @@ title: 如何下载各版本Chrome的离线安装包
 date: 2015-09-26 12:19:44
 categories:
 tags: ["Chrome"]
+photos:
+  - "https://images.pexels.com/photos/890573/pexels-photo-890573.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 1. 打开Chrome官网（自行搜索），我们就会看到如下图的下载按钮，然而点击下载后，下载的却是联网安装包，这对部分上网不方便的用户造成了一定的麻烦。

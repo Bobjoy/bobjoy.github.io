@@ -2,6 +2,8 @@ title: Hexo命令server无效
 date: 2017-06-28 16:37:35
 categories: ['Hexo']
 tags: ['Hexo']
+photos:
+  - "https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 按照好 `hexo-cli` 后， `hexo new` 创建一篇文章，然后 `hexo server` 本地运行调试，但是试了好几次都没反应，控制台直接打印帮助文档，然后命令帮助中也没有发现 `server` 命令，然后各种google，发现hexo3中 server 模块已经独立出来需要单独安装。 `npm install hexo-server` 安装后再运行 `hexo server` ，然鹅并没有什么卵用，继续google，发现一些hexo问题中提到plugins的配置，于是抱着试一试的态度将 `_config.yml` 中的plugins配置注释掉
@@ -22,7 +24,7 @@ tags: ['Hexo']
 ...
 TypeError: Cannot set property 'lastIndex' of undefined
     at highlight (/home/rapiz/Blog/node_modules/highlight.js/lib/highlight.js:514:35)
-... 
+...
 ```
 
 则需要将 `_config.yml` 中的以下配置

@@ -1,7 +1,9 @@
 title: "Context namespace element 'annotation-config' ... are only available on JDK 1.5 and higher"
 date: 2016-06-14 17:10:51
-categories: ["Java"]
+categories: ["编程开发"]
 tags: ["Java"]
+photos:
+  - "https://images.pexels.com/photos/704818/pexels-photo-704818.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ### 环境
 

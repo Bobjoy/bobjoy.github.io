@@ -2,6 +2,8 @@ title: Java开发问题集锦
 date: 2018-01-09 09:33:41
 categories: ["编程开发"]
 tags: ["Java"]
+photos:
+  - "https://images.pexels.com/photos/756086/pexels-photo-756086.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ## Failed to load class "org.slf4j.impl.StaticLoggerBinder"

@@ -2,6 +2,8 @@ title: '[转]Clickjacking简单介绍'
 date: 2016-03-24 08:30:32
 categories: ["Web安全"]
 tags: ["JavaScript"]
+photos:
+  - "https://images.pexels.com/photos/705674/pexels-photo-705674.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 > 原文地址：http://drops.wooyun.org/papers/104

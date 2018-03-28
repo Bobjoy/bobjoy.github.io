@@ -2,6 +2,8 @@ title: 开放API接口验证
 date: 2016-06-20 16:16:31
 categories: ["API"]
 tags: ["API"]
+photos:
+  - "https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ### 提出问题
 
@@ -29,24 +31,24 @@ app中点击查询按钮 --> 调用api进行查询 --> 返回查询结果 --> �
 #### 一、不进行验证的方式
 
 api查询接口：
-    
+
 app调用：`http://api.test.com/getproducts?参数1=value1.......`
-    
+
 如上，这种方式简单粗暴，通过调用getproducts方法即可获取产品列表信息了，但是 这样的方式会存在很严重的安全性问题，没有进行任何的验证，大家都可以通过这个方法获取到产品列表，导致产品信息泄露。那么，如何验证调用者身份呢？如何防止参数被篡改呢？
 
 #### 二、MD5参数签名的方式
 
 我们对api查询产品接口进行优化：
-    
+
 1. 给app分配对应的key、secret
 
 2. Sign签名，调用API 时需要对请求参数进行签名验证，签名方式如下：
   * 按照请求参数名称将所有请求参数按照字母先后顺序排序得到：`keyvaluekeyvalue...keyvalue`字符串如：将`arong=1,mrong=2,crong=3`排序为：`arong=1, crong=3,mrong=2`然后将参数名和参数值进行拼接得到参数字符串：`arong1crong3mrong2`
   * 将secret加在参数字符串的头部后进行MD5加密 ,加密后的字符串需大写，即得到签名Sign（MD5简介详见博文MD5简介）
-    
+
 3. 新api接口代码:
   * app调用：`http://api.test.com/getproducts?key=app_key&sign=BCC7C71CF93F9CDBDB88671B701D8A35&参数1=value1&参数2=value2.......`
-    
+
 > 注：secret 仅作加密使用, 为了保证数据安全请不要在请求参数中使用。
 
 如上，优化后的请求多了key和sign参数，这样请求的时候就需要合法的key和正确签名sign才可以获取产品数据。这样就解决了身份验证和防止参数篡改问题，如果请求参数被人拿走，没事，他们永远也拿不到secret,因为secret是不传递的。再也无法伪造合法的请求。

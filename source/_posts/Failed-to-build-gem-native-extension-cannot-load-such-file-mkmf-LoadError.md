@@ -2,6 +2,8 @@ title: Failed to build gem native extension - cannot load such file -- mkmf(Load
 date: 2015-07-23 19:22:39
 categories: ["编程开发"]
 tags: ["Nodejs", "Ruby", "Rails"]
+photos:
+	- "https://images.pexels.com/photos/635609/pexels-photo-635609.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 在Ubuntu Server上利用Gitlab搭建git服务器的时候，执行`sudo bundle install --deployment --without development test postgres aws`报一下错误
 
@@ -28,7 +30,7 @@ An error occurred while installing RedCloth (4.2.9), and Bundler cannot continue
 Make sure that `gem install RedCloth -v '4.2.9'` succeeds before bundling.
 ```
 
-最终baidu寻找到解决办法  
+最终baidu寻找到解决办法
 http://stackoverflow.com/questions/13767725/unable-to-install-gem-failed-to-build-gem-native-extension-cannot-load-such
 
 ```

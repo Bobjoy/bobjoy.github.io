@@ -2,6 +2,8 @@ title: 自编译ngrok服务器实现内网穿透
 date: 2015-11-25 09:09:42
 categories:
 tags: ["Ngrok", "Linux"]
+photos:
+  - "https://images.pexels.com/photos/881233/pexels-photo-881233.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ### 一. 首先安装GO环境
@@ -9,20 +11,20 @@ tags: ["Ngrok", "Linux"]
 1. Linux 下安装
 
 	- Centos下使用epel源安装：
-	
+
     ```
     yum install golang
     ```
     - Centos/Linux下源码安装golang：
-    
-    ```	
+
+    ```
     wget https://storage.googleapis.com/golang/go1.4.1.linux-amd64.tar.gz
     tar -C /usr/local -xzf go1.4.1.linux-amd64.tar.gz
     mkdir $HOME/go
-    echo 'export GOROOT=/usr/local/go' >> ~/.bashrc 
-    echo 'export GOPATH=$HOME/go' >> ~/.bashrc 
-    echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc 
-    source $HOME/.bashrc 
+    echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
+    echo 'export GOPATH=$HOME/go' >> ~/.bashrc
+    echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc
+    source $HOME/.bashrc
     ```
 
     - 安装go get工具：
@@ -33,7 +35,7 @@ tags: ["Ngrok", "Linux"]
 2. Windows 下安装：
     - 下载https://storage.googleapis.com/golang/go1.4.1.windows-386.zip
     - 设置环境变量：
-    
+
     ```
     setx GOOS windows
     setx GOARCH 386
@@ -63,7 +65,7 @@ tags: ["Ngrok", "Linux"]
 	openssl req -new -key device.key -subj "/CN=$NGROK_DOMAIN" -out device.csr
 	openssl x509 -req -in device.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out device.crt -days 5000
 	cp rootCA.pem assets/client/tls/ngrokroot.crt
-	cp device.crt assets/server/tls/snakeoil.crt 
+	cp device.crt assets/server/tls/snakeoil.crt
 	cp device.key assets/server/tls/snakeoil.key
 	GOOS=linux GOARCH=386
 	make clean
@@ -71,16 +73,16 @@ tags: ["Ngrok", "Linux"]
 	```
 
 	- 如果在安装yaml的时候不能下载，无反应：
-	
+
 	```
 	go get gopkg.in/yaml.v1
 	```
 	- 原因git版本太低，需>= 1.7.9.5，通过RPMForge源安装最新版本git解决：
-	
+
 	```
 	yum --enablerepo=rpmforge-extras install git
 	```
-	
+
 ### 三. 启动SERVER：
 
 1. 启动 Server

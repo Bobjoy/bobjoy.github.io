@@ -2,6 +2,8 @@ title: DOM 中 Property 和 Attribute 的区别
 date: 2015-10-05 12:04:16
 categories: ["Web开发"]
 tags: ["JavaScript"]
+photos:
+	- "https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 property 和 attribute非常容易混淆，两个单词的中文翻译也都非常相近（property：属性，attribute：特性），但实际上，二者是不同的东西，属于不同的范畴。
 
@@ -26,7 +28,7 @@ var in1 = document.getElementById('in_1');
 ```javascript
 console.log(in1);
 ```
-			
+
 从console的打印结果，可以看到in1含有一个名为“attributes”的属性，它的类型是NamedNodeMap，同时还有“id”和“value”两个基本的属性，但没有“sth”这个自定义的属性。
 
 ```
@@ -300,7 +302,7 @@ var access = jQuery.access = function( elems, fn, key, value, chainable, emptyGe
 			}
 		}
 	}
-	
+
 	if(chainable) {			// value不为空,表示是get
 		return elems；		// 返回元素实现链式调用
 	} else {
@@ -352,7 +354,7 @@ jQuery.extend({
 		if ( value !== undefined ) {		// 如果value不为undefined，执行"SET"
 
 			if ( value === null ) {			// 如果value为null，则移除attribute
-				jQuery.removeAttr( elem, name );	
+				jQuery.removeAttr( elem, name );
 
 			} else if ( hooks && "set" in hooks && (ret = hooks.set( elem, value, name )) !== undefined ) {
 				return ret;					// 使用钩子函数
@@ -387,7 +389,7 @@ jQuery.extend({
 ```javascript
 jQuery.extend({
 
-	...	
+	...
 	prop: function( elem, name, value ) {
 		var ret, hooks, notxml,
 			nType = elem.nodeType;
@@ -565,14 +567,14 @@ console.log(in1.getAttribute('disabled'));	// null，attribute中的disabled已�
 到这里为止，得出，property是DOM对象自身就拥有的属性，而attribute是我们通过设置HTML标签而给之赋予的特性，attribute和property的同名属性/特性之间会产生一些特殊的数据联系，而这些联系会针对不同的属性/特性有不同的区别。
 
 事实上，在这里，property和attribute之间的区别和联系难以用简单的技术特性来描述，我在StackFlow上找到如下的回答，或者会更加接近于真正的答案：
-> 
+>
 These words existed way before Computer Science came around.
-> 
+>
 Attribute is a quality or object that we attribute to someone or something. For example, the scepter is an attribute of power and statehood.
 
-> 
+>
 Property is a quality that exists without any attribution. For example, clay has adhesive qualities; or, one of the properties of metals is electrical conductivity. Properties demonstrate themselves though physical phenomena without the need attribute them to someone or something. By the same token, saying that someone has masculine attributes is self-evident. In effect, you could say that a property is owned by someone or something.
-> 
+>
 To be fair though, in Computer Science these two words, at least for the most part, can be used interchangeably - but then again programmers usually don't hold degrees in English Literature and do not write or care much about grammar books :).
 
 最关键的两句话：

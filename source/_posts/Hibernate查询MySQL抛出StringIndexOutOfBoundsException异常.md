@@ -2,6 +2,8 @@ title: Hibernate查询MySQL抛出StringIndexOutOfBoundsException异常
 date: 2017-06-28 16:08:31
 categories: ['Java']
 tags: ['Java']
+photos:
+  - "https://images.pexels.com/photos/940543/pexels-photo-940543.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ## 问题排查

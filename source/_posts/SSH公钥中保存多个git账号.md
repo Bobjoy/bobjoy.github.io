@@ -2,6 +2,8 @@ title: SSH公钥中保存多个git账号
 date: 2017-08-15 17:29:27
 categories: ['编程开发']
 tags: ['Git']
+photos:
+	- "https://images.pexels.com/photos/370013/pexels-photo-370013.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ## 问题描述
 

@@ -2,6 +2,8 @@ title: "解决git fatal: Unable to find remote helper for 'https'问题"
 date: 2016-07-29 09:49:29
 categories: ["编程开发"]
 tags: ["Git"]
+photos:
+  - "https://images.pexels.com/photos/266046/pexels-photo-266046.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 登陆到远程linux服务器上，使用git, clone的时候报“fatal: Unable to find remote helper for 'https'”错，没管，绕过，使用git clone git://....协议download下来项目。
 

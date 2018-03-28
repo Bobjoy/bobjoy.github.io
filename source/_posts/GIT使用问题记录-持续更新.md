@@ -2,6 +2,8 @@ title: GIT使用问题记录(持续更新)
 date: 2017-07-23 18:48:06
 categories: ['Git']
 tags: ['Git']
+photos:
+	- "https://images.pexels.com/photos/600110/pexels-photo-600110.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ## Git submodule add: “a git directory is found locally” issue
 

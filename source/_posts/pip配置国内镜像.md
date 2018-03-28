@@ -2,6 +2,8 @@ title: pip配置国内镜像
 date: 2015-09-07 14:19:40
 categories: ["编程开发"]
 tags: ["Python"]
+photos:
+  - "https://images.pexels.com/photos/69969/pexels-photo-69969.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 在安装python包的过程中，经常会出现如下错误：
 
@@ -12,7 +14,7 @@ Exception:
 Traceback (most recent call last):
 
   ...
-  
+
 SSLError: The read operation timed out
 ```
 这个主要是墙的问题，但是又无法代理又无法翻~~一墙，被逼着想到了使用镜像的方法了，一些公共的网站在国内总有一些镜像，使用这些镜像地址来安装就可以了

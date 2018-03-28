@@ -2,6 +2,8 @@ title: JavaWeb文件下载知识整理
 date: 2017-12-28 11:49:16
 categories: ["编程开发"]
 tags: ["Java"]
+photos:
+  - "https://images.pexels.com/photos/179908/pexels-photo-179908.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ## 中文文件名乱码
@@ -34,7 +36,7 @@ response.setCharacterEncoding("UTF-8");
 解决方法：修改Tomcat配置文件 `${CATLINA_HOME}/conf/server.xml` ，如下内容
 
 ```xml
-<Connector port="8080" 
+<Connector port="8080"
            protocol="HTTP/1.1"
            connectionTimeout="20000"
            redirectPort="8443"

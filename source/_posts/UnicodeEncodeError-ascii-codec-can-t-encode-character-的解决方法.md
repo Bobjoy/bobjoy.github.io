@@ -2,6 +2,8 @@ title: "UnicodeEncodeError: 'ascii' codec can't encode character...的解决方�
 date: 2015-09-15 14:42:55
 categories: ["编程开发"]
 tags: ["Python"]
+photos:
+  - "https://images.pexels.com/photos/587737/pexels-photo-587737.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 在python2.7下，因为想从数据库中读出来分类名进行写入到文件,提示
 ```

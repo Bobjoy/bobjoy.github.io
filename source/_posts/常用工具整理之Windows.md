@@ -2,6 +2,8 @@ title: 常用工具整理之Windows
 date: 2016-06-29 08:46:55
 categories:
 tags:
+photos:
+  - "https://images.pexels.com/photos/50626/pexels-photo-50626.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 #### 1.Divvy(WinDivvy)
 

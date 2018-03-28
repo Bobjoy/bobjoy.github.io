@@ -2,6 +2,8 @@ title: MySQL-使用问题记录-持续更新
 date: 2017-07-28 16:01:09
 categories: ["编程开发"]
 tags: ["Database","MySQL"]
+photos:
+  - "https://images.pexels.com/photos/605496/pexels-photo-605496.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ## SQL语句中delete语句中别名引发的问题
 
@@ -45,7 +47,7 @@ tags: ["Database","MySQL"]
 
   ```
   ERROR: Error during SonarQube Scanner execution
-  
+
   ERROR: Failed to upload report - 500: An error has occurred. Please contact your administrator
   ```
 

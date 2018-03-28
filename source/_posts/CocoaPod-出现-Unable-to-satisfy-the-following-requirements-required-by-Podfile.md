@@ -2,6 +2,8 @@ title: "CocoaPod 出现 Unable to satisfy the following requirements:required by
 date: 2015-10-22 13:16:05
 categories: ["移动开发"]
 tags: ["iOS"]
+photos:
+  - "https://images.pexels.com/photos/12875/pexels-photo-12875.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 Q：通过 pod 更新iOS 第三方库时报错，错误如下：
 

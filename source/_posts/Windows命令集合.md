@@ -2,6 +2,8 @@ title: Windows命令集合
 date: 2017-12-27 15:41:21
 categories: ["Windows"]
 tags: ["Windows"]
+photos:
+  - "https://images.pexels.com/photos/464336/pexels-photo-464336.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 
 ipconfig---------查看本机IP信息 （Linux系统下是ifonfig）

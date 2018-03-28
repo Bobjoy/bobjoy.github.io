@@ -2,8 +2,10 @@ title: Eclipse远程调试Tomcat配置
 date: 2016-05-05 12:25:17
 categories: ["Eclipse", "Java"]
 tags: ["Java"]
+photos:
+  - "https://images.pexels.com/photos/211707/pexels-photo-211707.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
-当项目在服务器上单独部署的时候没有，因为服务器上不可能给你装IDE的工具。但是项目在本地运行很好，就是部署到服务器上的时候就出现一堆的错误，想想又没有IDE，没办法在服务器的本地进行调试。这时候就用到了Tomcat远程调试 JVM的JPDA框架。而Tomcat默认是不启用JPDA的，需要我们手动开启。 
+当项目在服务器上单独部署的时候没有，因为服务器上不可能给你装IDE的工具。但是项目在本地运行很好，就是部署到服务器上的时候就出现一堆的错误，想想又没有IDE，没办法在服务器的本地进行调试。这时候就用到了Tomcat远程调试 JVM的JPDA框架。而Tomcat默认是不启用JPDA的，需要我们手动开启。
 
 Eclpse远程调试Tomcat的配置步骤：
 
@@ -49,7 +51,7 @@ ERROR: Cannot load this JVM TI agent twice, check your java command line for dup
 2. 在本机设置断点;
 3. 进入上图界面，选择要调试的项，点击“Debug”即可进行远程调试；
 4. 访问你的测试页面即可看到久违的调试界面。
-5. 
+5.
 但每次做上述操作非常烦，不如写个批处理，如取名为Tomcat debug.bat，在这个文件中加入下面几行：
 
 ```bash

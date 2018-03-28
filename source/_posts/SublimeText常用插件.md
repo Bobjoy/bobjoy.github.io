@@ -2,6 +2,8 @@ title: SublimeText常用插件
 date: 2016-06-30 08:32:47
 categories:
 tags:
+photos:
+  - "https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 #### 1. [Package Control](https://sublime.wbond.net/installation)
 

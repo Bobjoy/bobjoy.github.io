@@ -2,6 +2,8 @@ title: 40个Java集合面试问题和答案
 date: 2015-09-16 13:24:52
 categories: ["编程开发"]
 tags: ["Java"]
+photos:
+  - "https://images.pexels.com/photos/103604/pexels-photo-103604.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 > 
 译文出处： [Sanesee](http://www.sanesee.com/article/40-java-collections-interview-questions-and-answers)   原文出处：[javacodegeeks](http://www.javacodegeeks.com/2013/02/40-java-collections-interview-questions-and-answers.html)

@@ -2,6 +2,8 @@ title: Linux命令之iptables
 date: 2016-06-21 16:47:49
 categories: ["Linux"]
 tags: ["Linux"]
+photos:
+  - "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 ### 一、iptable介绍
 
@@ -103,36 +105,36 @@ iptables [-t table] command [chain] [match][-j target]
 ##### 1. 通用匹配
 
 无论我们使用何种协议，装入何种扩展，通用匹配都可以使用。不需要前提条件
-  
-  * (1). -p(小写）或--protocol  
+
+  * (1). -p(小写）或--protocol
     - 用来检查某些特定协议。协议有TCP\UDP\ICMP三种。可用逗号分开这三种协议的任何组合。也可用“！”号进行取反，表示除该协议外的剩下的协议。也可用all表示全部协议。默认是all，但只代表tcp\udp\icmp三种协议。
-    
+
     ```
     $ iptables -A INPUT -p TCP,UDP
     $ iptables -A INPUT -p ! ICMP     //这两种表示的意思为一样的。
     ```
-    
+
   * (2). -s 或 --source
     - 以Ip源地址匹配包。根据源地址范围确定是否允许或拒绝数据包通过过滤器。可使用 “！”符号。    默认是匹配所有ip地址。
     - 可是单个Ip地址，也可以指定一个网段。  如： 192.168.1.1/255.255.255.255  表示一个地址。  192.168.1.0/255.255.255.0  表示一个网段。
-    
+
   * (3). -d  或 --destination
     - 用目的Ip地址来与它们匹配。与  source 的格式用法一样
-    
+
   * (4). -i
     - 以包进入本地所使用的网络接口来匹配包。只能用INPUT \ FORWARD \PREROUTING 三个链中。用在其他任何链中都会出错。
     - 可使用“+”  “！”两种符号。
     - 只用一个“+"号，表示匹配所有的包，不考虑使用哪个接口。如： iptables -A INPUT  -i +  //表匹配所有的包。
     - 放在某类接口后面，表示所有此类接口相匹配。如：    iptables  -A INPUT -i eth+   //表示匹配所有ethernet 接口。
-    
-  * (5). -o   
+
+  * (5). -o
     - 以数据包出本地所使用的网络接口来匹配包。与-i一样的使用方法。
     - 只能用OUTPUT \ FORWARD \POSTROUTING 三个链中。用在其他任何链中都会出错。
-    - 可使用“+”  “！”两种符号。 
-    
+    - 可使用“+”  “！”两种符号。
+
   * (6). -f  (或  --fragment )
     - 用来匹配一个被分片的包的第二片或以后的部分。因一个数据包被分成多片以后，只有第一片带有源或目标地址。后面的都不带 ，所以只能用这个来匹配。可防止碎片攻击。
-     
+
 ##### 2. 隐含匹配
 
 这种匹配是隐含的，自动的载入内核的。如我们使用 --protocol tcp  就可以自动匹配TCP包相关的特点。
@@ -142,51 +144,51 @@ iptables [-t table] command [chain] [match][-j target]
 2.1 tcp match
 
 tcp match 只能隐含匹配TCP包或流的细节。但必须有  -p tcp 作为前提条件。
-  
-（2.1.1） TCP --sport  
+
+（2.1.1） TCP --sport
 
 基于tcp包的源端口匹配包  ，不指定此项则表示所有端口。
-    
+
 ```
 iptables -A INPUT -p  TCP  --sport   22:80    //TCP源端口号22到80之间的所有端口。
-iptables -A INPUT -p  TCP  --sport   22:      //TCP源端口号22到65535之间的所有端口。 
+iptables -A INPUT -p  TCP  --sport   22:      //TCP源端口号22到65535之间的所有端口。
 ```
-      
-（2.1.2） TCP --dport  
+
+（2.1.2） TCP --dport
 
 基于tcp包的目的端口来匹配包。   与--sport端口用法一样。
-    
-（2.1.3） TCP --flags  
 
-匹配指定的TCP标记。 
-    
+（2.1.3） TCP --flags
+
+匹配指定的TCP标记。
+
 ```
 iptables  -p  TCP --tcp-flags  SYN,FIN,ACK   SYN
 ```
 
 2.2   UDP match
 
-（2.1.1）  UDP --sport  
+（2.1.1）  UDP --sport
 
 基于UDP包的源端口匹配包  ，不指定此项则表示所有端口。
-      
-（2.1.1）  UDP --dport  
+
+（2.1.1）  UDP --dport
 
 基于UDP包的目的端口匹配包  ，不指定此项则表示所有端口。
-    
-2.3 icmp match  
 
-icmp --icmp-type   
+2.3 icmp match
 
-根据ICMP类型包匹配。类型 的指定可以使用十进制数或相关的名字，不同的类型，有不同的ICMP数值表示。也可以用“！”取反。  
+icmp --icmp-type
+
+根据ICMP类型包匹配。类型 的指定可以使用十进制数或相关的名字，不同的类型，有不同的ICMP数值表示。也可以用“！”取反。
 
 例: `iptables  -A INPUT  -p icmp-imcp-type 8`
 
 ##### 3、显示匹配
 
-显示匹配必须用  -m装 载。 
+显示匹配必须用  -m装 载。
 
-（1）limit match   
+（1）limit match
 
 必须用 -m limit 明确指出。  可以对指定的规则的匹配次数加以限制。即，当某条规则匹配到一定次数后，就不再匹配。也就是限制可匹配包的数量。这样可以防止DOS攻击。
 
@@ -217,15 +219,15 @@ iptables -A  INPUT -m mac  --mac-source   00:00:eb:1c:24     //源地址匹配�
 （4） multiport match
 
 这个模块匹配一组源端口或目标端口,最多可以指定15个端口。只能和-p tcp 或者 -p udp 连着使用。
- 
+
 
 多端口匹配扩展让我们能够在一条规则里指定不连续的多个端口。如果没有这个扩展，我们只能按端口来写规则了。这只是标准端口匹配的增强版。不能在一条规则里同时用标准端口匹配和多端口匹配。
 
 三个选项：--source-port、--destination-port、--port
 
 ```
-iptables  -A INPUT  -p TCP   -m  multiport  --source-port 22,28,115       
-iptables  -A INPUT  -p TCP   -m  multiport  --destination-port 22,28,115 
+iptables  -A INPUT  -p TCP   -m  multiport  --source-port 22,28,115
+iptables  -A INPUT  -p TCP   -m  multiport  --destination-port 22,28,115
 iptables  -A INPUT  -p TCP   -m  multiport  --port 22,28,115
 ```
 
@@ -235,7 +237,7 @@ iptables  -A INPUT  -p TCP   -m  multiport  --port 22,28,115
 
 （6） tos match
 
-根据TOS字段匹配包，用来控制优先级。 
+根据TOS字段匹配包，用来控制优先级。
 
 （7） ttl match
 
@@ -253,7 +255,7 @@ iptables -t mangle -A PREROUTING -i eth0 -j TTL --ttl-inc 1
 
 （8） owner match
 
-基于包的生成者（即所有者或拥有者）的ID来匹配包。 
+基于包的生成者（即所有者或拥有者）的ID来匹配包。
 
 owner 可以是启动进程的用户的ID，或用户所在的级的ID或进程的ID，或会话的ID。此只能用在OUTPUT 中。
 
@@ -271,17 +273,17 @@ owner 可以是启动进程的用户的ID，或用户所在的级的ID或进程�
 
   根据给出的会话组匹配该进程产生的包。
 
-#### （四） targets/jump  
+#### （四） targets/jump
 
 指由规则指定的操作，对与规则匹配的信息包执行什么动作。
 
 1、accept
 
-这个参数没有任何选项。指定 -j accept 即可。 
+这个参数没有任何选项。指定 -j accept 即可。
 
 一旦满足匹配不再去匹配表或链内定义的其他规则。但它还可能会匹配其他表和链内的规则。即在同一个表内匹配后就到上为止，不往下继续。
 
-2、drop 
+2、drop
 
 -j drop   当信息包与规则完全匹配时，将丢弃该 包。不对它做处理。并且不向发送者返回任何信息。也不向路由器返回信息。
 
@@ -292,7 +294,7 @@ owner 可以是启动进程的用户的ID，或用户所在的级的ID或进程�
 ```
 iptables -A FORWARD -p TCP --dport 22 -j REJECT --reject-with icmp-net-unreachable
 ```
- 
+
 4、DNAT
 
 用在prerouting链上。
@@ -304,7 +306,7 @@ iptables -A FORWARD -p TCP --dport 22 -j REJECT --reject-with icmp-net-unreachab
 也就是如同防火墙的外部地址映射。把外部地址映射到内部地址上。
 
 ```
-iptables -t nat   -A PREROUTING   -d 218.104.235.238 -p TCP  --dport 110,125    -j DNAT --to-destination  192.168.9.1 
+iptables -t nat   -A PREROUTING   -d 218.104.235.238 -p TCP  --dport 110,125    -j DNAT --to-destination  192.168.9.1
 //把所有访问218.104.235.238地址  110.125端口的包全部转发到 192.168.9.1上。
 --to-destination   //目的地重写
 ```
@@ -313,7 +315,7 @@ iptables -t nat   -A PREROUTING   -d 218.104.235.238 -p TCP  --dport 110,125    
 
 用在nat 表的postrouting链表。这个和DNAT相反。是做源地址转换。就是重写源地址IP。 常用在内部网到外部网的转换。
 
---to-source 
+--to-source
 
 ```
 iptables -t nat POSTROUTING  -o eth0 -p tcp  -j SNAT --to-source 218.107.248.127  //从eth0接口往外发的数据包都把源地址重写为218.107.248.127
@@ -349,7 +351,7 @@ MASQUERADE的作用是，从服务器的网卡上，自动获取当前ip地址�
 iptables -t nat -A POSTROUTING  -s 192.168.1.0/24 -j masquerade      //即把192.168.1.0 这个网段的地址都重写为动态的外部IP地址。
 ```
 
-7、REDIRECT 
+7、REDIRECT
 
 只能在NAT表中的PREROUTING  OUTPUT 链中使用
 

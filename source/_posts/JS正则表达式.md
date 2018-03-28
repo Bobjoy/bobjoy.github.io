@@ -2,6 +2,8 @@ title: JS正则表达式
 date: 2016-06-29 12:27:39
 categories:
 tags:
+photos:
+	- "https://images.pexels.com/photos/698878/pexels-photo-698878.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
 正则表达式中的特殊字符
 

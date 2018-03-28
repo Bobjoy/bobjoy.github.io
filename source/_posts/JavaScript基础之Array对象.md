@@ -2,12 +2,14 @@ title: JavaScript基础之Array对象
 date: 2015-09-18 14:33:26
 categories: ["翻译", "Web开发"]
 tags: ["Array", "JavaScript"]
+photos:
+  - "https://images.pexels.com/photos/786095/pexels-photo-786095.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 ---
-> 
+>
 原文链接：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 ## Summary
-> 
+>
 The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects.
 
 **Create an Array**
@@ -92,7 +94,7 @@ var shallowCopy = fruits.slice(); // this is how to make a copy
 ```
 
 ## Syntax
-> 
+>
 ```javascript
 [element0, element1, ..., elementN]
 new Array(element0, element1[, ...[, elementN]])
@@ -154,7 +156,7 @@ console.log(promise['array']);
 
 **Relationship between length and numerical properties**
 
-A JavaScript array's [length][length] property and numerical properties are connected. Several of the built-in array methods (e.g., [join][join], [slice][slice], [indexOf][indexOf], etc.) take into account the value of an array's [length][length] property when they're called. Other methods (e.g., [push][push], [splice][splice], etc.) also result in updates to an array's length property.  
+A JavaScript array's [length][length] property and numerical properties are connected. Several of the built-in array methods (e.g., [join][join], [slice][slice], [indexOf][indexOf], etc.) take into account the value of an array's [length][length] property when they're called. Other methods (e.g., [push][push], [splice][splice], etc.) also result in updates to an array's length property.
 
 ```javascript
 var fruits = [];
@@ -392,7 +394,7 @@ Several methods take as arguments functions to be called back while processing t
 &emsp;&emsp;Returns a new Array Iterator object that contains the values for each index in the array.
 
 ### Array generic methods
-> 
+>
 Array generics are non-standard, deprecated and might get removed in the future. Note that you can not rely on them cross-browser. However, there is a [shim available on GitHub](https://github.com/plusdude/array-generics).
 
 Sometimes you would like to apply array methods to strings or other array-like objects (such as function [arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)). By doing this, you treat a string as an array of characters (or otherwise treat a non-array as an array). For example, in order to check that every character in the variable str is a letter, you would write:
@@ -471,7 +473,7 @@ if (msgArray.length === 100) {
 
 The following creates a chess board as a two dimensional array of strings. The first move is made by copying the 'p' in (6,4) to (4,4). The old position (6,4) is made blank.
 ```javascript
-var board = [ 
+var board = [
   ['R','N','B','Q','K','B','N','R'],
   ['P','P','P','P','P','P','P','P'],
   [' ',' ',' ',' ',' ',' ',' ',' '],
@@ -493,19 +495,19 @@ Here is the output:
 ```javascript
 R,N,B,Q,K,B,N,R
 P,P,P,P,P,P,P,P
- , , , , , , , 
- , , , , , , , 
- , , , , , , , 
- , , , , , , , 
+ , , , , , , ,
+ , , , , , , ,
+ , , , , , , ,
+ , , , , , , ,
 p,p,p,p,p,p,p,p
 r,n,b,q,k,b,n,r
 
 R,N,B,Q,K,B,N,R
 P,P,P,P,P,P,P,P
- , , , , , , , 
- , , , , , , , 
- , , , ,p, , , 
- , , , , , , , 
+ , , , , , , ,
+ , , , , , , ,
+ , , , ,p, , ,
+ , , , , , , ,
 p,p,p,p, ,p,p,p
 r,n,b,q,k,b,n,r
 ```
@@ -520,13 +522,13 @@ r,n,b,q,k,b,n,r
 
 ### Browser compatibility
 **Desktop**
-> 
+>
 |Feature | Chrome | Firefox (Gecko) | Internet Explorer | Opera | Safari|
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Basic support | (Yes) | (Yes) | (Yes) | (Yes) | (Yes)|
 
 **Mobile**
-> 
+>
 |Feature | Android | Chrome for Android | Firefox Mobile (Gecko) | IE Mobile | Opera Mobile | Safari Mobile |
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Basic support | (Yes) | (Yes) | (Yes) | (Yes) | (Yes)| (Yes) |
