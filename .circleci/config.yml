@@ -12,11 +12,11 @@ jobs:
       - run: python3 main.py
       - run: git version
       - run: git status
-      - run: git config --global user.email "1639301503@qq.com"
-      - run: git config --global user.name "jwenjian"
+      - run: git config --global user.email "bobjoy1010@163.com"
+      - run: git config --global user.name "Bobjoy"
       - run: git add .
       - run: git commit -m "Update From Circle CI"
-      - run: git push https://$GITHUB_LOGIN:$GITHUB_TOKEN@github.com/$GITHUB_LOGIN/ghiblog.git
+      - run: git push https://$GITHUB_LOGIN:$GITHUB_TOKEN@github.com/$GITHUB_LOGIN/bobjoy.github.io.git
       - run: echo 'done'
 
 workflows:
