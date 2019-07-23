@@ -44,7 +44,7 @@ def login():
 
 def get_ghiblog():
     global ghiblog
-    ghiblog = user.get_repo('%s/ghiblog' % user.get_user().login)
+    ghiblog = user.get_repo('%s/bobjoy.github.io' % user.get_user().login)
 
 
 def bundle_summary_section():
@@ -62,22 +62,22 @@ def bundle_summary_section():
 # GitHub Issues Blog :tada::tada::tada:
 
 <p align='center'>
-    <img src="https://badgen.net/circleci/github/jwenjian/ghiblog"/>
+    <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/%s"/>
     <img src="https://badgen.net/badge/issues/%s"/>
     <img src="https://badgen.net/badge/last-commit/%s"/>
-    <img src="https://badgen.net/github/forks/%s/ghiblog"/>
-    <img src="https://badgen.net/github/stars/%s/ghiblog"/>
-    <img src="https://badgen.net/github/watchers/%s/ghiblog"/>
-    <img src="https://badgen.net/github/release/%s/ghiblog"/>
+    <img src="https://badgen.net/github/forks/%s/bobjoy.github.io"/>
+    <img src="https://badgen.net/github/stars/%s/bobjoy.github.io"/>
+    <img src="https://badgen.net/github/watchers/%s/bobjoy.github.io"/>
+    <img src="https://badgen.net/github/release/%s/bobjoy.github.io"/>
 </p>
 
 <p align='center'>
-    <a href="https://github.com/jwenjian/visitor-count-badge">
-        <img src="https://visitor-count-badge.herokuapp.com/total.svg?repo_id=jwenjian.ghiblog"/>
+    <a href="https://github.com/Bobjoy/visitor-count-badge">
+        <img src="https://visitor-count-badge.herokuapp.com/total.svg?repo_id=Bobjoy.bobjoy.github.io"/>
     </a>
-    <a href="https://github.com/jwenjian/visitor-count-badge">
-        <img src="https://visitor-count-badge.herokuapp.com/today.svg?repo_id=jwenjian.ghiblog"/>
+    <a href="https://github.com/Bobjoy/visitor-count-badge">
+        <img src="https://visitor-count-badge.herokuapp.com/today.svg?repo_id=Bobjoy.bobjoy.github.io"/>
     </a>
 </p>
 
@@ -122,7 +122,7 @@ def format_issue_with_labels(issue: Issue):
         labels_str = '\n \t' + sub('|')
 
     for label in labels:
-        labels_str += sub('[%s](https://github.com/%s/ghiblog/labels/%s)\t|\t' % (
+        labels_str += sub('[%s](https://github.com/%s/bobjoy.github.io/labels/%s)\t|\t' % (
             label.name, user.get_user().login, urllib.parse.quote(label.name)))
 
     return '- [%s](%s) %s  \t\t\t %s\n%s\n\n' % (
@@ -176,7 +176,7 @@ def bundle_about_me_section():
     global user
 
     about_me_section = '''
-## 关于:boy: 
+## 关于:boy:
 
 [<img alt="%s" src="%s" width="233"/>](%s)
 
