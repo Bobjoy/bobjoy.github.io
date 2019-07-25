@@ -3,9 +3,9 @@
 
 <p align='center'>
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
-    <img src="https://badgen.net/badge/labels/4"/>
+    <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/29"/>
-    <img src="https://badgen.net/badge/last-commit/2019-07-24 04:48:02"/>
+    <img src="https://badgen.net/badge/last-commit/2019-07-25 00:01:19"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -69,6 +69,26 @@
 <summary>:apple: App	<sup>1:newspaper:</sup></summary>
 
 - [Mac启动app，报错“Code Signature Invalid”](https://github.com/Bobjoy/bobjoy.github.io/issues/27)  <sup>0 :speech_balloon:</sup>  	 
+
+
+</details>
+
+<details>
+<summary>:bug: Bad	<sup>13:newspaper:</sup></summary>
+
+- [Required String[] parameter 'xxx' is not present](https://github.com/Bobjoy/bobjoy.github.io/issues/24)  <sup>0 :speech_balloon:</sup>  	 
+- [RVM is not a function](https://github.com/Bobjoy/bobjoy.github.io/issues/22)  <sup>0 :speech_balloon:</sup>  	 
+- [activiti保存模型时报Enclosed Exception: 元素类型 "path" 必须后跟属性规范 ">" 或 "/>"错误解决方法](https://github.com/Bobjoy/bobjoy.github.io/issues/21)  <sup>0 :speech_balloon:</sup>  	 
+- [ORA-06553: PLS-306: 调用 'OGC_X' 时参数个数或类型错误](https://github.com/Bobjoy/bobjoy.github.io/issues/20)  <sup>0 :speech_balloon:</sup>  	 
+- [git pull的时候报错：fatal: protocol error: bad pack header](https://github.com/Bobjoy/bobjoy.github.io/issues/17)  <sup>0 :speech_balloon:</sup>  	 
+- [supervisor unknown error making dispatchers for 'nginx': EACCES](https://github.com/Bobjoy/bobjoy.github.io/issues/16)  <sup>0 :speech_balloon:</sup>  	 
+- [解决Mac java.net Local host name unknown error的方法](https://github.com/Bobjoy/bobjoy.github.io/issues/14)  <sup>0 :speech_balloon:</sup>  	 
+- [site-functions is not writable](https://github.com/Bobjoy/bobjoy.github.io/issues/13)  <sup>0 :speech_balloon:</sup>  	 
+- [zsh compinit: insecure directories](https://github.com/Bobjoy/bobjoy.github.io/issues/12)  <sup>0 :speech_balloon:</sup>  	 
+- [Eclipse异常之Could not write metadata for "xxx"](https://github.com/Bobjoy/bobjoy.github.io/issues/11)  <sup>0 :speech_balloon:</sup>  	 
+- [写gulp流的时候报错](https://github.com/Bobjoy/bobjoy.github.io/issues/9)  <sup>0 :speech_balloon:</sup>  	 
+- [git-credential-winstore.exe": No such file or directory](https://github.com/Bobjoy/bobjoy.github.io/issues/8)  <sup>0 :speech_balloon:</sup>  	 
+- [MySQL下出现Unknown column 'xxx' in 'on clause'的解决方法](https://github.com/Bobjoy/bobjoy.github.io/issues/6)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
