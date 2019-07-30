@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/29"/>
-    <img src="https://badgen.net/badge/last-commit/2019-07-29 00:01:29"/>
+    <img src="https://badgen.net/badge/last-commit/2019-07-30 00:00:59"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The North America Nebula in Infrared**
+**Lightning over the Volcano of Water**
 
-> The North America Nebula can do what most North Americans cannot -- form stars.  Precisely where in the nebula these stars are forming has been mostly obscured by some of the nebula's thick dust that is opaque to visible light. However, a view of the North America Nebula in infrared light by the orbiting Spitzer Space Telescope has peered through much of the dust and uncovered thousands of newly formed stars. Rolling your cursor over the above scientifically-colored infrared image will bring up a corresponding optical image of the same region for comparison.  The infrared image neatly captures young stars in many stages of formation, from being imbedded in dense knots of gas and dust, to being surrounded by disks and emitted jets, to being clear of their birth cocoons. The North America Nebula (NGC 7000) spans about 50 light years and lies about 1,500 light years away toward the constellation of the Swan (Cygnus). Still, of all the stars known in the North America Nebula, which massive stars emit the energetic light that gives the ionized  red glow is still debated.
+> Have you ever watched a lightning storm in awe?  Join the crowd. Details of what causes lightning are still being researched, but it is known that inside some clouds, internal updrafts cause collisions between ice and snow that slowly separate charges between cloud tops and bottoms  The rapid electrical discharges that are lightning soon result.  Lightning usually takes a jagged course, rapidly heating a thin column of air to about three times the surface temperature of the Sun.  The resulting shock wave starts supersonically and decays into the loud sound known as thunder.  On average, around the world, about 6,000 lightning bolts occur between clouds and the Earth every minute. Pictured earlier this month in a two-image composite, lightning stems from communication antennas near the top of Volcán de Agua (Volcano of Water) in Guatemala.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1907/northamerica_ir_960.jpg" title="The North America Nebula in Infrared" alt="The North America Nebula can do what most North Americans cannot -- form stars.  Precisely where in the nebula these stars are forming has been mostly obscured by some of the nebula's thick dust that is opaque to visible light. However, a view of the North America Nebula in infrared light by the orbiting Spitzer Space Telescope has peered through much of the dust and uncovered thousands of newly formed stars. Rolling your cursor over the above scientifically-colored infrared image will bring up a corresponding optical image of the same region for comparison.  The infrared image neatly captures young stars in many stages of formation, from being imbedded in dense knots of gas and dust, to being surrounded by disks and emitted jets, to being clear of their birth cocoons. The North America Nebula (NGC 7000) spans about 50 light years and lies about 1,500 light years away toward the constellation of the Swan (Cygnus). Still, of all the stars known in the North America Nebula, which massive stars emit the energetic light that gives the ionized  red glow is still debated."/>
+    <img src="https://apod.nasa.gov/apod/image/1907/LightningVolcano_Montufar_960.jpg" title="Lightning over the Volcano of Water" alt="Have you ever watched a lightning storm in awe?  Join the crowd. Details of what causes lightning are still being researched, but it is known that inside some clouds, internal updrafts cause collisions between ice and snow that slowly separate charges between cloud tops and bottoms  The rapid electrical discharges that are lightning soon result.  Lightning usually takes a jagged course, rapidly heating a thin column of air to about three times the surface temperature of the Sun.  The resulting shock wave starts supersonically and decays into the loud sound known as thunder.  On average, around the world, about 6,000 lightning bolts occur between clouds and the Earth every minute. Pictured earlier this month in a two-image composite, lightning stems from communication antennas near the top of Volcán de Agua (Volcano of Water) in Guatemala."/>
 </center>
 
 
