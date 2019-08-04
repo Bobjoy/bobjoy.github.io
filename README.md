@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/29"/>
-    <img src="https://badgen.net/badge/last-commit/2019-08-03 00:01:42"/>
+    <img src="https://badgen.net/badge/last-commit/2019-08-04 00:13:51"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Chamaeleon II Dark Cloud**
+**You can't see me, Meow~~!**
 
-> A small constellation hiding near the south celestial pole, The Chamaeleon boasts no bright stars. Stars are forming within its constellation boundaries though, in a complex of dark, dusty molecular clouds. Some 500 light-years distant, the Chamaeleon II dark nebula inhabits this view where the cosmic dust clouds standout mostly in silhouette against the starry southern sky. The telescopic frame is about the angular size of a Full Moon and so spans about 5 light-years at the dark cloud's estimated distance. Scattered near center a telltale reddish glow from identified Herbig-Haro objects is seen in the sharp image, jets of shocked glowing gas emanating from recently formed stars.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1908/Cha-II-Cloud-WebAstroDon1024.jpg" title="Chamaeleon II Dark Cloud" alt="A small constellation hiding near the south celestial pole, The Chamaeleon boasts no bright stars. Stars are forming within its constellation boundaries though, in a complex of dark, dusty molecular clouds. Some 500 light-years distant, the Chamaeleon II dark nebula inhabits this view where the cosmic dust clouds standout mostly in silhouette against the starry southern sky. The telescopic frame is about the angular size of a Full Moon and so spans about 5 light-years at the dark cloud's estimated distance. Scattered near center a telltale reddish glow from identified Herbig-Haro objects is seen in the sharp image, jets of shocked glowing gas emanating from recently formed stars."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
