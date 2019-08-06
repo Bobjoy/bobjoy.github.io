@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/29"/>
-    <img src="https://badgen.net/badge/last-commit/2019-08-05 00:00:53"/>
+    <img src="https://badgen.net/badge/last-commit/2019-08-06 00:01:48"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**A Total Solar Eclipse Reflected**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> If you saw a total solar eclipse, would you do a double-take? One astrophotographer did just that -- but it took a lake and a bit of planning. Realizing that the eclipse would be low on the horizon, he looked for a suitable place along the thin swath of South America that would see, for a few minutes, the Moon completely block the Sun, both directly and in reflection.  The day before totality, he visited an Argentine lake called La Cuesta Del Viento (The Slope of the Wind) and, despite its name, found so little wind that the lake looked like a mirror.  Perfect.  Returning the day of the eclipse, though, there was a strong breeze  churning up the water -- enough to ruin the eclipse reflection shot.  Despair. But wait!  Strangely, about an hour before totality, the wind died down.  This calmness may have been related to the eclipse itself, because eclipsed ground heats the air less and reduces the amount rising warm air -- which can dampen and even change the wind direction.  The eclipse came, his tripod and camera were ready, and so was the lake. The featured image of this double-eclipse came from a single exposure lasting just one fifteenth of a second. Soon after totality, the winds returned and the water again became choppy. No matter -- this double-image of the 2019 July total solar eclipse had been captured forever.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1908/DoubleEclipse_Legault_1080.jpg" title="A Total Solar Eclipse Reflected" alt="If you saw a total solar eclipse, would you do a double-take? One astrophotographer did just that -- but it took a lake and a bit of planning. Realizing that the eclipse would be low on the horizon, he looked for a suitable place along the thin swath of South America that would see, for a few minutes, the Moon completely block the Sun, both directly and in reflection.  The day before totality, he visited an Argentine lake called La Cuesta Del Viento (The Slope of the Wind) and, despite its name, found so little wind that the lake looked like a mirror.  Perfect.  Returning the day of the eclipse, though, there was a strong breeze  churning up the water -- enough to ruin the eclipse reflection shot.  Despair. But wait!  Strangely, about an hour before totality, the wind died down.  This calmness may have been related to the eclipse itself, because eclipsed ground heats the air less and reduces the amount rising warm air -- which can dampen and even change the wind direction.  The eclipse came, his tripod and camera were ready, and so was the lake. The featured image of this double-eclipse came from a single exposure lasting just one fifteenth of a second. Soon after totality, the winds returned and the water again became choppy. No matter -- this double-image of the 2019 July total solar eclipse had been captured forever."/>
 </center>
 
 
