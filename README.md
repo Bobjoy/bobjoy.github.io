@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/29"/>
-    <img src="https://badgen.net/badge/last-commit/2019-08-08 00:01:00"/>
+    <img src="https://badgen.net/badge/last-commit/2019-08-09 00:01:42"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Jupiter Engulfed and the Milky Way**
+**You can't see me, Meow~~!**
 
-> This is a good month to see Jupiter. To find our Solar System's largest planet in your sky, look toward the southeast just after sunset -- Jupiter should be the brightest object in that part of the sky.  If you have a binoculars or a small telescope, you should be able to see Jupiter's four brightest moons right nearby, and possibly some cloud bands. The featured image was taken about a month ago from the Persian Gulf. The image shows Jupiter just to the right of the nearly vertical band of the central disk of our Milky Way Galaxy.  The unnamed rock formations appear in projection like the jaws of a giant monster ready to engulf the Jovian giant.  When you see Jupiter, it may be interesting to know that NASA's robotic Juno spacecraft is simultaneously visiting and studying the giant planet.  Saturn is also visible this month, and although it is nearby to Jupiter, it is not as bright.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1908/JawsJupiter_Hayati_960.jpg" title="Jupiter Engulfed and the Milky Way" alt="This is a good month to see Jupiter. To find our Solar System's largest planet in your sky, look toward the southeast just after sunset -- Jupiter should be the brightest object in that part of the sky.  If you have a binoculars or a small telescope, you should be able to see Jupiter's four brightest moons right nearby, and possibly some cloud bands. The featured image was taken about a month ago from the Persian Gulf. The image shows Jupiter just to the right of the nearly vertical band of the central disk of our Milky Way Galaxy.  The unnamed rock formations appear in projection like the jaws of a giant monster ready to engulf the Jovian giant.  When you see Jupiter, it may be interesting to know that NASA's robotic Juno spacecraft is simultaneously visiting and studying the giant planet.  Saturn is also visible this month, and although it is nearby to Jupiter, it is not as bright."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
