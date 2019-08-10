@@ -4,8 +4,8 @@
 <p align='center'>
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
-    <img src="https://badgen.net/badge/issues/29"/>
-    <img src="https://badgen.net/badge/last-commit/2019-08-09 00:01:42"/>
+    <img src="https://badgen.net/badge/issues/30"/>
+    <img src="https://badgen.net/badge/last-commit/2019-08-10 00:01:37"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,18 +23,22 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Atlas at Dawn**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> This single, 251-second long exposure follows the early flight of an Atlas V rocket on August 8, streaking eastward toward the dawn from Cape Canaveral Air Force Station, planet Earth. The launch of the United Launch Alliance rocket was at 6:13am local time. Sunrise was not until 6:48am, but the rocket's downrange plume at altitude is brightly lit by the Sun still just below the eastern horizon. Waters of the Indian River Lagoon in Palm Shores, Forida reflect subtle colors and warming glow of the otherwise calm, predawn sky. The mighty Atlas rocket carried a military communications satellite into Earth orbit. Of course, this weekend the streaks you see in clear skies before the dawn could be Perseid Meteors.   Watch: Perseid Meteor Shower
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1908/5D4_5485seeley_1067.jpg" title="Atlas at Dawn" alt="This single, 251-second long exposure follows the early flight of an Atlas V rocket on August 8, streaking eastward toward the dawn from Cape Canaveral Air Force Station, planet Earth. The launch of the United Launch Alliance rocket was at 6:13am local time. Sunrise was not until 6:48am, but the rocket's downrange plume at altitude is brightly lit by the Sun still just below the eastern horizon. Waters of the Indian River Lagoon in Palm Shores, Forida reflect subtle colors and warming glow of the otherwise calm, predawn sky. The mighty Atlas rocket carried a military communications satellite into Earth orbit. Of course, this weekend the streaks you see in clear skies before the dawn could be Perseid Meteors.   Watch: Perseid Meteor Shower"/>
 </center>
 
 
 ## 置顶 :thumbsup: 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+- [ssh Too many authentication failures](https://github.com/Bobjoy/bobjoy.github.io/issues/30) <sup>0 :speech_balloon:</sup>  			 2019-08-09 01:32:45
+
+ 	<sub>|</sub><sub>[:bug: Bad](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Abug%3A%20Bad)	|	</sub>
+
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29) <sup>0 :speech_balloon:</sup>  			 2019-07-19 23:28:07
 
  	<sub>|</sub><sub>[:+1:置顶](https://github.com/Bobjoy/bobjoy.github.io/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
@@ -49,11 +53,7 @@
 
 - [kali最新国内源](https://github.com/Bobjoy/bobjoy.github.io/issues/26) <sup>0 :speech_balloon:</sup>  			 2019-05-23 03:08:49
 
- 	<sub>|</sub>
-
-- [Content-Disposition](https://github.com/Bobjoy/bobjoy.github.io/issues/25) <sup>0 :speech_balloon:</sup>  			 2019-05-21 06:21:35
-
- 	<sub>|</sub>
+ 	<sub>|</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
 
 ## 分类  :card_file_box: 
 
@@ -66,16 +66,20 @@
 </details>
 
 <details>
-<summary>:apple: App	<sup>1:newspaper:</sup></summary>
+<summary>:apple: App	<sup>4:newspaper:</sup></summary>
 
 - [Mac启动app，报错“Code Signature Invalid”](https://github.com/Bobjoy/bobjoy.github.io/issues/27)  <sup>0 :speech_balloon:</sup>  	 
+- [NavicatPremium12无限重置试用脚本（MacOS版）](https://github.com/Bobjoy/bobjoy.github.io/issues/19)  <sup>0 :speech_balloon:</sup>  	 
+- [Eclipse启动卡死](https://github.com/Bobjoy/bobjoy.github.io/issues/5)  <sup>0 :speech_balloon:</sup>  	 
+- [“XXX.app”已损坏，打不开。 您应该将它移到废纸篓](https://github.com/Bobjoy/bobjoy.github.io/issues/1)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
 
 <details>
-<summary>:bug: Bad	<sup>13:newspaper:</sup></summary>
+<summary>:bug: Bad	<sup>15:newspaper:</sup></summary>
 
+- [ssh Too many authentication failures](https://github.com/Bobjoy/bobjoy.github.io/issues/30)  <sup>0 :speech_balloon:</sup>  	 
 - [Required String[] parameter 'xxx' is not present](https://github.com/Bobjoy/bobjoy.github.io/issues/24)  <sup>0 :speech_balloon:</sup>  	 
 - [RVM is not a function](https://github.com/Bobjoy/bobjoy.github.io/issues/22)  <sup>0 :speech_balloon:</sup>  	 
 - [activiti保存模型时报Enclosed Exception: 元素类型 "path" 必须后跟属性规范 ">" 或 "/>"错误解决方法](https://github.com/Bobjoy/bobjoy.github.io/issues/21)  <sup>0 :speech_balloon:</sup>  	 
@@ -89,22 +93,30 @@
 - [写gulp流的时候报错](https://github.com/Bobjoy/bobjoy.github.io/issues/9)  <sup>0 :speech_balloon:</sup>  	 
 - [git-credential-winstore.exe": No such file or directory](https://github.com/Bobjoy/bobjoy.github.io/issues/8)  <sup>0 :speech_balloon:</sup>  	 
 - [MySQL下出现Unknown column 'xxx' in 'on clause'的解决方法](https://github.com/Bobjoy/bobjoy.github.io/issues/6)  <sup>0 :speech_balloon:</sup>  	 
+- [JDWP Transport dt_socket failed to initialize](https://github.com/Bobjoy/bobjoy.github.io/issues/2)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
 
 <details>
-<summary>:rocket: Nice	<sup>1:newspaper:</sup></summary>
+<summary>:rocket: Nice	<sup>2:newspaper:</sup></summary>
 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
+- [kali最新国内源](https://github.com/Bobjoy/bobjoy.github.io/issues/26)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
 
 <details>
-<summary>:speak_no_evil: Study	<sup>1:newspaper:</sup></summary>
+<summary>:speak_no_evil: Study	<sup>7:newspaper:</sup></summary>
 
 - [docker在不影响运行的情况下进入容器](https://github.com/Bobjoy/bobjoy.github.io/issues/28)  <sup>0 :speech_balloon:</sup>  	 
+- [Content-Disposition](https://github.com/Bobjoy/bobjoy.github.io/issues/25)  <sup>0 :speech_balloon:</sup>  	 
+- [Vue从入坑到出坑](https://github.com/Bobjoy/bobjoy.github.io/issues/23)  <sup>0 :speech_balloon:</sup>  	 
+- [mysql授权root远程访问](https://github.com/Bobjoy/bobjoy.github.io/issues/15)  <sup>0 :speech_balloon:</sup>  	 
+- [国内较快的maven镜像](https://github.com/Bobjoy/bobjoy.github.io/issues/7)  <sup>0 :speech_balloon:</sup>  	 
+- [Win10系统离线安装.NET Framework小技巧](https://github.com/Bobjoy/bobjoy.github.io/issues/4)  <sup>0 :speech_balloon:</sup>  	 
+- [MySQL自定义安装Windows服务](https://github.com/Bobjoy/bobjoy.github.io/issues/3)  <sup>6 :speech_balloon:</sup>  	 
 
 
 </details>
