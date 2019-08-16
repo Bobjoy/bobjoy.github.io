@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-08-15 00:01:51"/>
+    <img src="https://badgen.net/badge/last-commit/2019-08-16 00:00:29"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**The Perseids and the Plough**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Despite interfering moonlight, many denizens of planet Earth were able to watch this year's Perseid meteor shower. This pastoral scene includes local skygazers admiring the shower's brief, heavenly flashes in predawn hours near peak activity on August 13 from Nalati Grassland in Xinjiang, China. A composite, the image registers seven frames taken during a two hour span recording Perseid meteor streaks against a starry sky. Centered along the horizon is the Plough, the north's most famous asterism, though some might see the familiar celestial kitchen utensil known as the Big Dipper. Perhaps the year's most easily enjoyed meteor shower, Perseid meteors are produced as Earth itself sweeps through dust from periodic comet Swift-Tuttle. The dust particles are vaporized at altitudes of 100 kilometers or so as they plow through the atmosphere at 60 kilometers per second.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1908/PerseidsPloughCow1024.jpg" title="The Perseids and the Plough" alt="Despite interfering moonlight, many denizens of planet Earth were able to watch this year's Perseid meteor shower. This pastoral scene includes local skygazers admiring the shower's brief, heavenly flashes in predawn hours near peak activity on August 13 from Nalati Grassland in Xinjiang, China. A composite, the image registers seven frames taken during a two hour span recording Perseid meteor streaks against a starry sky. Centered along the horizon is the Plough, the north's most famous asterism, though some might see the familiar celestial kitchen utensil known as the Big Dipper. Perhaps the year's most easily enjoyed meteor shower, Perseid meteors are produced as Earth itself sweeps through dust from periodic comet Swift-Tuttle. The dust particles are vaporized at altitudes of 100 kilometers or so as they plow through the atmosphere at 60 kilometers per second."/>
 </center>
 
 
