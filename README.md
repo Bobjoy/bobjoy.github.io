@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-08-21 00:01:57"/>
+    <img src="https://badgen.net/badge/last-commit/2019-08-22 00:01:06"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**The Orion You Can Almost See**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Do you recognize this constellation?  Although it is one of the most recognizable star groupings on the sky, this is a more full Orion than you can see -- an Orion only revealed with long exposure digital camera imaging and post-processing.  Here the cool red giant Betelgeuse takes on a strong orange tint as the brightest star at the lower left.  Orion's hot blue stars are numerous, with supergiant Rigel balancing Betelgeuse on the upper right, and Bellatrix at the upper left. Lined up in Orion's belt are three stars all about 1,500 light-years away, born from the constellation's well-studied interstellar clouds. To the right of Orion's belt is a bright but fuzzy patch that might also look familiar -- the stellar nursery known as Orion's Nebula.  Finally, just barely visible to the unaided eye but quite striking here is Barnard's Loop -- a huge gaseous emission nebula surrounding Orion's Belt and Nebula discovered over 100 years ago by the pioneering Orion photographer E. E. Barnard.   APOD Podcasts: Available on iTunes and YouTube.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1908/OrionDeep_GleasonAndreo_1080.jpg" title="The Orion You Can Almost See" alt="Do you recognize this constellation?  Although it is one of the most recognizable star groupings on the sky, this is a more full Orion than you can see -- an Orion only revealed with long exposure digital camera imaging and post-processing.  Here the cool red giant Betelgeuse takes on a strong orange tint as the brightest star at the lower left.  Orion's hot blue stars are numerous, with supergiant Rigel balancing Betelgeuse on the upper right, and Bellatrix at the upper left. Lined up in Orion's belt are three stars all about 1,500 light-years away, born from the constellation's well-studied interstellar clouds. To the right of Orion's belt is a bright but fuzzy patch that might also look familiar -- the stellar nursery known as Orion's Nebula.  Finally, just barely visible to the unaided eye but quite striking here is Barnard's Loop -- a huge gaseous emission nebula surrounding Orion's Belt and Nebula discovered over 100 years ago by the pioneering Orion photographer E. E. Barnard.   APOD Podcasts: Available on iTunes and YouTube."/>
 </center>
 
 
