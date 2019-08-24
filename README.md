@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-08-23 00:07:20"/>
+    <img src="https://badgen.net/badge/last-commit/2019-08-24 00:07:16"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Nearby Spiral Galaxy NGC 4945**
+**NGC 1499: The California Nebula**
 
-> Large spiral galaxy NGC 4945 is seen edge-on near the center of this cosmic galaxy portrait. In fact, it's almost the size of our Milky Way Galaxy. NGC 4945's own dusty disk, young blue star clusters, and pink star forming regions standout in the sharp, colorful telescopic image. About 13 million light-years distant toward the expansive southern constellation Centaurus, NGC 4945 is only about six times farther away than Andromeda, the nearest large spiral galaxy to the Milky Way. Though this galaxy's central region is largely hidden from view for optical telescopes, X-ray and infrared observations indicate significant high energy emission and star formation in the core of NGC 4945. Its obscured but active nucleus qualifies the gorgeous island universe as a Seyfert galaxy and home to a central supermassive black hole.
+> Drifting through the Orion Arm of the spiral Milky Way Galaxy, this cosmic cloud by chance echoes the outline of California on the west coast of the United States. Our own Sun also lies within the Milky Way's Orion Arm, only about 1,500 light-years from the California Nebula. Also known as NGC 1499, the classic emission nebula is around 100 light-years long. The California Nebula shines with the telltale reddish glow characteristic of hydrogen atoms recombining with long lost electrons. The electrons have been stripped away, ionized by energetic starlight. Most likely providing the energetic starlight that ionizes much of the nebular gas is the bright, hot, bluish star Xi Persei just to the right of the nebula.  A popular target for astrophotographers, this deep California Nebula image is a 6 panel telecopic mosaic and covers a wide field of view. The nebula lies toward the constellation Perseus, not far from the Pleiades.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1908/NGC4945_HaLRGB.jpg" title="Nearby Spiral Galaxy NGC 4945" alt="Large spiral galaxy NGC 4945 is seen edge-on near the center of this cosmic galaxy portrait. In fact, it's almost the size of our Milky Way Galaxy. NGC 4945's own dusty disk, young blue star clusters, and pink star forming regions standout in the sharp, colorful telescopic image. About 13 million light-years distant toward the expansive southern constellation Centaurus, NGC 4945 is only about six times farther away than Andromeda, the nearest large spiral galaxy to the Milky Way. Though this galaxy's central region is largely hidden from view for optical telescopes, X-ray and infrared observations indicate significant high energy emission and star formation in the core of NGC 4945. Its obscured but active nucleus qualifies the gorgeous island universe as a Seyfert galaxy and home to a central supermassive black hole."/>
+    <img src="https://apod.nasa.gov/apod/image/1908/NGC1499_mosaic1024.jpg" title="NGC 1499: The California Nebula" alt="Drifting through the Orion Arm of the spiral Milky Way Galaxy, this cosmic cloud by chance echoes the outline of California on the west coast of the United States. Our own Sun also lies within the Milky Way's Orion Arm, only about 1,500 light-years from the California Nebula. Also known as NGC 1499, the classic emission nebula is around 100 light-years long. The California Nebula shines with the telltale reddish glow characteristic of hydrogen atoms recombining with long lost electrons. The electrons have been stripped away, ionized by energetic starlight. Most likely providing the energetic starlight that ionizes much of the nebular gas is the bright, hot, bluish star Xi Persei just to the right of the nebula.  A popular target for astrophotographers, this deep California Nebula image is a 6 panel telecopic mosaic and covers a wide field of view. The nebula lies toward the constellation Perseus, not far from the Pleiades."/>
 </center>
 
 
