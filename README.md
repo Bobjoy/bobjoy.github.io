@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-08-31 00:07:21"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-01 00:07:16"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**NGC 7129 and NGC 7142**
+**You can't see me, Meow~~!**
 
-> This wide-field telescopic image looks toward the constellation Cepheus and an intriguing visual pairing of dusty reflection nebula NGC 7129 (right) and open star cluster NGC 7142. The two appear separated by only half a degree on the sky, but they actually lie at quite different distances. In the foreground, dusty nebula NGC 7129 is about 3,000 light-years distant, while open cluster NGC 7142 is likely over 6,000 light-years away. In fact, pervasive and clumpy foreground dust clouds in this region redden the light from NGC 7142, complicating astronomical explorations of the cluster. Still, NGC 7142 is thought to be an older open star cluster, while the bright stars embedded in NGC 7129 are perhaps a few million years young. The telltale reddish crescent shapes around NGC 7129 are associated with energetic jets streaming away from newborn stars.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1908/ngc7129smallCannistra.jpg" title="NGC 7129 and NGC 7142" alt="This wide-field telescopic image looks toward the constellation Cepheus and an intriguing visual pairing of dusty reflection nebula NGC 7129 (right) and open star cluster NGC 7142. The two appear separated by only half a degree on the sky, but they actually lie at quite different distances. In the foreground, dusty nebula NGC 7129 is about 3,000 light-years distant, while open cluster NGC 7142 is likely over 6,000 light-years away. In fact, pervasive and clumpy foreground dust clouds in this region redden the light from NGC 7142, complicating astronomical explorations of the cluster. Still, NGC 7142 is thought to be an older open star cluster, while the bright stars embedded in NGC 7129 are perhaps a few million years young. The telltale reddish crescent shapes around NGC 7129 are associated with energetic jets streaming away from newborn stars."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
