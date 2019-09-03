@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-02 00:07:17"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-03 00:07:19"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**M45: The Pleiades Star Cluster**
+**The Moon and Jupiter over the Alps**
 
-> Have you ever seen the Pleiades star cluster? Even if you have, you probably have never seen it as dusty as this. Perhaps the most famous star cluster on the sky, the bright stars of the Pleiades can be seen without binoculars from even the depths of a light-polluted city.  With a long exposure from a dark location, though, the dust cloud surrounding the Pleiades star cluster becomes very evident. The featured exposure took over 12 hours and covers a sky area several times the size of the full moon.  Also known as the Seven Sisters and M45, the Pleiades lies about 400 light years away toward the constellation of the Bull (Taurus).  A common legend with a modern twist is that one of the brighter stars faded since the cluster was named, leaving only six stars visible to the unaided eye. The actual number of Pleiades stars visible, however, may be more or less than seven, depending on the darkness of the surrounding sky and the clarity of the observer's eyesight.
+> What are those bright lights in the sky ahead?  When hiking a high mountain pass in northern Italy three weeks ago, a conjunction between our Moon and the distant planet Jupiter was visible toward the south just after sunset. The picturesque mountains in the distance are Tre Cime di Lavaredo (Three Peaks of Lavaredo), a UNESCO World Heritage Site and three of the best known mountain peaks in Italy, the Dolomites, and the entire Alps. In the foreground on the left is Locatelli Hut, a refuge for tired hikers as it is located over an hour from nearest parking lot. The bright sky object on the upper left is Saturn.  The entire scene was captured on a single 8-second exposure.  Jupiter and Saturn will remain prominent in the southwestern sky after sunset this month, while the Moon, in its monthly orbit around the Earth, will pass near Jupiter again in about four days.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1909/m45_lorenzi_960.jpg" title="M45: The Pleiades Star Cluster" alt="Have you ever seen the Pleiades star cluster? Even if you have, you probably have never seen it as dusty as this. Perhaps the most famous star cluster on the sky, the bright stars of the Pleiades can be seen without binoculars from even the depths of a light-polluted city.  With a long exposure from a dark location, though, the dust cloud surrounding the Pleiades star cluster becomes very evident. The featured exposure took over 12 hours and covers a sky area several times the size of the full moon.  Also known as the Seven Sisters and M45, the Pleiades lies about 400 light years away toward the constellation of the Bull (Taurus).  A common legend with a modern twist is that one of the brighter stars faded since the cluster was named, leaving only six stars visible to the unaided eye. The actual number of Pleiades stars visible, however, may be more or less than seven, depending on the darkness of the surrounding sky and the clarity of the observer's eyesight."/>
+    <img src="https://apod.nasa.gov/apod/image/1909/MoonJupiterPass_Hofer_960.jpg" title="The Moon and Jupiter over the Alps" alt="What are those bright lights in the sky ahead?  When hiking a high mountain pass in northern Italy three weeks ago, a conjunction between our Moon and the distant planet Jupiter was visible toward the south just after sunset. The picturesque mountains in the distance are Tre Cime di Lavaredo (Three Peaks of Lavaredo), a UNESCO World Heritage Site and three of the best known mountain peaks in Italy, the Dolomites, and the entire Alps. In the foreground on the left is Locatelli Hut, a refuge for tired hikers as it is located over an hour from nearest parking lot. The bright sky object on the upper left is Saturn.  The entire scene was captured on a single 8-second exposure.  Jupiter and Saturn will remain prominent in the southwestern sky after sunset this month, while the Moon, in its monthly orbit around the Earth, will pass near Jupiter again in about four days."/>
 </center>
 
 
