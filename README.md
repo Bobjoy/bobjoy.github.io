@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-03 00:07:19"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-04 00:07:21"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Moon and Jupiter over the Alps**
+**You can't see me, Meow~~!**
 
-> What are those bright lights in the sky ahead?  When hiking a high mountain pass in northern Italy three weeks ago, a conjunction between our Moon and the distant planet Jupiter was visible toward the south just after sunset. The picturesque mountains in the distance are Tre Cime di Lavaredo (Three Peaks of Lavaredo), a UNESCO World Heritage Site and three of the best known mountain peaks in Italy, the Dolomites, and the entire Alps. In the foreground on the left is Locatelli Hut, a refuge for tired hikers as it is located over an hour from nearest parking lot. The bright sky object on the upper left is Saturn.  The entire scene was captured on a single 8-second exposure.  Jupiter and Saturn will remain prominent in the southwestern sky after sunset this month, while the Moon, in its monthly orbit around the Earth, will pass near Jupiter again in about four days.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1909/MoonJupiterPass_Hofer_960.jpg" title="The Moon and Jupiter over the Alps" alt="What are those bright lights in the sky ahead?  When hiking a high mountain pass in northern Italy three weeks ago, a conjunction between our Moon and the distant planet Jupiter was visible toward the south just after sunset. The picturesque mountains in the distance are Tre Cime di Lavaredo (Three Peaks of Lavaredo), a UNESCO World Heritage Site and three of the best known mountain peaks in Italy, the Dolomites, and the entire Alps. In the foreground on the left is Locatelli Hut, a refuge for tired hikers as it is located over an hour from nearest parking lot. The bright sky object on the upper left is Saturn.  The entire scene was captured on a single 8-second exposure.  Jupiter and Saturn will remain prominent in the southwestern sky after sunset this month, while the Moon, in its monthly orbit around the Earth, will pass near Jupiter again in about four days."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
