@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-10 00:07:25"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-11 00:07:22"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**M31: The Andromeda Galaxy**
+**You can't see me, Meow~~!**
 
-> How far can you see? The most distant object easily visible to the unaided eye is M31, the great Andromeda Galaxy, over two million light-years away.  Without a telescope, even this immense spiral galaxy appears as an unremarkable, faint, nebulous cloud in the constellation Andromeda.  But a bright yellow nucleus, dark winding dust lanes, luminous blue spiral arms, and bright red emission nebulas are recorded in this stunning six-hour telescopic digital mosaic of our closest major galactic neighbor.  While even casual skygazers are now inspired by the knowledge that there are many distant galaxies like M31, astronomers seriously debated this fundamental concept only 100 years ago.  Were these "spiral nebulae" simply outlying gas clouds in our own Milky Way Galaxy or were they "island universes" -- distant galaxies of stars comparable to the Milky Way itself?  This question was central to the famous Shapley-Curtis debate of 1920, which was later resolved by observations favoring Andromeda being just like our Milky Way Galaxy -- a conclusion making the rest of the universe much more vast than many had ever imagined.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1909/M31_Abolfath_960.jpg" title="M31: The Andromeda Galaxy" alt="How far can you see? The most distant object easily visible to the unaided eye is M31, the great Andromeda Galaxy, over two million light-years away.  Without a telescope, even this immense spiral galaxy appears as an unremarkable, faint, nebulous cloud in the constellation Andromeda.  But a bright yellow nucleus, dark winding dust lanes, luminous blue spiral arms, and bright red emission nebulas are recorded in this stunning six-hour telescopic digital mosaic of our closest major galactic neighbor.  While even casual skygazers are now inspired by the knowledge that there are many distant galaxies like M31, astronomers seriously debated this fundamental concept only 100 years ago.  Were these "spiral nebulae" simply outlying gas clouds in our own Milky Way Galaxy or were they "island universes" -- distant galaxies of stars comparable to the Milky Way itself?  This question was central to the famous Shapley-Curtis debate of 1920, which was later resolved by observations favoring Andromeda being just like our Milky Way Galaxy -- a conclusion making the rest of the universe much more vast than many had ever imagined."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
