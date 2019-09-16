@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-15 00:07:45"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-16 00:07:21"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Little Planet to Exoplanets**
+**You can't see me, Meow~~!**
 
-> Of course this little planet is really planet Earth in a digitally stitched 360 x 180 degree mosaic captured high in the Chilean Atacama desert.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1909/2019_07_04_SPECULOOS_Pano_24mm_LP_viz1024.jpg" title="Little Planet to Exoplanets" alt="Of course this little planet is really planet Earth in a digitally stitched 360 x 180 degree mosaic captured high in the Chilean Atacama desert."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
