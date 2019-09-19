@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-18 00:07:25"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-19 00:07:29"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Gigantic Jet Lightning over India**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Yes, but can your lightning bolt do this? While flying from Munich to Singapore earlier this month, an industrious passenger took images of a passing lightning storm and caught something unexpected: gigantic jet lightning.  The jet was captured on a single 3.2-second exposure above Bhadrak, India. Although the gigantic jet appears connected to the airplane's wing, it likely started in a more distant  thundercloud, and can be seen extending upwards towards Earth's ionosphere.  The nature of gigantic jets and their possible association with other types of Transient Luminous Events (TLEs) such as blue jets and red sprites remains an active topic of research.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1909/GiganticJet_Chang_960.jpg" title="Gigantic Jet Lightning over India" alt="Yes, but can your lightning bolt do this? While flying from Munich to Singapore earlier this month, an industrious passenger took images of a passing lightning storm and caught something unexpected: gigantic jet lightning.  The jet was captured on a single 3.2-second exposure above Bhadrak, India. Although the gigantic jet appears connected to the airplane's wing, it likely started in a more distant  thundercloud, and can be seen extending upwards towards Earth's ionosphere.  The nature of gigantic jets and their possible association with other types of Transient Luminous Events (TLEs) such as blue jets and red sprites remains an active topic of research."/>
 </center>
 
 
