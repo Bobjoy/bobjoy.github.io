@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-20 00:07:27"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-21 00:07:24"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Along the Western Veil**
+**You can't see me, Meow~~!**
 
-> Delicate in appearance, these filaments of shocked, glowing gas, are draped across planet Earth's sky toward the constellation of Cygnus.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1909/veilXie1100.jpg" title="Along the Western Veil" alt="Delicate in appearance, these filaments of shocked, glowing gas, are draped across planet Earth's sky toward the constellation of Cygnus."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
