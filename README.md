@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-26 00:07:24"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-27 00:07:28"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Pelican Nebula in Gas, Dust, and Stars**
+**Da Vinci Rise**
 
-> The Pelican Nebula is slowly being transformed.  IC 5070, the official designation, is divided from the larger North America Nebula by a molecular cloud filled with dark dust.  The Pelican, however, receives much study because it is a particularly active mix of star formation and evolving gas clouds.  The featured picture was produced in three specific colors -- light emitted by sulfur, hydrogen, and oxygen --  that can help us to better understand these interactions.  The light from young energetic stars is slowly transforming the cold gas to hot gas, with the advancing boundary between the two, known as an ionization front, visible in bright orange on the right. Particularly dense tentacles of cold gas remain.  Millions of years from now this nebula might no longer be known as the Pelican, as the balance and placement of stars and gas will surely leave something that appears completely different.
+> An old Moon rose this morning, its waning sunlit crescent shining just above the eastern horizon before sunrise. But earthshine, light reflected from a bright planet Earth, lit the shadowed portion of the lunar disk and revealed most of a familiar lunar near side to early morning risers. In fact, a description of earthshine in terms of sunlight reflected by Earth's oceans illuminating the Moon's dark surface was written over 500 years ago by Leonardo da Vinci. One lunation ago this old Moon also rose above the eastern horizon. Its sunlit crescent and da Vinci glow were captured in stacked exposures from the Badain Jilin Desert of Inner Mongolia, China on August 29, 2019. This year marks the 500th anniversary of Leondardo da Vinci's death.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1909/Pelican_Akar_960.jpg" title="The Pelican Nebula in Gas, Dust, and Stars" alt="The Pelican Nebula is slowly being transformed.  IC 5070, the official designation, is divided from the larger North America Nebula by a molecular cloud filled with dark dust.  The Pelican, however, receives much study because it is a particularly active mix of star formation and evolving gas clouds.  The featured picture was produced in three specific colors -- light emitted by sulfur, hydrogen, and oxygen --  that can help us to better understand these interactions.  The light from young energetic stars is slowly transforming the cold gas to hot gas, with the advancing boundary between the two, known as an ionization front, visible in bright orange on the right. Particularly dense tentacles of cold gas remain.  Millions of years from now this nebula might no longer be known as the Pelican, as the balance and placement of stars and gas will surely leave something that appears completely different."/>
+    <img src="https://apod.nasa.gov/apod/image/1909/DaVinciRisingLikaiLin_1024.jpg" title="Da Vinci Rise" alt="An old Moon rose this morning, its waning sunlit crescent shining just above the eastern horizon before sunrise. But earthshine, light reflected from a bright planet Earth, lit the shadowed portion of the lunar disk and revealed most of a familiar lunar near side to early morning risers. In fact, a description of earthshine in terms of sunlight reflected by Earth's oceans illuminating the Moon's dark surface was written over 500 years ago by Leonardo da Vinci. One lunation ago this old Moon also rose above the eastern horizon. Its sunlit crescent and da Vinci glow were captured in stacked exposures from the Badain Jilin Desert of Inner Mongolia, China on August 29, 2019. This year marks the 500th anniversary of Leondardo da Vinci's death."/>
 </center>
 
 
