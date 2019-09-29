@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-28 00:07:22"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-29 00:07:20"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Annotated Galactic Center**
+**An Analemma of the Sun**
 
-> The center of our Milky Way galaxy can be found some 26,000 light-years away toward the constellation Sagittarius. Even on a dark night, you can't really see it though. Gaze in that direction, and your sight-line is quickly obscured by intervening interstellar dust. In fact, dark dust clouds, glowing nebulae, and crowded starfieds are packed along the fertile galactic plane and central regions of our galaxy. This annotated view, a mosaic of dark sky images, highlights some favorites, particularly for small telescope or binocular equipped skygazers. The cropped version puts the direction to the galactic center on the far right. It identifies well-known Messier objects like the Lagoon nebula (M8), the Trifid (M20), star cloud M24, and some of E.E. Barnard's dark markings on the sky. A full version extends the view to the right toward the constellation Scorpius, in all covering over 20 degrees across the center of the Milky Way.
+> This week the equinox found the Sun near the middle, but not at the crossing point, of an analemma in its annual trek through planet Earth's skies. In this scenic view, that graceful, figure-8-shaped curve was intentionally posed above the iconic Danube River and the capital city of Hungary. Looking south from Budapest's Margaret Bridge it combines digital frames taken at exactly the same time of day (11:44 CET) on dates between 2018 September 24 and 2019 September 15. That puts the metropolitan Pest on the left, regal Buda on the right, and the positions of the Sun on the solstice dates at the top and bottom of the analemma curve. December's near solstice Sun is just hidden behind a dramatic cloud bank.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1909/MilkyWay-CorePanorama_8738-Cr-Anno1080.jpg" title="The Annotated Galactic Center" alt="The center of our Milky Way galaxy can be found some 26,000 light-years away toward the constellation Sagittarius. Even on a dark night, you can't really see it though. Gaze in that direction, and your sight-line is quickly obscured by intervening interstellar dust. In fact, dark dust clouds, glowing nebulae, and crowded starfieds are packed along the fertile galactic plane and central regions of our galaxy. This annotated view, a mosaic of dark sky images, highlights some favorites, particularly for small telescope or binocular equipped skygazers. The cropped version puts the direction to the galactic center on the far right. It identifies well-known Messier objects like the Lagoon nebula (M8), the Trifid (M20), star cloud M24, and some of E.E. Barnard's dark markings on the sky. A full version extends the view to the right toward the constellation Scorpius, in all covering over 20 degrees across the center of the Milky Way."/>
+    <img src="https://apod.nasa.gov/apod/image/1909/AnalemmaoftheSunGSoponyai.jpg" title="An Analemma of the Sun" alt="This week the equinox found the Sun near the middle, but not at the crossing point, of an analemma in its annual trek through planet Earth's skies. In this scenic view, that graceful, figure-8-shaped curve was intentionally posed above the iconic Danube River and the capital city of Hungary. Looking south from Budapest's Margaret Bridge it combines digital frames taken at exactly the same time of day (11:44 CET) on dates between 2018 September 24 and 2019 September 15. That puts the metropolitan Pest on the left, regal Buda on the right, and the positions of the Sun on the solstice dates at the top and bottom of the analemma curve. December's near solstice Sun is just hidden behind a dramatic cloud bank."/>
 </center>
 
 
