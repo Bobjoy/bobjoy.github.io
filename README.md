@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-29 00:07:20"/>
+    <img src="https://badgen.net/badge/last-commit/2019-09-30 00:07:19"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**An Analemma of the Sun**
+**You can't see me, Meow~~!**
 
-> This week the equinox found the Sun near the middle, but not at the crossing point, of an analemma in its annual trek through planet Earth's skies. In this scenic view, that graceful, figure-8-shaped curve was intentionally posed above the iconic Danube River and the capital city of Hungary. Looking south from Budapest's Margaret Bridge it combines digital frames taken at exactly the same time of day (11:44 CET) on dates between 2018 September 24 and 2019 September 15. That puts the metropolitan Pest on the left, regal Buda on the right, and the positions of the Sun on the solstice dates at the top and bottom of the analemma curve. December's near solstice Sun is just hidden behind a dramatic cloud bank.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1909/AnalemmaoftheSunGSoponyai.jpg" title="An Analemma of the Sun" alt="This week the equinox found the Sun near the middle, but not at the crossing point, of an analemma in its annual trek through planet Earth's skies. In this scenic view, that graceful, figure-8-shaped curve was intentionally posed above the iconic Danube River and the capital city of Hungary. Looking south from Budapest's Margaret Bridge it combines digital frames taken at exactly the same time of day (11:44 CET) on dates between 2018 September 24 and 2019 September 15. That puts the metropolitan Pest on the left, regal Buda on the right, and the positions of the Sun on the solstice dates at the top and bottom of the analemma curve. December's near solstice Sun is just hidden behind a dramatic cloud bank."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
