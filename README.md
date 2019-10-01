@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-09-30 00:07:19"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-01 00:07:18"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Orion Rising over Brazil**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Have you seen Orion lately? The next few months will be the best for seeing this familiar constellation as it rises continually earlier in the night.  However, Orion's stars and nebulas won't look quite as colorful to the eye as they do in this fantastic camera image. In the featured image, Orion was captured by camera showing its full colors last month over a Brazilian copal tree from Brazil's Central-West Region. Here the cool red giant Betelgeuse takes on a strong orange hue as the brightest star on the far left. Otherwise, Orion's hot blue stars are numerous, with supergiant Rigel balancing Betelgeuse at the upper right, Bellatrix at the upper left, and Saiph at the lower right. Lined up in Orion's belt (bottom to top) are Alnitak, Alnilam, and Mintaka all about 1,500 light-years away, born of the constellation's well studied interstellar clouds. And if a "star" toward the upper right  Orion's sword looks reddish and fuzzy to you, it should. It's the stellar nursery known as the Great Nebula of Orion.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1909/OrionTree_Fairbairn_960.jpg" title="Orion Rising over Brazil" alt="Have you seen Orion lately? The next few months will be the best for seeing this familiar constellation as it rises continually earlier in the night.  However, Orion's stars and nebulas won't look quite as colorful to the eye as they do in this fantastic camera image. In the featured image, Orion was captured by camera showing its full colors last month over a Brazilian copal tree from Brazil's Central-West Region. Here the cool red giant Betelgeuse takes on a strong orange hue as the brightest star on the far left. Otherwise, Orion's hot blue stars are numerous, with supergiant Rigel balancing Betelgeuse at the upper right, Bellatrix at the upper left, and Saiph at the lower right. Lined up in Orion's belt (bottom to top) are Alnitak, Alnilam, and Mintaka all about 1,500 light-years away, born of the constellation's well studied interstellar clouds. And if a "star" toward the upper right  Orion's sword looks reddish and fuzzy to you, it should. It's the stellar nursery known as the Great Nebula of Orion."/>
 </center>
 
 
