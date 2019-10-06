@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-05 00:07:28"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-06 00:07:21"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Jupiter and the Moons**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> After sunset on October 3, some of the Solar System's largest moons stood low along the western horizon with the largest planet. Just after nightfall, a pairing of the Moon approaching first quarter phase and Jupiter was captured in this telephoto field of view. A blend of short and long exposures, it reveals the familiar face of our fair planet's own large natural satellite in stark sunlight and faint earthshine. At lower right are the ruling gas giant and its four Galilean moons. Left to right, the tiny pinpricks of light are Ganymede, [Jupiter], Io, Europa, and Callisto. Our own natural satellite appears to loom large because it's close, but Ganymede, Io, and Callisto are actually larger than Earth's Moon. Water world Europa is only slightly smaller. Of the Solar System's six largest planetary satellites, only Saturn's moon Titan, is missing from this scene. But be sure to check for large moons in your sky tonight.   Tonight: International Observe the Moon Night  Submitted to APOD: The Moon and Jupiter with its Satellites
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1910/moonjupiter100319derekdemeter800.jpg" title="Jupiter and the Moons" alt="After sunset on October 3, some of the Solar System's largest moons stood low along the western horizon with the largest planet. Just after nightfall, a pairing of the Moon approaching first quarter phase and Jupiter was captured in this telephoto field of view. A blend of short and long exposures, it reveals the familiar face of our fair planet's own large natural satellite in stark sunlight and faint earthshine. At lower right are the ruling gas giant and its four Galilean moons. Left to right, the tiny pinpricks of light are Ganymede, [Jupiter], Io, Europa, and Callisto. Our own natural satellite appears to loom large because it's close, but Ganymede, Io, and Callisto are actually larger than Earth's Moon. Water world Europa is only slightly smaller. Of the Solar System's six largest planetary satellites, only Saturn's moon Titan, is missing from this scene. But be sure to check for large moons in your sky tonight.   Tonight: International Observe the Moon Night  Submitted to APOD: The Moon and Jupiter with its Satellites"/>
 </center>
 
 
