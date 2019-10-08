@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-07 00:07:17"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-08 00:07:19"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Horsehead Nebula**
+**You can't see me, Meow~~!**
 
-> The Horsehead Nebula is one of the most famous nebulae on the sky.  It is visible as the dark indentation to the red emission nebula in the center of the above photograph.  The horse-head feature is dark because it is really an opaque dust cloud that lies in front of the bright red emission nebula. Like clouds in Earth's atmosphere, this cosmic cloud has assumed a recognizable shape by chance.  After many thousands of years, the internal motions of the cloud will surely alter its appearance.  The emission nebula's red color is caused by electrons recombining with protons to form hydrogen atoms.  On the image left is the Flame Nebula, an orange-tinged nebula that also contains filaments of dark dust. Just to the lower left of the Horsehead nebula featured picture is a blueish reflection nebulae that preferentially reflects the blue light from nearby stars.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/HorseFlame_Priego_960.jpg" title="The Horsehead Nebula" alt="The Horsehead Nebula is one of the most famous nebulae on the sky.  It is visible as the dark indentation to the red emission nebula in the center of the above photograph.  The horse-head feature is dark because it is really an opaque dust cloud that lies in front of the bright red emission nebula. Like clouds in Earth's atmosphere, this cosmic cloud has assumed a recognizable shape by chance.  After many thousands of years, the internal motions of the cloud will surely alter its appearance.  The emission nebula's red color is caused by electrons recombining with protons to form hydrogen atoms.  On the image left is the Flame Nebula, an orange-tinged nebula that also contains filaments of dark dust. Just to the lower left of the Horsehead nebula featured picture is a blueish reflection nebulae that preferentially reflects the blue light from nearby stars."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
