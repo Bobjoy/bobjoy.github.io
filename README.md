@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-08 00:07:19"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-09 00:07:27"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Sprite Lightning in HD**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> This phenomenon occurs in the sky over our heads, not the sea.  It is a type of lightning known as red sprite, and rarely has it ever been photographed in this detail.  Even though sprites have been recorded for over 30 years, their root cause remains unknown.  Some thunderstorms have them, but most don't. These mysterious bursts of light in the upper atmosphere momentarily resemble gigantic jellyfish. A few years ago high speed videos were taken detailing how red sprites actually develop.  The featured image was captured last month in high definition from Italy.  One unusual feature of sprites is that they are relatively cold -- they operate more like long fluorescent light tubes than hot compact light bulbs.  In general, red sprites take only a fraction of a second to occur and are best seen when powerful thunderstorms are visible from the side.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1910/SpritesHD_Vetter_1000.jpg" title="Sprite Lightning in HD" alt="This phenomenon occurs in the sky over our heads, not the sea.  It is a type of lightning known as red sprite, and rarely has it ever been photographed in this detail.  Even though sprites have been recorded for over 30 years, their root cause remains unknown.  Some thunderstorms have them, but most don't. These mysterious bursts of light in the upper atmosphere momentarily resemble gigantic jellyfish. A few years ago high speed videos were taken detailing how red sprites actually develop.  The featured image was captured last month in high definition from Italy.  One unusual feature of sprites is that they are relatively cold -- they operate more like long fluorescent light tubes than hot compact light bulbs.  In general, red sprites take only a fraction of a second to occur and are best seen when powerful thunderstorms are visible from the side."/>
 </center>
 
 
