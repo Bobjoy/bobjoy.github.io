@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-11 00:07:23"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-12 00:07:21"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Mid-Air Meteor and Milky Way**
+**Planet Earth at Blue Hour**
 
-> On September 24, a late evening commercial flight from Singapore to Australia offered stratospheric views of the southern hemisphere's night sky, if you chose a window seat. In fact, a well-planned seating choice with a window facing toward the Milky Way allowed the set up of a sensitive digital camera on a tripod mount to record the galaxy's central bulge in a series of 10 second long exposures.  By chance, one of the exposures caught this bright fireball meteor in the starry frame. Reflected along the wing of the A380 aircraft, the brilliant greenish streak is also internally reflected in the double layer window, producing a fainter parallel to the original meteor track. In the southern sky Jupiter is the bright source beneath the galactic bulge and seen next to a green beacon, just off the wing tip.
+> Nature photographers and other fans of planet Earth always look forward to the blue hour. That's the transition in twilight, just before sunrise or after sunset, when the Sun is below the horizon but land and sky are still suffused with beautiful bluish hues of light. On August 8 this early morning blue hour panorama scanned along the clear western sky, away from the impending sunrise. A breathtaking scene, it looks down the slopes of Mt. Whitney, from along the John Muir Trail toward rugged peaks of planet Earth's Sierra Nevada mountain range. Above the horizon a faint pinkish band of back scattered sunlight, the anti-twilight arch or Belt of Venus, borders the falling grey shadow of Earth itself. Subtle bands of light across the clear sky are anti-crepuscular rays, defined by shadows of clouds near the sunward horizon. Actually following parallel lines they seem to converge along the horizon at the point opposite the rising Sun due to perspective.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/MWBolideEricWagner1200.jpg" title="Mid-Air Meteor and Milky Way" alt="On September 24, a late evening commercial flight from Singapore to Australia offered stratospheric views of the southern hemisphere's night sky, if you chose a window seat. In fact, a well-planned seating choice with a window facing toward the Milky Way allowed the set up of a sensitive digital camera on a tripod mount to record the galaxy's central bulge in a series of 10 second long exposures.  By chance, one of the exposures caught this bright fireball meteor in the starry frame. Reflected along the wing of the A380 aircraft, the brilliant greenish streak is also internally reflected in the double layer window, producing a fainter parallel to the original meteor track. In the southern sky Jupiter is the bright source beneath the galactic bulge and seen next to a green beacon, just off the wing tip."/>
+    <img src="https://apod.nasa.gov/apod/image/1910/2019-08-08-JMT19_1521-Pano-Edit_h600.jpg" title="Planet Earth at Blue Hour" alt="Nature photographers and other fans of planet Earth always look forward to the blue hour. That's the transition in twilight, just before sunrise or after sunset, when the Sun is below the horizon but land and sky are still suffused with beautiful bluish hues of light. On August 8 this early morning blue hour panorama scanned along the clear western sky, away from the impending sunrise. A breathtaking scene, it looks down the slopes of Mt. Whitney, from along the John Muir Trail toward rugged peaks of planet Earth's Sierra Nevada mountain range. Above the horizon a faint pinkish band of back scattered sunlight, the anti-twilight arch or Belt of Venus, borders the falling grey shadow of Earth itself. Subtle bands of light across the clear sky are anti-crepuscular rays, defined by shadows of clouds near the sunward horizon. Actually following parallel lines they seem to converge along the horizon at the point opposite the rising Sun due to perspective."/>
 </center>
 
 
