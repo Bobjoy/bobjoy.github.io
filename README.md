@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-12 00:07:21"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-13 00:07:29"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Planet Earth at Blue Hour**
+**You can't see me, Meow~~!**
 
-> Nature photographers and other fans of planet Earth always look forward to the blue hour. That's the transition in twilight, just before sunrise or after sunset, when the Sun is below the horizon but land and sky are still suffused with beautiful bluish hues of light. On August 8 this early morning blue hour panorama scanned along the clear western sky, away from the impending sunrise. A breathtaking scene, it looks down the slopes of Mt. Whitney, from along the John Muir Trail toward rugged peaks of planet Earth's Sierra Nevada mountain range. Above the horizon a faint pinkish band of back scattered sunlight, the anti-twilight arch or Belt of Venus, borders the falling grey shadow of Earth itself. Subtle bands of light across the clear sky are anti-crepuscular rays, defined by shadows of clouds near the sunward horizon. Actually following parallel lines they seem to converge along the horizon at the point opposite the rising Sun due to perspective.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/2019-08-08-JMT19_1521-Pano-Edit_h600.jpg" title="Planet Earth at Blue Hour" alt="Nature photographers and other fans of planet Earth always look forward to the blue hour. That's the transition in twilight, just before sunrise or after sunset, when the Sun is below the horizon but land and sky are still suffused with beautiful bluish hues of light. On August 8 this early morning blue hour panorama scanned along the clear western sky, away from the impending sunrise. A breathtaking scene, it looks down the slopes of Mt. Whitney, from along the John Muir Trail toward rugged peaks of planet Earth's Sierra Nevada mountain range. Above the horizon a faint pinkish band of back scattered sunlight, the anti-twilight arch or Belt of Venus, borders the falling grey shadow of Earth itself. Subtle bands of light across the clear sky are anti-crepuscular rays, defined by shadows of clouds near the sunward horizon. Actually following parallel lines they seem to converge along the horizon at the point opposite the rising Sun due to perspective."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
