@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-16 00:07:26"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-17 00:07:23"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Galaxy Above**
+**You can't see me, Meow~~!**
 
-> Have you contemplated your home galaxy lately?  If your sky looked like this, perhaps you'd contemplate it more often! The featured picture is actually a composite of two images taken last month from the same location in south Brazil and with the same camera -- but a few hours apart.  The person in the image -- also the astrophotographer -- has much to see in the Milky Way Galaxy above. The central band of our home Galaxy stretches diagonally up from the lower left. This band is dotted with spectacular sights including dark nebular filaments, bright blue stars, and red nebulas.  Millions of fainter and redder stars fill in the deep Galactic background.  To the lower right of the Milky Way are the colorful gas and dust clouds of Rho Ophiuchi, featuring the bright orange star Antares.  On this night, just above and to the right of Antares was the bright planet Jupiter.  The sky is so old and so familiar that humanity has formulated many stories about it, some of which inspired this very picture.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/MilkyWayAbove_Guerra_960.jpg" title="The Galaxy Above" alt="Have you contemplated your home galaxy lately?  If your sky looked like this, perhaps you'd contemplate it more often! The featured picture is actually a composite of two images taken last month from the same location in south Brazil and with the same camera -- but a few hours apart.  The person in the image -- also the astrophotographer -- has much to see in the Milky Way Galaxy above. The central band of our home Galaxy stretches diagonally up from the lower left. This band is dotted with spectacular sights including dark nebular filaments, bright blue stars, and red nebulas.  Millions of fainter and redder stars fill in the deep Galactic background.  To the lower right of the Milky Way are the colorful gas and dust clouds of Rho Ophiuchi, featuring the bright orange star Antares.  On this night, just above and to the right of Antares was the bright planet Jupiter.  The sky is so old and so familiar that humanity has formulated many stories about it, some of which inspired this very picture."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
