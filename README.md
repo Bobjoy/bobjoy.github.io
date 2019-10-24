@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-23 00:07:18"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-24 00:07:21"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Night Sky Reflections from the World's Largest Mirror**
+**You can't see me, Meow~~!**
 
-> What's being reflected in the world's largest mirror?  Stars, galaxies, and a planet.  Many of these stars are confined to the grand arch that runs across the image, an arch that is the central plane of our home Milky Way Galaxy. Inside the arch is another galaxy -- the neighboring Large Magellanic Cloud (LMC).  Stars that are individually visible include Antares on the far left and Sirius on the far right. The planet Jupiter shines brightly just below Antares. The featured picture is composed of 15 vertical frames taken consecutively over ten minutes from the Uyuni Salt Flat in Bolivia. Uyuni Salt Flat (Salar de Uyuni) is the largest salt flat on Earth and is so large and so extraordinarily flat that, after a rain, it can become the world's largest mirror -- spanning 130 kilometers.  This expansive mirror was captured in early April reflecting each of the galaxies, stars, and planet mentioned above.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/MilkyWaySaltFlat_Huerta_960.jpg" title="Night Sky Reflections from the World's Largest Mirror" alt="What's being reflected in the world's largest mirror?  Stars, galaxies, and a planet.  Many of these stars are confined to the grand arch that runs across the image, an arch that is the central plane of our home Milky Way Galaxy. Inside the arch is another galaxy -- the neighboring Large Magellanic Cloud (LMC).  Stars that are individually visible include Antares on the far left and Sirius on the far right. The planet Jupiter shines brightly just below Antares. The featured picture is composed of 15 vertical frames taken consecutively over ten minutes from the Uyuni Salt Flat in Bolivia. Uyuni Salt Flat (Salar de Uyuni) is the largest salt flat on Earth and is so large and so extraordinarily flat that, after a rain, it can become the world's largest mirror -- spanning 130 kilometers.  This expansive mirror was captured in early April reflecting each of the galaxies, stars, and planet mentioned above."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
