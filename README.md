@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-25 00:07:34"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-26 00:07:17"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Dark Seahorse in Cepheus**
+**The Ghosts of Cassiopeia**
 
-> Light-years across, this suggestive shape known as the Seahorse Nebula appears in silhouette against a rich, luminous background of stars. Seen toward the royal northern constellation of Cepheus, the dusty, obscuring clouds are part of a Milky Way molecular cloud some 1,200 light-years distant. It is also listed as Barnard 150 (B150), one of 182 dark markings of the sky cataloged in the early 20th century by astronomer E. E. Barnard. Packs of low mass stars are forming within from collapsing cores only visible at long infrared wavelengths. Still, colorful stars in Cepheus add to the pretty, galactic skyscape.
+> These bright rims and flowing shapes look ghostly on a cosmic scale. A telescopic view toward the constellation Cassiopeia, the colorful skyscape features swept-back, comet-shaped clouds IC 59 (left) and IC 63. About 600 light-years distant, the clouds aren't actually ghosts. They are slowly disappearing though, under the influence of energetic radiation from hot,luminous star gamma Cas. Gamma Cas is physically located only 3 to 4 light-years from the nebulae, the bright star just above and left in the frame. Slightly closer to gamma Cas, IC 63 is dominated by red H-alpha light emitted as hydrogen atoms ionized by the star's ultraviolet radiation recombine with electrons. Farther from the star, IC 59 shows proportionally less H-alpha emission but more of the characteristic blue tint of dust reflected star light. The field of view spans over 1 degree or 10 light-years at the estimated distance of gamma Cas and friends.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/Barnard150Seahorse1024.jpg" title="Dark Seahorse in Cepheus" alt="Light-years across, this suggestive shape known as the Seahorse Nebula appears in silhouette against a rich, luminous background of stars. Seen toward the royal northern constellation of Cepheus, the dusty, obscuring clouds are part of a Milky Way molecular cloud some 1,200 light-years distant. It is also listed as Barnard 150 (B150), one of 182 dark markings of the sky cataloged in the early 20th century by astronomer E. E. Barnard. Packs of low mass stars are forming within from collapsing cores only visible at long infrared wavelengths. Still, colorful stars in Cepheus add to the pretty, galactic skyscape."/>
+    <img src="https://apod.nasa.gov/apod/image/1910/IC59IC63TheGhostsOfCassiopeiaTommasoStella2019_1024.jpg" title="The Ghosts of Cassiopeia" alt="These bright rims and flowing shapes look ghostly on a cosmic scale. A telescopic view toward the constellation Cassiopeia, the colorful skyscape features swept-back, comet-shaped clouds IC 59 (left) and IC 63. About 600 light-years distant, the clouds aren't actually ghosts. They are slowly disappearing though, under the influence of energetic radiation from hot,luminous star gamma Cas. Gamma Cas is physically located only 3 to 4 light-years from the nebulae, the bright star just above and left in the frame. Slightly closer to gamma Cas, IC 63 is dominated by red H-alpha light emitted as hydrogen atoms ionized by the star's ultraviolet radiation recombine with electrons. Farther from the star, IC 59 shows proportionally less H-alpha emission but more of the characteristic blue tint of dust reflected star light. The field of view spans over 1 degree or 10 light-years at the estimated distance of gamma Cas and friends."/>
 </center>
 
 
