@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-28 00:07:34"/>
+    <img src="https://badgen.net/badge/last-commit/2019-10-29 00:07:22"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Ghost Aurora over Canada**
+**The Space Station Crosses a Spotless Sun**
 
-> What does this aurora look like to you? While braving the cold to watch the skies above northern Canada early one morning in 2013, a most unusual aurora appeared.  The aurora definitely appeared to be shaped like something , but what? Two ghostly possibilities recorded by the astrophotographer were "witch" and "goddess of dawn", but please feel free to suggest your own Halloween-enhanced impressions. Regardless of fantastical pareidolic interpretations, the pictured aurora had a typical green color and was surely caused by the scientifically commonplace action of high energy particles from space interacting with oxygen in Earth's upper atmosphere.  In the image foreground, at the bottom, is a frozen Alexandra Falls, while evergreen trees cross the middle.
+> Typically, the International Space Station is visible only at night.  Slowly drifting across the night sky as it orbits the Earth, the International Space Station (ISS) can be seen as a bright spot about once a month from many locations.  The ISS is then visible only just after sunset or just before sunrise because it shines by reflected sunlight -- once the ISS enters the Earth's shadow, it will drop out of sight. The only occasion when the ISS is visible during the day is when it passes right in front of the Sun. Then, it passes so quickly that only cameras taking short exposures can visually freeze the ISS's silhouette onto the background Sun. The featured picture did exactly that -- it is actually a series of images taken a month ago from Santa Fe, Argentina with perfect timing.  This image series was later combined with a separate image highlighting the texture of the spotless Sun, and an image bringing up the Sun's prominences around the edge. At an unusually low Solar Minimum, the Sun has gone without sunspots now for most of 2019.    Follow APOD in English on: Instagram, Facebook,  Reddit, or Twitter
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/AuroraGhost_Takasaka_960.jpg" title="Ghost Aurora over Canada" alt="What does this aurora look like to you? While braving the cold to watch the skies above northern Canada early one morning in 2013, a most unusual aurora appeared.  The aurora definitely appeared to be shaped like something , but what? Two ghostly possibilities recorded by the astrophotographer were "witch" and "goddess of dawn", but please feel free to suggest your own Halloween-enhanced impressions. Regardless of fantastical pareidolic interpretations, the pictured aurora had a typical green color and was surely caused by the scientifically commonplace action of high energy particles from space interacting with oxygen in Earth's upper atmosphere.  In the image foreground, at the bottom, is a frozen Alexandra Falls, while evergreen trees cross the middle."/>
+    <img src="https://apod.nasa.gov/apod/image/1910/IssTransit_Poupeau_960.jpg" title="The Space Station Crosses a Spotless Sun" alt="Typically, the International Space Station is visible only at night.  Slowly drifting across the night sky as it orbits the Earth, the International Space Station (ISS) can be seen as a bright spot about once a month from many locations.  The ISS is then visible only just after sunset or just before sunrise because it shines by reflected sunlight -- once the ISS enters the Earth's shadow, it will drop out of sight. The only occasion when the ISS is visible during the day is when it passes right in front of the Sun. Then, it passes so quickly that only cameras taking short exposures can visually freeze the ISS's silhouette onto the background Sun. The featured picture did exactly that -- it is actually a series of images taken a month ago from Santa Fe, Argentina with perfect timing.  This image series was later combined with a separate image highlighting the texture of the spotless Sun, and an image bringing up the Sun's prominences around the edge. At an unusually low Solar Minimum, the Sun has gone without sunspots now for most of 2019.    Follow APOD in English on: Instagram, Facebook,  Reddit, or Twitter"/>
 </center>
 
 
