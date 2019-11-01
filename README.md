@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-10-31 00:07:43"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-01 00:07:18"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**M42: Inside the Orion Nebula**
+**The Ghostly Veil Nebula**
 
-> The Great Nebula in Orion, an immense, nearby starbirth region, is probably the most famous of all astronomical nebulas.  Here, glowing gas surrounds hot young stars at the edge of an immense interstellar molecular cloud only 1500 light-years away.  In the featured deep image in assigned colors highlighted by emission in oxygen and hydrogen, wisps and sheets of dust and gas are particularly evident.  The Great Nebula in Orion can be found with the unaided eye near the easily identifiable belt of three stars in the popular constellation Orion.  In addition to housing a bright open cluster of stars known as the Trapezium, the Orion Nebula contains many stellar nurseries.   These nurseries contain much hydrogen gas, hot young stars, proplyds, and stellar jets spewing material at high speeds.  Also known as M42, the Orion Nebula spans about 40 light years and is located in the same spiral arm of our Galaxy as the Sun.
+> A ghostly visage on a cosmic scale, these remains of shocked, glowing gas haunt planet Earth's sky toward the constellation of Cygnus and form the Veil Nebula. The nebula itself is a large supernova remnant, an expanding cloud born of the death explosion of a massive star. Light from the original supernova explosion likely reached Earth over 5,000 years ago. Also known as the Cygnus Loop, the Veil Nebula now spans nearly 3 degrees or about 6 times the diameter of the full Moon. That translates to over 70 light-years at its estimated distance of 1,500 light-years. In fact, the Veil is so large its brighter parts are recognized as separate nebulae, including The Witch's Broom (NGC 6960) below and right of center. At the top left you can find the Spectre of IC 1340. Happy Halloween!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/M42Detailed_DrudisGoldman_960.jpg" title="M42: Inside the Orion Nebula" alt="The Great Nebula in Orion, an immense, nearby starbirth region, is probably the most famous of all astronomical nebulas.  Here, glowing gas surrounds hot young stars at the edge of an immense interstellar molecular cloud only 1500 light-years away.  In the featured deep image in assigned colors highlighted by emission in oxygen and hydrogen, wisps and sheets of dust and gas are particularly evident.  The Great Nebula in Orion can be found with the unaided eye near the easily identifiable belt of three stars in the popular constellation Orion.  In addition to housing a bright open cluster of stars known as the Trapezium, the Orion Nebula contains many stellar nurseries.   These nurseries contain much hydrogen gas, hot young stars, proplyds, and stellar jets spewing material at high speeds.  Also known as M42, the Orion Nebula spans about 40 light years and is located in the same spiral arm of our Galaxy as the Sun."/>
+    <img src="https://apod.nasa.gov/apod/image/1910/ghostlyVeilNebula1034.jpg" title="The Ghostly Veil Nebula" alt="A ghostly visage on a cosmic scale, these remains of shocked, glowing gas haunt planet Earth's sky toward the constellation of Cygnus and form the Veil Nebula. The nebula itself is a large supernova remnant, an expanding cloud born of the death explosion of a massive star. Light from the original supernova explosion likely reached Earth over 5,000 years ago. Also known as the Cygnus Loop, the Veil Nebula now spans nearly 3 degrees or about 6 times the diameter of the full Moon. That translates to over 70 light-years at its estimated distance of 1,500 light-years. In fact, the Veil is so large its brighter parts are recognized as separate nebulae, including The Witch's Broom (NGC 6960) below and right of center. At the top left you can find the Spectre of IC 1340. Happy Halloween!"/>
 </center>
 
 
