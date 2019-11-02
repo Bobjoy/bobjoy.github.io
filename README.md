@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-01 00:07:18"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-02 00:07:19"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Ghostly Veil Nebula**
+**The Day After Mars**
 
-> A ghostly visage on a cosmic scale, these remains of shocked, glowing gas haunt planet Earth's sky toward the constellation of Cygnus and form the Veil Nebula. The nebula itself is a large supernova remnant, an expanding cloud born of the death explosion of a massive star. Light from the original supernova explosion likely reached Earth over 5,000 years ago. Also known as the Cygnus Loop, the Veil Nebula now spans nearly 3 degrees or about 6 times the diameter of the full Moon. That translates to over 70 light-years at its estimated distance of 1,500 light-years. In fact, the Veil is so large its brighter parts are recognized as separate nebulae, including The Witch's Broom (NGC 6960) below and right of center. At the top left you can find the Spectre of IC 1340. Happy Halloween!
+> October 31, 1938 was the day after Martians encountered planet Earth, and everything was calm. Reports of the invasion were revealed to be part of a Halloween radio drama, the now famous broadcast based on H.G. Wells' scifi novel War of the Worlds. On Mars October 20, 2014 was calm too, the day after its close encounter with Comet Siding Spring (C/2013 A1). Not a hoax, this comet really did come within 86,700 miles or so of Mars, about 1/3 the Earth-Moon distance. Earth's spacecraft and rovers in Mars orbit and on the surface reported no ill effects though, and had a ringside seat as a visitor from the outer solar system passed by. Spanning over 2 degrees against stars of the constellation Ophiuchus, this colorful telescopic snapshot captures our view of Mars on the day after. Bluish star 51 Ophiuchi is at the upper right and the comet is just emerging from the Red Planet's bright glare.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1910/ghostlyVeilNebula1034.jpg" title="The Ghostly Veil Nebula" alt="A ghostly visage on a cosmic scale, these remains of shocked, glowing gas haunt planet Earth's sky toward the constellation of Cygnus and form the Veil Nebula. The nebula itself is a large supernova remnant, an expanding cloud born of the death explosion of a massive star. Light from the original supernova explosion likely reached Earth over 5,000 years ago. Also known as the Cygnus Loop, the Veil Nebula now spans nearly 3 degrees or about 6 times the diameter of the full Moon. That translates to over 70 light-years at its estimated distance of 1,500 light-years. In fact, the Veil is so large its brighter parts are recognized as separate nebulae, including The Witch's Broom (NGC 6960) below and right of center. At the top left you can find the Spectre of IC 1340. Happy Halloween!"/>
+    <img src="https://apod.nasa.gov/apod/image/1911/MarsSSdayafter_ligustri_astroligu60.jpg" title="The Day After Mars" alt="October 31, 1938 was the day after Martians encountered planet Earth, and everything was calm. Reports of the invasion were revealed to be part of a Halloween radio drama, the now famous broadcast based on H.G. Wells' scifi novel War of the Worlds. On Mars October 20, 2014 was calm too, the day after its close encounter with Comet Siding Spring (C/2013 A1). Not a hoax, this comet really did come within 86,700 miles or so of Mars, about 1/3 the Earth-Moon distance. Earth's spacecraft and rovers in Mars orbit and on the surface reported no ill effects though, and had a ringside seat as a visitor from the outer solar system passed by. Spanning over 2 degrees against stars of the constellation Ophiuchus, this colorful telescopic snapshot captures our view of Mars on the day after. Bluish star 51 Ophiuchi is at the upper right and the comet is just emerging from the Red Planet's bright glare."/>
 </center>
 
 
