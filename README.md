@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-02 00:07:19"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-03 00:07:25"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Day After Mars**
+**Inside the Flame Nebula**
 
-> October 31, 1938 was the day after Martians encountered planet Earth, and everything was calm. Reports of the invasion were revealed to be part of a Halloween radio drama, the now famous broadcast based on H.G. Wells' scifi novel War of the Worlds. On Mars October 20, 2014 was calm too, the day after its close encounter with Comet Siding Spring (C/2013 A1). Not a hoax, this comet really did come within 86,700 miles or so of Mars, about 1/3 the Earth-Moon distance. Earth's spacecraft and rovers in Mars orbit and on the surface reported no ill effects though, and had a ringside seat as a visitor from the outer solar system passed by. Spanning over 2 degrees against stars of the constellation Ophiuchus, this colorful telescopic snapshot captures our view of Mars on the day after. Bluish star 51 Ophiuchi is at the upper right and the comet is just emerging from the Red Planet's bright glare.
+> The Flame Nebula stands out in this optical image of the dusty, crowded star forming regions toward Orion's belt, a mere 1,400 light-years away. X-ray data from the Chandra Observatory and infrared images from the Spitzer Space Telescope can take you inside the glowing gas and obscuring dust clouds though. Swiping your cursor (or clicking the image) will reveal many stars of the recently formed, embedded cluster NGC 2024, ranging in age from 200,000 years to 1.5 million years young. The X-ray/infrared composite image overlay spans about 15 light-years across the Flame's center. The X-ray/infrared data also indicate that the youngest stars are concentrated near the middle of the Flame Nebula cluster. That's the opposite of the simplest models of star formation for the stellar nursery that predict star formation begins in the denser center of a molecular cloud core. The result requires a more complex model; perhaps star formation continues longer in the center, or older stars are ejected from the center due to subcluster mergers.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1911/MarsSSdayafter_ligustri_astroligu60.jpg" title="The Day After Mars" alt="October 31, 1938 was the day after Martians encountered planet Earth, and everything was calm. Reports of the invasion were revealed to be part of a Halloween radio drama, the now famous broadcast based on H.G. Wells' scifi novel War of the Worlds. On Mars October 20, 2014 was calm too, the day after its close encounter with Comet Siding Spring (C/2013 A1). Not a hoax, this comet really did come within 86,700 miles or so of Mars, about 1/3 the Earth-Moon distance. Earth's spacecraft and rovers in Mars orbit and on the surface reported no ill effects though, and had a ringside seat as a visitor from the outer solar system passed by. Spanning over 2 degrees against stars of the constellation Ophiuchus, this colorful telescopic snapshot captures our view of Mars on the day after. Bluish star 51 Ophiuchi is at the upper right and the comet is just emerging from the Red Planet's bright glare."/>
+    <img src="https://apod.nasa.gov/apod/image/1405/flame_optical.jpg" title="Inside the Flame Nebula" alt="The Flame Nebula stands out in this optical image of the dusty, crowded star forming regions toward Orion's belt, a mere 1,400 light-years away. X-ray data from the Chandra Observatory and infrared images from the Spitzer Space Telescope can take you inside the glowing gas and obscuring dust clouds though. Swiping your cursor (or clicking the image) will reveal many stars of the recently formed, embedded cluster NGC 2024, ranging in age from 200,000 years to 1.5 million years young. The X-ray/infrared composite image overlay spans about 15 light-years across the Flame's center. The X-ray/infrared data also indicate that the youngest stars are concentrated near the middle of the Flame Nebula cluster. That's the opposite of the simplest models of star formation for the stellar nursery that predict star formation begins in the denser center of a molecular cloud core. The result requires a more complex model; perhaps star formation continues longer in the center, or older stars are ejected from the center due to subcluster mergers."/>
 </center>
 
 
