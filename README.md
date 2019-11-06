@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-05 00:07:26"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-06 00:07:39"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Near the Center of the Lagoon Nebula**
+**You can't see me, Meow~~!**
 
-> Stars are battling gas and dust in the Lagoon Nebula but the photographers are winning. Also known as M8, this photogenic nebula is visible even without binoculars towards the constellation of the Archer (Sagittarius). The energetic processes of star formation create not only the colors but the chaos. The glowing gas results from high-energy starlight striking interstellar hydrogen gas and trace amounts of sulfur, and oxygen gases. The dark dust filaments that lace M8 were created in the atmospheres of cool giant stars and in the debris from supernovae explosions. The light from M8 we see today left about 5,000 years ago. Light takes about 50 years to cross this section of M8.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1911/M8_Wu_966.jpg" title="Near the Center of the Lagoon Nebula" alt="Stars are battling gas and dust in the Lagoon Nebula but the photographers are winning. Also known as M8, this photogenic nebula is visible even without binoculars towards the constellation of the Archer (Sagittarius). The energetic processes of star formation create not only the colors but the chaos. The glowing gas results from high-energy starlight striking interstellar hydrogen gas and trace amounts of sulfur, and oxygen gases. The dark dust filaments that lace M8 were created in the atmospheres of cool giant stars and in the debris from supernovae explosions. The light from M8 we see today left about 5,000 years ago. Light takes about 50 years to cross this section of M8."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
