@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-10 00:07:30"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-11 00:07:10"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**A Mercury Transit Sequence**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Tomorrow -- Monday --  Mercury will cross the face of the Sun, as seen from Earth. Called a transit, the last time this happened was in 2016.  Because the plane of Mercury's orbit is not exactly coincident with the plane of Earth's orbit, Mercury usually appears to pass over or under the Sun.  The featured time-lapse sequence, superimposed on a single frame, was taken from a balcony in Belgium shows the entire  transit of 2003 May 7.  That solar crossing lasted over five hours, so that the above 23 images were taken roughly 15 minutes apart.  The north pole of the Sun, the Earth's orbit, and Mercury's orbit, although all different, all occur in directions slightly above the left of the image. Near the center and on the far right, sunspots are visible. After Monday, the next transit of Mercury will occur in 2032.   Watch: the November 11 Transit of Mercury from Earth or from Space.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1911/MercuryTransit_Dierick_960.jpg" title="A Mercury Transit Sequence" alt="Tomorrow -- Monday --  Mercury will cross the face of the Sun, as seen from Earth. Called a transit, the last time this happened was in 2016.  Because the plane of Mercury's orbit is not exactly coincident with the plane of Earth's orbit, Mercury usually appears to pass over or under the Sun.  The featured time-lapse sequence, superimposed on a single frame, was taken from a balcony in Belgium shows the entire  transit of 2003 May 7.  That solar crossing lasted over five hours, so that the above 23 images were taken roughly 15 minutes apart.  The north pole of the Sun, the Earth's orbit, and Mercury's orbit, although all different, all occur in directions slightly above the left of the image. Near the center and on the far right, sunspots are visible. After Monday, the next transit of Mercury will occur in 2032.   Watch: the November 11 Transit of Mercury from Earth or from Space."/>
 </center>
 
 
