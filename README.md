@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-13 00:07:37"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-14 00:07:13"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Mercury in Silhouette**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> The small, dark, round spot in this solar close up is planet Mercury. In the high resolution telescopic image, a colorized stack of 61 sharp video frames, a turbulent array of photospheric convection cells tile the bright solar surface.  Mercury's more regular silhouette still stands out though. Of course, only inner planets Mercury and Venus can transit the Sun to appear in silhouette when viewed from planet Earth. For this November 11, 2019 transit of Mercury, the innermost planet's silhouette was a mere 1/200th the solar diameter. So even under clear daytime skies it was difficult to see without the aid of a safe solar telescope. Following its transit in 2016, this was Mercury's 4th of 14 transits across the solar disk in the 21st century. The next transit of Mercury will be on November 13, 2032.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1911/MercurySolarTransit_200mmF10_610nm_11112019_1024.jpg" title="Mercury in Silhouette" alt="The small, dark, round spot in this solar close up is planet Mercury. In the high resolution telescopic image, a colorized stack of 61 sharp video frames, a turbulent array of photospheric convection cells tile the bright solar surface.  Mercury's more regular silhouette still stands out though. Of course, only inner planets Mercury and Venus can transit the Sun to appear in silhouette when viewed from planet Earth. For this November 11, 2019 transit of Mercury, the innermost planet's silhouette was a mere 1/200th the solar diameter. So even under clear daytime skies it was difficult to see without the aid of a safe solar telescope. Following its transit in 2016, this was Mercury's 4th of 14 transits across the solar disk in the 21st century. The next transit of Mercury will be on November 13, 2032."/>
 </center>
 
 
