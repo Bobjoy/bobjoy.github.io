@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-15 00:07:21"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-16 00:07:41"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Mercury and the Quiet Sun**
+**M16 and the Eagle Nebula**
 
-> On November 11, 2019 the Sun was mostly quiet, experiencing a minimum in its 11 year cycle of activity. In fact, the only spot visible was actually planet Mercury, making a leisurely 5 1/2 hour transit in front of the calm solar disk. About 1/200th the apparent diameter of the Sun, the silhouette of the solar system's inner most planet is near center in this sharp, full Sun snapshot. Taken with a hydrogen alpha filter and safe solar telescope, the image also captures prominences around the solar limb, the glowing plasma trapped in arcing magnetic fields. Of course, only inner planets Mercury and Venus can transit the Sun to appear in silhouette when viewed from planet Earth. Following its transit in 2016, this was Mercury's 4th of 14 transits across the solar disk in the 21st century. The next transit of Mercury will be on November 13, 2032.
+> A star cluster around 2 million years young surrounded by natal clouds of dust and glowing gas, M16 is also known as The Eagle Nebula. This beautifully detailed portrait of the region was made with groundbased narrow and broadband image data. It includes cosmic sculptures made famous in Hubble Space Telescope close-ups of the starforming complex. Described as elephant trunks or Pillars of Creation, dense, dusty columns rising near the center are light-years in length but are gravitationally contracting to form stars. Energetic radiation from the cluster stars erodes material near the tips, eventually exposing the embedded new stars. Extending from the ridge of bright emission at lower left is another dusty starforming column known as the Fairy of Eagle Nebula. M16 lies about 7,000 light-years away, an easy target for binoculars or small telescopes in a nebula rich part of the sky toward the split constellation Serpens Cauda (the tail of the snake).
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1911/jC-L-TM_SunFinal5HRweb1024.jpg" title="Mercury and the Quiet Sun" alt="On November 11, 2019 the Sun was mostly quiet, experiencing a minimum in its 11 year cycle of activity. In fact, the only spot visible was actually planet Mercury, making a leisurely 5 1/2 hour transit in front of the calm solar disk. About 1/200th the apparent diameter of the Sun, the silhouette of the solar system's inner most planet is near center in this sharp, full Sun snapshot. Taken with a hydrogen alpha filter and safe solar telescope, the image also captures prominences around the solar limb, the glowing plasma trapped in arcing magnetic fields. Of course, only inner planets Mercury and Venus can transit the Sun to appear in silhouette when viewed from planet Earth. Following its transit in 2016, this was Mercury's 4th of 14 transits across the solar disk in the 21st century. The next transit of Mercury will be on November 13, 2032."/>
+    <img src="https://apod.nasa.gov/apod/image/1911/M16_HaSynLumLumRGB1024.jpg" title="M16 and the Eagle Nebula" alt="A star cluster around 2 million years young surrounded by natal clouds of dust and glowing gas, M16 is also known as The Eagle Nebula. This beautifully detailed portrait of the region was made with groundbased narrow and broadband image data. It includes cosmic sculptures made famous in Hubble Space Telescope close-ups of the starforming complex. Described as elephant trunks or Pillars of Creation, dense, dusty columns rising near the center are light-years in length but are gravitationally contracting to form stars. Energetic radiation from the cluster stars erodes material near the tips, eventually exposing the embedded new stars. Extending from the ridge of bright emission at lower left is another dusty starforming column known as the Fairy of Eagle Nebula. M16 lies about 7,000 light-years away, an easy target for binoculars or small telescopes in a nebula rich part of the sky toward the split constellation Serpens Cauda (the tail of the snake)."/>
 </center>
 
 
