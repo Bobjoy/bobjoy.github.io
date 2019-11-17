@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-16 00:07:41"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-17 00:07:25"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**M16 and the Eagle Nebula**
+**The Star Streams of NGC 5907**
 
-> A star cluster around 2 million years young surrounded by natal clouds of dust and glowing gas, M16 is also known as The Eagle Nebula. This beautifully detailed portrait of the region was made with groundbased narrow and broadband image data. It includes cosmic sculptures made famous in Hubble Space Telescope close-ups of the starforming complex. Described as elephant trunks or Pillars of Creation, dense, dusty columns rising near the center are light-years in length but are gravitationally contracting to form stars. Energetic radiation from the cluster stars erodes material near the tips, eventually exposing the embedded new stars. Extending from the ridge of bright emission at lower left is another dusty starforming column known as the Fairy of Eagle Nebula. M16 lies about 7,000 light-years away, an easy target for binoculars or small telescopes in a nebula rich part of the sky toward the split constellation Serpens Cauda (the tail of the snake).
+> Grand tidal streams of stars seem to surround galaxy NGC 5907. The arcing structures form tenuous loops extending more than 150,000 light-years from the narrow, edge-on spiral, also known as the Splinter or Knife Edge Galaxy. Recorded only in very deep exposures, the streams likely represent the ghostly trail of a dwarf galaxy - debris left along the orbit of a smaller satellite galaxy that was gradually torn apart and merged with NGC 5907 over four billion years ago. Ultimately this remarkable discovery image, from a small robotic observatory in New Mexico, supports the cosmological scenario in which large spiral galaxies, including our own Milky Way, were formed by the accretion of smaller ones. NGC 5907 lies about 40 million light-years distant in the northern constellation Draco.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1911/M16_HaSynLumLumRGB1024.jpg" title="M16 and the Eagle Nebula" alt="A star cluster around 2 million years young surrounded by natal clouds of dust and glowing gas, M16 is also known as The Eagle Nebula. This beautifully detailed portrait of the region was made with groundbased narrow and broadband image data. It includes cosmic sculptures made famous in Hubble Space Telescope close-ups of the starforming complex. Described as elephant trunks or Pillars of Creation, dense, dusty columns rising near the center are light-years in length but are gravitationally contracting to form stars. Energetic radiation from the cluster stars erodes material near the tips, eventually exposing the embedded new stars. Extending from the ridge of bright emission at lower left is another dusty starforming column known as the Fairy of Eagle Nebula. M16 lies about 7,000 light-years away, an easy target for binoculars or small telescopes in a nebula rich part of the sky toward the split constellation Serpens Cauda (the tail of the snake)."/>
+    <img src="https://apod.nasa.gov/apod/image/1911/ngc5907_gabany_rcl1024.jpg" title="The Star Streams of NGC 5907" alt="Grand tidal streams of stars seem to surround galaxy NGC 5907. The arcing structures form tenuous loops extending more than 150,000 light-years from the narrow, edge-on spiral, also known as the Splinter or Knife Edge Galaxy. Recorded only in very deep exposures, the streams likely represent the ghostly trail of a dwarf galaxy - debris left along the orbit of a smaller satellite galaxy that was gradually torn apart and merged with NGC 5907 over four billion years ago. Ultimately this remarkable discovery image, from a small robotic observatory in New Mexico, supports the cosmological scenario in which large spiral galaxies, including our own Milky Way, were formed by the accretion of smaller ones. NGC 5907 lies about 40 million light-years distant in the northern constellation Draco."/>
 </center>
 
 
