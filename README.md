@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-22 00:07:20"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-23 00:07:47"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Simeis 147: Supernova Remnant**
+**Orion Rising**
 
-> It's easy to get lost following the intricate looping filaments in this detailed image of supernova remnant Simeis 147. Also cataloged as Sharpless 2-240 it goes by the popular nickname, the Spaghetti Nebula. Seen toward the boundary of the constellations Taurus and Auriga, it covers nearly 3 degrees or 6 full moons on the sky. That's about 150 light-years at the stellar debris cloud's estimated distance of 3,000 light-years. This composite includes image data taken through narrow-band filters where reddish emission from ionized hydrogen atoms and doubly ionized oxygen atoms in faint blue-green hues trace the shocked, glowing gas. The supernova remnant has an estimated age of about 40,000 years, meaning light from the massive stellar explosion first reached Earth 40,000 years ago. But the expanding remnant is not the only aftermath. The cosmic catastrophe also left behind a spinning neutron star or pulsar, all that remains of the original star's core.
+> Looking toward the east in the early hours of a September morning this single exposure made with tripod and camera captured a simple visual experience. Rising above the tree-lined slope are familiar stars in planet Earth's northern night and the constellation Orion the Hunter.  Brighter stars marking the celestial Hunter's shoulder (Betelgeuse), foot (Rigel), belt, and sword are clearly reflected in the calm waters from northern Latvia's Vitrupe river. Of course, winter is coming to planet Earth's northern hemisphere.   By then Orion and this beautiful starry vista will be seen rising in early evening skies.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1911/Simeis147_HaOIIIRGB_Lindemann1024.jpg" title="Simeis 147: Supernova Remnant" alt="It's easy to get lost following the intricate looping filaments in this detailed image of supernova remnant Simeis 147. Also cataloged as Sharpless 2-240 it goes by the popular nickname, the Spaghetti Nebula. Seen toward the boundary of the constellations Taurus and Auriga, it covers nearly 3 degrees or 6 full moons on the sky. That's about 150 light-years at the stellar debris cloud's estimated distance of 3,000 light-years. This composite includes image data taken through narrow-band filters where reddish emission from ionized hydrogen atoms and doubly ionized oxygen atoms in faint blue-green hues trace the shocked, glowing gas. The supernova remnant has an estimated age of about 40,000 years, meaning light from the massive stellar explosion first reached Earth 40,000 years ago. But the expanding remnant is not the only aftermath. The cosmic catastrophe also left behind a spinning neutron star or pulsar, all that remains of the original star's core."/>
+    <img src="https://apod.nasa.gov/apod/image/1911/orion_kopa1024.jpg" title="Orion Rising" alt="Looking toward the east in the early hours of a September morning this single exposure made with tripod and camera captured a simple visual experience. Rising above the tree-lined slope are familiar stars in planet Earth's northern night and the constellation Orion the Hunter.  Brighter stars marking the celestial Hunter's shoulder (Betelgeuse), foot (Rigel), belt, and sword are clearly reflected in the calm waters from northern Latvia's Vitrupe river. Of course, winter is coming to planet Earth's northern hemisphere.   By then Orion and this beautiful starry vista will be seen rising in early evening skies."/>
 </center>
 
 
