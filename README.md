@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-23 00:07:47"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-24 00:07:12"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Orion Rising**
+**You can't see me, Meow~~!**
 
-> Looking toward the east in the early hours of a September morning this single exposure made with tripod and camera captured a simple visual experience. Rising above the tree-lined slope are familiar stars in planet Earth's northern night and the constellation Orion the Hunter.  Brighter stars marking the celestial Hunter's shoulder (Betelgeuse), foot (Rigel), belt, and sword are clearly reflected in the calm waters from northern Latvia's Vitrupe river. Of course, winter is coming to planet Earth's northern hemisphere.   By then Orion and this beautiful starry vista will be seen rising in early evening skies.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1911/orion_kopa1024.jpg" title="Orion Rising" alt="Looking toward the east in the early hours of a September morning this single exposure made with tripod and camera captured a simple visual experience. Rising above the tree-lined slope are familiar stars in planet Earth's northern night and the constellation Orion the Hunter.  Brighter stars marking the celestial Hunter's shoulder (Betelgeuse), foot (Rigel), belt, and sword are clearly reflected in the calm waters from northern Latvia's Vitrupe river. Of course, winter is coming to planet Earth's northern hemisphere.   By then Orion and this beautiful starry vista will be seen rising in early evening skies."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
