@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-26 00:07:19"/>
+    <img src="https://badgen.net/badge/last-commit/2019-11-27 00:07:33"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**NGC 6995: The Bat Nebula**
+**Venus and Jupiter on the Horizon**
 
-> Do you see the bat?  It haunts this cosmic close-up of the eastern Veil Nebula.  The Veil Nebula itself is a large supernova remnant, the expanding debris cloud from the death explosion of a massive star. While the Veil is roughly circular in shape and covers nearly 3 degrees on the sky toward the constellation of the Swan (Cygnus), the Bat Nebula, NGC 6995, spans only 1/2 degree, about the apparent size of the Moon. That translates to 12 light-years at the Veil's estimated distance, a reassuring 1,400 light-years from planet Earth. In the composite of image data recorded through broad and narrow band filters, emission from hydrogen atoms in the remnant is shown in red with strong emission from oxygen and nitrogen atoms shown in hues of blue. Of course, in the western part of the Veil lies another seasonal apparition: the Witch's Broom Nebula.
+> What are those two bright objects on the horizon? Venus and Jupiter. The two brightest planets in the night sky passed very close together -- angularly -- just two days ago.  In real space, they were just about as far apart as usual, since Jupiter (on the right) orbits the Sun around seven times farther out than Venus.  The planetary duo were captured together two days ago in a picturesque sunset sky from Llers, Catalonia, Spain between a tree and the astrophotographer's daughter.  These two planets will continue to stand out in the evening sky, toward the west, for the next few days, with a sliver of a crescent Moon and a fainter Saturn also visible nearby.  As November ends, Jupiter will sink lower into the sunset horizon with each subsequent night, while Venus will rise higher.  The next Jupiter-Venus conjunction will occur in early 2021.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1911/NGC6995_Drudis_960.jpg" title="NGC 6995: The Bat Nebula" alt="Do you see the bat?  It haunts this cosmic close-up of the eastern Veil Nebula.  The Veil Nebula itself is a large supernova remnant, the expanding debris cloud from the death explosion of a massive star. While the Veil is roughly circular in shape and covers nearly 3 degrees on the sky toward the constellation of the Swan (Cygnus), the Bat Nebula, NGC 6995, spans only 1/2 degree, about the apparent size of the Moon. That translates to 12 light-years at the Veil's estimated distance, a reassuring 1,400 light-years from planet Earth. In the composite of image data recorded through broad and narrow band filters, emission from hydrogen atoms in the remnant is shown in red with strong emission from oxygen and nitrogen atoms shown in hues of blue. Of course, in the western part of the Veil lies another seasonal apparition: the Witch's Broom Nebula."/>
+    <img src="https://apod.nasa.gov/apod/image/1911/VenJup191124_jcc_1080.jpg" title="Venus and Jupiter on the Horizon" alt="What are those two bright objects on the horizon? Venus and Jupiter. The two brightest planets in the night sky passed very close together -- angularly -- just two days ago.  In real space, they were just about as far apart as usual, since Jupiter (on the right) orbits the Sun around seven times farther out than Venus.  The planetary duo were captured together two days ago in a picturesque sunset sky from Llers, Catalonia, Spain between a tree and the astrophotographer's daughter.  These two planets will continue to stand out in the evening sky, toward the west, for the next few days, with a sliver of a crescent Moon and a fainter Saturn also visible nearby.  As November ends, Jupiter will sink lower into the sunset horizon with each subsequent night, while Venus will rise higher.  The next Jupiter-Venus conjunction will occur in early 2021."/>
 </center>
 
 
