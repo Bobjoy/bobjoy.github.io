@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-11-30 00:07:28"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-01 00:07:11"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Star Trails for a Red Planet**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Does Mars have a north star? In long exposures of Earth's night sky, star trails make concentric arcs around the north celestial pole, the direction of our fair planet's axis of rotation. Bright star Polaris is presently the Earth's North Star, close on the sky to Earth's north celestial pole. But long exposures on Mars show star trails too, concentric arcs about a celestial pole determined by Mars' axis of rotation. Tilted like planet Earth's, the martian axis of rotation points in a different direction in space though. It points to a place on the sky between stars in Cygnus and Cepheus with no bright star comparable to Earth's north star Polaris nearby. So even though this ruddy, weathered landscape is remarkably reminiscent of terrain in images from the  martian surface, the view must be from planet Earth, with north star Polaris near the center of concentric star trails. The landforms in the foreground are found in Qinghai Province in northwestern China.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/1911/StarTrailsOnRedPlanet1024.jpg" title="Star Trails for a Red Planet" alt="Does Mars have a north star? In long exposures of Earth's night sky, star trails make concentric arcs around the north celestial pole, the direction of our fair planet's axis of rotation. Bright star Polaris is presently the Earth's North Star, close on the sky to Earth's north celestial pole. But long exposures on Mars show star trails too, concentric arcs about a celestial pole determined by Mars' axis of rotation. Tilted like planet Earth's, the martian axis of rotation points in a different direction in space though. It points to a place on the sky between stars in Cygnus and Cepheus with no bright star comparable to Earth's north star Polaris nearby. So even though this ruddy, weathered landscape is remarkably reminiscent of terrain in images from the  martian surface, the view must be from planet Earth, with north star Polaris near the center of concentric star trails. The landforms in the foreground are found in Qinghai Province in northwestern China."/>
 </center>
 
 
