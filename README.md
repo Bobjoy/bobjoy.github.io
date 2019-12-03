@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-12-02 00:07:19"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-03 00:07:22"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Starburst Galaxy M94 from Hubble**
+**You can't see me, Meow~~!**
 
-> Why does this galaxy have a ring of bright blue stars?  Beautiful island universe Messier 94 lies a mere 15 million light-years distant in the northern constellation of the Hunting Dogs (Canes Venatici). A popular target for Earth-based astronomers, the face-on spiral galaxy is about 30,000 light-years across, with spiral arms sweeping through the outskirts of its broad disk. But this Hubble Space Telescope field of view spans about 7,000 light-years across M94's central region. The featured close-up highlights the galaxy's compact, bright nucleus, prominent inner dust lanes, and the remarkable bluish ring of young massive stars. The ring stars are all likely less than 10 million years old, indicating that M94 is a starburst galaxy that is experiencing an epoch of rapid star formation from inspiraling gas. The circular ripple of blue stars is likely a wave propagating outward, having been triggered by the gravity and rotation of a oval matter distributions. Because M94 is relatively nearby, astronomers can better explore details of its starburst ring.    Astrophysicists: Browse 2,000+ codes in the Astrophysics Source Code Library
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1912/M94_Hubble_960.jpg" title="Starburst Galaxy M94 from Hubble" alt="Why does this galaxy have a ring of bright blue stars?  Beautiful island universe Messier 94 lies a mere 15 million light-years distant in the northern constellation of the Hunting Dogs (Canes Venatici). A popular target for Earth-based astronomers, the face-on spiral galaxy is about 30,000 light-years across, with spiral arms sweeping through the outskirts of its broad disk. But this Hubble Space Telescope field of view spans about 7,000 light-years across M94's central region. The featured close-up highlights the galaxy's compact, bright nucleus, prominent inner dust lanes, and the remarkable bluish ring of young massive stars. The ring stars are all likely less than 10 million years old, indicating that M94 is a starburst galaxy that is experiencing an epoch of rapid star formation from inspiraling gas. The circular ripple of blue stars is likely a wave propagating outward, having been triggered by the gravity and rotation of a oval matter distributions. Because M94 is relatively nearby, astronomers can better explore details of its starburst ring.    Astrophysicists: Browse 2,000+ codes in the Astrophysics Source Code Library"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
