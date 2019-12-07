@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-12-06 00:07:10"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-07 00:07:25"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Spiral Galaxy NGC 6744**
+**Pleiades to Hyades**
 
-> Beautiful spiral galaxy NGC 6744 is nearly 175,000 light-years across, larger than our own Milky Way. It lies some 30 million light-years distant in the southern constellation Pavo and appears as only a faint, extended object in small telescopes. We see the disk of the nearby island universe tilted towards our line of sight in this remarkably detailed galaxy portrait, a telescopic view that spans an area about the angular size of a full moon. In it, the giant galaxy's elongated yellowish core is dominated by the light from old, cool stars. Beyond the core, grand spiral arms are filled with young blue star clusters and speckled with pinkish star forming regions. An extended arm sweeps past a smaller satellite galaxy (NGC 6744A) at the lower right. NGC 6744's galactic companion is reminiscent of the Milky Way's satellite galaxy the Large Magellanic Cloud.
+> This cosmic vista stretches almost 20 degrees from top to bottom, across the dusty constellation Taurus. It begins at the Pleiades and ends at the Hyades, two star clusters recognized since antiquity in Earth's night sky. At top, the compact Pleiades star cluster is about 400 light-years away. The lovely grouping of young cluster stars shine through dusty clouds that scatter blue starlight. At bottom, the V-shaped Hyades cluster looks more spread out in comparison and lies much closer, 150 light-years away. The Hyades cluster stars seem anchored by bright Aldebaran, a red giant star with a yellowish appearance. But Aldebaran actually lies only 65 light-years distant and just by chance along the line of sight to the Hyades cluster. Faint and darkly obscuring dust clouds found near the edge of the Taurus Molecular Cloud are also evident throughout the celestial scene. The wide field of view includes the dark nebula Barnard 22 at left with youthful star T Tauri and Hind's variable nebula just above Aldebaran in the frame.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1912/NGC6744_FinalLiuYuhang1024.jpg" title="Spiral Galaxy NGC 6744" alt="Beautiful spiral galaxy NGC 6744 is nearly 175,000 light-years across, larger than our own Milky Way. It lies some 30 million light-years distant in the southern constellation Pavo and appears as only a faint, extended object in small telescopes. We see the disk of the nearby island universe tilted towards our line of sight in this remarkably detailed galaxy portrait, a telescopic view that spans an area about the angular size of a full moon. In it, the giant galaxy's elongated yellowish core is dominated by the light from old, cool stars. Beyond the core, grand spiral arms are filled with young blue star clusters and speckled with pinkish star forming regions. An extended arm sweeps past a smaller satellite galaxy (NGC 6744A) at the lower right. NGC 6744's galactic companion is reminiscent of the Milky Way's satellite galaxy the Large Magellanic Cloud."/>
+    <img src="https://apod.nasa.gov/apod/image/1912/TaurusAbolfath1024.jpg" title="Pleiades to Hyades" alt="This cosmic vista stretches almost 20 degrees from top to bottom, across the dusty constellation Taurus. It begins at the Pleiades and ends at the Hyades, two star clusters recognized since antiquity in Earth's night sky. At top, the compact Pleiades star cluster is about 400 light-years away. The lovely grouping of young cluster stars shine through dusty clouds that scatter blue starlight. At bottom, the V-shaped Hyades cluster looks more spread out in comparison and lies much closer, 150 light-years away. The Hyades cluster stars seem anchored by bright Aldebaran, a red giant star with a yellowish appearance. But Aldebaran actually lies only 65 light-years distant and just by chance along the line of sight to the Hyades cluster. Faint and darkly obscuring dust clouds found near the edge of the Taurus Molecular Cloud are also evident throughout the celestial scene. The wide field of view includes the dark nebula Barnard 22 at left with youthful star T Tauri and Hind's variable nebula just above Aldebaran in the frame."/>
 </center>
 
 
