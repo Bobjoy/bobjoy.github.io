@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-12-07 00:07:25"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-08 00:07:11"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Pleiades to Hyades**
+**Lines of Time**
 
-> This cosmic vista stretches almost 20 degrees from top to bottom, across the dusty constellation Taurus. It begins at the Pleiades and ends at the Hyades, two star clusters recognized since antiquity in Earth's night sky. At top, the compact Pleiades star cluster is about 400 light-years away. The lovely grouping of young cluster stars shine through dusty clouds that scatter blue starlight. At bottom, the V-shaped Hyades cluster looks more spread out in comparison and lies much closer, 150 light-years away. The Hyades cluster stars seem anchored by bright Aldebaran, a red giant star with a yellowish appearance. But Aldebaran actually lies only 65 light-years distant and just by chance along the line of sight to the Hyades cluster. Faint and darkly obscuring dust clouds found near the edge of the Taurus Molecular Cloud are also evident throughout the celestial scene. The wide field of view includes the dark nebula Barnard 22 at left with youthful star T Tauri and Hind's variable nebula just above Aldebaran in the frame.
+> In time stars trace lines through the night sky on a rotating planet. Taken over two hours or more, these digitally added consecutive exposures were made with a camera and wide angle lens fixed to a tripod near Orel farm, Primorsky Krai, Russia, planet Earth. The stars trail in concentric arcs around the planet's south celestial pole below the scene's horizon, and north celestial pole off the frame at the upper right. Combined, the many short exposures also bring out the pretty star colours. Bluish trails are from stars hotter than Earth's Sun, while yellowish trails are from cooler stars. A long time ago this tree blossomed, but now reveals the passage of time in the wrinkled and weathered lines of its remains.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1912/TaurusAbolfath1024.jpg" title="Pleiades to Hyades" alt="This cosmic vista stretches almost 20 degrees from top to bottom, across the dusty constellation Taurus. It begins at the Pleiades and ends at the Hyades, two star clusters recognized since antiquity in Earth's night sky. At top, the compact Pleiades star cluster is about 400 light-years away. The lovely grouping of young cluster stars shine through dusty clouds that scatter blue starlight. At bottom, the V-shaped Hyades cluster looks more spread out in comparison and lies much closer, 150 light-years away. The Hyades cluster stars seem anchored by bright Aldebaran, a red giant star with a yellowish appearance. But Aldebaran actually lies only 65 light-years distant and just by chance along the line of sight to the Hyades cluster. Faint and darkly obscuring dust clouds found near the edge of the Taurus Molecular Cloud are also evident throughout the celestial scene. The wide field of view includes the dark nebula Barnard 22 at left with youthful star T Tauri and Hind's variable nebula just above Aldebaran in the frame."/>
+    <img src="https://apod.nasa.gov/apod/image/1912/LinesOfTimeKomlev1100.jpg" title="Lines of Time" alt="In time stars trace lines through the night sky on a rotating planet. Taken over two hours or more, these digitally added consecutive exposures were made with a camera and wide angle lens fixed to a tripod near Orel farm, Primorsky Krai, Russia, planet Earth. The stars trail in concentric arcs around the planet's south celestial pole below the scene's horizon, and north celestial pole off the frame at the upper right. Combined, the many short exposures also bring out the pretty star colours. Bluish trails are from stars hotter than Earth's Sun, while yellowish trails are from cooler stars. A long time ago this tree blossomed, but now reveals the passage of time in the wrinkled and weathered lines of its remains."/>
 </center>
 
 
