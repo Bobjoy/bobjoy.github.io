@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-12-09 00:07:34"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-10 00:07:24"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Geminid Meteors over Chile**
+**You can't see me, Meow~~!**
 
-> Are meteors streaming out from a point in the sky? Yes, in a way. When the Earth crosses a stream of Sun-orbiting meteors, these meteors appear to come from the direction of the stream -- with the directional point called the radiant.  An example occurs every mid-December for the Geminids meteor shower, as apparent in the featured image.  Recorded near the shower's peak in 2013, the featured  skyscape captures Gemini's shooting stars in a four-hour composite from the dark skies of the Las Campanas Observatory in Chile. In the foreground the 2.5-meter du Pont Telescope is visible as well as the 1-meter SWOPE telescope. The skies beyond the meteors are highlighted by Jupiter, seen as the bright spot near the image center, the central band of our Milky Way Galaxy, seen vertically on the image left, and the pinkish Orion Nebula on the far left.  Dust swept up from the orbit of active asteroid 3200 Phaethon, Gemini's meteors enter the atmosphere traveling at about 22 kilometers per second. The 2019 Geminid meteor shower peaks again this coming weekend.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1912/geminids2013_beletsky_960.jpg" title="Geminid Meteors over Chile" alt="Are meteors streaming out from a point in the sky? Yes, in a way. When the Earth crosses a stream of Sun-orbiting meteors, these meteors appear to come from the direction of the stream -- with the directional point called the radiant.  An example occurs every mid-December for the Geminids meteor shower, as apparent in the featured image.  Recorded near the shower's peak in 2013, the featured  skyscape captures Gemini's shooting stars in a four-hour composite from the dark skies of the Las Campanas Observatory in Chile. In the foreground the 2.5-meter du Pont Telescope is visible as well as the 1-meter SWOPE telescope. The skies beyond the meteors are highlighted by Jupiter, seen as the bright spot near the image center, the central band of our Milky Way Galaxy, seen vertically on the image left, and the pinkish Orion Nebula on the far left.  Dust swept up from the orbit of active asteroid 3200 Phaethon, Gemini's meteors enter the atmosphere traveling at about 22 kilometers per second. The 2019 Geminid meteor shower peaks again this coming weekend."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
