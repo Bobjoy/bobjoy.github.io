@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-12-13 00:07:28"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-14 00:07:37"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Decorating the Sky**
+**Full Moon Geminids**
 
-> Bright stars, clouds of dust and glowing nebulae decorate this cosmic scene, a skyscape just north of Orion's belt. Close to the plane of our Milky Way galaxy, the wide field view spans about 5.5 degrees. Striking bluish M78, a reflection nebula, is on the right. M78's tint is due to dust preferentially reflecting the blue light of hot, young stars. In colorful contrast, the red sash of glowing hydrogen gas sweeping through the center is part of the region's faint but extensive emission nebula known as Barnard's Loop. At lower left, a dark dust cloud forms a prominent silhouette cataloged as LDN 1622. While M78 and the complex Barnard's Loop are some 1,500 light-years away, LDN 1622 is likely to be much closer, only about 500 light-years distant from our fair planet Earth.
+> The dependable annual Geminid meteor shower will be near its peak tonight (December 13/14) and before tomorrow's dawn. As Earth crosses through the dusty trail of active asteroid 3200 Phaethon the meteors will flash through the sky from the shower's radiant in Gemini. Gemini will be pretty easy for skygazers to find too as it won't be far from a nearly full waning gibbous Moon. You don't have look at the shower's radiant to see meteors though. The almost full moonlight won't hide the brightest of the Geminids from view either, but it will substantially reduce the rate of visible meteors for those who are counting. In fact, the 2019 Geminids should look a lot like the 2016 meteor shower. This composite image from the 2016 Geminids aligns individual short exposures to capture many of the brighter Geminid meteors, inspite of a Full Moon shining near the constellation of the Twins. Along the horizon are the Teide Observatory's Solar Laboratory (right) and the Teide volcano on the Canary Island of Tenerife.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1912/m78ldn1622barnardsloopJulio1100.jpg" title="Decorating the Sky" alt="Bright stars, clouds of dust and glowing nebulae decorate this cosmic scene, a skyscape just north of Orion's belt. Close to the plane of our Milky Way galaxy, the wide field view spans about 5.5 degrees. Striking bluish M78, a reflection nebula, is on the right. M78's tint is due to dust preferentially reflecting the blue light of hot, young stars. In colorful contrast, the red sash of glowing hydrogen gas sweeping through the center is part of the region's faint but extensive emission nebula known as Barnard's Loop. At lower left, a dark dust cloud forms a prominent silhouette cataloged as LDN 1622. While M78 and the complex Barnard's Loop are some 1,500 light-years away, LDN 1622 is likely to be much closer, only about 500 light-years distant from our fair planet Earth."/>
+    <img src="https://apod.nasa.gov/apod/image/1912/gem16otjcc1100.jpg" title="Full Moon Geminids" alt="The dependable annual Geminid meteor shower will be near its peak tonight (December 13/14) and before tomorrow's dawn. As Earth crosses through the dusty trail of active asteroid 3200 Phaethon the meteors will flash through the sky from the shower's radiant in Gemini. Gemini will be pretty easy for skygazers to find too as it won't be far from a nearly full waning gibbous Moon. You don't have look at the shower's radiant to see meteors though. The almost full moonlight won't hide the brightest of the Geminids from view either, but it will substantially reduce the rate of visible meteors for those who are counting. In fact, the 2019 Geminids should look a lot like the 2016 meteor shower. This composite image from the 2016 Geminids aligns individual short exposures to capture many of the brighter Geminid meteors, inspite of a Full Moon shining near the constellation of the Twins. Along the horizon are the Teide Observatory's Solar Laboratory (right) and the Teide volcano on the Canary Island of Tenerife."/>
 </center>
 
 
