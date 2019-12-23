@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-12-22 00:07:22"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-23 00:07:37"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Solstice to Solstice Solargraph Timelapse**
+**You can't see me, Meow~~!**
 
-> The 2019 December Solstice, on the first day of winter in planet Earth's northern hemisphere and summer in the south, is at 4:19 Universal Time December 22. That's December 21 for North America, though. Celebrate with a timelapse animation of the Sun's seasonal progression through the sky. It was made with solargraph images from an ingenious array of 27 pinhole cameras. The first frame from the Solarcan camera matrix was recorded near December 21, 2018. The last frame in the series finished near June 21, 2019, the northern summer solstice. All 27 camera exposures were started at the same time, with a camera covered and removed from the array once a week. Viewed consecutively the pinhole camera pictures accumulate the traces of the Sun's daily path from winter (bottom) to summer (top) solstice. Traces of the Sun's path are reflected by the foreground Williestruther Loch, in the Scottish Borders. Just select the image or follow this link to play the entire 27 frame (gif) timelapse.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1912/solarcanMatrixSolstice_5.jpg" title="Solstice to Solstice Solargraph Timelapse" alt="The 2019 December Solstice, on the first day of winter in planet Earth's northern hemisphere and summer in the south, is at 4:19 Universal Time December 22. That's December 21 for North America, though. Celebrate with a timelapse animation of the Sun's seasonal progression through the sky. It was made with solargraph images from an ingenious array of 27 pinhole cameras. The first frame from the Solarcan camera matrix was recorded near December 21, 2018. The last frame in the series finished near June 21, 2019, the northern summer solstice. All 27 camera exposures were started at the same time, with a camera covered and removed from the array once a week. Viewed consecutively the pinhole camera pictures accumulate the traces of the Sun's daily path from winter (bottom) to summer (top) solstice. Traces of the Sun's path are reflected by the foreground Williestruther Loch, in the Scottish Borders. Just select the image or follow this link to play the entire 27 frame (gif) timelapse."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
