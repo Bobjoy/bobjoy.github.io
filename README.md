@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-12-26 00:07:37"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-27 00:07:52"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**An Annular Solar Eclipse over New Mexico**
+**The Northern Winter Hexagon**
 
-> What is this person doing?  In 2012 an annular eclipse of the Sun was visible over a narrow path that crossed the northern Pacific Ocean and several western US states.  In an annular solar eclipse, the Moon is too far from the Earth to block out the entire Sun, leaving the Sun peeking out over the Moon's disk in a ring of fire.  To capture this unusual solar event, an industrious photographer drove from Arizona to New Mexico to find just the right vista. After setting up and just as the eclipsed Sun was setting over a ridge about 0.5 kilometers away, a person unknowingly walked right into the shot. Although grateful for the unexpected human element, the photographer never learned the identity of the silhouetted interloper. It appears likely, though, that the person is holding a circular device that would enable them to get their own view of the eclipse.  The shot was taken at sunset on 2012 May 20 at 7:36 pm local time from a park near Albuquerque, New Mexico, USA. Tomorrow another annular solar eclipse will become visible, this time along a thin path starting in Saudi Arabia and going through southern India, Singapore, and Guam.   However, almost all of Asia with a clear sky will be able to see, tomorrow, at the least, a partial solar eclipse.    Free Download: 2020 APOD Calendar
+> December's New Moon brought a solar eclipse to some for the holiday season. It also gave beautiful dark night skies to skygazers around the globe, like this moonless northern winter night. In the scene, bright stars of the Winter Hexagon along the Milky Way are rising. Cosy mountain cabins in the snowy foreground are near the village of Oravska Lesna, Slovakia. The shining celestial beacons marking the well-known asterism are Aldebaran, Capella, Pollux (and Castor), Procyon, Rigel, and Sirius. This winter nightscape also reveals faint nebulae in Orion, and the lovely Pleiades star cluster. Slide your cursor over the image to trace the winter hexagon, or just follow this link.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1912/AnnularEclipse_Pinski_960.jpg" title="An Annular Solar Eclipse over New Mexico" alt="What is this person doing?  In 2012 an annular eclipse of the Sun was visible over a narrow path that crossed the northern Pacific Ocean and several western US states.  In an annular solar eclipse, the Moon is too far from the Earth to block out the entire Sun, leaving the Sun peeking out over the Moon's disk in a ring of fire.  To capture this unusual solar event, an industrious photographer drove from Arizona to New Mexico to find just the right vista. After setting up and just as the eclipsed Sun was setting over a ridge about 0.5 kilometers away, a person unknowingly walked right into the shot. Although grateful for the unexpected human element, the photographer never learned the identity of the silhouetted interloper. It appears likely, though, that the person is holding a circular device that would enable them to get their own view of the eclipse.  The shot was taken at sunset on 2012 May 20 at 7:36 pm local time from a park near Albuquerque, New Mexico, USA. Tomorrow another annular solar eclipse will become visible, this time along a thin path starting in Saudi Arabia and going through southern India, Singapore, and Guam.   However, almost all of Asia with a clear sky will be able to see, tomorrow, at the least, a partial solar eclipse.    Free Download: 2020 APOD Calendar"/>
+    <img src="https://apod.nasa.gov/apod/image/1912/Orava_Duskova_WinterHexagon_0.jpg" title="The Northern Winter Hexagon" alt="December's New Moon brought a solar eclipse to some for the holiday season. It also gave beautiful dark night skies to skygazers around the globe, like this moonless northern winter night. In the scene, bright stars of the Winter Hexagon along the Milky Way are rising. Cosy mountain cabins in the snowy foreground are near the village of Oravska Lesna, Slovakia. The shining celestial beacons marking the well-known asterism are Aldebaran, Capella, Pollux (and Castor), Procyon, Rigel, and Sirius. This winter nightscape also reveals faint nebulae in Orion, and the lovely Pleiades star cluster. Slide your cursor over the image to trace the winter hexagon, or just follow this link."/>
 </center>
 
 
