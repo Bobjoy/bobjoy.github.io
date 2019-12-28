@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2019-12-27 00:07:52"/>
+    <img src="https://badgen.net/badge/last-commit/2019-12-28 00:07:15"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Northern Winter Hexagon**
+**A Partial Solar Eclipse Sequence Reflected**
 
-> December's New Moon brought a solar eclipse to some for the holiday season. It also gave beautiful dark night skies to skygazers around the globe, like this moonless northern winter night. In the scene, bright stars of the Winter Hexagon along the Milky Way are rising. Cosy mountain cabins in the snowy foreground are near the village of Oravska Lesna, Slovakia. The shining celestial beacons marking the well-known asterism are Aldebaran, Capella, Pollux (and Castor), Procyon, Rigel, and Sirius. This winter nightscape also reveals faint nebulae in Orion, and the lovely Pleiades star cluster. Slide your cursor over the image to trace the winter hexagon, or just follow this link.
+> What's happened to the Sun?  Yesterday, if you were in the right place at the right time, you could see the Sun rise partially eclipsed by the Moon. The unusual sight was captured in dramatic fashion in the featured image not only directly, in a sequence of six images, but also in reflection from Soltan Salt Lake in Iran. The almost-white Sun appears dimmer and redder near the horizon primarily because Earth's atmosphere preferentially scatters away more blue light.  Yesterday's partial solar eclipse appeared in the sky over much of Asia and Australia, but those with a clear enough sky in a thin band across the Earth's surface were treated to a more complete annular solar eclipse -- where the Moon appears completely surrounded by the Sun in what is known as a ring of fire. The next annular solar eclipse will occur in 2020 June.   Notable Images Submitted to APOD: The Partial Solar Eclipse of 2019 December
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/1912/Orava_Duskova_WinterHexagon_0.jpg" title="The Northern Winter Hexagon" alt="December's New Moon brought a solar eclipse to some for the holiday season. It also gave beautiful dark night skies to skygazers around the globe, like this moonless northern winter night. In the scene, bright stars of the Winter Hexagon along the Milky Way are rising. Cosy mountain cabins in the snowy foreground are near the village of Oravska Lesna, Slovakia. The shining celestial beacons marking the well-known asterism are Aldebaran, Capella, Pollux (and Castor), Procyon, Rigel, and Sirius. This winter nightscape also reveals faint nebulae in Orion, and the lovely Pleiades star cluster. Slide your cursor over the image to trace the winter hexagon, or just follow this link."/>
+    <img src="https://apod.nasa.gov/apod/image/1912/PartialSolar_Ghohroodi_960.jpg" title="A Partial Solar Eclipse Sequence Reflected" alt="What's happened to the Sun?  Yesterday, if you were in the right place at the right time, you could see the Sun rise partially eclipsed by the Moon. The unusual sight was captured in dramatic fashion in the featured image not only directly, in a sequence of six images, but also in reflection from Soltan Salt Lake in Iran. The almost-white Sun appears dimmer and redder near the horizon primarily because Earth's atmosphere preferentially scatters away more blue light.  Yesterday's partial solar eclipse appeared in the sky over much of Asia and Australia, but those with a clear enough sky in a thin band across the Earth's surface were treated to a more complete annular solar eclipse -- where the Moon appears completely surrounded by the Sun in what is known as a ring of fire. The next annular solar eclipse will occur in 2020 June.   Notable Images Submitted to APOD: The Partial Solar Eclipse of 2019 December"/>
 </center>
 
 
