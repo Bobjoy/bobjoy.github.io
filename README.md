@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-02 00:07:40"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-03 00:07:17"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**The Fainting of Betelgeuse**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Begirt with many a blazing star, Orion the Hunter is one of the most recognizable constellations. In this night skyscape the Hunter's stars rise in the northern hemisphere's winter sky on December 30, 2019, tangled in bare trees near Newnan, Georgia, USA. Red supergiant star Betelgeuse stands out in yellowish hues at Orion's shoulder left of center, but it no longer so strongly rivals the blue supergiant star Rigel at the Hunter's foot. In fact, skygazers around planet Earth can see a strikingly fainter Betelgeuse now, its brightness fading by more than half in the final months of 2019. Betelgeuse has long been known to be a variable star, changing its brightness in multiple cycles with approximate short and long term periods of hundreds of days to many years. The star is now close to its faintest since photometric measurements in 1926/27, likely due in part to a near coincidence in the minimum of short and long term cycles. Betelgeuse is also recognized as a nearby red supergiant star that will end its life in a core collapse supernova explosion sometime in the next 1,000 years, though that cosmic cataclysm will take place a safe 700 light-years or so from our fair planet.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2001/OrionTrees123019Westlake1024.jpg" title="The Fainting of Betelgeuse" alt="Begirt with many a blazing star, Orion the Hunter is one of the most recognizable constellations. In this night skyscape the Hunter's stars rise in the northern hemisphere's winter sky on December 30, 2019, tangled in bare trees near Newnan, Georgia, USA. Red supergiant star Betelgeuse stands out in yellowish hues at Orion's shoulder left of center, but it no longer so strongly rivals the blue supergiant star Rigel at the Hunter's foot. In fact, skygazers around planet Earth can see a strikingly fainter Betelgeuse now, its brightness fading by more than half in the final months of 2019. Betelgeuse has long been known to be a variable star, changing its brightness in multiple cycles with approximate short and long term periods of hundreds of days to many years. The star is now close to its faintest since photometric measurements in 1926/27, likely due in part to a near coincidence in the minimum of short and long term cycles. Betelgeuse is also recognized as a nearby red supergiant star that will end its life in a core collapse supernova explosion sometime in the next 1,000 years, though that cosmic cataclysm will take place a safe 700 light-years or so from our fair planet."/>
 </center>
 
 
