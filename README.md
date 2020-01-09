@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-08 00:07:23"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-09 00:07:36"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**IC 405: The Flaming Star Nebula**
+**Galaxies in the River**
 
-> Rippling dust and gas lanes give the Flaming Star Nebula its name.  The orange and purple colors of the nebula are present in different regions and are created by different processes.  The bright star AE Aurigae, visible toward the image left, is so hot it is blue, emitting light so energetic it knocks electrons away from surrounding gas.  When a proton recaptures an electron, red light is frequently emitted (depicted here in orange). The purple region's color is a mix of this red light and blue light emitted by AE Aurigae but reflected to us by surrounding dust. The two regions are referred to as emission nebula and reflection nebula, respectively.  Pictured here in the Hubble color palette, the Flaming Star Nebula, officially known as IC 405, lies about 1500 light years distant, spans about 5 light years, and is visible with a small telescope toward the constellation of the Charioteer (Auriga).
+> Large galaxies grow by eating small ones. Even our own galaxy engages in a sort of galactic cannibalism, absorbing small galaxies that are too close and are captured by the Milky Way's gravity. In fact, the practice is common in the universe and illustrated by this striking pair of interacting galaxies from the banks of the southern constellation Eridanus, The River. Located over 50 million light years away, the large, distorted spiral NGC 1532 is seen locked in a gravitational struggle with dwarf galaxy NGC 1531 (right of center), a struggle the smaller galaxy will eventually lose. Seen edge-on, spiral NGC 1532 spans about 100,000 light-years. Nicely detailed in this sharp image, the NGC 1532/1531 pair is thought to be similar to the well-studied system of face-on spiral and small companion known as M51.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2001/IC405hp_ColesHelm_960.jpg" title="IC 405: The Flaming Star Nebula" alt="Rippling dust and gas lanes give the Flaming Star Nebula its name.  The orange and purple colors of the nebula are present in different regions and are created by different processes.  The bright star AE Aurigae, visible toward the image left, is so hot it is blue, emitting light so energetic it knocks electrons away from surrounding gas.  When a proton recaptures an electron, red light is frequently emitted (depicted here in orange). The purple region's color is a mix of this red light and blue light emitted by AE Aurigae but reflected to us by surrounding dust. The two regions are referred to as emission nebula and reflection nebula, respectively.  Pictured here in the Hubble color palette, the Flaming Star Nebula, officially known as IC 405, lies about 1500 light years distant, spans about 5 light years, and is visible with a small telescope toward the constellation of the Charioteer (Auriga)."/>
+    <img src="https://apod.nasa.gov/apod/image/2001/NGC1532-final3_1024r.jpg" title="Galaxies in the River" alt="Large galaxies grow by eating small ones. Even our own galaxy engages in a sort of galactic cannibalism, absorbing small galaxies that are too close and are captured by the Milky Way's gravity. In fact, the practice is common in the universe and illustrated by this striking pair of interacting galaxies from the banks of the southern constellation Eridanus, The River. Located over 50 million light years away, the large, distorted spiral NGC 1532 is seen locked in a gravitational struggle with dwarf galaxy NGC 1531 (right of center), a struggle the smaller galaxy will eventually lose. Seen edge-on, spiral NGC 1532 spans about 100,000 light-years. Nicely detailed in this sharp image, the NGC 1532/1531 pair is thought to be similar to the well-studied system of face-on spiral and small companion known as M51."/>
 </center>
 
 
