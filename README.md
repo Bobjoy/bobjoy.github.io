@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-14 00:07:17"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-15 00:07:36"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**A Desert Eclipse**
+**You can't see me, Meow~~!**
 
-> A good place to see a ring-of-fire eclipse, it seemed, would be from a desert. In a desert, there should be relatively few obscuring clouds and trees.  Therefore late last December a group of photographers traveled to the United Arab Emirates and Rub al-Khali, the largest continuous sand desert in world, to capture clear images of an unusual eclipse that would be passing over.  A ring-of-fire eclipse is an annular eclipse that occurs when the Moon is far enough away on its elliptical orbit around the Earth so that it appears too small, angularly, to cover the entire Sun. At the maximum of an annular eclipse, the edges of the Sun can be seen all around the edges of the Moon, so that the Moon appears to be a dark spot that covers most -- but not all -- of the Sun. This particular eclipse, they knew, would peak soon after sunrise.  After seeking out such a dry and barren place, it turned out that some of the most interesting eclipse images actually included a tree in the foreground, because, in addition to the sand dunes, the tree gave the surreal background a contrasting sense of normalcy, scale, and texture.    Explore the Universe: Random APOD Generator
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2001/DesertEclipse_Daviron_960.jpg" title="A Desert Eclipse" alt="A good place to see a ring-of-fire eclipse, it seemed, would be from a desert. In a desert, there should be relatively few obscuring clouds and trees.  Therefore late last December a group of photographers traveled to the United Arab Emirates and Rub al-Khali, the largest continuous sand desert in world, to capture clear images of an unusual eclipse that would be passing over.  A ring-of-fire eclipse is an annular eclipse that occurs when the Moon is far enough away on its elliptical orbit around the Earth so that it appears too small, angularly, to cover the entire Sun. At the maximum of an annular eclipse, the edges of the Sun can be seen all around the edges of the Moon, so that the Moon appears to be a dark spot that covers most -- but not all -- of the Sun. This particular eclipse, they knew, would peak soon after sunrise.  After seeking out such a dry and barren place, it turned out that some of the most interesting eclipse images actually included a tree in the foreground, because, in addition to the sand dunes, the tree gave the surreal background a contrasting sense of normalcy, scale, and texture.    Explore the Universe: Random APOD Generator"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
