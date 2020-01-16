@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-15 00:07:36"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-16 00:07:23"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Iridescent Clouds over Sweden**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Why would these clouds multi-colored?  A relatively rare phenomenon in clouds known as iridescence can bring up unusual colors vividly or even a whole spectrum of colors simultaneously. These polar stratospheric clouds clouds, also known as nacreous and mother-of-pearl clouds,  are formed of small water droplets of nearly uniform size. When the Sun is in the right position and, typically, hidden from direct view, these thin clouds can be seen significantly diffracting sunlight in a nearly coherent manner, with different colors being deflected by different amounts. Therefore, different colors will come to the observer from slightly different directions. Many clouds start with uniform regions that could show iridescence but quickly become too thick, too mixed, or too angularly far from the Sun to exhibit striking colors. The featured image and an accompanying video were taken late last year over Ostersund, Sweden.   Follow APOD in English on: Instagram, Facebook,  Reddit, or Twitter
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2001/IridescentClouds_Strand_960.jpg" title="Iridescent Clouds over Sweden" alt="Why would these clouds multi-colored?  A relatively rare phenomenon in clouds known as iridescence can bring up unusual colors vividly or even a whole spectrum of colors simultaneously. These polar stratospheric clouds clouds, also known as nacreous and mother-of-pearl clouds,  are formed of small water droplets of nearly uniform size. When the Sun is in the right position and, typically, hidden from direct view, these thin clouds can be seen significantly diffracting sunlight in a nearly coherent manner, with different colors being deflected by different amounts. Therefore, different colors will come to the observer from slightly different directions. Many clouds start with uniform regions that could show iridescence but quickly become too thick, too mixed, or too angularly far from the Sun to exhibit striking colors. The featured image and an accompanying video were taken late last year over Ostersund, Sweden.   Follow APOD in English on: Instagram, Facebook,  Reddit, or Twitter"/>
 </center>
 
 
