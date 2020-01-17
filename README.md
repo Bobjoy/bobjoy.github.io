@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-16 00:07:23"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-17 00:07:23"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Iridescent Clouds over Sweden**
+**NGC 247 and Friends**
 
-> Why would these clouds multi-colored?  A relatively rare phenomenon in clouds known as iridescence can bring up unusual colors vividly or even a whole spectrum of colors simultaneously. These polar stratospheric clouds clouds, also known as nacreous and mother-of-pearl clouds,  are formed of small water droplets of nearly uniform size. When the Sun is in the right position and, typically, hidden from direct view, these thin clouds can be seen significantly diffracting sunlight in a nearly coherent manner, with different colors being deflected by different amounts. Therefore, different colors will come to the observer from slightly different directions. Many clouds start with uniform regions that could show iridescence but quickly become too thick, too mixed, or too angularly far from the Sun to exhibit striking colors. The featured image and an accompanying video were taken late last year over Ostersund, Sweden.   Follow APOD in English on: Instagram, Facebook,  Reddit, or Twitter
+> About 70,000 light-years across, NGC 247 is a spiral galaxy smaller than our Milky Way. Measured to be only 11 million light-years distant it is nearby though. Tilted nearly edge-on as seen from our perspective, it dominates this telescopic field of view toward the southern constellation Cetus. The pronounced void on one side of the galaxy's disk recalls for some its popular name, the Needle's Eye galaxy. Many background galaxies are visible in this sharp galaxy portrait, including the remarkable string of four galaxies just below and left of NGC 247 known as Burbidge's Chain. Burbidge's Chain galaxies are about 300 million light-years distant. NGC 247 itself is part of the Sculptor Group of galaxies along with the shiny spiral NGC 253.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2001/IridescentClouds_Strand_960.jpg" title="Iridescent Clouds over Sweden" alt="Why would these clouds multi-colored?  A relatively rare phenomenon in clouds known as iridescence can bring up unusual colors vividly or even a whole spectrum of colors simultaneously. These polar stratospheric clouds clouds, also known as nacreous and mother-of-pearl clouds,  are formed of small water droplets of nearly uniform size. When the Sun is in the right position and, typically, hidden from direct view, these thin clouds can be seen significantly diffracting sunlight in a nearly coherent manner, with different colors being deflected by different amounts. Therefore, different colors will come to the observer from slightly different directions. Many clouds start with uniform regions that could show iridescence but quickly become too thick, too mixed, or too angularly far from the Sun to exhibit striking colors. The featured image and an accompanying video were taken late last year over Ostersund, Sweden.   Follow APOD in English on: Instagram, Facebook,  Reddit, or Twitter"/>
+    <img src="https://apod.nasa.gov/apod/image/2001/NGC247hager_1024.jpg" title="NGC 247 and Friends" alt="About 70,000 light-years across, NGC 247 is a spiral galaxy smaller than our Milky Way. Measured to be only 11 million light-years distant it is nearby though. Tilted nearly edge-on as seen from our perspective, it dominates this telescopic field of view toward the southern constellation Cetus. The pronounced void on one side of the galaxy's disk recalls for some its popular name, the Needle's Eye galaxy. Many background galaxies are visible in this sharp galaxy portrait, including the remarkable string of four galaxies just below and left of NGC 247 known as Burbidge's Chain. Burbidge's Chain galaxies are about 300 million light-years distant. NGC 247 itself is part of the Sculptor Group of galaxies along with the shiny spiral NGC 253."/>
 </center>
 
 
