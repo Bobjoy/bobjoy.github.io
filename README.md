@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-19 00:07:26"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-20 00:07:34"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**An Almost Eclipse of the Moon**
+**You can't see me, Meow~~!**
 
-> This composited series of images follows the Moon on January 10, the first Full Moon of 2020, in Hungarian skies. The lunar disk is in mid-eclipse at the center of the sequence though. It looks only slightly darker there as it passes through the light outer shadow or penumbra of planet Earth. In fact during this penumbral lunar eclipse the Moon almost crossed into the northern edge of Earth's dark central shadow or umbra. Subtle and hard to see, this penumbral lunar eclipse was the first of four lunar eclipses in 2020, all of which will be penumbral lunar eclipses.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2001/APOD-Soponyai-PenumbralEclipse1067.jpg" title="An Almost Eclipse of the Moon" alt="This composited series of images follows the Moon on January 10, the first Full Moon of 2020, in Hungarian skies. The lunar disk is in mid-eclipse at the center of the sequence though. It looks only slightly darker there as it passes through the light outer shadow or penumbra of planet Earth. In fact during this penumbral lunar eclipse the Moon almost crossed into the northern edge of Earth's dark central shadow or umbra. Subtle and hard to see, this penumbral lunar eclipse was the first of four lunar eclipses in 2020, all of which will be penumbral lunar eclipses."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
