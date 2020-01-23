@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-22 00:07:34"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-23 00:07:14"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**The Hyades Star Cluster**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> It is the closest cluster of stars to the Sun. The Hyades open cluster is bright enough to have been remarked on even thousands of years ago, yet is not as bright or compact as the nearby Pleiades (M45) star cluster. Pictured here is a particularly deep image of the Hyades which has brings out vivid star colors and faint coincidental nebulas.  The brightest star in the field is yellow Aldebaran, the eye of the bull toward the constellation of Taurus. Aldebaran, at 65 light-years away, is now known to be unrelated to the Hyades cluster, which lies about 150 light-years away.  The central Hyades stars are spread out over about 15 light-years. Formed about 625 million years ago, the Hyades likely shares a common origin with the Beehive cluster (M44), a naked-eye open star cluster toward the constellation of Cancer, based on M44's motion through space and remarkably similar age.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2001/Hyades_Mtanous_1080.jpg" title="The Hyades Star Cluster" alt="It is the closest cluster of stars to the Sun. The Hyades open cluster is bright enough to have been remarked on even thousands of years ago, yet is not as bright or compact as the nearby Pleiades (M45) star cluster. Pictured here is a particularly deep image of the Hyades which has brings out vivid star colors and faint coincidental nebulas.  The brightest star in the field is yellow Aldebaran, the eye of the bull toward the constellation of Taurus. Aldebaran, at 65 light-years away, is now known to be unrelated to the Hyades cluster, which lies about 150 light-years away.  The central Hyades stars are spread out over about 15 light-years. Formed about 625 million years ago, the Hyades likely shares a common origin with the Beehive cluster (M44), a naked-eye open star cluster toward the constellation of Cancer, based on M44's motion through space and remarkably similar age."/>
 </center>
 
 
