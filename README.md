@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-23 00:07:14"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-24 00:08:08"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Hyades Star Cluster**
+**Globular Star Cluster NGC 6752**
 
-> It is the closest cluster of stars to the Sun. The Hyades open cluster is bright enough to have been remarked on even thousands of years ago, yet is not as bright or compact as the nearby Pleiades (M45) star cluster. Pictured here is a particularly deep image of the Hyades which has brings out vivid star colors and faint coincidental nebulas.  The brightest star in the field is yellow Aldebaran, the eye of the bull toward the constellation of Taurus. Aldebaran, at 65 light-years away, is now known to be unrelated to the Hyades cluster, which lies about 150 light-years away.  The central Hyades stars are spread out over about 15 light-years. Formed about 625 million years ago, the Hyades likely shares a common origin with the Beehive cluster (M44), a naked-eye open star cluster toward the constellation of Cancer, based on M44's motion through space and remarkably similar age.
+> Some 13,000 light-years away toward the southern constellation Pavo, the globular star cluster NGC 6752 roams the halo of our Milky Way galaxy. Over 10 billion years old, NGC 6752 follows clusters Omega Centauri and 47 Tucanae as the third brightest globular in planet Earth's night sky. It holds over 100 thousand stars in a sphere about 100 light-years in diameter. Telescopic explorations of the NGC 6752 have found that a remarkable fraction of the stars near the cluster's core, are multiple star systems. They also reveal the presence of blue straggle stars, stars which appear to be too young and massive to exist in a cluster whose stars are all expected to be at least twice as old as the Sun. The blue stragglers are thought to be formed by star mergers and collisions in the dense stellar environment at the cluster's core. This sharp color composite also features the cluster's ancient red giant stars in yellowish hues. (Note: The bright, spiky blue star at 11 o'clock from the cluster center is a foreground star along the line-of-sight to NGC 6752)
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2001/Hyades_Mtanous_1080.jpg" title="The Hyades Star Cluster" alt="It is the closest cluster of stars to the Sun. The Hyades open cluster is bright enough to have been remarked on even thousands of years ago, yet is not as bright or compact as the nearby Pleiades (M45) star cluster. Pictured here is a particularly deep image of the Hyades which has brings out vivid star colors and faint coincidental nebulas.  The brightest star in the field is yellow Aldebaran, the eye of the bull toward the constellation of Taurus. Aldebaran, at 65 light-years away, is now known to be unrelated to the Hyades cluster, which lies about 150 light-years away.  The central Hyades stars are spread out over about 15 light-years. Formed about 625 million years ago, the Hyades likely shares a common origin with the Beehive cluster (M44), a naked-eye open star cluster toward the constellation of Cancer, based on M44's motion through space and remarkably similar age."/>
+    <img src="https://apod.nasa.gov/apod/image/2001/NGC6752LRGBcrop1024.jpg" title="Globular Star Cluster NGC 6752" alt="Some 13,000 light-years away toward the southern constellation Pavo, the globular star cluster NGC 6752 roams the halo of our Milky Way galaxy. Over 10 billion years old, NGC 6752 follows clusters Omega Centauri and 47 Tucanae as the third brightest globular in planet Earth's night sky. It holds over 100 thousand stars in a sphere about 100 light-years in diameter. Telescopic explorations of the NGC 6752 have found that a remarkable fraction of the stars near the cluster's core, are multiple star systems. They also reveal the presence of blue straggle stars, stars which appear to be too young and massive to exist in a cluster whose stars are all expected to be at least twice as old as the Sun. The blue stragglers are thought to be formed by star mergers and collisions in the dense stellar environment at the cluster's core. This sharp color composite also features the cluster's ancient red giant stars in yellowish hues. (Note: The bright, spiky blue star at 11 o'clock from the cluster center is a foreground star along the line-of-sight to NGC 6752)"/>
 </center>
 
 
