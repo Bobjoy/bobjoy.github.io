@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-24 00:08:08"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-25 00:07:43"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Globular Star Cluster NGC 6752**
+**Into the  Shadow**
 
-> Some 13,000 light-years away toward the southern constellation Pavo, the globular star cluster NGC 6752 roams the halo of our Milky Way galaxy. Over 10 billion years old, NGC 6752 follows clusters Omega Centauri and 47 Tucanae as the third brightest globular in planet Earth's night sky. It holds over 100 thousand stars in a sphere about 100 light-years in diameter. Telescopic explorations of the NGC 6752 have found that a remarkable fraction of the stars near the cluster's core, are multiple star systems. They also reveal the presence of blue straggle stars, stars which appear to be too young and massive to exist in a cluster whose stars are all expected to be at least twice as old as the Sun. The blue stragglers are thought to be formed by star mergers and collisions in the dense stellar environment at the cluster's core. This sharp color composite also features the cluster's ancient red giant stars in yellowish hues. (Note: The bright, spiky blue star at 11 o'clock from the cluster center is a foreground star along the line-of-sight to NGC 6752)
+> On January 21, 2019 moonwatchers on planet Earth saw a total lunar eclipse. In 35 frames this composite image follows the Moon that night as it crossed into Earth's dark umbral shadow. Taken 3 minutes apart, they almost melt together in a continuous screen that captures the dark colors within the shadow itself and the northern curve of the shadow's edge. Sunlight scattered by the atmosphere into the shadow causes the lunar surface to appear reddened during totality (left), but close to the umbra's edge, the limb of the eclipsed Moon shows a remarkable blue hue. The blue eclipsed moonlight originates as rays of sunlight pass through layers high in Earth's upper stratosphere, colored by ozone that scatters red light and transmits blue.  The Moon's next crossing into Earth's umbral shadow, will be on May 26, 2021.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2001/NGC6752LRGBcrop1024.jpg" title="Globular Star Cluster NGC 6752" alt="Some 13,000 light-years away toward the southern constellation Pavo, the globular star cluster NGC 6752 roams the halo of our Milky Way galaxy. Over 10 billion years old, NGC 6752 follows clusters Omega Centauri and 47 Tucanae as the third brightest globular in planet Earth's night sky. It holds over 100 thousand stars in a sphere about 100 light-years in diameter. Telescopic explorations of the NGC 6752 have found that a remarkable fraction of the stars near the cluster's core, are multiple star systems. They also reveal the presence of blue straggle stars, stars which appear to be too young and massive to exist in a cluster whose stars are all expected to be at least twice as old as the Sun. The blue stragglers are thought to be formed by star mergers and collisions in the dense stellar environment at the cluster's core. This sharp color composite also features the cluster's ancient red giant stars in yellowish hues. (Note: The bright, spiky blue star at 11 o'clock from the cluster center is a foreground star along the line-of-sight to NGC 6752)"/>
+    <img src="https://apod.nasa.gov/apod/image/2001/IntoTheShadow_apod1024.jpg" title="Into the  Shadow" alt="On January 21, 2019 moonwatchers on planet Earth saw a total lunar eclipse. In 35 frames this composite image follows the Moon that night as it crossed into Earth's dark umbral shadow. Taken 3 minutes apart, they almost melt together in a continuous screen that captures the dark colors within the shadow itself and the northern curve of the shadow's edge. Sunlight scattered by the atmosphere into the shadow causes the lunar surface to appear reddened during totality (left), but close to the umbra's edge, the limb of the eclipsed Moon shows a remarkable blue hue. The blue eclipsed moonlight originates as rays of sunlight pass through layers high in Earth's upper stratosphere, colored by ozone that scatters red light and transmits blue.  The Moon's next crossing into Earth's umbral shadow, will be on May 26, 2021."/>
 </center>
 
 
