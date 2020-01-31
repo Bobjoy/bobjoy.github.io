@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-01-30 00:07:12"/>
+    <img src="https://badgen.net/badge/last-commit/2020-01-31 00:07:14"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Milky Way over Yellowstone**
+**Two Clusters and a Comet**
 
-> The Milky Way was not created by an evaporating lake. The pool of vivid blue water, about 10 meters across, is known as Silex Spring and is located in Yellowstone National Park in Wyoming, USA. Steam rises off the spring, heated by a magma chamber deep underneath known as the Yellowstone hotspot.  The steam blurs the image of Jupiter, making it seem unusually large.  Unrelated and far in the distance, the central band of our Milky Way Galaxy rises high overhead, a band lit by billions of stars.  The featured picture is a 3-image panorama taken last August.  If the Yellowstone hotspot causes another supervolcanic eruption as it did 640,000 years ago, a large part of North America would be affected.
+> This lovely starfield spans some four full moons (about 2 degrees) across the heroic northern constellation of Perseus. In telescopic exposures made during the nights of January 24, 26, and 28 it holds the famous pair of open or galactic star clusters h and Chi Persei with comet PanSTARRS (C/2017 T2) captured each night as it swept left to right across the field of view. Also cataloged as NGC 869 (right) and NGC 884, both star clusters are about 7,000 light-years away and contain stars much younger and hotter than the Sun.  Separated by only a few hundred light-years, the clusters are both 13 million years young based on the ages of their individual stars, evidence that they were likely a product of the same star-forming region. Discovered in 2017 while still beyond the orbit of Saturn, Comet PanSTARRs is a new visitor to the inner solar system and just over 13 light-minutes from planet Earth. Always a rewarding sight in binoculars, the Double Cluster is even visible to the unaided eye from dark locations. C/2017 T2 could remain a telescopic comet though. One of the brightest comets anticipated in 2020 it makes its closest approach to the Sun in early May.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2001/StoneyWay_Jacobs_960.jpg" title="Milky Way over Yellowstone" alt="The Milky Way was not created by an evaporating lake. The pool of vivid blue water, about 10 meters across, is known as Silex Spring and is located in Yellowstone National Park in Wyoming, USA. Steam rises off the spring, heated by a magma chamber deep underneath known as the Yellowstone hotspot.  The steam blurs the image of Jupiter, making it seem unusually large.  Unrelated and far in the distance, the central band of our Milky Way Galaxy rises high overhead, a band lit by billions of stars.  The featured picture is a 3-image panorama taken last August.  If the Yellowstone hotspot causes another supervolcanic eruption as it did 640,000 years ago, a large part of North America would be affected."/>
+    <img src="https://apod.nasa.gov/apod/image/2001/C2017T2_2020-01-24-26-28_posta1024.jpg" title="Two Clusters and a Comet" alt="This lovely starfield spans some four full moons (about 2 degrees) across the heroic northern constellation of Perseus. In telescopic exposures made during the nights of January 24, 26, and 28 it holds the famous pair of open or galactic star clusters h and Chi Persei with comet PanSTARRS (C/2017 T2) captured each night as it swept left to right across the field of view. Also cataloged as NGC 869 (right) and NGC 884, both star clusters are about 7,000 light-years away and contain stars much younger and hotter than the Sun.  Separated by only a few hundred light-years, the clusters are both 13 million years young based on the ages of their individual stars, evidence that they were likely a product of the same star-forming region. Discovered in 2017 while still beyond the orbit of Saturn, Comet PanSTARRs is a new visitor to the inner solar system and just over 13 light-minutes from planet Earth. Always a rewarding sight in binoculars, the Double Cluster is even visible to the unaided eye from dark locations. C/2017 T2 could remain a telescopic comet though. One of the brightest comets anticipated in 2020 it makes its closest approach to the Sun in early May."/>
 </center>
 
 
