@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-02-05 00:07:15"/>
+    <img src="https://badgen.net/badge/last-commit/2020-02-06 00:07:21"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**A Sunset Night Sky over the Grand Canyon**
+**You can't see me, Meow~~!**
 
-> Seeing mountain peaks glow red from inside the Grand Canyon was one of the most incredible sunset experiences of this amateur photographer's life. They appeared even more incredible later, when digitally combined with an exposure of the night sky -- taken by the same camera and from the same location -- an hour later.  The two images were taken last August from the 220 Mile Canyon campsite on the Colorado River, Arizona, USA. The peaks glow red because they were lit by an unusually red sunset.  Later, high above, the band of the Milky Way Galaxy angled dramatically down, filled with stars, nebula, and dark clouds of dust. To the Milky Way's left is the planet Saturn, while to the right is the brighter Jupiter.  Although Jupiter and Saturn are now hard to see, Venus will be visible and quite bright to the west in clear skies, just after sunset, for the next two months.    Astrophotography with Your Computer: NASA's Astrophoto Challenges
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2002/GrandCanyonSunset_Fugate_960.jpg" title="A Sunset Night Sky over the Grand Canyon" alt="Seeing mountain peaks glow red from inside the Grand Canyon was one of the most incredible sunset experiences of this amateur photographer's life. They appeared even more incredible later, when digitally combined with an exposure of the night sky -- taken by the same camera and from the same location -- an hour later.  The two images were taken last August from the 220 Mile Canyon campsite on the Colorado River, Arizona, USA. The peaks glow red because they were lit by an unusually red sunset.  Later, high above, the band of the Milky Way Galaxy angled dramatically down, filled with stars, nebula, and dark clouds of dust. To the Milky Way's left is the planet Saturn, while to the right is the brighter Jupiter.  Although Jupiter and Saturn are now hard to see, Venus will be visible and quite bright to the west in clear skies, just after sunset, for the next two months.    Astrophotography with Your Computer: NASA's Astrophoto Challenges"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
