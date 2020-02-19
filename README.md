@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-02-18 00:07:20"/>
+    <img src="https://badgen.net/badge/last-commit/2020-02-19 00:07:14"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Orion over the Central Bohemian Highlands**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Do you recognize this constellation? Setting past the Central Bohemian Highlands in the Czech Republic is Orion, one of the most identifiable star groupings on the sky and an icon familiar to humanity for over 30,000 years. Orion has looked pretty much the same during this time and should continue to look the same for many thousands of years into the future.  Prominent Orion is high in the sky at sunset this time of year, a recurring sign of (modern) winter in Earth's northern hemisphere and summer in the south. The featured picture is a composite of over thirty images taken from the same location and during the same night last month.  Below and slightly to the left of Orion's three-star belt is the Orion Nebula, while four of the bright stars surrounding the belt are, clockwise, Sirius (far left, blue), Betelgeuse (top, orange, unusually faint), Aldebaran (far right), and Rigel (below). As future weeks progress, Orion will set increasingly earlier.    Infinite Random Loop: Create an APOD Station in your classroom or Science Center.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2002/OrionOverCzech_Bauer_960.jpg" title="Orion over the Central Bohemian Highlands" alt="Do you recognize this constellation? Setting past the Central Bohemian Highlands in the Czech Republic is Orion, one of the most identifiable star groupings on the sky and an icon familiar to humanity for over 30,000 years. Orion has looked pretty much the same during this time and should continue to look the same for many thousands of years into the future.  Prominent Orion is high in the sky at sunset this time of year, a recurring sign of (modern) winter in Earth's northern hemisphere and summer in the south. The featured picture is a composite of over thirty images taken from the same location and during the same night last month.  Below and slightly to the left of Orion's three-star belt is the Orion Nebula, while four of the bright stars surrounding the belt are, clockwise, Sirius (far left, blue), Betelgeuse (top, orange, unusually faint), Aldebaran (far right), and Rigel (below). As future weeks progress, Orion will set increasingly earlier.    Infinite Random Loop: Create an APOD Station in your classroom or Science Center."/>
 </center>
 
 
