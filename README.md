@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-02-25 00:07:13"/>
+    <img src="https://badgen.net/badge/last-commit/2020-02-26 00:07:19"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Moon Corona, Halo, and Arcs over Manitoba**
+**You can't see me, Meow~~!**
 
-> Yes, but could you get to work on time if the Moon looked like this? As the photographer was preparing to drive to work, refraction, reflection, and even diffraction of moonlight from millions of falling ice crystals turned the familiar icon of our Moon into a menagerie of other-worldly halos and arcs. The featured scene was captured with three combined exposures two weeks ago on a cold winter morning in Manitoba, Canada. The colorful rings are a corona caused by quantum diffraction by small drops of water or ice near the direction of the Moon. Outside of that, a 22-degree halo was created by moonlight refracting through six-sided cylindrical ice crystals. To the sides are moon dogs, caused by light refracting through thin, flat, six-sided ice platelets as they flittered toward the ground.  Visible at the top and bottom of the 22-degree halo are upper and lower tangent arcs, created by moonlight refracting through nearly horizontal hexagonal ice cylinders. A few minutes later, from a field just off the road to work, the halo and arcs had disappeared, the sky had returned to normal -- with the exception of a single faint moon dog.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2002/MoonHalo_Mckean_960.jpg" title="Moon Corona, Halo, and Arcs over Manitoba" alt="Yes, but could you get to work on time if the Moon looked like this? As the photographer was preparing to drive to work, refraction, reflection, and even diffraction of moonlight from millions of falling ice crystals turned the familiar icon of our Moon into a menagerie of other-worldly halos and arcs. The featured scene was captured with three combined exposures two weeks ago on a cold winter morning in Manitoba, Canada. The colorful rings are a corona caused by quantum diffraction by small drops of water or ice near the direction of the Moon. Outside of that, a 22-degree halo was created by moonlight refracting through six-sided cylindrical ice crystals. To the sides are moon dogs, caused by light refracting through thin, flat, six-sided ice platelets as they flittered toward the ground.  Visible at the top and bottom of the 22-degree halo are upper and lower tangent arcs, created by moonlight refracting through nearly horizontal hexagonal ice cylinders. A few minutes later, from a field just off the road to work, the halo and arcs had disappeared, the sky had returned to normal -- with the exception of a single faint moon dog."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
