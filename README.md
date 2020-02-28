@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-02-27 00:07:27"/>
+    <img src="https://badgen.net/badge/last-commit/2020-02-28 00:07:17"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Two Hemisphere Night Sky**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> The Sun is hidden by a horizon that runs across the middle in this two hemisphere view of Earth's night sky. The digitally stitched mosaics were recorded from corresponding latitudes, one 29 degrees north and one 29 degrees south of the planet's equator. On top is the northern view from the IAC observatory at La Palma taken in February 2020. Below is a well-matched southern scene from the ESO La Silla Observatory recorded in April 2016. In this projection, the Milky Way runs almost vertically above and below the horizon. Its dark clouds and and bright nebulae are prominent near the galactic center in the lower half of the frame. In the upper half, brilliant Venus is immersed in zodiacal light. Sunlight faintly scattered by interplanetary dust, the zodiacal light traces the Solar System's ecliptic plane in a complete circle through the starry sky. Large telescope domes bulge along the inverted horizon from La Silla while at La Palma, multi-mirror Magic telescopes stand above center. Explore this two hemisphere night sky and you can also find the Andromeda Galaxy and the Large and Small Magellanic Clouds.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2002/LaSillaLaPalma_Horalek_Casado_ZLCircle_viz_1124px.jpg" title="Two Hemisphere Night Sky" alt="The Sun is hidden by a horizon that runs across the middle in this two hemisphere view of Earth's night sky. The digitally stitched mosaics were recorded from corresponding latitudes, one 29 degrees north and one 29 degrees south of the planet's equator. On top is the northern view from the IAC observatory at La Palma taken in February 2020. Below is a well-matched southern scene from the ESO La Silla Observatory recorded in April 2016. In this projection, the Milky Way runs almost vertically above and below the horizon. Its dark clouds and and bright nebulae are prominent near the galactic center in the lower half of the frame. In the upper half, brilliant Venus is immersed in zodiacal light. Sunlight faintly scattered by interplanetary dust, the zodiacal light traces the Solar System's ecliptic plane in a complete circle through the starry sky. Large telescope domes bulge along the inverted horizon from La Silla while at La Palma, multi-mirror Magic telescopes stand above center. Explore this two hemisphere night sky and you can also find the Andromeda Galaxy and the Large and Small Magellanic Clouds."/>
 </center>
 
 
