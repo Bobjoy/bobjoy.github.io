@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-02-28 00:07:17"/>
+    <img src="https://badgen.net/badge/last-commit/2020-02-29 00:07:21"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Two Hemisphere Night Sky**
+**South Celestial Rocket Launch**
 
-> The Sun is hidden by a horizon that runs across the middle in this two hemisphere view of Earth's night sky. The digitally stitched mosaics were recorded from corresponding latitudes, one 29 degrees north and one 29 degrees south of the planet's equator. On top is the northern view from the IAC observatory at La Palma taken in February 2020. Below is a well-matched southern scene from the ESO La Silla Observatory recorded in April 2016. In this projection, the Milky Way runs almost vertically above and below the horizon. Its dark clouds and and bright nebulae are prominent near the galactic center in the lower half of the frame. In the upper half, brilliant Venus is immersed in zodiacal light. Sunlight faintly scattered by interplanetary dust, the zodiacal light traces the Solar System's ecliptic plane in a complete circle through the starry sky. Large telescope domes bulge along the inverted horizon from La Silla while at La Palma, multi-mirror Magic telescopes stand above center. Explore this two hemisphere night sky and you can also find the Andromeda Galaxy and the Large and Small Magellanic Clouds.
+> At sunset on December 6 a Rocket Lab Electron rocket was launched from a rotating planet. With multiple small satellites on board it departed on a mission to low Earth orbit dubbed Running Out of Fingers from Mahia Peninsula on New Zealand's north island. The fiery trace of the Electron's graceful launch arc is toward the south in this southern sea and skyscape. Drifting vapor trails and rocket exhaust plumes catch the sunlight even as the sky grows dark though, the setting Sun still shinning at altitude along the rocket's trajectory. Fixed to a tripod, the camera's perspective nearly aligns the peak of the rocket arc with the South Celestial Pole, but no bright star marks that location in the southern hemisphere's evening sky. Still, it's easy to find at the center of the star trail arcs in the timelapse composite.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2002/LaSillaLaPalma_Horalek_Casado_ZLCircle_viz_1124px.jpg" title="Two Hemisphere Night Sky" alt="The Sun is hidden by a horizon that runs across the middle in this two hemisphere view of Earth's night sky. The digitally stitched mosaics were recorded from corresponding latitudes, one 29 degrees north and one 29 degrees south of the planet's equator. On top is the northern view from the IAC observatory at La Palma taken in February 2020. Below is a well-matched southern scene from the ESO La Silla Observatory recorded in April 2016. In this projection, the Milky Way runs almost vertically above and below the horizon. Its dark clouds and and bright nebulae are prominent near the galactic center in the lower half of the frame. In the upper half, brilliant Venus is immersed in zodiacal light. Sunlight faintly scattered by interplanetary dust, the zodiacal light traces the Solar System's ecliptic plane in a complete circle through the starry sky. Large telescope domes bulge along the inverted horizon from La Silla while at La Palma, multi-mirror Magic telescopes stand above center. Explore this two hemisphere night sky and you can also find the Andromeda Galaxy and the Large and Small Magellanic Clouds."/>
+    <img src="https://apod.nasa.gov/apod/image/2002/Stack10_electron1024.jpg" title="South Celestial Rocket Launch" alt="At sunset on December 6 a Rocket Lab Electron rocket was launched from a rotating planet. With multiple small satellites on board it departed on a mission to low Earth orbit dubbed Running Out of Fingers from Mahia Peninsula on New Zealand's north island. The fiery trace of the Electron's graceful launch arc is toward the south in this southern sea and skyscape. Drifting vapor trails and rocket exhaust plumes catch the sunlight even as the sky grows dark though, the setting Sun still shinning at altitude along the rocket's trajectory. Fixed to a tripod, the camera's perspective nearly aligns the peak of the rocket arc with the South Celestial Pole, but no bright star marks that location in the southern hemisphere's evening sky. Still, it's easy to find at the center of the star trail arcs in the timelapse composite."/>
 </center>
 
 
