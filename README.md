@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-02-29 00:07:21"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-01 00:07:23"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**South Celestial Rocket Launch**
+**You can't see me, Meow~~!**
 
-> At sunset on December 6 a Rocket Lab Electron rocket was launched from a rotating planet. With multiple small satellites on board it departed on a mission to low Earth orbit dubbed Running Out of Fingers from Mahia Peninsula on New Zealand's north island. The fiery trace of the Electron's graceful launch arc is toward the south in this southern sea and skyscape. Drifting vapor trails and rocket exhaust plumes catch the sunlight even as the sky grows dark though, the setting Sun still shinning at altitude along the rocket's trajectory. Fixed to a tripod, the camera's perspective nearly aligns the peak of the rocket arc with the South Celestial Pole, but no bright star marks that location in the southern hemisphere's evening sky. Still, it's easy to find at the center of the star trail arcs in the timelapse composite.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2002/Stack10_electron1024.jpg" title="South Celestial Rocket Launch" alt="At sunset on December 6 a Rocket Lab Electron rocket was launched from a rotating planet. With multiple small satellites on board it departed on a mission to low Earth orbit dubbed Running Out of Fingers from Mahia Peninsula on New Zealand's north island. The fiery trace of the Electron's graceful launch arc is toward the south in this southern sea and skyscape. Drifting vapor trails and rocket exhaust plumes catch the sunlight even as the sky grows dark though, the setting Sun still shinning at altitude along the rocket's trajectory. Fixed to a tripod, the camera's perspective nearly aligns the peak of the rocket arc with the South Celestial Pole, but no bright star marks that location in the southern hemisphere's evening sky. Still, it's easy to find at the center of the star trail arcs in the timelapse composite."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
