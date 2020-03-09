@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-08 00:08:14"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-09 00:08:11"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Pic du Midi Panorama**
+**You can't see me, Meow~~!**
 
-> A surreal night skyscape, this panorama stitched from 12 photos looks to the west at an evening winter sky over Pic du Midi Observatory, Pyrenees Mountains, Planet Earth. Telescope domes and a tall communications tower inhabit the rugged foreground. On the right, lights from Tarbes, France about 35 kilometers away impinge on the designated dark sky site though, but more distant terrestrial lights seen toward the left are from cities in Spain. Stars and nebulae of the northern winter's Milky Way arc through the sky above. Known to the planet's night skygazers, the Pleiades and Hyades star clusters still hang over the western horizon near center. Captured in mid February the familiar stars of the constellation Orion are to the left and include the no longer fainting star Betelgeuse.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2003/Pano_Robley2.jpg" title="Pic du Midi Panorama" alt="A surreal night skyscape, this panorama stitched from 12 photos looks to the west at an evening winter sky over Pic du Midi Observatory, Pyrenees Mountains, Planet Earth. Telescope domes and a tall communications tower inhabit the rugged foreground. On the right, lights from Tarbes, France about 35 kilometers away impinge on the designated dark sky site though, but more distant terrestrial lights seen toward the left are from cities in Spain. Stars and nebulae of the northern winter's Milky Way arc through the sky above. Known to the planet's night skygazers, the Pleiades and Hyades star clusters still hang over the western horizon near center. Captured in mid February the familiar stars of the constellation Orion are to the left and include the no longer fainting star Betelgeuse."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
