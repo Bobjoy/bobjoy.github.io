@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-11 00:07:16"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-12 00:07:17"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Wide Field: Fox Fur, Unicorn, and Christmas Tree**
+**You can't see me, Meow~~!**
 
-> What do the following things have in common: a cone, the fur of a fox, and a Christmas tree?  Answer: they all occur in the constellation of the unicorn (Monoceros).  Pictured as a star forming region and cataloged as NGC 2264, the complex jumble of cosmic gas and dust is about 2,700 light-years distant and mixes reddish emission nebulae excited by energetic light from newborn stars with dark interstellar dust clouds. Where the otherwise obscuring dust clouds lie close to the hot, young stars they also reflect starlight, forming blue reflection nebulae. The featured wide-field image spans over three times the diameter of a full moon, covering over 100 light-years at the distance of NGC 2264. Its cast of cosmic characters includes the Fox Fur Nebula, whose convoluted pelt lies just to the lower right of the image center, bright variable star S Mon visible just above the Fox Fur, and the Cone Nebula just to the left.  Given their distribution, the stars of NGC 2264 are also known as the Christmas Tree star cluster.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2003/ConeTreeWide_Gurdak_960.jpg" title="Wide Field: Fox Fur, Unicorn, and Christmas Tree" alt="What do the following things have in common: a cone, the fur of a fox, and a Christmas tree?  Answer: they all occur in the constellation of the unicorn (Monoceros).  Pictured as a star forming region and cataloged as NGC 2264, the complex jumble of cosmic gas and dust is about 2,700 light-years distant and mixes reddish emission nebulae excited by energetic light from newborn stars with dark interstellar dust clouds. Where the otherwise obscuring dust clouds lie close to the hot, young stars they also reflect starlight, forming blue reflection nebulae. The featured wide-field image spans over three times the diameter of a full moon, covering over 100 light-years at the distance of NGC 2264. Its cast of cosmic characters includes the Fox Fur Nebula, whose convoluted pelt lies just to the lower right of the image center, bright variable star S Mon visible just above the Fox Fur, and the Cone Nebula just to the left.  Given their distribution, the stars of NGC 2264 are also known as the Christmas Tree star cluster."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
