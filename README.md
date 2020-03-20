@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-19 00:07:12"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-20 00:07:22"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Anticrepuscular Rays over Florida**
+**M13: The Great Globular Cluster in Hercules**
 
-> What's happening behind those clouds?  Although the scene may appear somehow supernatural, nothing more unusual is occurring than a Sun setting on the other side of the sky.  Pictured here are anticrepuscular rays.  To understand them, start by picturing common crepuscular rays that are seen any time that sunlight pours though scattered clouds. Now although sunlight indeed travels along straight lines, the projections of these lines onto the spherical sky are great circles.  Therefore, the crepuscular rays from a setting (or rising) sun will appear to re-converge on the other side of the sky.  At the anti-solar point 180 degrees around from the Sun, they are referred to as anticrepuscular rays.  Featured here is a particularly striking display of anticrepuscular rays photographed in 2016 over Dry Tortugas National Park in Florida, USA.
+> In 1716, English astronomer Edmond Halley noted, "This is but a little Patch, but it shews itself to the naked Eye, when the Sky is serene and the Moon absent." Of course, M13 is now less modestly recognized as the Great Globular Cluster in Hercules, one of the brightest globular star clusters in the northern sky. Sharp telescopic views like this one reveal the spectacular cluster's hundreds of thousands of stars. At a distance of 25,000 light-years, the cluster stars crowd into a region 150 light-years in diameter. Approaching the cluster core upwards of 100 stars could be contained in a cube just 3 light-years on a side. For comparison, the closest star to the Sun is over 4 light-years away. The remarkable range of brightness recorded in this image follows stars into the dense cluster core and reveals three subtle dark lanes forming the apparent shape of a propeller just below and slightly left of center. Distant background galaxies in the medium-wide field of view include NGC 6207 at the upper left.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2003/AntiCrepRays_Goff_960.jpg" title="Anticrepuscular Rays over Florida" alt="What's happening behind those clouds?  Although the scene may appear somehow supernatural, nothing more unusual is occurring than a Sun setting on the other side of the sky.  Pictured here are anticrepuscular rays.  To understand them, start by picturing common crepuscular rays that are seen any time that sunlight pours though scattered clouds. Now although sunlight indeed travels along straight lines, the projections of these lines onto the spherical sky are great circles.  Therefore, the crepuscular rays from a setting (or rising) sun will appear to re-converge on the other side of the sky.  At the anti-solar point 180 degrees around from the Sun, they are referred to as anticrepuscular rays.  Featured here is a particularly striking display of anticrepuscular rays photographed in 2016 over Dry Tortugas National Park in Florida, USA."/>
+    <img src="https://apod.nasa.gov/apod/image/2003/Messier13_HelmColes1024.jpg" title="M13: The Great Globular Cluster in Hercules" alt="In 1716, English astronomer Edmond Halley noted, "This is but a little Patch, but it shews itself to the naked Eye, when the Sky is serene and the Moon absent." Of course, M13 is now less modestly recognized as the Great Globular Cluster in Hercules, one of the brightest globular star clusters in the northern sky. Sharp telescopic views like this one reveal the spectacular cluster's hundreds of thousands of stars. At a distance of 25,000 light-years, the cluster stars crowd into a region 150 light-years in diameter. Approaching the cluster core upwards of 100 stars could be contained in a cube just 3 light-years on a side. For comparison, the closest star to the Sun is over 4 light-years away. The remarkable range of brightness recorded in this image follows stars into the dense cluster core and reveals three subtle dark lanes forming the apparent shape of a propeller just below and slightly left of center. Distant background galaxies in the medium-wide field of view include NGC 6207 at the upper left."/>
 </center>
 
 
