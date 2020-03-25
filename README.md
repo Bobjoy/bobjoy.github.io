@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-24 00:07:09"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-25 00:07:20"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**From the Pleiades to the Eridanus Loop**
+**You can't see me, Meow~~!**
 
-> If you stare at an interesting patch of sky long enough, will it look different? In the case of Pleiades and Hyades star clusters -- and surrounding regions -- the answer is: yes, pretty different. Long duration camera exposures reveal an intricate network of interwoven interstellar dust and gas that was previously invisible not only to the eye but to lower exposure images. In the featured wide and deep mosaic, the dust stands out spectacularly, with the familiar Pleaides star cluster visible as the blue patch near the top of the image.  Blue is the color of the Pleiades' most massive stars, whose distinctive light reflects from nearby fine dust. On the upper left is the Hyades star cluster surrounding the bright, orange, foreground-star Aldebaran.  Red glowing emission nebula highlight the bottom of the image, including the curving vertical red ribbon known as the Eridanus Loop.  The pervasive dust clouds appear typically in light brown and are dotted with unrelated stars.   Almost Hyperspace: Random APOD Generator
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2003/Taurus2Eridanus_Okubo_960.jpg" title="From the Pleiades to the Eridanus Loop" alt="If you stare at an interesting patch of sky long enough, will it look different? In the case of Pleiades and Hyades star clusters -- and surrounding regions -- the answer is: yes, pretty different. Long duration camera exposures reveal an intricate network of interwoven interstellar dust and gas that was previously invisible not only to the eye but to lower exposure images. In the featured wide and deep mosaic, the dust stands out spectacularly, with the familiar Pleaides star cluster visible as the blue patch near the top of the image.  Blue is the color of the Pleiades' most massive stars, whose distinctive light reflects from nearby fine dust. On the upper left is the Hyades star cluster surrounding the bright, orange, foreground-star Aldebaran.  Red glowing emission nebula highlight the bottom of the image, including the curving vertical red ribbon known as the Eridanus Loop.  The pervasive dust clouds appear typically in light brown and are dotted with unrelated stars.   Almost Hyperspace: Random APOD Generator"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
