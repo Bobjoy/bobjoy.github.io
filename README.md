@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-26 00:07:27"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-27 00:07:18"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Star Forming Region S106**
+**Andromeda Station**
 
-> Massive star IRS 4 is beginning to spread its wings.  Born only about 100,000 years ago, material streaming out from this newborn star has formed the nebula dubbed Sharpless 2-106 Nebula (S106), featured here.  A large disk of dust and gas orbiting Infrared Source 4 (IRS 4), visible in brown near the image center, gives the nebula an hourglass or butterfly shape.  S106 gas near IRS 4 acts as an emission nebula as it emits light after being ionized, while dust far from IRS 4 reflects light from the central star and so acts as a reflection nebula.  Detailed inspection of a relevant  infrared image of S106  reveal hundreds of low-mass brown dwarf stars lurking in the nebula's gas.  S106 spans about 2 light-years and lies about 2000 light-years away toward the  constellation of the Swan (Cygnus).
+> This surreal picture isn't from a special effects sci-fi movie. It is a digital composite of frames of the real Andromeda Galaxy, also known as M31, rising over a real mountain. Exposures tracking the galaxy and background stars have been digitally combined with separate exposures of the foreground terrain. All background and foreground exposures were made back to back with the same camera and telephoto lens on the same night from the same location. In the "Deepscape" combination they produce a stunning image that reveals a range of brightness and color that your eye can't quite see on its own. Still, it does look like you could ride a cable car up this mountain and get off at the station right next to Andromeda. But at 2.5 million light-years from Earth the big beautiful spiral galaxy really is a little out of reach as a destination. Don't worry, though. Just wait 5 billion years and the Andromeda Galaxy will come to you. This Andromeda Station is better known as Weisshorn, the highest peak of the ski area in Arosa, Switzerland.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2003/S106_Mishra_960.jpg" title="Star Forming Region S106" alt="Massive star IRS 4 is beginning to spread its wings.  Born only about 100,000 years ago, material streaming out from this newborn star has formed the nebula dubbed Sharpless 2-106 Nebula (S106), featured here.  A large disk of dust and gas orbiting Infrared Source 4 (IRS 4), visible in brown near the image center, gives the nebula an hourglass or butterfly shape.  S106 gas near IRS 4 acts as an emission nebula as it emits light after being ionized, while dust far from IRS 4 reflects light from the central star and so acts as a reflection nebula.  Detailed inspection of a relevant  infrared image of S106  reveal hundreds of low-mass brown dwarf stars lurking in the nebula's gas.  S106 spans about 2 light-years and lies about 2000 light-years away toward the  constellation of the Swan (Cygnus)."/>
+    <img src="https://apod.nasa.gov/apod/image/2003/AndromedaStation1049.jpg" title="Andromeda Station" alt="This surreal picture isn't from a special effects sci-fi movie. It is a digital composite of frames of the real Andromeda Galaxy, also known as M31, rising over a real mountain. Exposures tracking the galaxy and background stars have been digitally combined with separate exposures of the foreground terrain. All background and foreground exposures were made back to back with the same camera and telephoto lens on the same night from the same location. In the "Deepscape" combination they produce a stunning image that reveals a range of brightness and color that your eye can't quite see on its own. Still, it does look like you could ride a cable car up this mountain and get off at the station right next to Andromeda. But at 2.5 million light-years from Earth the big beautiful spiral galaxy really is a little out of reach as a destination. Don't worry, though. Just wait 5 billion years and the Andromeda Galaxy will come to you. This Andromeda Station is better known as Weisshorn, the highest peak of the ski area in Arosa, Switzerland."/>
 </center>
 
 
