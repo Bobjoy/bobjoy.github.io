@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/5"/>
     <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-27 00:07:18"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-28 00:07:15"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Andromeda Station**
+**A Little Drop of Galaxy**
 
-> This surreal picture isn't from a special effects sci-fi movie. It is a digital composite of frames of the real Andromeda Galaxy, also known as M31, rising over a real mountain. Exposures tracking the galaxy and background stars have been digitally combined with separate exposures of the foreground terrain. All background and foreground exposures were made back to back with the same camera and telephoto lens on the same night from the same location. In the "Deepscape" combination they produce a stunning image that reveals a range of brightness and color that your eye can't quite see on its own. Still, it does look like you could ride a cable car up this mountain and get off at the station right next to Andromeda. But at 2.5 million light-years from Earth the big beautiful spiral galaxy really is a little out of reach as a destination. Don't worry, though. Just wait 5 billion years and the Andromeda Galaxy will come to you. This Andromeda Station is better known as Weisshorn, the highest peak of the ski area in Arosa, Switzerland.
+> A drop of water seems to hold an entire galaxy in this creative macro-astrophotograph. In the imaginative work of cosmic nature photography a close-up lens was used to image a previously made picture of a galaxy, viewed through a water drop suspended from a stem. A favorite of many telescope-wielding astroimagers, the galaxy is the Andromeda Galaxy, also known as M31. About 100,000 light-years across that majestic galaxy's spiral arms and dust lanes are curved and distorted in the image contained in the centimeter-sized droplet. Andromeda is some 2.5 million light-years distant, but this project was still carried out while spending time indoors.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2003/AndromedaStation1049.jpg" title="Andromeda Station" alt="This surreal picture isn't from a special effects sci-fi movie. It is a digital composite of frames of the real Andromeda Galaxy, also known as M31, rising over a real mountain. Exposures tracking the galaxy and background stars have been digitally combined with separate exposures of the foreground terrain. All background and foreground exposures were made back to back with the same camera and telephoto lens on the same night from the same location. In the "Deepscape" combination they produce a stunning image that reveals a range of brightness and color that your eye can't quite see on its own. Still, it does look like you could ride a cable car up this mountain and get off at the station right next to Andromeda. But at 2.5 million light-years from Earth the big beautiful spiral galaxy really is a little out of reach as a destination. Don't worry, though. Just wait 5 billion years and the Andromeda Galaxy will come to you. This Andromeda Station is better known as Weisshorn, the highest peak of the ski area in Arosa, Switzerland."/>
+    <img src="https://apod.nasa.gov/apod/image/2003/Galassiainunagoccia1024.jpg" title="A Little Drop of Galaxy" alt="A drop of water seems to hold an entire galaxy in this creative macro-astrophotograph. In the imaginative work of cosmic nature photography a close-up lens was used to image a previously made picture of a galaxy, viewed through a water drop suspended from a stem. A favorite of many telescope-wielding astroimagers, the galaxy is the Andromeda Galaxy, also known as M31. About 100,000 light-years across that majestic galaxy's spiral arms and dust lanes are curved and distorted in the image contained in the centimeter-sized droplet. Andromeda is some 2.5 million light-years distant, but this project was still carried out while spending time indoors."/>
 </center>
 
 
