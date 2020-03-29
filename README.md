@@ -3,9 +3,9 @@
 
 <p align='center'>
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
-    <img src="https://badgen.net/badge/labels/5"/>
-    <img src="https://badgen.net/badge/issues/30"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-28 00:07:15"/>
+    <img src="https://badgen.net/badge/labels/6"/>
+    <img src="https://badgen.net/badge/issues/32"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-29 00:09:03"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,18 +23,26 @@
 
 ## :artificial_satellite:今日图片
 
-**A Little Drop of Galaxy**
+**Stars Trail over Ragusa**
 
-> A drop of water seems to hold an entire galaxy in this creative macro-astrophotograph. In the imaginative work of cosmic nature photography a close-up lens was used to image a previously made picture of a galaxy, viewed through a water drop suspended from a stem. A favorite of many telescope-wielding astroimagers, the galaxy is the Andromeda Galaxy, also known as M31. About 100,000 light-years across that majestic galaxy's spiral arms and dust lanes are curved and distorted in the image contained in the centimeter-sized droplet. Andromeda is some 2.5 million light-years distant, but this project was still carried out while spending time indoors.
+> In trying times, stars still trail in the night. Taken on March 14, this night skyscape was made by combining 230 exposures each 15 seconds long to follow the stars' circular paths. The camera was fixed to a tripod on an isolated terrace near the center of Ragusa, Italy, on the island of Sicily. But the night sky was shared around the rotating planet. A friend to celestial navigators and astrophotographers alike Polaris, the north star, makes the short bright trail near the center of the concentric celestial arcs.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2003/Galassiainunagoccia1024.jpg" title="A Little Drop of Galaxy" alt="A drop of water seems to hold an entire galaxy in this creative macro-astrophotograph. In the imaginative work of cosmic nature photography a close-up lens was used to image a previously made picture of a galaxy, viewed through a water drop suspended from a stem. A favorite of many telescope-wielding astroimagers, the galaxy is the Andromeda Galaxy, also known as M31. About 100,000 light-years across that majestic galaxy's spiral arms and dust lanes are curved and distorted in the image contained in the centimeter-sized droplet. Andromeda is some 2.5 million light-years distant, but this project was still carried out while spending time indoors."/>
+    <img src="https://apod.nasa.gov/apod/image/2003/STARTRAILRAGUSA14_03_2020_14mm1024px.jpg" title="Stars Trail over Ragusa" alt="In trying times, stars still trail in the night. Taken on March 14, this night skyscape was made by combining 230 exposures each 15 seconds long to follow the stars' circular paths. The camera was fixed to a tripod on an isolated terrace near the center of Ragusa, Italy, on the island of Sicily. But the night sky was shared around the rotating planet. A friend to celestial navigators and astrophotographers alike Polaris, the north star, makes the short bright trail near the center of the concentric celestial arcs."/>
 </center>
 
 
 ## 置顶 :thumbsup: 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+- [Vue页面加载报错You are using the runtime-only build](https://github.com/Bobjoy/bobjoy.github.io/issues/32) <sup>0 :speech_balloon:</sup>  			 2020-03-28 08:47:45
+
+ 	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
+
+- [Vue打包编译报错 core-js](https://github.com/Bobjoy/bobjoy.github.io/issues/31) <sup>0 :speech_balloon:</sup>  			 2020-03-28 07:42:36
+
+ 	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
+
 - [ssh Too many authentication failures](https://github.com/Bobjoy/bobjoy.github.io/issues/30) <sup>0 :speech_balloon:</sup>  			 2019-08-09 01:32:45
 
  	<sub>|</sub><sub>[:bug: Bad](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Abug%3A%20Bad)	|	</sub>
@@ -46,14 +54,6 @@
 - [docker在不影响运行的情况下进入容器](https://github.com/Bobjoy/bobjoy.github.io/issues/28) <sup>0 :speech_balloon:</sup>  			 2019-07-17 10:25:49
 
  	<sub>|</sub><sub>[:speak_no_evil: Study](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aspeak_no_evil%3A%20Study)	|	</sub>
-
-- [Mac启动app，报错“Code Signature Invalid”](https://github.com/Bobjoy/bobjoy.github.io/issues/27) <sup>0 :speech_balloon:</sup>  			 2019-07-15 08:56:43
-
- 	<sub>|</sub><sub>[:apple: App](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aapple%3A%20App)	|	</sub>
-
-- [kali最新国内源](https://github.com/Bobjoy/bobjoy.github.io/issues/26) <sup>0 :speech_balloon:</sup>  			 2019-05-23 03:08:49
-
- 	<sub>|</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
 
 ## 分类  :card_file_box: 
 
@@ -72,6 +72,16 @@
 - [NavicatPremium12无限重置试用脚本（MacOS版）](https://github.com/Bobjoy/bobjoy.github.io/issues/19)  <sup>0 :speech_balloon:</sup>  	 
 - [Eclipse启动卡死](https://github.com/Bobjoy/bobjoy.github.io/issues/5)  <sup>0 :speech_balloon:</sup>  	 
 - [“XXX.app”已损坏，打不开。 您应该将它移到废纸篓](https://github.com/Bobjoy/bobjoy.github.io/issues/1)  <sup>0 :speech_balloon:</sup>  	 
+
+
+</details>
+
+<details>
+<summary>:boom:Vue	<sup>3:newspaper:</sup></summary>
+
+- [Vue页面加载报错You are using the runtime-only build](https://github.com/Bobjoy/bobjoy.github.io/issues/32)  <sup>0 :speech_balloon:</sup>  	 
+- [Vue打包编译报错 core-js](https://github.com/Bobjoy/bobjoy.github.io/issues/31)  <sup>0 :speech_balloon:</sup>  	 
+- [Vue从入坑到出坑](https://github.com/Bobjoy/bobjoy.github.io/issues/23)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
