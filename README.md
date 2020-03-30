@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/32"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-29 00:09:03"/>
+    <img src="https://badgen.net/badge/last-commit/2020-03-30 00:07:26"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Stars Trail over Ragusa**
+**A 212-Hour Exposure of Orion**
 
-> In trying times, stars still trail in the night. Taken on March 14, this night skyscape was made by combining 230 exposures each 15 seconds long to follow the stars' circular paths. The camera was fixed to a tripod on an isolated terrace near the center of Ragusa, Italy, on the island of Sicily. But the night sky was shared around the rotating planet. A friend to celestial navigators and astrophotographers alike Polaris, the north star, makes the short bright trail near the center of the concentric celestial arcs.
+> The constellation of Orion is much more than three stars in a row. It is a direction in space that is rich with impressive nebulas. To better appreciate this well-known swath of sky, an extremely long exposure was taken over many clear nights in 2013 and 2014. After 212 hours of camera time and an additional year of processing, the featured 1400-exposure collage spanning over 40 times the angular diameter of the Moon emerged.  Of the many interesting details that have become visible, one that particularly draws the eye is Barnard's Loop, the bright red circular filament arcing down from the middle. The Rosette Nebula is not the giant red nebula near the top of the image -- that is a larger but lesser known nebula known as Lambda Orionis.  The Rosette Nebula is visible, though: it is the red and white nebula on the upper left.  The bright orange star just above the frame center is Betelgeuse, while the bright blue star on the lower right is Rigel. Other famous nebulas visible include the Witch Head Nebula, the Flame Nebula, the Fox Fur Nebula, and, if you know just where to look, the comparatively small Horsehead Nebula. About those famous three stars that cross the belt of Orion the Hunter -- in this busy frame they can be hard to locate, but a discerning eye will find them just below and to the right of the image center.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2003/STARTRAILRAGUSA14_03_2020_14mm1024px.jpg" title="Stars Trail over Ragusa" alt="In trying times, stars still trail in the night. Taken on March 14, this night skyscape was made by combining 230 exposures each 15 seconds long to follow the stars' circular paths. The camera was fixed to a tripod on an isolated terrace near the center of Ragusa, Italy, on the island of Sicily. But the night sky was shared around the rotating planet. A friend to celestial navigators and astrophotographers alike Polaris, the north star, makes the short bright trail near the center of the concentric celestial arcs."/>
+    <img src="https://apod.nasa.gov/apod/image/1511/Orion212_Volskiy_960.jpg" title="A 212-Hour Exposure of Orion" alt="The constellation of Orion is much more than three stars in a row. It is a direction in space that is rich with impressive nebulas. To better appreciate this well-known swath of sky, an extremely long exposure was taken over many clear nights in 2013 and 2014. After 212 hours of camera time and an additional year of processing, the featured 1400-exposure collage spanning over 40 times the angular diameter of the Moon emerged.  Of the many interesting details that have become visible, one that particularly draws the eye is Barnard's Loop, the bright red circular filament arcing down from the middle. The Rosette Nebula is not the giant red nebula near the top of the image -- that is a larger but lesser known nebula known as Lambda Orionis.  The Rosette Nebula is visible, though: it is the red and white nebula on the upper left.  The bright orange star just above the frame center is Betelgeuse, while the bright blue star on the lower right is Rigel. Other famous nebulas visible include the Witch Head Nebula, the Flame Nebula, the Fox Fur Nebula, and, if you know just where to look, the comparatively small Horsehead Nebula. About those famous three stars that cross the belt of Orion the Hunter -- in this busy frame they can be hard to locate, but a discerning eye will find them just below and to the right of the image center."/>
 </center>
 
 
