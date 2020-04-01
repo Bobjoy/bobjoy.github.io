@@ -4,8 +4,8 @@
 <p align='center'>
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
-    <img src="https://badgen.net/badge/issues/32"/>
-    <img src="https://badgen.net/badge/last-commit/2020-03-31 00:07:15"/>
+    <img src="https://badgen.net/badge/issues/33"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-01 00:07:37"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -35,6 +35,10 @@
 ## 置顶 :thumbsup: 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+- [Webpack编译打包到线上出错 Loading chunk pDf/ failed](https://github.com/Bobjoy/bobjoy.github.io/issues/33) <sup>0 :speech_balloon:</sup>  			 2020-03-31 04:56:34
+
+ 	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
+
 - [Vue页面加载报错You are using the runtime-only build](https://github.com/Bobjoy/bobjoy.github.io/issues/32) <sup>0 :speech_balloon:</sup>  			 2020-03-28 08:47:45
 
  	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
@@ -50,10 +54,6 @@
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29) <sup>0 :speech_balloon:</sup>  			 2019-07-19 23:28:07
 
  	<sub>|</sub><sub>[:+1:置顶](https://github.com/Bobjoy/bobjoy.github.io/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
-
-- [docker在不影响运行的情况下进入容器](https://github.com/Bobjoy/bobjoy.github.io/issues/28) <sup>0 :speech_balloon:</sup>  			 2019-07-17 10:25:49
-
- 	<sub>|</sub><sub>[:speak_no_evil: Study](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aspeak_no_evil%3A%20Study)	|	</sub>
 
 ## 分类  :card_file_box: 
 
@@ -77,8 +77,9 @@
 </details>
 
 <details>
-<summary>:boom:Vue	<sup>3:newspaper:</sup></summary>
+<summary>:boom:Vue	<sup>4:newspaper:</sup></summary>
 
+- [Webpack编译打包到线上出错 Loading chunk pDf/ failed](https://github.com/Bobjoy/bobjoy.github.io/issues/33)  <sup>0 :speech_balloon:</sup>  	 
 - [Vue页面加载报错You are using the runtime-only build](https://github.com/Bobjoy/bobjoy.github.io/issues/32)  <sup>0 :speech_balloon:</sup>  	 
 - [Vue打包编译报错 core-js](https://github.com/Bobjoy/bobjoy.github.io/issues/31)  <sup>0 :speech_balloon:</sup>  	 
 - [Vue从入坑到出坑](https://github.com/Bobjoy/bobjoy.github.io/issues/23)  <sup>0 :speech_balloon:</sup>  	 
