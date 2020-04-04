@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/33"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-03 00:07:22"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-04 00:07:30"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Venus and the Pleiades in April**
+**The Traffic in Taurus**
 
-> Venus is currently the brilliant evening star. Shared around world, in tonight's sky Venus will begin to wander across the face of the lovely Pleiades star cluster. This digital sky map illustrates the path of the inner planet as the beautiful conjunction evolves, showing its position on the sky over the next few days. The field of view shown is appropriate for binocular equipped skygazers but the star cluster and planet are easily seen with the naked-eye. As viewed from our fair planet, Venus passed in front of the stars of the Seven Sisters 8 years ago, and will again 8 years hence. In fact, orbiting the Sun 13 Venus years are almost equal to 8 years on planet Earth. So we can expect our sister planet to visit nearly the same place in our sky every 8 years.
+> There's a traffic jam in Taurus lately. On April 1, this celestial frame from slightly hazy skies over Tapiobicske, Hungary recorded an impressive pile up toward the zodiacal constellation of the Bull and the Solar System's ecliptic plane. Streaking right to left the International Space Station speeds across the bottom of the telescopic field of view. Wandering about as far from the Sun in planet Earth's skies as it can get, inner planet Venus is bright and approaching much slower, overexposed at the right. Bystanding at the upper left are the sister stars of the Pleiades. No one has been injured in the close encounter though, because it really isn't very close. Continuously occupied since November 2000, the space station orbits some 400 kilometers above the planet's surface. Venus, currently the brilliant evening star, is almost 2/3 of an astronomical unit away. A more permanent resident of Taurus, the Pleiades star cluster is 400 light-years distant.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/Venus-Pleiades2020-1.jpg" title="Venus and the Pleiades in April" alt="Venus is currently the brilliant evening star. Shared around world, in tonight's sky Venus will begin to wander across the face of the lovely Pleiades star cluster. This digital sky map illustrates the path of the inner planet as the beautiful conjunction evolves, showing its position on the sky over the next few days. The field of view shown is appropriate for binocular equipped skygazers but the star cluster and planet are easily seen with the naked-eye. As viewed from our fair planet, Venus passed in front of the stars of the Seven Sisters 8 years ago, and will again 8 years hence. In fact, orbiting the Sun 13 Venus years are almost equal to 8 years on planet Earth. So we can expect our sister planet to visit nearly the same place in our sky every 8 years."/>
+    <img src="https://apod.nasa.gov/apod/image/2004/TrafficTaurusLionelMajzik_1067.jpg" title="The Traffic in Taurus" alt="There's a traffic jam in Taurus lately. On April 1, this celestial frame from slightly hazy skies over Tapiobicske, Hungary recorded an impressive pile up toward the zodiacal constellation of the Bull and the Solar System's ecliptic plane. Streaking right to left the International Space Station speeds across the bottom of the telescopic field of view. Wandering about as far from the Sun in planet Earth's skies as it can get, inner planet Venus is bright and approaching much slower, overexposed at the right. Bystanding at the upper left are the sister stars of the Pleiades. No one has been injured in the close encounter though, because it really isn't very close. Continuously occupied since November 2000, the space station orbits some 400 kilometers above the planet's surface. Venus, currently the brilliant evening star, is almost 2/3 of an astronomical unit away. A more permanent resident of Taurus, the Pleiades star cluster is 400 light-years distant."/>
 </center>
 
 
