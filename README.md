@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/33"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-04 00:07:30"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-05 00:08:33"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Traffic in Taurus**
+**Venus and the Sisters**
 
-> There's a traffic jam in Taurus lately. On April 1, this celestial frame from slightly hazy skies over Tapiobicske, Hungary recorded an impressive pile up toward the zodiacal constellation of the Bull and the Solar System's ecliptic plane. Streaking right to left the International Space Station speeds across the bottom of the telescopic field of view. Wandering about as far from the Sun in planet Earth's skies as it can get, inner planet Venus is bright and approaching much slower, overexposed at the right. Bystanding at the upper left are the sister stars of the Pleiades. No one has been injured in the close encounter though, because it really isn't very close. Continuously occupied since November 2000, the space station orbits some 400 kilometers above the planet's surface. Venus, currently the brilliant evening star, is almost 2/3 of an astronomical unit away. A more permanent resident of Taurus, the Pleiades star cluster is 400 light-years distant.
+> After wandering about as far from the Sun on the sky as Venus can get, the brilliant evening star is crossing paths with the sister stars of the Pleiades cluster. Look west after sunset and you can share the ongoing conjunction with skygazers around the world. Taken on April 2, this celestial group photo captures the view from Portal, Arizona, USA. Even bright naked-eye Pleiades stars prove to be much fainter than Venus though. Apparent in deeper telescopic images, the cluster's dusty surroundings and familiar bluish reflection nebulae aren't quite visible, while brighter Venus itself is almost overwhelming in the single exposure. And while Venus and the Sisters do look a little star-crossed, their spiky appearance is the diffraction pattern caused by multiple leaves in the aperture of the telephoto lens. The last similar conjunction of Venus and Pleiades occurred nearly 8 years ago.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/TrafficTaurusLionelMajzik_1067.jpg" title="The Traffic in Taurus" alt="There's a traffic jam in Taurus lately. On April 1, this celestial frame from slightly hazy skies over Tapiobicske, Hungary recorded an impressive pile up toward the zodiacal constellation of the Bull and the Solar System's ecliptic plane. Streaking right to left the International Space Station speeds across the bottom of the telescopic field of view. Wandering about as far from the Sun in planet Earth's skies as it can get, inner planet Venus is bright and approaching much slower, overexposed at the right. Bystanding at the upper left are the sister stars of the Pleiades. No one has been injured in the close encounter though, because it really isn't very close. Continuously occupied since November 2000, the space station orbits some 400 kilometers above the planet's surface. Venus, currently the brilliant evening star, is almost 2/3 of an astronomical unit away. A more permanent resident of Taurus, the Pleiades star cluster is 400 light-years distant."/>
+    <img src="https://apod.nasa.gov/apod/image/2004/VenusM45-2020Apr02-105x.jpg" title="Venus and the Sisters" alt="After wandering about as far from the Sun on the sky as Venus can get, the brilliant evening star is crossing paths with the sister stars of the Pleiades cluster. Look west after sunset and you can share the ongoing conjunction with skygazers around the world. Taken on April 2, this celestial group photo captures the view from Portal, Arizona, USA. Even bright naked-eye Pleiades stars prove to be much fainter than Venus though. Apparent in deeper telescopic images, the cluster's dusty surroundings and familiar bluish reflection nebulae aren't quite visible, while brighter Venus itself is almost overwhelming in the single exposure. And while Venus and the Sisters do look a little star-crossed, their spiky appearance is the diffraction pattern caused by multiple leaves in the aperture of the telephoto lens. The last similar conjunction of Venus and Pleiades occurred nearly 8 years ago."/>
 </center>
 
 
