@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/33"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-05 00:08:33"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-06 00:07:34"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Venus and the Sisters**
+**You can't see me, Meow~~!**
 
-> After wandering about as far from the Sun on the sky as Venus can get, the brilliant evening star is crossing paths with the sister stars of the Pleiades cluster. Look west after sunset and you can share the ongoing conjunction with skygazers around the world. Taken on April 2, this celestial group photo captures the view from Portal, Arizona, USA. Even bright naked-eye Pleiades stars prove to be much fainter than Venus though. Apparent in deeper telescopic images, the cluster's dusty surroundings and familiar bluish reflection nebulae aren't quite visible, while brighter Venus itself is almost overwhelming in the single exposure. And while Venus and the Sisters do look a little star-crossed, their spiky appearance is the diffraction pattern caused by multiple leaves in the aperture of the telephoto lens. The last similar conjunction of Venus and Pleiades occurred nearly 8 years ago.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/VenusM45-2020Apr02-105x.jpg" title="Venus and the Sisters" alt="After wandering about as far from the Sun on the sky as Venus can get, the brilliant evening star is crossing paths with the sister stars of the Pleiades cluster. Look west after sunset and you can share the ongoing conjunction with skygazers around the world. Taken on April 2, this celestial group photo captures the view from Portal, Arizona, USA. Even bright naked-eye Pleiades stars prove to be much fainter than Venus though. Apparent in deeper telescopic images, the cluster's dusty surroundings and familiar bluish reflection nebulae aren't quite visible, while brighter Venus itself is almost overwhelming in the single exposure. And while Venus and the Sisters do look a little star-crossed, their spiky appearance is the diffraction pattern caused by multiple leaves in the aperture of the telephoto lens. The last similar conjunction of Venus and Pleiades occurred nearly 8 years ago."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
