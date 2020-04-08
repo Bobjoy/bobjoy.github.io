@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/33"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-07 00:07:19"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-08 00:07:39"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**A Path North**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> What happens if you keep going north? The direction north on the Earth, the place on your horizon below the northern spin pole of the Earth -- around which other stars appear to slowly swirl, will remain the same. This spin-pole-of-the-north will never move from its fixed location on the sky -- night or day -- and its height will always match your latitude.  The further north you go, the higher the north spin pole will appear.  Eventually, if you can reach the Earth's North Pole, the stars will circle a point directly over your head.  Pictured, a four-hour long stack of images shows stars trailing in circles around this north celestial pole.  The bright star near the north celestial pole is Polaris, known as the North Star.  The bright path was created by the astrophotographer's headlamp as he zigzagged up a hill just over a week ago in Lower Saxony, Germany. The astrophotographer can be seen, at times, in shadow. Actually, the Earth has two spin poles -- and much the same would happen if you started below the Earth's equator and went south.
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2004/PathNorth_Konang_960.jpg" title="A Path North" alt="What happens if you keep going north? The direction north on the Earth, the place on your horizon below the northern spin pole of the Earth -- around which other stars appear to slowly swirl, will remain the same. This spin-pole-of-the-north will never move from its fixed location on the sky -- night or day -- and its height will always match your latitude.  The further north you go, the higher the north spin pole will appear.  Eventually, if you can reach the Earth's North Pole, the stars will circle a point directly over your head.  Pictured, a four-hour long stack of images shows stars trailing in circles around this north celestial pole.  The bright star near the north celestial pole is Polaris, known as the North Star.  The bright path was created by the astrophotographer's headlamp as he zigzagged up a hill just over a week ago in Lower Saxony, Germany. The astrophotographer can be seen, at times, in shadow. Actually, the Earth has two spin poles -- and much the same would happen if you started below the Earth's equator and went south."/>
 </center>
 
 
