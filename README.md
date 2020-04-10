@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/33"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-09 00:07:35"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-10 00:07:12"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Country Sky versus City Sky**
+**A Flow of Time**
 
-> Dark skies are disappearing from the world.  With modernization comes artificial lighting that brightens the night.  While these lights allow modern humans to see, much light is wasted up into the sky.  This light pollution not only wastes energy, but, when reflected by the Earth's atmosphere back down, creates a nighttime brightness that  disrupts wildlife and harms human health, while doing very little to prevent crime.  Light pollution is also making a dark night sky a scarcity for new generations.  While there is little that can be done in large cities, rural country areas could benefit from lighting that is fully shielded from exposing the night sky where it is not needed.  The featured panorama contains 6 adjacent vertical segments taken from different locations across Slovakia -- but with the same equipment and at the same time of night, and then subjected to the same digital post-processing.  Although no stars are visible on the left-most city sky, the right-most country sky is magnificently dark.  You can help protect the wonders of your night sky by favoring, when possible, dark sky friendly lighting.
+> This surreal timelapse, landscape, panorama spans predawn, blue hour, and sunrise skies. Close to the start of planet Earth's northern hemisphere spring, the flow of time was captured between 4:30 and 7:00 am from a location overlooking northern New Mexico's Rio Grande Valley. In tracked images of the night sky just before twilight begins, the Milky Way is cast across the southern (right) edge of the panoramic frame. Toward the east, a range of short and long exposures resolves the changing brightness as the Sun rises over the distant peaks of the Sangre de Cristo Mountains. In between, exposures made during the spring morning's tantalizing blue hour are used to blend the night sky and sunrise over the high desert landscape.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/LightPollutionPan_Slovinsky_960_labeled.jpg" title="Country Sky versus City Sky" alt="Dark skies are disappearing from the world.  With modernization comes artificial lighting that brightens the night.  While these lights allow modern humans to see, much light is wasted up into the sky.  This light pollution not only wastes energy, but, when reflected by the Earth's atmosphere back down, creates a nighttime brightness that  disrupts wildlife and harms human health, while doing very little to prevent crime.  Light pollution is also making a dark night sky a scarcity for new generations.  While there is little that can be done in large cities, rural country areas could benefit from lighting that is fully shielded from exposing the night sky where it is not needed.  The featured panorama contains 6 adjacent vertical segments taken from different locations across Slovakia -- but with the same equipment and at the same time of night, and then subjected to the same digital post-processing.  Although no stars are visible on the left-most city sky, the right-most country sky is magnificently dark.  You can help protect the wonders of your night sky by favoring, when possible, dark sky friendly lighting."/>
+    <img src="https://apod.nasa.gov/apod/image/2004/Flow_of_time_APOD1024.jpg" title="A Flow of Time" alt="This surreal timelapse, landscape, panorama spans predawn, blue hour, and sunrise skies. Close to the start of planet Earth's northern hemisphere spring, the flow of time was captured between 4:30 and 7:00 am from a location overlooking northern New Mexico's Rio Grande Valley. In tracked images of the night sky just before twilight begins, the Milky Way is cast across the southern (right) edge of the panoramic frame. Toward the east, a range of short and long exposures resolves the changing brightness as the Sun rises over the distant peaks of the Sangre de Cristo Mountains. In between, exposures made during the spring morning's tantalizing blue hour are used to blend the night sky and sunrise over the high desert landscape."/>
 </center>
 
 
