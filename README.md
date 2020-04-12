@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/33"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-11 00:07:33"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-12 00:07:37"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Full Moon of Spring**
+**Venus and the Pleiades in April**
 
-> From home this Full Moon looked bright. Around our fair planet it rose as the Sun set on April 7/8, the first Full Moon after the vernal equinox and the start of northern hemisphere spring. April's full lunar phase was also near perigee, the closest point in the Moon's elliptical orbit. In fact, it was nearer perigee than any other Full Moon of 2020 making it the brightest Full Moon of the year. To create the visual experience a range of exposures was blended to capture the emerging foreground foliage and bright lunar disk. The hopefull image of spring was recorded from a home garden in skies over Chongqing, China.   April Full Moon Gallery: Notable images submitted to APOD
+> Shared around world in early April skies Venus, our brilliant evening star, wandered across the face of the lovely Pleiades star cluster. This timelapse image follows the path of the inner planet during the beautiful conjunction showing its daily approach to the stars of the Seven Sisters. From a composite of tracked exposures made with a telephoto lens, the field of view is also appropriate for binocular equipped skygazers. While the star cluster and planet were easily seen with the naked-eye, the spiky appearance of our sister planet in the picture is the result of a diffraction pattern produced by the camera's lens. All images were taken from a home garden in Chiuduno, Bergamo, Lombardy, Italy, fortunate in good weather and clear spring nights.   Notable APOD Submissions: Gallery of Venus passing in front of the Pleiades
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/MoonSpringDai_1024crop.jpg" title="Full Moon of Spring" alt="From home this Full Moon looked bright. Around our fair planet it rose as the Sun set on April 7/8, the first Full Moon after the vernal equinox and the start of northern hemisphere spring. April's full lunar phase was also near perigee, the closest point in the Moon's elliptical orbit. In fact, it was nearer perigee than any other Full Moon of 2020 making it the brightest Full Moon of the year. To create the visual experience a range of exposures was blended to capture the emerging foreground foliage and bright lunar disk. The hopefull image of spring was recorded from a home garden in skies over Chongqing, China.   April Full Moon Gallery: Notable images submitted to APOD"/>
+    <img src="https://apod.nasa.gov/apod/image/2004/TimelapseVenusPleiadesFinazzi800.jpg" title="Venus and the Pleiades in April" alt="Shared around world in early April skies Venus, our brilliant evening star, wandered across the face of the lovely Pleiades star cluster. This timelapse image follows the path of the inner planet during the beautiful conjunction showing its daily approach to the stars of the Seven Sisters. From a composite of tracked exposures made with a telephoto lens, the field of view is also appropriate for binocular equipped skygazers. While the star cluster and planet were easily seen with the naked-eye, the spiky appearance of our sister planet in the picture is the result of a diffraction pattern produced by the camera's lens. All images were taken from a home garden in Chiuduno, Bergamo, Lombardy, Italy, fortunate in good weather and clear spring nights.   Notable APOD Submissions: Gallery of Venus passing in front of the Pleiades"/>
 </center>
 
 
