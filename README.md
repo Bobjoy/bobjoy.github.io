@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/33"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-12 00:07:37"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-13 00:07:36"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Venus and the Pleiades in April**
+**You can't see me, Meow~~!**
 
-> Shared around world in early April skies Venus, our brilliant evening star, wandered across the face of the lovely Pleiades star cluster. This timelapse image follows the path of the inner planet during the beautiful conjunction showing its daily approach to the stars of the Seven Sisters. From a composite of tracked exposures made with a telephoto lens, the field of view is also appropriate for binocular equipped skygazers. While the star cluster and planet were easily seen with the naked-eye, the spiky appearance of our sister planet in the picture is the result of a diffraction pattern produced by the camera's lens. All images were taken from a home garden in Chiuduno, Bergamo, Lombardy, Italy, fortunate in good weather and clear spring nights.   Notable APOD Submissions: Gallery of Venus passing in front of the Pleiades
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/TimelapseVenusPleiadesFinazzi800.jpg" title="Venus and the Pleiades in April" alt="Shared around world in early April skies Venus, our brilliant evening star, wandered across the face of the lovely Pleiades star cluster. This timelapse image follows the path of the inner planet during the beautiful conjunction showing its daily approach to the stars of the Seven Sisters. From a composite of tracked exposures made with a telephoto lens, the field of view is also appropriate for binocular equipped skygazers. While the star cluster and planet were easily seen with the naked-eye, the spiky appearance of our sister planet in the picture is the result of a diffraction pattern produced by the camera's lens. All images were taken from a home garden in Chiuduno, Bergamo, Lombardy, Italy, fortunate in good weather and clear spring nights.   Notable APOD Submissions: Gallery of Venus passing in front of the Pleiades"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
