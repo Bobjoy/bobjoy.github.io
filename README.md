@@ -4,8 +4,8 @@
 <p align='center'>
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
-    <img src="https://badgen.net/badge/issues/33"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-13 00:07:36"/>
+    <img src="https://badgen.net/badge/issues/34"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-14 00:07:30"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -35,6 +35,10 @@
 ## 置顶 :thumbsup: 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+- [element-ui表格在Safari下样式错乱](https://github.com/Bobjoy/bobjoy.github.io/issues/34) <sup>0 :speech_balloon:</sup>  			 2020-04-13 05:19:53
+
+ 	<sub>|</sub>
+
 - [Webpack编译打包到线上出错 Loading chunk pDf/ failed](https://github.com/Bobjoy/bobjoy.github.io/issues/33) <sup>0 :speech_balloon:</sup>  			 2020-03-31 04:56:34
 
  	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
@@ -50,10 +54,6 @@
 - [ssh Too many authentication failures](https://github.com/Bobjoy/bobjoy.github.io/issues/30) <sup>0 :speech_balloon:</sup>  			 2019-08-09 01:32:45
 
  	<sub>|</sub><sub>[:bug: Bad](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Abug%3A%20Bad)	|	</sub>
-
-- [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29) <sup>0 :speech_balloon:</sup>  			 2019-07-19 23:28:07
-
- 	<sub>|</sub><sub>[:+1:置顶](https://github.com/Bobjoy/bobjoy.github.io/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
 
 ## 分类  :card_file_box: 
 
