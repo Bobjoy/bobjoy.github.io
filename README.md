@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-17 00:07:14"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-18 00:07:17"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Comet ATLAS Breaks Up**
+**The Windmill and the Star Trails**
 
-> Cruising through the inner solar system, Comet ATLAS C2019/Y4 has apparently fragmented. Multiple separate condensations within its diffuse coma are visible in this telescopic close-up from April 12, composed of frames tracking the comet's motion against trailing background stars. Discovered at the end of December 2019, this comet ATLAS showed a remarkably rapid increase in brightness in late March. Northern hemisphere comet watchers held out hope that it would become a bright nake-eye comet as it came closer to Earth in late April and May. But fragmenting ATLAS is slowly fading in northern skies. The breakup of comets is not uncommon though. This comet ATLAS is in an orbit similar to the Great Comet of 1844 (C/1844 Y1) and both may be fragments of a single larger comet.
+> Stars can't turn these old wooden arms, but it does look like they might in this scene from a rotating planet. The well-composed night skyscape was recorded from Garafia, a municipality on the island of La Palma, Canary Islands, planet Earth. The center of the once working windmill, retired since 1953, is lined-up with the north celestial pole, the planet's rotation axis projected on to the northern sky. From a camera fixed to a tripod, the star trails are a reflection of the planet's rotation traced in a digital composite of 39 sequential exposures each 25 seconds long. Brought out by highlighting the final exposure in the sequence, the stars themselves appear at the ends of their short concentric arcs. A faint band of winter's Milky Way and even a diffuse glow from our neighboring Andromeda Galaxy also shine in the night.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/C2019Y4_20.04.13_1100px.jpg" title="Comet ATLAS Breaks Up" alt="Cruising through the inner solar system, Comet ATLAS C2019/Y4 has apparently fragmented. Multiple separate condensations within its diffuse coma are visible in this telescopic close-up from April 12, composed of frames tracking the comet's motion against trailing background stars. Discovered at the end of December 2019, this comet ATLAS showed a remarkably rapid increase in brightness in late March. Northern hemisphere comet watchers held out hope that it would become a bright nake-eye comet as it came closer to Earth in late April and May. But fragmenting ATLAS is slowly fading in northern skies. The breakup of comets is not uncommon though. This comet ATLAS is in an orbit similar to the Great Comet of 1844 (C/1844 Y1) and both may be fragments of a single larger comet."/>
+    <img src="https://apod.nasa.gov/apod/image/2004/WindmillStarTrails1024.jpg" title="The Windmill and the Star Trails" alt="Stars can't turn these old wooden arms, but it does look like they might in this scene from a rotating planet. The well-composed night skyscape was recorded from Garafia, a municipality on the island of La Palma, Canary Islands, planet Earth. The center of the once working windmill, retired since 1953, is lined-up with the north celestial pole, the planet's rotation axis projected on to the northern sky. From a camera fixed to a tripod, the star trails are a reflection of the planet's rotation traced in a digital composite of 39 sequential exposures each 25 seconds long. Brought out by highlighting the final exposure in the sequence, the stars themselves appear at the ends of their short concentric arcs. A faint band of winter's Milky Way and even a diffuse glow from our neighboring Andromeda Galaxy also shine in the night."/>
 </center>
 
 
