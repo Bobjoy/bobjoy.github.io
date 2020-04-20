@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-19 00:07:10"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-20 00:07:51"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
