@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-24 00:07:13"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-25 00:07:23"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Lyrid Meteor Streak**
+**You can't see me, Meow~~!**
 
-> rth's annual Lyrid Meteor Shower peaked before dawn yesterday, as our fair planet plowed through debris from the tail of long-period comet Thatcher. In crisp, clear and moonless predawn skies over Brown County, Indiana this streak of vaporizing comet dust briefly shared a telephoto field of view with stars and nebulae along the Milky Way. Alpha star of the constellation Cygnus, Deneb lies near the bright meteor's path along with the region's dark interstellar clouds of dust and the recognizable glow of the North America nebula (NGC 7000). The meteor's streak points back to the shower's radiant, its apparent point of origin on the sky. That would be in the constellation Lyra, near bright star Vega and off the top edge of the frame.   Celebrate the Night: International Dark Sky Week
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/ZGL-200422-0497_1024.jpg" title="Lyrid Meteor Streak" alt="rth's annual Lyrid Meteor Shower peaked before dawn yesterday, as our fair planet plowed through debris from the tail of long-period comet Thatcher. In crisp, clear and moonless predawn skies over Brown County, Indiana this streak of vaporizing comet dust briefly shared a telephoto field of view with stars and nebulae along the Milky Way. Alpha star of the constellation Cygnus, Deneb lies near the bright meteor's path along with the region's dark interstellar clouds of dust and the recognizable glow of the North America nebula (NGC 7000). The meteor's streak points back to the shower's radiant, its apparent point of origin on the sky. That would be in the constellation Lyra, near bright star Vega and off the top edge of the frame.   Celebrate the Night: International Dark Sky Week"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
