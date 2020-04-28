@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-27 00:07:24"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-28 00:07:32"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Edwin Hubble Discovers the Universe**
+**You can't see me, Meow~~!**
 
-> How big is our universe? This very question, among others, was debated by two leading astronomers 100 years ago today in what has become known as astronomy's Great Debate.  Many astronomers then believed that our Milky Way Galaxy was the entire universe.  Many others, though, believed that our galaxy was just one of many.  In the Great Debate, each argument was detailed, but no consensus was reached.  The answer came over three years later with the detected variation of single spot in the Andromeda Nebula, as shown on the original glass discovery plate digitally reproduced here. When Edwin Hubble compared images, he noticed that this spot varied, and so wrote "VAR!" on the plate.  The best explanation, Hubble knew, was that this spot was the image of a variable star that was very far away. So M31 was really the Andromeda Galaxy -- a galaxy possibly similar to our own.  The featured image may not be pretty, but the variable spot on it opened a door through which humanity gazed knowingly, for the first time, into a surprisingly vast cosmos.   Centennial Celebration: Astronomy's Great Debate was  100 Years Ago Today
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/HubbleVarOrig_Carnegie_960.jpg" title="Edwin Hubble Discovers the Universe" alt="How big is our universe? This very question, among others, was debated by two leading astronomers 100 years ago today in what has become known as astronomy's Great Debate.  Many astronomers then believed that our Milky Way Galaxy was the entire universe.  Many others, though, believed that our galaxy was just one of many.  In the Great Debate, each argument was detailed, but no consensus was reached.  The answer came over three years later with the detected variation of single spot in the Andromeda Nebula, as shown on the original glass discovery plate digitally reproduced here. When Edwin Hubble compared images, he noticed that this spot varied, and so wrote "VAR!" on the plate.  The best explanation, Hubble knew, was that this spot was the image of a variable star that was very far away. So M31 was really the Andromeda Galaxy -- a galaxy possibly similar to our own.  The featured image may not be pretty, but the variable spot on it opened a door through which humanity gazed knowingly, for the first time, into a surprisingly vast cosmos.   Centennial Celebration: Astronomy's Great Debate was  100 Years Ago Today"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
