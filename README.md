@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-29 00:07:28"/>
+    <img src="https://badgen.net/badge/last-commit/2020-04-30 00:07:31"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**The Ion Tail of New Comet SWAN**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> Newly discovered Comet SWAN has already developed an impressive tail.  The comet came in from the outer Solar System and has just passed inside the orbit of the Earth. Officially designated C/2020 F8 (SWAN), this outgassing interplanetary iceberg will pass its closest to the Earth on May 13, and closest to the Sun on May 27.  The comet was first noticed in late March by an astronomy enthusiast looking through images taken by NASA's Sun-orbiting SOHO spacecraft, and is named for this spacecraft's Solar Wind Anisotropies (SWAN) camera. The featured image, taken from the dark skies in Namibia in mid-April, captured Comet SWAN's green-glowing coma and unexpectedly long, detailed, and blue ion-tail.   Although the brightness of comets are notoriously hard to predict, some models have Comet SWAN becoming bright enough to see with the unaided eye during June.    Experts Debate: How will humanity first discover extraterrestrial life?
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2004/CometSwan_Rhemann_960.jpg" title="The Ion Tail of New Comet SWAN" alt="Newly discovered Comet SWAN has already developed an impressive tail.  The comet came in from the outer Solar System and has just passed inside the orbit of the Earth. Officially designated C/2020 F8 (SWAN), this outgassing interplanetary iceberg will pass its closest to the Earth on May 13, and closest to the Sun on May 27.  The comet was first noticed in late March by an astronomy enthusiast looking through images taken by NASA's Sun-orbiting SOHO spacecraft, and is named for this spacecraft's Solar Wind Anisotropies (SWAN) camera. The featured image, taken from the dark skies in Namibia in mid-April, captured Comet SWAN's green-glowing coma and unexpectedly long, detailed, and blue ion-tail.   Although the brightness of comets are notoriously hard to predict, some models have Comet SWAN becoming bright enough to see with the unaided eye during June.    Experts Debate: How will humanity first discover extraterrestrial life?"/>
 </center>
 
 
