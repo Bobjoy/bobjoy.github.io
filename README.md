@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-04-30 00:07:31"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-01 00:08:07"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Ion Tail of New Comet SWAN**
+**Andromeda Island Universe**
 
-> Newly discovered Comet SWAN has already developed an impressive tail.  The comet came in from the outer Solar System and has just passed inside the orbit of the Earth. Officially designated C/2020 F8 (SWAN), this outgassing interplanetary iceberg will pass its closest to the Earth on May 13, and closest to the Sun on May 27.  The comet was first noticed in late March by an astronomy enthusiast looking through images taken by NASA's Sun-orbiting SOHO spacecraft, and is named for this spacecraft's Solar Wind Anisotropies (SWAN) camera. The featured image, taken from the dark skies in Namibia in mid-April, captured Comet SWAN's green-glowing coma and unexpectedly long, detailed, and blue ion-tail.   Although the brightness of comets are notoriously hard to predict, some models have Comet SWAN becoming bright enough to see with the unaided eye during June.    Experts Debate: How will humanity first discover extraterrestrial life?
+> The most distant object easily visible to the unaided eye is M31, the great Andromeda Galaxy some two and a half million light-years away. But without a telescope, even this immense spiral galaxy - spanning over 200,000 light years - appears as a faint, nebulous cloud in the constellation Andromeda. In contrast, a bright yellow nucleus, dark winding dust lanes, expansive blue spiral arms and star clusters are recorded in this stunning telescopic image. While even casual skygazers are now inspired by the knowledge that there are many distant galaxies like M31, astronomers debated this fundamental concept 100 years ago. Were these "spiral nebulae" simply outlying components of our own Milky Way Galaxy or were they instead "island universes", distant systems of stars comparable to the Milky Way itself? This question was central to the famous Shapley-Curtis debate of 1920, which was later resolved by observations of M31 in favor of Andromeda, island universe.    Experts Debate: How will humanity first discover extraterrestrial life?
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2004/CometSwan_Rhemann_960.jpg" title="The Ion Tail of New Comet SWAN" alt="Newly discovered Comet SWAN has already developed an impressive tail.  The comet came in from the outer Solar System and has just passed inside the orbit of the Earth. Officially designated C/2020 F8 (SWAN), this outgassing interplanetary iceberg will pass its closest to the Earth on May 13, and closest to the Sun on May 27.  The comet was first noticed in late March by an astronomy enthusiast looking through images taken by NASA's Sun-orbiting SOHO spacecraft, and is named for this spacecraft's Solar Wind Anisotropies (SWAN) camera. The featured image, taken from the dark skies in Namibia in mid-April, captured Comet SWAN's green-glowing coma and unexpectedly long, detailed, and blue ion-tail.   Although the brightness of comets are notoriously hard to predict, some models have Comet SWAN becoming bright enough to see with the unaided eye during June.    Experts Debate: How will humanity first discover extraterrestrial life?"/>
+    <img src="https://apod.nasa.gov/apod/image/2004/M31Dec2019final1YuzheB2_1024.jpg" title="Andromeda Island Universe" alt="The most distant object easily visible to the unaided eye is M31, the great Andromeda Galaxy some two and a half million light-years away. But without a telescope, even this immense spiral galaxy - spanning over 200,000 light years - appears as a faint, nebulous cloud in the constellation Andromeda. In contrast, a bright yellow nucleus, dark winding dust lanes, expansive blue spiral arms and star clusters are recorded in this stunning telescopic image. While even casual skygazers are now inspired by the knowledge that there are many distant galaxies like M31, astronomers debated this fundamental concept 100 years ago. Were these "spiral nebulae" simply outlying components of our own Milky Way Galaxy or were they instead "island universes", distant systems of stars comparable to the Milky Way itself? This question was central to the famous Shapley-Curtis debate of 1920, which was later resolved by observations of M31 in favor of Andromeda, island universe.    Experts Debate: How will humanity first discover extraterrestrial life?"/>
 </center>
 
 
