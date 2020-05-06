@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-05 00:07:43"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-06 00:07:32"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Carina in Perspective**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> You need to be in the south, looking south, to see such a sky.  And only then if you're lucky.  Just above the picturesque tree is the impressive Carina Nebula, one of the few nebulas in the sky that is visible to the unaided eye.  The featured image had to be taken from a very dark location to capture the Carina Nebula with such perspective and so near the horizon.  The Great Nebula in Carina, cataloged as NGC 3372, is home to the wildly variable star Eta Carinae that sometimes flares to become one of the brightest stars in the sky.  Above Carina is IC 2944, the Running Chicken Nebula, a nebula that not only looks like a chicken, but contains impressive dark knots of dust.  Above these red-glowing emission nebulas are the bright stars of the Southern Cross, while on the upper left of the image is the dark Coalsack Nebula. This image was composed from six consecutive exposures taken last summer from Padre Bernardo, Goiás, Brazil.  Even with careful planning, the astrophotographer felt lucky to get this shot because clouds -- some still visible near the horizon -- kept getting in the way.    Almost Hyperspace: Random APOD Generator
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2005/CarinaPerspective_Fairbairn_960.jpg" title="Carina in Perspective" alt="You need to be in the south, looking south, to see such a sky.  And only then if you're lucky.  Just above the picturesque tree is the impressive Carina Nebula, one of the few nebulas in the sky that is visible to the unaided eye.  The featured image had to be taken from a very dark location to capture the Carina Nebula with such perspective and so near the horizon.  The Great Nebula in Carina, cataloged as NGC 3372, is home to the wildly variable star Eta Carinae that sometimes flares to become one of the brightest stars in the sky.  Above Carina is IC 2944, the Running Chicken Nebula, a nebula that not only looks like a chicken, but contains impressive dark knots of dust.  Above these red-glowing emission nebulas are the bright stars of the Southern Cross, while on the upper left of the image is the dark Coalsack Nebula. This image was composed from six consecutive exposures taken last summer from Padre Bernardo, Goiás, Brazil.  Even with careful planning, the astrophotographer felt lucky to get this shot because clouds -- some still visible near the horizon -- kept getting in the way.    Almost Hyperspace: Random APOD Generator"/>
 </center>
 
 
