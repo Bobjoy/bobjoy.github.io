@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-09 00:07:36"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-10 00:08:16"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Long Tailed Comet SWAN**
+**Full Flower Moonrise**
 
-> Blowing in the solar wind the spectacular ion tail of Comet SWAN (C/2020 F8) extends far across this 10 degree wide telephoto field of view. Captured on May 2 its greenish coma was about 6 light-minutes from Earth. The pretty background starfield lies near the border of the constellations Cetus and Aquarius. This comet SWAN was discovered at home by Australian amateur Michael Mattiazzo by checking images from the Sun-staring SOHO spacecraft's SWAN (Solar Wind ANisotropies) camera. The comet has now become just visible to the naked-eye as it sweeps from southern to northern skies. Appearing in morning twilight near the eastern horizon, Comet SWAN will make its closest approach to planet Earth on May 12 and reach perihelion on May 27.
+> Rising as the Sun set, the Moon was bright and full in planet Earth skies on May 7 and known to some as a Flower Moon. Near the horizon it does seem to take on rose pink hues of reddened sunlight in this reflective twilight scene. In fact one of the brighter Full Moons of the year, this month's full lunar phase occurred within about 32 hours of perigee. That's the closest point in the Moon's elliptical orbit. Flooded field and ruined church tower are near the municipality of Casaleggio Novara, Piedmont Region of northern Italy.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/c2020_f8_2020_05_02dp_1024.jpg" title="Long Tailed Comet SWAN" alt="Blowing in the solar wind the spectacular ion tail of Comet SWAN (C/2020 F8) extends far across this 10 degree wide telephoto field of view. Captured on May 2 its greenish coma was about 6 light-minutes from Earth. The pretty background starfield lies near the border of the constellations Cetus and Aquarius. This comet SWAN was discovered at home by Australian amateur Michael Mattiazzo by checking images from the Sun-staring SOHO spacecraft's SWAN (Solar Wind ANisotropies) camera. The comet has now become just visible to the naked-eye as it sweeps from southern to northern skies. Appearing in morning twilight near the eastern horizon, Comet SWAN will make its closest approach to planet Earth on May 12 and reach perihelion on May 27."/>
+    <img src="https://apod.nasa.gov/apod/image/2005/FullFlowerMoonrise_Boldrini.jpg" title="Full Flower Moonrise" alt="Rising as the Sun set, the Moon was bright and full in planet Earth skies on May 7 and known to some as a Flower Moon. Near the horizon it does seem to take on rose pink hues of reddened sunlight in this reflective twilight scene. In fact one of the brighter Full Moons of the year, this month's full lunar phase occurred within about 32 hours of perigee. That's the closest point in the Moon's elliptical orbit. Flooded field and ruined church tower are near the municipality of Casaleggio Novara, Piedmont Region of northern Italy."/>
 </center>
 
 
