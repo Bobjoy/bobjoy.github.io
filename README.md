@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-10 00:08:16"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-11 00:07:29"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Full Flower Moonrise**
+**The Porpoise Galaxy from Hubble**
 
-> Rising as the Sun set, the Moon was bright and full in planet Earth skies on May 7 and known to some as a Flower Moon. Near the horizon it does seem to take on rose pink hues of reddened sunlight in this reflective twilight scene. In fact one of the brighter Full Moons of the year, this month's full lunar phase occurred within about 32 hours of perigee. That's the closest point in the Moon's elliptical orbit. Flooded field and ruined church tower are near the municipality of Casaleggio Novara, Piedmont Region of northern Italy.
+> What's happening to this spiral galaxy? Just a few hundred million years ago, NGC 2936, the upper of the two large galaxies shown, was likely a normal spiral galaxy -- spinning, creating stars -- and minding its own business. But then it got too close to the massive elliptical galaxy NGC 2937 below and took a dive. Dubbed the Porpoise Galaxy for its iconic shape, NGC 2936 is not only being deflected but also being distorted by the close gravitational interaction. A burst of young blue stars forms the nose of the porpoise toward the right of the upper galaxy, while the center of the spiral appears as an eye.  Alternatively, the galaxy pair, together known as Arp 142, look to some like a penguin protecting an egg. Either way, intricate dark dust lanes and bright blue star streams trail the troubled galaxy to the lower right. The featured re-processed image showing Arp 142 in unprecedented detail was taken by the Hubble Space Telescope last year. Arp 142 lies about 300 million light years away toward the constellation, coincidently, of the Water Snake (Hydra). In a billion years or so the two galaxies will likely merge into one larger galaxy.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/FullFlowerMoonrise_Boldrini.jpg" title="Full Flower Moonrise" alt="Rising as the Sun set, the Moon was bright and full in planet Earth skies on May 7 and known to some as a Flower Moon. Near the horizon it does seem to take on rose pink hues of reddened sunlight in this reflective twilight scene. In fact one of the brighter Full Moons of the year, this month's full lunar phase occurred within about 32 hours of perigee. That's the closest point in the Moon's elliptical orbit. Flooded field and ruined church tower are near the municipality of Casaleggio Novara, Piedmont Region of northern Italy."/>
+    <img src="https://apod.nasa.gov/apod/image/2005/PorpoiseGalaxy_HubbleFraile_960.jpg" title="The Porpoise Galaxy from Hubble" alt="What's happening to this spiral galaxy? Just a few hundred million years ago, NGC 2936, the upper of the two large galaxies shown, was likely a normal spiral galaxy -- spinning, creating stars -- and minding its own business. But then it got too close to the massive elliptical galaxy NGC 2937 below and took a dive. Dubbed the Porpoise Galaxy for its iconic shape, NGC 2936 is not only being deflected but also being distorted by the close gravitational interaction. A burst of young blue stars forms the nose of the porpoise toward the right of the upper galaxy, while the center of the spiral appears as an eye.  Alternatively, the galaxy pair, together known as Arp 142, look to some like a penguin protecting an egg. Either way, intricate dark dust lanes and bright blue star streams trail the troubled galaxy to the lower right. The featured re-processed image showing Arp 142 in unprecedented detail was taken by the Hubble Space Telescope last year. Arp 142 lies about 300 million light years away toward the constellation, coincidently, of the Water Snake (Hydra). In a billion years or so the two galaxies will likely merge into one larger galaxy."/>
 </center>
 
 
