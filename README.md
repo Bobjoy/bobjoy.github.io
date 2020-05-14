@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-13 00:07:27"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-14 00:07:44"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Lyrid Meteors from the Constellation Lyra**
+**You can't see me, Meow~~!**
 
-> Where are all of these meteors coming from?  In terms of direction on the sky, the pointed answer is the constellation of Small Harp (Lyra).  That is why the famous meteor shower that peaks every April is known as the Lyrids -- the meteors all appear to came from a radiant toward Lyra. In terms of parent body, though, the sand-sized debris that makes up the Lyrid meteors come from Comet Thatcher. The comet follows a well-defined orbit around our Sun, and the part of the orbit that approaches Earth is superposed in front of Lyra. Therefore, when Earth crosses this orbit, the radiant point of falling debris appears in Lyra. Featured here, a composite image containing over 33 meteors (can you find them all?) from last month's  Lyrid meteor shower shows several bright meteors that streaked over a shore of Seč Lake in the Czech Republic. Also visible are the bright stars Vega and Altair, the planet Jupiter, and the central band of our Milky Way Galaxy.   Notable APOD Submissions: Lyrid Meteor Shower 2020
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/Lyrids_Horalek_960.jpg" title="Lyrid Meteors from the Constellation Lyra" alt="Where are all of these meteors coming from?  In terms of direction on the sky, the pointed answer is the constellation of Small Harp (Lyra).  That is why the famous meteor shower that peaks every April is known as the Lyrids -- the meteors all appear to came from a radiant toward Lyra. In terms of parent body, though, the sand-sized debris that makes up the Lyrid meteors come from Comet Thatcher. The comet follows a well-defined orbit around our Sun, and the part of the orbit that approaches Earth is superposed in front of Lyra. Therefore, when Earth crosses this orbit, the radiant point of falling debris appears in Lyra. Featured here, a composite image containing over 33 meteors (can you find them all?) from last month's  Lyrid meteor shower shows several bright meteors that streaked over a shore of Seč Lake in the Czech Republic. Also visible are the bright stars Vega and Altair, the planet Jupiter, and the central band of our Milky Way Galaxy.   Notable APOD Submissions: Lyrid Meteor Shower 2020"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
