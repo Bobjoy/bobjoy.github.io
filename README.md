@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-15 00:07:14"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-16 00:07:24"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Comet Halley vs Comet SWAN**
+**Galaxy Wars: M81 and M82**
 
-> The pre-dawn hours of May 3rd were moonless as grains of cosmic dust streaked through southern skies above Reunion Island. Swept up as planet Earth plowed through dusty debris streams left behind periodic Comet 1/P Halley, the annual meteor shower is known as the Eta Aquarids. This inspired exposure captures a bright aquarid meteor flashing left to right over a sea of clouds. The meteor streak points back to the shower's radiant in the constellation Aquarius, well above the eastern horizon and off the top of the frame. Known for speed Eta Aquarid meteors move fast, entering the atmosphere at about 66 kilometers per second, visible at altitudes of 100 kilometers or so. Then about 6 light-minutes from Earth, the pale greenish coma and long tail of Comet C/2020 F8 SWAN were not to be left out of the celestial scene, posing above the volcanic peaks left of center. Now in the northern sky's morning twilight near the eastern horizon Comet SWAN has not become as bright as anticipated though. This first time comet made its closest approach to planet Earth only two days ago and reaches perihelion on May 27.
+> These two galaxies are far far away, 12 million light-years distant toward the northern constellation of the Great Bear. On the left, with grand spiral arms and bright yellow core is spiral galaxy M81, some 100,000 light-years across.  On the right marked by red gas and dust clouds, is irregular galaxy M82.  The pair have been locked in gravitational combat for a billion years. Gravity from each galaxy has profoundly affected the other during a series of cosmic close encounters.  Their last go-round lasted about 100 million years and likely raised density waves rippling around M81, resulting in the richness of M81's spiral arms.  M82 was left with violent star forming regions and colliding gas clouds so energetic the galaxy glows in X-rays.  In the next few billion years, their continuing gravitational encounters will result in a merger, and a single galaxy will remain.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/SWAN1_perrot.jpg" title="Comet Halley vs Comet SWAN" alt="The pre-dawn hours of May 3rd were moonless as grains of cosmic dust streaked through southern skies above Reunion Island. Swept up as planet Earth plowed through dusty debris streams left behind periodic Comet 1/P Halley, the annual meteor shower is known as the Eta Aquarids. This inspired exposure captures a bright aquarid meteor flashing left to right over a sea of clouds. The meteor streak points back to the shower's radiant in the constellation Aquarius, well above the eastern horizon and off the top of the frame. Known for speed Eta Aquarid meteors move fast, entering the atmosphere at about 66 kilometers per second, visible at altitudes of 100 kilometers or so. Then about 6 light-minutes from Earth, the pale greenish coma and long tail of Comet C/2020 F8 SWAN were not to be left out of the celestial scene, posing above the volcanic peaks left of center. Now in the northern sky's morning twilight near the eastern horizon Comet SWAN has not become as bright as anticipated though. This first time comet made its closest approach to planet Earth only two days ago and reaches perihelion on May 27."/>
+    <img src="https://apod.nasa.gov/apod/image/2005/M81-82_1024.jpg" title="Galaxy Wars: M81 and M82" alt="These two galaxies are far far away, 12 million light-years distant toward the northern constellation of the Great Bear. On the left, with grand spiral arms and bright yellow core is spiral galaxy M81, some 100,000 light-years across.  On the right marked by red gas and dust clouds, is irregular galaxy M82.  The pair have been locked in gravitational combat for a billion years. Gravity from each galaxy has profoundly affected the other during a series of cosmic close encounters.  Their last go-round lasted about 100 million years and likely raised density waves rippling around M81, resulting in the richness of M81's spiral arms.  M82 was left with violent star forming regions and colliding gas clouds so energetic the galaxy glows in X-rays.  In the next few billion years, their continuing gravitational encounters will result in a merger, and a single galaxy will remain."/>
 </center>
 
 
