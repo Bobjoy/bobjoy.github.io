@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-18 00:07:21"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-19 00:07:20"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**A Waterspout in Florida**
+**You can't see me, Meow~~!**
 
-> What's happening over the water?  Pictured here is one of the better images yet recorded of a waterspout, a type of tornado that occurs over water.  Waterspouts are spinning columns of rising moist air that typically form over warm water. Waterspouts can be as dangerous as tornadoes and can feature wind speeds over 200 kilometers per hour.  Some waterspouts form away from thunderstorms and even during relatively fair weather.  Waterspouts may be relatively transparent and initially visible only by an unusual pattern they create on the water.  The featured image was taken in 2013 July near Tampa Bay, Florida. The Atlantic Ocean off the coast of Florida is arguably the most active area in the world for waterspouts, with hundreds forming each year.    Experts Debate: How will humanity first discover extraterrestrial life?
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/waterspout_mole_960.jpg" title="A Waterspout in Florida" alt="What's happening over the water?  Pictured here is one of the better images yet recorded of a waterspout, a type of tornado that occurs over water.  Waterspouts are spinning columns of rising moist air that typically form over warm water. Waterspouts can be as dangerous as tornadoes and can feature wind speeds over 200 kilometers per hour.  Some waterspouts form away from thunderstorms and even during relatively fair weather.  Waterspouts may be relatively transparent and initially visible only by an unusual pattern they create on the water.  The featured image was taken in 2013 July near Tampa Bay, Florida. The Atlantic Ocean off the coast of Florida is arguably the most active area in the world for waterspouts, with hundreds forming each year.    Experts Debate: How will humanity first discover extraterrestrial life?"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
