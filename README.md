@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-21 00:07:20"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-22 00:07:16"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Moon, Mars, Saturn, Jupiter, Milky Way**
+**Phases of Venus**
 
-> It is not a coincidence that planets line up. That's because all of the planets orbit the Sun in (nearly) a single sheet called the plane of the ecliptic. When viewed from inside that plane -- as Earth dwellers are likely to do -- the planets all appear confined to a single band. It is a coincidence, though, when three of the brightest planets all appear in nearly the same direction.  Such a coincidence was captured about a month ago. Featured above, Earth's Moon, Mars, Saturn, and Jupiter were all imaged together, just before sunrise, from the Black Sea coast of Bulgaria.  A second band is visible diagonally across this image -- the central band of our Milky Way Galaxy. If you wake up early, you will find that these same planets remain visible in the morning sky this month, too.   Astrophysicists: Browse 2,100+ codes in the Astrophysics Source Code Library
+> Just as the Moon goes through phases, Venus' visible sunlit hemisphere waxes and wanes. This composite of backyard telescopic images illustrates the steady changes for Venus during its current stint as our evening star, as the inner planet grows larger but narrows to a thin crescent. Images from bottom to top were taken during 2020 on dates February 27, March 20, April 14, April 24, May 8, and May 14. Gliding along its interior orbit between Earth and Sun, Venus grows larger during that period because it is approaching planet Earth. Its crescent narrows, though, as Venus swings closer to our line-of-sight to the Sun. Closest to the Earth-Sun line but passing about 1/2 degree north of the Sun on June 3, Venus will reach a (non-judgmental) inferior conjunction. Soon after, Venus will shine clearly above the eastern horizon in predawn skies as planet Earth's morning star. After sunset tonight look for Venus above the western horizon and you can also spot elusive innermost planet Mercury.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/MoonPlanetsMW_Minkov_1080.jpg" title="Moon, Mars, Saturn, Jupiter, Milky Way" alt="It is not a coincidence that planets line up. That's because all of the planets orbit the Sun in (nearly) a single sheet called the plane of the ecliptic. When viewed from inside that plane -- as Earth dwellers are likely to do -- the planets all appear confined to a single band. It is a coincidence, though, when three of the brightest planets all appear in nearly the same direction.  Such a coincidence was captured about a month ago. Featured above, Earth's Moon, Mars, Saturn, and Jupiter were all imaged together, just before sunrise, from the Black Sea coast of Bulgaria.  A second band is visible diagonally across this image -- the central band of our Milky Way Galaxy. If you wake up early, you will find that these same planets remain visible in the morning sky this month, too.   Astrophysicists: Browse 2,100+ codes in the Astrophysics Source Code Library"/>
+    <img src="https://apod.nasa.gov/apod/image/2005/PhasesVenusAddis.jpg" title="Phases of Venus" alt="Just as the Moon goes through phases, Venus' visible sunlit hemisphere waxes and wanes. This composite of backyard telescopic images illustrates the steady changes for Venus during its current stint as our evening star, as the inner planet grows larger but narrows to a thin crescent. Images from bottom to top were taken during 2020 on dates February 27, March 20, April 14, April 24, May 8, and May 14. Gliding along its interior orbit between Earth and Sun, Venus grows larger during that period because it is approaching planet Earth. Its crescent narrows, though, as Venus swings closer to our line-of-sight to the Sun. Closest to the Earth-Sun line but passing about 1/2 degree north of the Sun on June 3, Venus will reach a (non-judgmental) inferior conjunction. Soon after, Venus will shine clearly above the eastern horizon in predawn skies as planet Earth's morning star. After sunset tonight look for Venus above the western horizon and you can also spot elusive innermost planet Mercury."/>
 </center>
 
 
