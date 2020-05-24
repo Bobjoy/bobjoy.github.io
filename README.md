@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-23 00:07:30"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-24 00:07:15"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**South of Carina**
+**Ghost Fungus to Magellanic Cloud**
 
-> With natal dust clouds in silhouette against glowing atomic gas, this colorful and chaotic vista lies within one of the largest star forming regions in the Milky Way galaxy, the Great Carina Nebula. The telescopic close-up frames a field of view about 80 light-years across, a little south and east of Eta Carinae, the nebula's most energetic and enigmatic star. Captured under suburban skies improved during national restrictions, a composite of narrowband image data was used to create the final image. In it, characteristic emission from the nebula's ionized sulfur, hydrogen, and oxygen atoms is mapped to red, green, and blue hues, a color palette also popular in Hubble Space Telescope images. The celestial landscape of bright ridges of emission bordered by cool, obscuring dust lies about 7,500 light-years away toward the southern constellation Carina.
+> Stars shine and satellites glint in this clear, dark, night sky over Wannon Falls Reserve, South West Victoria, Australia. In fact the fuzzy, faint apparition above the tree tops is the only cloud visible, also known as the Large Magellanic Cloud, satellite galaxy of our own Milky Way. In the foreground, an Omphalotus nidiformis (ghost fungus) from planet Earth shines with a surprisingly bright bioluminescence. Like the Magellanic cloud, the ghost fungus was easily seen with the eye. Its ghostly glow was actually a dull green, but it appears bright green in digital camera picture. Two images were blended to create the scene. One focused on the distant stars and Large Magellanic Cloud some 160,000 light-years away. Another was focused on the foreground and glowing fungus several light-nanoseconds from the camera lens.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/SouthCarina_SHO_final1024.jpg" title="South of Carina" alt="With natal dust clouds in silhouette against glowing atomic gas, this colorful and chaotic vista lies within one of the largest star forming regions in the Milky Way galaxy, the Great Carina Nebula. The telescopic close-up frames a field of view about 80 light-years across, a little south and east of Eta Carinae, the nebula's most energetic and enigmatic star. Captured under suburban skies improved during national restrictions, a composite of narrowband image data was used to create the final image. In it, characteristic emission from the nebula's ionized sulfur, hydrogen, and oxygen atoms is mapped to red, green, and blue hues, a color palette also popular in Hubble Space Telescope images. The celestial landscape of bright ridges of emission bordered by cool, obscuring dust lies about 7,500 light-years away toward the southern constellation Carina."/>
+    <img src="https://apod.nasa.gov/apod/image/2005/IMG_1478-Edit1200.jpg" title="Ghost Fungus to Magellanic Cloud" alt="Stars shine and satellites glint in this clear, dark, night sky over Wannon Falls Reserve, South West Victoria, Australia. In fact the fuzzy, faint apparition above the tree tops is the only cloud visible, also known as the Large Magellanic Cloud, satellite galaxy of our own Milky Way. In the foreground, an Omphalotus nidiformis (ghost fungus) from planet Earth shines with a surprisingly bright bioluminescence. Like the Magellanic cloud, the ghost fungus was easily seen with the eye. Its ghostly glow was actually a dull green, but it appears bright green in digital camera picture. Two images were blended to create the scene. One focused on the distant stars and Large Magellanic Cloud some 160,000 light-years away. Another was focused on the foreground and glowing fungus several light-nanoseconds from the camera lens."/>
 </center>
 
 
