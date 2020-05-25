@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-24 00:07:15"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-25 00:07:36"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Ghost Fungus to Magellanic Cloud**
+**You can't see me, Meow~~!**
 
-> Stars shine and satellites glint in this clear, dark, night sky over Wannon Falls Reserve, South West Victoria, Australia. In fact the fuzzy, faint apparition above the tree tops is the only cloud visible, also known as the Large Magellanic Cloud, satellite galaxy of our own Milky Way. In the foreground, an Omphalotus nidiformis (ghost fungus) from planet Earth shines with a surprisingly bright bioluminescence. Like the Magellanic cloud, the ghost fungus was easily seen with the eye. Its ghostly glow was actually a dull green, but it appears bright green in digital camera picture. Two images were blended to create the scene. One focused on the distant stars and Large Magellanic Cloud some 160,000 light-years away. Another was focused on the foreground and glowing fungus several light-nanoseconds from the camera lens.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/IMG_1478-Edit1200.jpg" title="Ghost Fungus to Magellanic Cloud" alt="Stars shine and satellites glint in this clear, dark, night sky over Wannon Falls Reserve, South West Victoria, Australia. In fact the fuzzy, faint apparition above the tree tops is the only cloud visible, also known as the Large Magellanic Cloud, satellite galaxy of our own Milky Way. In the foreground, an Omphalotus nidiformis (ghost fungus) from planet Earth shines with a surprisingly bright bioluminescence. Like the Magellanic cloud, the ghost fungus was easily seen with the eye. Its ghostly glow was actually a dull green, but it appears bright green in digital camera picture. Two images were blended to create the scene. One focused on the distant stars and Large Magellanic Cloud some 160,000 light-years away. Another was focused on the foreground and glowing fungus several light-nanoseconds from the camera lens."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
