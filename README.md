@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-27 00:07:42"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-28 00:07:27"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Milky Way over Snow-Capped Himalayas**
+**You can't see me, Meow~~!**
 
-> What’s higher than the Himalayas? Although the Himalayan Mountains are the tallest on planet Earth, they don't measure up to the Milky Way. Visible above the snow-capped mountains in the featured image is the arcing central band of our home galaxy.  The bright spot just above the central plane is the planet Jupiter, while the brightest orange spot on the upper right is the star Antares.  The astrophotographer braved below-zero temperatures at nearly 4,000-meters altitude to take the photographs that compose this image.  The featured picture is a composite of eight exposures taken with same camera and from the same location over three hours, just after sunset, in 2019 April, from near Bimtang Lake in Nepal.  Over much of planet Earth, the planets Mercury (faint) and Venus (bright) will be visible this week after sunset.   Experts Debate: How will humanity first discover extraterrestrial life?
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/MwMountains_Havel_960.jpg" title="The Milky Way over Snow-Capped Himalayas" alt="What’s higher than the Himalayas? Although the Himalayan Mountains are the tallest on planet Earth, they don't measure up to the Milky Way. Visible above the snow-capped mountains in the featured image is the arcing central band of our home galaxy.  The bright spot just above the central plane is the planet Jupiter, while the brightest orange spot on the upper right is the star Antares.  The astrophotographer braved below-zero temperatures at nearly 4,000-meters altitude to take the photographs that compose this image.  The featured picture is a composite of eight exposures taken with same camera and from the same location over three hours, just after sunset, in 2019 April, from near Bimtang Lake in Nepal.  Over much of planet Earth, the planets Mercury (faint) and Venus (bright) will be visible this week after sunset.   Experts Debate: How will humanity first discover extraterrestrial life?"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
