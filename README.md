@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-30 00:07:35"/>
+    <img src="https://badgen.net/badge/last-commit/2020-05-31 00:07:23"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Mercury Meets Crescent Venus**
+**Green Flashes: Sun, Moon, Venus, Mercury**
 
-> That's not a bright star and crescent Moon caught between branches of a eucalyptus tree. It's Venus in a crescent phase and Mercury. Near the western horizon after sunset, the two inner planets closely shared this telescopic field of view on May 22, seen from a balcony in Civitavecchia, Italy. Venus, the very bright celestial beacon, is wandering lower into the evening twilight. It grows larger in apparent size and shows a thinner crescent as it heads toward its inferior conjunction, positioned between Earth and Sun on June 3. Mercury, in a fuller phase, is climbing in the western sky though, reaching its maximum angular distance from the Sun on June 4 Still, this remarkably close pairing with brilliant Venus made Mercury, usually lost in bright twilight skies, easier to spot from planet Earth.   Gallery: Notable Venus & Mercury Conjunction 2020 Images submitted to APOD
+> Follow a sunset on a clear day against a distant horizon and you might glimpse green just as the Sun disappears from view. The green flash is caused by refraction of light rays traveling to the eye over a long path through the atmosphere. Shorter wavelengths refract more strongly than longer redder wavelengths and the separation of colors lends a green hue to the last visible vestige of the solar disk. It's harder to see a green flash from the Moon, not to mention the diminutive disks of Venus and Mercury. But a telescope or telephoto lens and camera can help catch this tantalizing result of atmospheric refraction when the celestial bodies are near the horizon. From Sicily, the top panels were recorded on March 18, 2019 for the Sun and May 8, 2020 for the Moon. Also from the Mediterranean island, the bottom panels were shot during the twilight apparition of Venus and Mercury near the western horizon on May 24.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/Venere-e-Mercurio-tra-gli-Eucalipti1024.jpg" title="Mercury Meets Crescent Venus" alt="That's not a bright star and crescent Moon caught between branches of a eucalyptus tree. It's Venus in a crescent phase and Mercury. Near the western horizon after sunset, the two inner planets closely shared this telescopic field of view on May 22, seen from a balcony in Civitavecchia, Italy. Venus, the very bright celestial beacon, is wandering lower into the evening twilight. It grows larger in apparent size and shows a thinner crescent as it heads toward its inferior conjunction, positioned between Earth and Sun on June 3. Mercury, in a fuller phase, is climbing in the western sky though, reaching its maximum angular distance from the Sun on June 4 Still, this remarkably close pairing with brilliant Venus made Mercury, usually lost in bright twilight skies, easier to spot from planet Earth.   Gallery: Notable Venus & Mercury Conjunction 2020 Images submitted to APOD"/>
+    <img src="https://apod.nasa.gov/apod/image/2005/GreenFlashdidacopia2.jpg" title="Green Flashes: Sun, Moon, Venus, Mercury" alt="Follow a sunset on a clear day against a distant horizon and you might glimpse green just as the Sun disappears from view. The green flash is caused by refraction of light rays traveling to the eye over a long path through the atmosphere. Shorter wavelengths refract more strongly than longer redder wavelengths and the separation of colors lends a green hue to the last visible vestige of the solar disk. It's harder to see a green flash from the Moon, not to mention the diminutive disks of Venus and Mercury. But a telescope or telephoto lens and camera can help catch this tantalizing result of atmospheric refraction when the celestial bodies are near the horizon. From Sicily, the top panels were recorded on March 18, 2019 for the Sun and May 8, 2020 for the Moon. Also from the Mediterranean island, the bottom panels were shot during the twilight apparition of Venus and Mercury near the western horizon on May 24."/>
 </center>
 
 
