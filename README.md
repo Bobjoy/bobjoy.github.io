@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-05-31 00:07:23"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-01 00:07:22"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Green Flashes: Sun, Moon, Venus, Mercury**
+**Aurora over Sweden**
 
-> Follow a sunset on a clear day against a distant horizon and you might glimpse green just as the Sun disappears from view. The green flash is caused by refraction of light rays traveling to the eye over a long path through the atmosphere. Shorter wavelengths refract more strongly than longer redder wavelengths and the separation of colors lends a green hue to the last visible vestige of the solar disk. It's harder to see a green flash from the Moon, not to mention the diminutive disks of Venus and Mercury. But a telescope or telephoto lens and camera can help catch this tantalizing result of atmospheric refraction when the celestial bodies are near the horizon. From Sicily, the top panels were recorded on March 18, 2019 for the Sun and May 8, 2020 for the Moon. Also from the Mediterranean island, the bottom panels were shot during the twilight apparition of Venus and Mercury near the western horizon on May 24.
+> It was bright and green and stretched across the sky. This striking aurora display was captured in 2016 just outside of Östersund, Sweden. Six photographic fields were merged to create the featured panorama spanning almost 180 degrees.  Particularly striking aspects of this aurora include its sweeping arc-like shape and its stark definition.  Lake Storsjön is seen in the foreground, while several familiar constellations and the star Polaris are visible through the aurora, far in the background.  Coincidently, the aurora appears to avoid the Moon visible on the lower left.  The aurora appeared a day after a large hole opened in the Sun's corona allowing particularly energetic particles to flow out into the Solar System.  The green color of the aurora is caused by oxygen atoms recombining with ambient electrons high in the Earth's atmosphere.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/GreenFlashdidacopia2.jpg" title="Green Flashes: Sun, Moon, Venus, Mercury" alt="Follow a sunset on a clear day against a distant horizon and you might glimpse green just as the Sun disappears from view. The green flash is caused by refraction of light rays traveling to the eye over a long path through the atmosphere. Shorter wavelengths refract more strongly than longer redder wavelengths and the separation of colors lends a green hue to the last visible vestige of the solar disk. It's harder to see a green flash from the Moon, not to mention the diminutive disks of Venus and Mercury. But a telescope or telephoto lens and camera can help catch this tantalizing result of atmospheric refraction when the celestial bodies are near the horizon. From Sicily, the top panels were recorded on March 18, 2019 for the Sun and May 8, 2020 for the Moon. Also from the Mediterranean island, the bottom panels were shot during the twilight apparition of Venus and Mercury near the western horizon on May 24."/>
+    <img src="https://apod.nasa.gov/apod/image/2005/AuroraSweden_Strand_960.jpg" title="Aurora over Sweden" alt="It was bright and green and stretched across the sky. This striking aurora display was captured in 2016 just outside of Östersund, Sweden. Six photographic fields were merged to create the featured panorama spanning almost 180 degrees.  Particularly striking aspects of this aurora include its sweeping arc-like shape and its stark definition.  Lake Storsjön is seen in the foreground, while several familiar constellations and the star Polaris are visible through the aurora, far in the background.  Coincidently, the aurora appears to avoid the Moon visible on the lower left.  The aurora appeared a day after a large hole opened in the Sun's corona allowing particularly energetic particles to flow out into the Solar System.  The green color of the aurora is caused by oxygen atoms recombining with ambient electrons high in the Earth's atmosphere."/>
 </center>
 
 
