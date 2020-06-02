@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-01 00:07:22"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-02 00:07:23"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Aurora over Sweden**
+**You can't see me, Meow~~!**
 
-> It was bright and green and stretched across the sky. This striking aurora display was captured in 2016 just outside of Östersund, Sweden. Six photographic fields were merged to create the featured panorama spanning almost 180 degrees.  Particularly striking aspects of this aurora include its sweeping arc-like shape and its stark definition.  Lake Storsjön is seen in the foreground, while several familiar constellations and the star Polaris are visible through the aurora, far in the background.  Coincidently, the aurora appears to avoid the Moon visible on the lower left.  The aurora appeared a day after a large hole opened in the Sun's corona allowing particularly energetic particles to flow out into the Solar System.  The green color of the aurora is caused by oxygen atoms recombining with ambient electrons high in the Earth's atmosphere.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2005/AuroraSweden_Strand_960.jpg" title="Aurora over Sweden" alt="It was bright and green and stretched across the sky. This striking aurora display was captured in 2016 just outside of Östersund, Sweden. Six photographic fields were merged to create the featured panorama spanning almost 180 degrees.  Particularly striking aspects of this aurora include its sweeping arc-like shape and its stark definition.  Lake Storsjön is seen in the foreground, while several familiar constellations and the star Polaris are visible through the aurora, far in the background.  Coincidently, the aurora appears to avoid the Moon visible on the lower left.  The aurora appeared a day after a large hole opened in the Sun's corona allowing particularly energetic particles to flow out into the Solar System.  The green color of the aurora is caused by oxygen atoms recombining with ambient electrons high in the Earth's atmosphere."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
