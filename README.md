@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-06 00:07:29"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-07 00:07:31"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Dragon over Central Park**
+**Comet PanSTARRs and the Galaxies**
 
-> Still bathed in sunlight the International Space Station (ISS) arced through this Manhattan evening sky on May 30. Moving left to right, its bright trail was captured in this composite image with a series of 5 second long exposures. Stars left short trails and lights were reflected in still waters looking toward the north across the Central Park reservoir. Chasing the ISS in low Earth orbit the Crew Dragon spacecraft dubbed Endeavour also left a trail through that urban night. Seen about 6 hours after its launch the spacecraft's faint trail appears above the ISS, shown in the inset just as the two approached the bank of clouds at the right. Dragon Endeavour docked successfully with the ISS about nineteen hours after reaching orbit.
+> Comet PanSTARRs, C/2017 T2, shared this stunning telescopic field of view with galaxies M81 and M82 on May 22/23. Of course, the galaxies were some 12 million light-years distant and the comet about 14 light-minutes away, seen in planet Earth's sky toward the Big Dipper. A new visitor from the Oort Cloud, this Comet PanSTARRs was discovered in 2017 by the PanSTARRs survey telescope when the comet was over 1 light-hour from the Sun, almost as distant as the orbit of Saturn. With a beautiful coma and dust tail, this comet has been a solid northern hemisphere performer for telescope wielding comet watchers this May, following its closest approach to the Sun on May 4. In this deep image from dark California skies the outbound comet even seems to develop a short anti-tail as it leaves the inner Solar System.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2006/SHonda_ISS-Dragon-NY-0530_1024.jpg" title="Dragon over Central Park" alt="Still bathed in sunlight the International Space Station (ISS) arced through this Manhattan evening sky on May 30. Moving left to right, its bright trail was captured in this composite image with a series of 5 second long exposures. Stars left short trails and lights were reflected in still waters looking toward the north across the Central Park reservoir. Chasing the ISS in low Earth orbit the Crew Dragon spacecraft dubbed Endeavour also left a trail through that urban night. Seen about 6 hours after its launch the spacecraft's faint trail appears above the ISS, shown in the inset just as the two approached the bank of clouds at the right. Dragon Endeavour docked successfully with the ISS about nineteen hours after reaching orbit."/>
+    <img src="https://apod.nasa.gov/apod/image/2006/C2017T2_M81M82_May22_23_2020_DEBartlett1024.jpg" title="Comet PanSTARRs and the Galaxies" alt="Comet PanSTARRs, C/2017 T2, shared this stunning telescopic field of view with galaxies M81 and M82 on May 22/23. Of course, the galaxies were some 12 million light-years distant and the comet about 14 light-minutes away, seen in planet Earth's sky toward the Big Dipper. A new visitor from the Oort Cloud, this Comet PanSTARRs was discovered in 2017 by the PanSTARRs survey telescope when the comet was over 1 light-hour from the Sun, almost as distant as the orbit of Saturn. With a beautiful coma and dust tail, this comet has been a solid northern hemisphere performer for telescope wielding comet watchers this May, following its closest approach to the Sun on May 4. In this deep image from dark California skies the outbound comet even seems to develop a short anti-tail as it leaves the inner Solar System."/>
 </center>
 
 
