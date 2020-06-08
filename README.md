@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-07 00:07:31"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-08 00:07:57"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Comet PanSTARRs and the Galaxies**
+**Halo of the Cat's Eye**
 
-> Comet PanSTARRs, C/2017 T2, shared this stunning telescopic field of view with galaxies M81 and M82 on May 22/23. Of course, the galaxies were some 12 million light-years distant and the comet about 14 light-minutes away, seen in planet Earth's sky toward the Big Dipper. A new visitor from the Oort Cloud, this Comet PanSTARRs was discovered in 2017 by the PanSTARRs survey telescope when the comet was over 1 light-hour from the Sun, almost as distant as the orbit of Saturn. With a beautiful coma and dust tail, this comet has been a solid northern hemisphere performer for telescope wielding comet watchers this May, following its closest approach to the Sun on May 4. In this deep image from dark California skies the outbound comet even seems to develop a short anti-tail as it leaves the inner Solar System.
+> The Cat's Eye Nebula (NGC 6543) is one of the best known planetary nebulae in the sky. Its haunting symmetries are seen in the very central region of this stunning false-color picture, processed to reveal the enormous but extremely faint halo of gaseous material, over three light-years across, which surrounds the brighter, familiar planetary nebula. Made with data from the Nordic Optical Telescope in the Canary Islands, the composite picture shows extended emission from the nebula. Planetary nebulae have long been appreciated as a final phase in the life of a Sun-like star. Only much more recently however, have some planetaries been found to have halos like this one, likely formed of material shrugged off during earlier active episodes in the star's evolution. While the planetary nebula phase is thought to last for around 10,000 years, astronomers estimate the age of the outer filamentary portions of this halo to be 50,000 to 90,000 years.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2006/C2017T2_M81M82_May22_23_2020_DEBartlett1024.jpg" title="Comet PanSTARRs and the Galaxies" alt="Comet PanSTARRs, C/2017 T2, shared this stunning telescopic field of view with galaxies M81 and M82 on May 22/23. Of course, the galaxies were some 12 million light-years distant and the comet about 14 light-minutes away, seen in planet Earth's sky toward the Big Dipper. A new visitor from the Oort Cloud, this Comet PanSTARRs was discovered in 2017 by the PanSTARRs survey telescope when the comet was over 1 light-hour from the Sun, almost as distant as the orbit of Saturn. With a beautiful coma and dust tail, this comet has been a solid northern hemisphere performer for telescope wielding comet watchers this May, following its closest approach to the Sun on May 4. In this deep image from dark California skies the outbound comet even seems to develop a short anti-tail as it leaves the inner Solar System."/>
+    <img src="https://apod.nasa.gov/apod/image/2006/catseye2_not_960.jpg" title="Halo of the Cat's Eye" alt="The Cat's Eye Nebula (NGC 6543) is one of the best known planetary nebulae in the sky. Its haunting symmetries are seen in the very central region of this stunning false-color picture, processed to reveal the enormous but extremely faint halo of gaseous material, over three light-years across, which surrounds the brighter, familiar planetary nebula. Made with data from the Nordic Optical Telescope in the Canary Islands, the composite picture shows extended emission from the nebula. Planetary nebulae have long been appreciated as a final phase in the life of a Sun-like star. Only much more recently however, have some planetaries been found to have halos like this one, likely formed of material shrugged off during earlier active episodes in the star's evolution. While the planetary nebula phase is thought to last for around 10,000 years, astronomers estimate the age of the outer filamentary portions of this halo to be 50,000 to 90,000 years."/>
 </center>
 
 
