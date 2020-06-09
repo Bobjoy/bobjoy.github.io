@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-08 00:07:57"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-09 00:15:00"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Halo of the Cat's Eye**
+**Atmospheric Ring of Venus**
 
-> The Cat's Eye Nebula (NGC 6543) is one of the best known planetary nebulae in the sky. Its haunting symmetries are seen in the very central region of this stunning false-color picture, processed to reveal the enormous but extremely faint halo of gaseous material, over three light-years across, which surrounds the brighter, familiar planetary nebula. Made with data from the Nordic Optical Telescope in the Canary Islands, the composite picture shows extended emission from the nebula. Planetary nebulae have long been appreciated as a final phase in the life of a Sun-like star. Only much more recently however, have some planetaries been found to have halos like this one, likely formed of material shrugged off during earlier active episodes in the star's evolution. While the planetary nebula phase is thought to last for around 10,000 years, astronomers estimate the age of the outer filamentary portions of this halo to be 50,000 to 90,000 years.
+> Why is Venus surrounded by a bright ring? Sometimes called a ring of fire, this rare ring is caused by the Sun's light being visible all around an object. Usually seen around the Moon during an annular solar eclipse, the ring of fire is also visible when either Venus or Mercury cross the face of our Sun.  In the featured pictured taken last week, though, Venus did not pass directly in front of the Sun -- the complete atmospheric ring was caused by sunlight defracting around the planet. Venus passed within one degree of the Sun during its inferior conjunction, as it moved from the evening to the morning sky.  The extreme brightness of the nearby Sun made capturing such an image very difficult -- the featured image was only made possible by using a temporary filter to block direct sunlight. The image was captured from Thorton, Leicestershire, UK. The pervasive blue sky glow indicates that the image was actually captured during the day.    Follow APOD on: Instagram, Facebook,  Reddit, or Twitter
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2006/catseye2_not_960.jpg" title="Halo of the Cat's Eye" alt="The Cat's Eye Nebula (NGC 6543) is one of the best known planetary nebulae in the sky. Its haunting symmetries are seen in the very central region of this stunning false-color picture, processed to reveal the enormous but extremely faint halo of gaseous material, over three light-years across, which surrounds the brighter, familiar planetary nebula. Made with data from the Nordic Optical Telescope in the Canary Islands, the composite picture shows extended emission from the nebula. Planetary nebulae have long been appreciated as a final phase in the life of a Sun-like star. Only much more recently however, have some planetaries been found to have halos like this one, likely formed of material shrugged off during earlier active episodes in the star's evolution. While the planetary nebula phase is thought to last for around 10,000 years, astronomers estimate the age of the outer filamentary portions of this halo to be 50,000 to 90,000 years."/>
+    <img src="https://apod.nasa.gov/apod/image/2006/VenusFireRing_Lawrence_960.jpg" title="Atmospheric Ring of Venus" alt="Why is Venus surrounded by a bright ring? Sometimes called a ring of fire, this rare ring is caused by the Sun's light being visible all around an object. Usually seen around the Moon during an annular solar eclipse, the ring of fire is also visible when either Venus or Mercury cross the face of our Sun.  In the featured pictured taken last week, though, Venus did not pass directly in front of the Sun -- the complete atmospheric ring was caused by sunlight defracting around the planet. Venus passed within one degree of the Sun during its inferior conjunction, as it moved from the evening to the morning sky.  The extreme brightness of the nearby Sun made capturing such an image very difficult -- the featured image was only made possible by using a temporary filter to block direct sunlight. The image was captured from Thorton, Leicestershire, UK. The pervasive blue sky glow indicates that the image was actually captured during the day.    Follow APOD on: Instagram, Facebook,  Reddit, or Twitter"/>
 </center>
 
 
