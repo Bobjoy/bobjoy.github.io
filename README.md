@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-10 00:07:30"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-11 00:07:11"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Orion over Argentine Mountains**
+**You can't see me, Meow~~!**
 
-> Do you recognize the constellation of Orion?  It may be harder than usual in today's featured image  because the camera has zoomed in on the center, and the exposure is long enough to enhance nebulas beyond what the unaided human eye can see.  Still, once you become oriented, you can see Orion's three belt stars lined up vertically near the image center, and even locate the familiar Orion Nebula on the upper left.  Famous faint features that are also visible include the dark Horsehead Nebula indentation near the image center, and the dusty Flame Nebula just to its right. Part of the Orion-encircling Barnard's Loop can also be found on the far right.  The image combines multiple sky-tracking shots of the background in different colors with a single static foreground exposure taken at twilight -- all captured with the same camera and from the same location.  The picturesque scene was captured early last year from mountains in San Juan, Argentina.    Next picture: June 11  < | Archive | Submissions | Index | Search | Calendar | RSS | Education | About APOD | Discuss | >  Authors & editors: Robert Nemiroff (MTU) & Jerry Bonnell (UMCP) NASA Official: Phillip Newman Specific rights apply. NASA Web Privacy Policy and Important Notices A service of: ASD at NASA / GSFC & Michigan Tech. U.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2006/OrionMountains_Tabbush_960.jpg" title="Orion over Argentine Mountains" alt="Do you recognize the constellation of Orion?  It may be harder than usual in today's featured image  because the camera has zoomed in on the center, and the exposure is long enough to enhance nebulas beyond what the unaided human eye can see.  Still, once you become oriented, you can see Orion's three belt stars lined up vertically near the image center, and even locate the familiar Orion Nebula on the upper left.  Famous faint features that are also visible include the dark Horsehead Nebula indentation near the image center, and the dusty Flame Nebula just to its right. Part of the Orion-encircling Barnard's Loop can also be found on the far right.  The image combines multiple sky-tracking shots of the background in different colors with a single static foreground exposure taken at twilight -- all captured with the same camera and from the same location.  The picturesque scene was captured early last year from mountains in San Juan, Argentina.    Next picture: June 11  < | Archive | Submissions | Index | Search | Calendar | RSS | Education | About APOD | Discuss | >  Authors & editors: Robert Nemiroff (MTU) & Jerry Bonnell (UMCP) NASA Official: Phillip Newman Specific rights apply. NASA Web Privacy Policy and Important Notices A service of: ASD at NASA / GSFC & Michigan Tech. U."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
