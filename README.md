@@ -4,8 +4,8 @@
 <p align='center'>
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
-    <img src="https://badgen.net/badge/issues/34"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-19 00:07:16"/>
+    <img src="https://badgen.net/badge/issues/35"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-20 00:07:20"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,18 +23,23 @@
 
 ## :artificial_satellite:今日图片
 
-**The Tadpoles of IC 410**
+**The Veins of Heaven**
 
-> This telescopic close-up shows off the central regions of otherwise faint emission nebula IC 410, captured under backyard suburban skies with narrowband filters. It also features two remarkable inhabitants of the cosmic pond of gas and dust. Below and right of center are the tadpoles of IC 410. Partly obscured by foreground dust, the nebula itself surrounds NGC 1893, a young galactic cluster of stars. Formed in the interstellar cloud a mere 4 million years ago, the intensely hot, bright cluster stars energize the glowing gas. Composed of denser cooler gas and dust, the tadpoles are around 10 light-years long and are likely sites of ongoing star formation. Sculpted by stellar winds and radiation their heads are outlined by bright ridges of ionized gas while their tails trail away from the cluster's central young stars. IC 410 lies some 10,000 light-years away, toward the nebula-rich constellation Auriga.
+> Transfusing sunlight through a darkened sky, this beautiful display of noctilucent clouds was captured earlier this week, reflected in calm waters from Nykobing Mors, Denmark. From the edge of space, about 80 kilometers above Earth's surface, the icy clouds themselves still reflect sunlight, though the Sun is below the horizon as seen from the ground. Usually spotted at high latitudes in summer months the night shining clouds have made an early appearance this year as northern nights grow short. Also known as polar mesopheric clouds they are understood to form as water vapor driven into the cold upper atmosphere condenses on the fine dust particles supplied by disintegrating meteors or volcanic ash. NASA's AIM mission provides daily projections of noctilucent clouds as seen from space.
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2006/Tadpoles-of-IC-410-Trevor-Jones.jpg" title="The Tadpoles of IC 410" alt="This telescopic close-up shows off the central regions of otherwise faint emission nebula IC 410, captured under backyard suburban skies with narrowband filters. It also features two remarkable inhabitants of the cosmic pond of gas and dust. Below and right of center are the tadpoles of IC 410. Partly obscured by foreground dust, the nebula itself surrounds NGC 1893, a young galactic cluster of stars. Formed in the interstellar cloud a mere 4 million years ago, the intensely hot, bright cluster stars energize the glowing gas. Composed of denser cooler gas and dust, the tadpoles are around 10 light-years long and are likely sites of ongoing star formation. Sculpted by stellar winds and radiation their heads are outlined by bright ridges of ionized gas while their tails trail away from the cluster's central young stars. IC 410 lies some 10,000 light-years away, toward the nebula-rich constellation Auriga."/>
+    <img src="https://apod.nasa.gov/apod/image/2006/IMG_4164a_1024s.jpg" title="The Veins of Heaven" alt="Transfusing sunlight through a darkened sky, this beautiful display of noctilucent clouds was captured earlier this week, reflected in calm waters from Nykobing Mors, Denmark. From the edge of space, about 80 kilometers above Earth's surface, the icy clouds themselves still reflect sunlight, though the Sun is below the horizon as seen from the ground. Usually spotted at high latitudes in summer months the night shining clouds have made an early appearance this year as northern nights grow short. Also known as polar mesopheric clouds they are understood to form as water vapor driven into the cold upper atmosphere condenses on the fine dust particles supplied by disintegrating meteors or volcanic ash. NASA's AIM mission provides daily projections of noctilucent clouds as seen from space."/>
 </center>
 
 
 ## 置顶 :thumbsup: 
+- [iOS App网站提示Invalid Connection](https://github.com/Bobjoy/bobjoy.github.io/issues/35)  <sup>1 :speech_balloon:</sup>  	 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+- [iOS App网站提示Invalid Connection](https://github.com/Bobjoy/bobjoy.github.io/issues/35) <sup>1 :speech_balloon:</sup>  			 2020-06-19 09:18:55
+
+ 	<sub>|</sub><sub>[:+1:置顶](https://github.com/Bobjoy/bobjoy.github.io/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
+
 - [element-ui表格在Safari下样式错乱](https://github.com/Bobjoy/bobjoy.github.io/issues/34) <sup>0 :speech_balloon:</sup>  			 2020-04-13 05:19:53
 
  	<sub>|</sub>
@@ -51,15 +56,12 @@
 
  	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
 
-- [ssh Too many authentication failures](https://github.com/Bobjoy/bobjoy.github.io/issues/30) <sup>0 :speech_balloon:</sup>  			 2019-08-09 01:32:45
-
- 	<sub>|</sub><sub>[:bug: Bad](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Abug%3A%20Bad)	|	</sub>
-
 ## 分类  :card_file_box: 
 
 <details>
-<summary>:+1:置顶	<sup>1:newspaper:</sup></summary>
+<summary>:+1:置顶	<sup>2:newspaper:</sup></summary>
 
+- [iOS App网站提示Invalid Connection](https://github.com/Bobjoy/bobjoy.github.io/issues/35)  <sup>1 :speech_balloon:</sup>  	 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 
 
@@ -110,8 +112,9 @@
 </details>
 
 <details>
-<summary>:rocket: Nice	<sup>2:newspaper:</sup></summary>
+<summary>:rocket: Nice	<sup>3:newspaper:</sup></summary>
 
+- [iOS App网站提示Invalid Connection](https://github.com/Bobjoy/bobjoy.github.io/issues/35)  <sup>1 :speech_balloon:</sup>  	 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 - [kali最新国内源](https://github.com/Bobjoy/bobjoy.github.io/issues/26)  <sup>0 :speech_balloon:</sup>  	 
 
