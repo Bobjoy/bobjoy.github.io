@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/35"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-20 00:07:20"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-21 00:07:15"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**The Veins of Heaven**
+**You can't see me, Meow~~!**
 
-> Transfusing sunlight through a darkened sky, this beautiful display of noctilucent clouds was captured earlier this week, reflected in calm waters from Nykobing Mors, Denmark. From the edge of space, about 80 kilometers above Earth's surface, the icy clouds themselves still reflect sunlight, though the Sun is below the horizon as seen from the ground. Usually spotted at high latitudes in summer months the night shining clouds have made an early appearance this year as northern nights grow short. Also known as polar mesopheric clouds they are understood to form as water vapor driven into the cold upper atmosphere condenses on the fine dust particles supplied by disintegrating meteors or volcanic ash. NASA's AIM mission provides daily projections of noctilucent clouds as seen from space.
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2006/IMG_4164a_1024s.jpg" title="The Veins of Heaven" alt="Transfusing sunlight through a darkened sky, this beautiful display of noctilucent clouds was captured earlier this week, reflected in calm waters from Nykobing Mors, Denmark. From the edge of space, about 80 kilometers above Earth's surface, the icy clouds themselves still reflect sunlight, though the Sun is below the horizon as seen from the ground. Usually spotted at high latitudes in summer months the night shining clouds have made an early appearance this year as northern nights grow short. Also known as polar mesopheric clouds they are understood to form as water vapor driven into the cold upper atmosphere condenses on the fine dust particles supplied by disintegrating meteors or volcanic ash. NASA's AIM mission provides daily projections of noctilucent clouds as seen from space."/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
