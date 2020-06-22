@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/35"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-21 00:07:15"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-22 00:07:53"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**You can't see me, Meow~~!**
+**Moon Occults Venus**
 
-> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
+> It may look like Earthrise, but it's actually Venus-set. Just after sunrise two days ago, both the Moon and Venus also rose.  But then the Moon overtook Venus. In the featured image sequence centered on the Moon, Venus is shown increasingly angularly close to the Moon. In the famous Earthrise image taken just over 50 years ago, the Earth was captured rising over the edge of the Moon, as seen from the Apollo 8 crew orbiting the Moon. This similar Venus-set image was taken from Earth, of course, specifically Estonia.  Venus shows only a thin crescent because last week it passed nearly in front of the Sun, as seen from Earth.  The Moon shows only a thin crescent because it will soon be passing directly in front of the Sun, as seen from Earth. Today, in fact, two days after this image was taken, the Moon will create a solar eclipse, with a thin swath across the Earth treated to an annular solar eclipse.    Gallery: Notable images of the Venus - Mooon conjunction of 2020 June submitted to APOD
 
 <center>
-    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
+    <img src="https://apod.nasa.gov/apod/image/2006/VenusSet_Kananovich_1000.jpg" title="Moon Occults Venus" alt="It may look like Earthrise, but it's actually Venus-set. Just after sunrise two days ago, both the Moon and Venus also rose.  But then the Moon overtook Venus. In the featured image sequence centered on the Moon, Venus is shown increasingly angularly close to the Moon. In the famous Earthrise image taken just over 50 years ago, the Earth was captured rising over the edge of the Moon, as seen from the Apollo 8 crew orbiting the Moon. This similar Venus-set image was taken from Earth, of course, specifically Estonia.  Venus shows only a thin crescent because last week it passed nearly in front of the Sun, as seen from Earth.  The Moon shows only a thin crescent because it will soon be passing directly in front of the Sun, as seen from Earth. Today, in fact, two days after this image was taken, the Moon will create a solar eclipse, with a thin swath across the Earth treated to an annular solar eclipse.    Gallery: Notable images of the Venus - Mooon conjunction of 2020 June submitted to APOD"/>
 </center>
 
 
