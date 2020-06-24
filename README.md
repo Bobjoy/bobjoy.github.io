@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/35"/>
-    <img src="https://badgen.net/badge/last-commit/2020-06-23 00:07:23"/>
+    <img src="https://badgen.net/badge/last-commit/2020-06-24 00:07:26"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -23,12 +23,12 @@
 
 ## :artificial_satellite:今日图片
 
-**Moon Mountains Magnified during Ring of Fire Eclipse**
+**You can't see me, Meow~~!**
 
-> What are those dark streaks in this composite image of yesterday's solar eclipse? They are reversed shadows of mountains at the edge of the Moon.  The center image, captured from Xiamen, China, has the Moon's center directly in front of the Sun's center. The Moon, though, was too far from the Earth to completely block the entire Sun.  Light that streamed around all of the edges of the Moon is called a  ring of fire. Images at each end of the sequence show sunlight that streamed through lunar valleys.  As the Moon moved further in front of the Sun, left to right, only the higher peaks on the Moon's perimeter could block sunlight.  Therefore, the dark streaks are projected, distorted, reversed, and magnified shadows of mountains at the Moon's edge.  Bright areas are called Bailey's Beads. Only a narrow swath across Earth's Eastern Hemisphere was able to see yesterday's full annular solar eclipse. Next June, though, a narrow swath across Earth's Northern Hemisphere will be able to see the next annular solar eclipse.  A total solar eclipse will be visible at the bottom of the world near the end of this year.   Gallery: Notable images of the Annular Solar Eclipse of 2020 June submitted to APOD
+> Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!
 
 <center>
-    <img src="https://apod.nasa.gov/apod/image/2006/BeadMountains_Letian_960.jpg" title="Moon Mountains Magnified during Ring of Fire Eclipse" alt="What are those dark streaks in this composite image of yesterday's solar eclipse? They are reversed shadows of mountains at the edge of the Moon.  The center image, captured from Xiamen, China, has the Moon's center directly in front of the Sun's center. The Moon, though, was too far from the Earth to completely block the entire Sun.  Light that streamed around all of the edges of the Moon is called a  ring of fire. Images at each end of the sequence show sunlight that streamed through lunar valleys.  As the Moon moved further in front of the Sun, left to right, only the higher peaks on the Moon's perimeter could block sunlight.  Therefore, the dark streaks are projected, distorted, reversed, and magnified shadows of mountains at the Moon's edge.  Bright areas are called Bailey's Beads. Only a narrow swath across Earth's Eastern Hemisphere was able to see yesterday's full annular solar eclipse. Next June, though, a narrow swath across Earth's Northern Hemisphere will be able to see the next annular solar eclipse.  A total solar eclipse will be visible at the bottom of the world near the end of this year.   Gallery: Notable images of the Annular Solar Eclipse of 2020 June submitted to APOD"/>
+    <img src="https://http.cat/404.jpg" title="You can't see me, Meow~~!" alt="Failed to get picture of the day from NASA api, so here is a little cute cat for you, see you tomorrow!"/>
 </center>
 
 
