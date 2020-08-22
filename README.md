@@ -4,8 +4,8 @@
 <p align='center'>
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
-    <img src="https://badgen.net/badge/issues/36"/>
-    <img src="https://badgen.net/badge/last-commit/2020-08-21 00:07:17"/>
+    <img src="https://badgen.net/badge/issues/37"/>
+    <img src="https://badgen.net/badge/last-commit/2020-08-22 00:07:47"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -36,6 +36,10 @@
 - [iOS App网站提示Invalid Connection](https://github.com/Bobjoy/bobjoy.github.io/issues/35)  <sup>1 :speech_balloon:</sup>  	 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+- [Docker下删除镜像报错cannot be forced](https://github.com/Bobjoy/bobjoy.github.io/issues/37) <sup>0 :speech_balloon:</sup>  			 2020-08-21 02:29:21
+
+ 	<sub>|</sub>
+
 - [Express问题汇总](https://github.com/Bobjoy/bobjoy.github.io/issues/36) <sup>1 :speech_balloon:</sup>  			 2020-07-27 10:48:22
 
  	<sub>|</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
@@ -49,10 +53,6 @@
  	<sub>|</sub>
 
 - [Webpack编译打包到线上出错 Loading chunk pDf/ failed](https://github.com/Bobjoy/bobjoy.github.io/issues/33) <sup>0 :speech_balloon:</sup>  			 2020-03-31 04:56:34
-
- 	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
-
-- [Vue页面加载报错You are using the runtime-only build](https://github.com/Bobjoy/bobjoy.github.io/issues/32) <sup>0 :speech_balloon:</sup>  			 2020-03-28 08:47:45
 
  	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
 
