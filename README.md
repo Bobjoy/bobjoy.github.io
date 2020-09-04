@@ -4,8 +4,8 @@
 <p align='center'>
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
-    <img src="https://badgen.net/badge/issues/37"/>
-    <img src="https://badgen.net/badge/last-commit/2020-09-03 00:07:36"/>
+    <img src="https://badgen.net/badge/issues/38"/>
+    <img src="https://badgen.net/badge/last-commit/2020-09-04 00:07:31"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -37,6 +37,10 @@
 - [iOS App网站提示Invalid Connection](https://github.com/Bobjoy/bobjoy.github.io/issues/35)  <sup>1 :speech_balloon:</sup>  	 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 ## 最新 :new: 
+- [git恢复单个文件](https://github.com/Bobjoy/bobjoy.github.io/issues/38) <sup>0 :speech_balloon:</sup>  			 2020-09-03 04:30:04
+
+ 	<sub>|</sub><sub>[:speak_no_evil: Study](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aspeak_no_evil%3A%20Study)	|	</sub>
+
 - [Docker下删除镜像报错cannot be forced](https://github.com/Bobjoy/bobjoy.github.io/issues/37) <sup>0 :speech_balloon:</sup>  			 2020-08-21 02:29:21
 
  	<sub>|</sub><sub>[:+1:置顶](https://github.com/Bobjoy/bobjoy.github.io/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
@@ -52,10 +56,6 @@
 - [element-ui表格在Safari下样式错乱](https://github.com/Bobjoy/bobjoy.github.io/issues/34) <sup>0 :speech_balloon:</sup>  			 2020-04-13 05:19:53
 
  	<sub>|</sub>
-
-- [Webpack编译打包到线上出错 Loading chunk pDf/ failed](https://github.com/Bobjoy/bobjoy.github.io/issues/33) <sup>0 :speech_balloon:</sup>  			 2020-03-31 04:56:34
-
- 	<sub>|</sub><sub>[:boom:Vue](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Aboom%3AVue)	|	</sub>
 
 ## 分类  :card_file_box: 
 
@@ -126,8 +126,9 @@
 </details>
 
 <details>
-<summary>:speak_no_evil: Study	<sup>7:newspaper:</sup></summary>
+<summary>:speak_no_evil: Study	<sup>8:newspaper:</sup></summary>
 
+- [git恢复单个文件](https://github.com/Bobjoy/bobjoy.github.io/issues/38)  <sup>0 :speech_balloon:</sup>  	 
 - [docker在不影响运行的情况下进入容器](https://github.com/Bobjoy/bobjoy.github.io/issues/28)  <sup>0 :speech_balloon:</sup>  	 
 - [Content-Disposition](https://github.com/Bobjoy/bobjoy.github.io/issues/25)  <sup>0 :speech_balloon:</sup>  	 
 - [Vue从入坑到出坑](https://github.com/Bobjoy/bobjoy.github.io/issues/23)  <sup>0 :speech_balloon:</sup>  	 
