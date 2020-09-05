@@ -5,7 +5,7 @@
     <img src="https://badgen.net/circleci/github/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/badge/labels/6"/>
     <img src="https://badgen.net/badge/issues/38"/>
-    <img src="https://badgen.net/badge/last-commit/2020-09-04 00:07:31"/>
+    <img src="https://badgen.net/badge/last-commit/2020-09-05 00:07:31"/>
     <img src="https://badgen.net/github/forks/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/stars/Bobjoy/bobjoy.github.io"/>
     <img src="https://badgen.net/github/watchers/Bobjoy/bobjoy.github.io"/>
@@ -55,7 +55,7 @@
 
 - [element-ui表格在Safari下样式错乱](https://github.com/Bobjoy/bobjoy.github.io/issues/34) <sup>0 :speech_balloon:</sup>  			 2020-04-13 05:19:53
 
- 	<sub>|</sub>
+ 	<sub>|</sub><sub>[:rocket: Nice](https://github.com/Bobjoy/bobjoy.github.io/labels/%3Arocket%3A%20Nice)	|	</sub>
 
 ## 分类  :card_file_box: 
 
@@ -114,11 +114,12 @@
 </details>
 
 <details>
-<summary>:rocket: Nice	<sup>5:newspaper:</sup></summary>
+<summary>:rocket: Nice	<sup>6:newspaper:</sup></summary>
 
 - [Docker下删除镜像报错cannot be forced](https://github.com/Bobjoy/bobjoy.github.io/issues/37)  <sup>0 :speech_balloon:</sup>  	 
 - [Express问题汇总](https://github.com/Bobjoy/bobjoy.github.io/issues/36)  <sup>1 :speech_balloon:</sup>  	 
 - [iOS App网站提示Invalid Connection](https://github.com/Bobjoy/bobjoy.github.io/issues/35)  <sup>1 :speech_balloon:</sup>  	 
+- [element-ui表格在Safari下样式错乱](https://github.com/Bobjoy/bobjoy.github.io/issues/34)  <sup>0 :speech_balloon:</sup>  	 
 - [上网攻略](https://github.com/Bobjoy/bobjoy.github.io/issues/29)  <sup>0 :speech_balloon:</sup>  	 
 - [kali最新国内源](https://github.com/Bobjoy/bobjoy.github.io/issues/26)  <sup>0 :speech_balloon:</sup>  	 
 
